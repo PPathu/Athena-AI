@@ -27,12 +27,12 @@ SET default_table_access_method = heap;
 
 CREATE TABLE public.bills (
     billnumber character varying(255),
-    billid integer,
+    billid integer NOT NULL,
     billstatusdate date,
     billstatus integer,
-    billtitle character varying(255),
-    billdescription character varying(255),
-    aisummary character varying(255)
+    billtitle text,
+    billdescription text,
+    aisummary text
 );
 
 
@@ -44,6 +44,14 @@ ALTER TABLE public.bills OWNER TO juaneulogio;
 
 COPY public.bills (billnumber, billid, billstatusdate, billstatus, billtitle, billdescription, aisummary) FROM stdin;
 \.
+
+
+--
+-- Name: bills bills_pkey; Type: CONSTRAINT; Schema: public; Owner: juaneulogio
+--
+
+ALTER TABLE ONLY public.bills
+    ADD CONSTRAINT bills_pkey PRIMARY KEY (billid);
 
 
 --
