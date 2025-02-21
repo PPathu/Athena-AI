@@ -1,5 +1,7 @@
 import json
 import psycopg2
+from keys import userkey
+
 
 # Load JSON Data
 with open("data.json", "r") as file:
@@ -8,7 +10,7 @@ with open("data.json", "r") as file:
 # Connect to PostgreSQL
 conn = psycopg2.connect(
     dbname="scrapedfilesdatabase",
-    user="ellanyzalova",
+    user = userkey,
     host="localhost",
     password="yourpassword"  # Replace with your actual password
 )
@@ -37,5 +39,5 @@ conn.commit()
 cur.close()
 conn.close()
 
-print("✅ Data inserted successfully!")
+print("Data inserted successfully!")
 
