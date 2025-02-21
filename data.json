@@ -1,11 +1,33 @@
 [
     {
+        "billNumber": "AB51",
+        "billId": 1977778,
+        "billStatusDate": "2025-02-20",
+        "billStatus": 1,
+        "billTitle": "Participation in interscholastic athletics and application of the public records and open meetings laws to interscholastic athletic associations.",
+        "billDescription": "An Act to amend 19.32 (1) and 19.82 (1); to create 19.32 (1db), 19.36 (17) and (18), 19.82 (1m) and 118.1335 of the statutes; Relating to: participation in interscholastic athletics and application of the public records and open meetings laws to interscholastic athletic associations.",
+        "pdfFileName": "bill_3133764.pdf",
+        "txtFileName": "bill_3133764.txt"
+    },
+    {
+        "billNumber": "AB52",
+        "billId": 1977971,
+        "billStatusDate": "2025-02-20",
+        "billStatus": 1,
+        "billTitle": "Expanding the homestead income tax credit. (FE)",
+        "billDescription": "An Act to repeal 71.54 (1) (g) 5. and 71.54 (1) (g) 7.; to amend 71.54 (1) (g) (intro.), 71.54 (1) (g) 4., 71.54 (1) (g) 6. (intro.), 71.54 (2) (b) 4. and 71.54 (2m); to create 71.54 (1) (h) and 71.54 (2) (b) 5. of the statutes; Relating to: expanding the homestead income tax credit. (FE)",
+        "pdfFileName": "bill_3133951.pdf",
+        "txtFileName": "bill_3133951.txt"
+    },
+    {
         "billNumber": "AB1",
         "billId": 1950234,
         "billStatusDate": "2025-02-19",
         "billStatus": 2,
         "billTitle": "Changes to the educational assessment program and the school and school district accountability report. (FE)",
-        "billDescription": "An Act to renumber and amend 115.385 (1) (b); to amend 115.385 (1) (c); to create 115.385 (1) (b) 2m. and 118.30 (1j) of the statutes; Relating to: changes to the educational assessment program and the school and school district accountability report. (FE)"
+        "billDescription": "An Act to renumber and amend 115.385 (1) (b); to amend 115.385 (1) (c); to create 115.385 (1) (b) 2m. and 118.30 (1j) of the statutes; Relating to: changes to the educational assessment program and the school and school district accountability report. (FE)",
+        "pdfFileName": "bill_3093564.pdf",
+        "txtFileName": "bill_3093564.txt"
     },
     {
         "billNumber": "AB2",
@@ -13,7 +35,9 @@
         "billStatusDate": "2025-02-19",
         "billStatus": 2,
         "billTitle": "Requiring school boards to adopt policies to prohibit the use of wireless communication devices during instructional time.",
-        "billDescription": "An Act to amend 119.04 (1); to create 120.12 (29) of the statutes; Relating to: requiring school boards to adopt policies to prohibit the use of wireless communication devices during instructional time."
+        "billDescription": "An Act to amend 119.04 (1); to create 120.12 (29) of the statutes; Relating to: requiring school boards to adopt policies to prohibit the use of wireless communication devices during instructional time.",
+        "pdfFileName": "bill_3096543.pdf",
+        "txtFileName": "bill_3096543.txt"
     },
     {
         "billNumber": "AB3",
@@ -21,7 +45,9 @@
         "billStatusDate": "2025-02-19",
         "billStatus": 2,
         "billTitle": "Incorporating cursive writing into the state model English language arts standards and requiring cursive writing in elementary grades. (FE)",
-        "billDescription": "An Act to create 115.28 (55p), 118.40 (2r) (b) 2. m., 118.40 (2x) (b) 2. m., 118.60 (2) (a) 10., 119.23 (2) (a) 10. and 121.02 (1) (k) 4. of the statutes; Relating to: incorporating cursive writing into the state model English language arts standards and requiring cursive writing in elementary grades. (FE)"
+        "billDescription": "An Act to create 115.28 (55p), 118.40 (2r) (b) 2. m., 118.40 (2x) (b) 2. m., 118.60 (2) (a) 10., 119.23 (2) (a) 10. and 121.02 (1) (k) 4. of the statutes; Relating to: incorporating cursive writing into the state model English language arts standards and requiring cursive writing in elementary grades. (FE)",
+        "pdfFileName": "bill_3096833.pdf",
+        "txtFileName": "bill_3096833.txt"
     },
     {
         "billNumber": "AB4",
@@ -29,7 +55,9 @@
         "billStatusDate": "2025-02-19",
         "billStatus": 2,
         "billTitle": "Required instruction in civics in the elementary and high school grades, high school graduation requirements, and private school educational program criteria. (FE)",
-        "billDescription": "An Act to amend 118.165 (1) (d) and 118.33 (1) (a) 1. b.; to create 115.28 (55v), 118.40 (2r) (b) 2. m., 118.40 (2x) (b) 2. m., 118.60 (2) (a) 10., 119.23 (2) (a) 10. and 121.02 (1) (L) 9. of the statutes; Relating to: required instruction in civics in the elementary and high school grades, high school graduation requirements, and private school educational program criteria. (FE)"
+        "billDescription": "An Act to amend 118.165 (1) (d) and 118.33 (1) (a) 1. b.; to create 115.28 (55v), 118.40 (2r) (b) 2. m., 118.40 (2x) (b) 2. m., 118.60 (2) (a) 10., 119.23 (2) (a) 10. and 121.02 (1) (L) 9. of the statutes; Relating to: required instruction in civics in the elementary and high school grades, high school graduation requirements, and private school educational program criteria. (FE)",
+        "pdfFileName": "bill_3096639.pdf",
+        "txtFileName": "bill_3096639.txt"
     },
     {
         "billNumber": "AB5",
@@ -37,7 +65,9 @@
         "billStatusDate": "2025-02-19",
         "billStatus": 2,
         "billTitle": "Requiring school boards to make textbooks, curricula, and instructional materials available for inspection by school district residents.",
-        "billDescription": "An Act to amend 118.03 (1) and 118.03 (4); to create 118.03 (1m) and 118.032 of the statutes; Relating to: requiring school boards to make textbooks, curricula, and instructional materials available for inspection by school district residents."
+        "billDescription": "An Act to amend 118.03 (1) and 118.03 (4); to create 118.03 (1m) and 118.032 of the statutes; Relating to: requiring school boards to make textbooks, curricula, and instructional materials available for inspection by school district residents.",
+        "pdfFileName": "bill_3096443.pdf",
+        "txtFileName": "bill_3096443.txt"
     },
     {
         "billNumber": "AB6",
@@ -45,7 +75,9 @@
         "billStatusDate": "2025-02-19",
         "billStatus": 2,
         "billTitle": "Requiring a school board to spend at least 70 percent of its operating expenditures on direct classroom expenditures and annual pay increases for school administrators. (FE)",
-        "billDescription": "An Act to amend 118.24 (1), 119.44 (2) (c) and 121.085 (1); to create 120.18 (1) (h) and 121.10 of the statutes; Relating to: requiring a school board to spend at least 70 percent of its operating expenditures on direct classroom expenditures and annual pay increases for school administrators. (FE)"
+        "billDescription": "An Act to amend 118.24 (1), 119.44 (2) (c) and 121.085 (1); to create 120.18 (1) (h) and 121.10 of the statutes; Relating to: requiring a school board to spend at least 70 percent of its operating expenditures on direct classroom expenditures and annual pay increases for school administrators. (FE)",
+        "pdfFileName": "bill_3098131.pdf",
+        "txtFileName": "bill_3098131.txt"
     },
     {
         "billNumber": "AR3",
@@ -53,7 +85,9 @@
         "billStatusDate": "2025-02-19",
         "billStatus": 4,
         "billTitle": "Observing February 28, 2025, as Rare Disease Day in Wisconsin.",
-        "billDescription": "Relating to: observing February 28, 2025, as Rare Disease Day in Wisconsin."
+        "billDescription": "Relating to: observing February 28, 2025, as Rare Disease Day in Wisconsin.",
+        "pdfFileName": "bill_3096345.pdf",
+        "txtFileName": "bill_3096345.txt"
     },
     {
         "billNumber": "AR4",
@@ -61,7 +95,9 @@
         "billStatusDate": "2025-02-19",
         "billStatus": 4,
         "billTitle": "Proclaiming our appreciation and respect for our Grocery and Retail Food Employees.",
-        "billDescription": "Relating to: proclaiming our appreciation and respect for our Grocery and Retail Food Employees."
+        "billDescription": "Relating to: proclaiming our appreciation and respect for our Grocery and Retail Food Employees.",
+        "pdfFileName": "bill_3118085.pdf",
+        "txtFileName": "bill_3118085.txt"
     },
     {
         "billNumber": "AJR2",
@@ -69,7 +105,9 @@
         "billStatusDate": "2025-02-19",
         "billStatus": 2,
         "billTitle": "Celebrating the 51st anniversary of the American Birkebeiner and proclaiming February 17 to 23, 2025, as American Birkebeiner Week in Wisconsin.",
-        "billDescription": "Relating to: celebrating the 51st anniversary of the American Birkebeiner and proclaiming February 17 to 23, 2025, as American Birkebeiner Week in Wisconsin."
+        "billDescription": "Relating to: celebrating the 51st anniversary of the American Birkebeiner and proclaiming February 17 to 23, 2025, as American Birkebeiner Week in Wisconsin.",
+        "pdfFileName": "bill_3096737.pdf",
+        "txtFileName": "bill_3096737.txt"
     },
     {
         "billNumber": "AJR4",
@@ -77,7 +115,9 @@
         "billStatusDate": "2025-02-19",
         "billStatus": 2,
         "billTitle": "Honoring the life and public service of Justice David T. Prosser Jr.",
-        "billDescription": "Relating to: honoring the life and public service of Justice David T. Prosser Jr."
+        "billDescription": "Relating to: honoring the life and public service of Justice David T. Prosser Jr.",
+        "pdfFileName": "bill_3111089.pdf",
+        "txtFileName": "bill_3111089.txt"
     },
     {
         "billNumber": "AJR5",
@@ -85,7 +125,9 @@
         "billStatusDate": "2025-02-19",
         "billStatus": 2,
         "billTitle": "Proclaiming February 2025 as Black History Month.",
-        "billDescription": "Relating to: proclaiming February 2025 as Black History Month."
+        "billDescription": "Relating to: proclaiming February 2025 as Black History Month.",
+        "pdfFileName": "bill_3125680.pdf",
+        "txtFileName": "bill_3125680.txt"
     },
     {
         "billNumber": "AB50",
@@ -93,7 +135,9 @@
         "billStatusDate": "2025-02-18",
         "billStatus": 1,
         "billTitle": "State finances and appropriations, constituting the executive budget act of the 2025 legislature. (FE)",
-        "billDescription": "An Act; Relating to: state finances and appropriations, constituting the executive budget act of the 2025 legislature. (FE)"
+        "billDescription": "An Act; Relating to: state finances and appropriations, constituting the executive budget act of the 2025 legislature. (FE)",
+        "pdfFileName": "bill_3129008.pdf",
+        "txtFileName": "bill_3129008.txt"
     },
     {
         "billNumber": "SB45",
@@ -101,7 +145,9 @@
         "billStatusDate": "2025-02-18",
         "billStatus": 1,
         "billTitle": "State finances and appropriations, constituting the executive budget act of the 2025 legislature. (FE)",
-        "billDescription": "An Act; Relating to: state finances and appropriations, constituting the executive budget act of the 2025 legislature. (FE)"
+        "billDescription": "An Act; Relating to: state finances and appropriations, constituting the executive budget act of the 2025 legislature. (FE)",
+        "pdfFileName": "bill_3129169.pdf",
+        "txtFileName": "bill_3129169.txt"
     },
     {
         "billNumber": "AB26",
@@ -109,7 +155,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Battery or threat to jurors and providing a penalty.",
-        "billDescription": "An Act to renumber and amend 940.20 (3) (title) and 940.20 (3); to amend 48.685 (2) (bb), 48.685 (5) (bm) 4., 48.686 (1) (c) 9., 48.686 (1) (c) 12., 48.686 (2) (bb), 50.065 (2) (bb), 165.70 (1) (b), 165.84 (7) (ab) 2., 301.048 (2) (bm) 1. a., 767.461 (4), 940.03, 941.29 (1g) (a), 941.291 (1) (b), 941.39 (title), 946.82 (4), 949.03 (2), 968.26 (1b) (a) 2. a., 969.08 (10) (b), 973.049 (2) and 973.123 (1); to create 939.22 (21) (es), 940.202 (1) and (3) and 941.38 (1) (b) 5s. of the statutes; Relating to: battery or threat to jurors and providing a penalty."
+        "billDescription": "An Act to renumber and amend 940.20 (3) (title) and 940.20 (3); to amend 48.685 (2) (bb), 48.685 (5) (bm) 4., 48.686 (1) (c) 9., 48.686 (1) (c) 12., 48.686 (2) (bb), 50.065 (2) (bb), 165.70 (1) (b), 165.84 (7) (ab) 2., 301.048 (2) (bm) 1. a., 767.461 (4), 940.03, 941.29 (1g) (a), 941.291 (1) (b), 941.39 (title), 946.82 (4), 949.03 (2), 968.26 (1b) (a) 2. a., 969.08 (10) (b), 973.049 (2) and 973.123 (1); to create 939.22 (21) (es), 940.202 (1) and (3) and 941.38 (1) (b) 5s. of the statutes; Relating to: battery or threat to jurors and providing a penalty.",
+        "pdfFileName": "bill_3126853.pdf",
+        "txtFileName": "bill_3126853.txt"
     },
     {
         "billNumber": "AB27",
@@ -117,7 +165,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Expanding veterans benefits to individuals who served in Laos in support of the United States during the Vietnam War.",
-        "billDescription": "An Act to amend 45.44 (3) (c) (intro.) and 45.51 (2) (a) 1.; to create 36.27 (2) (b) 5., 36.27 (3p) (a) 1r. g., 38.24 (8) (a) 1r. g. and 45.01 (12) (fm) of the statutes; Relating to: expanding veterans benefits to individuals who served in Laos in support of the United States during the Vietnam War."
+        "billDescription": "An Act to amend 45.44 (3) (c) (intro.) and 45.51 (2) (a) 1.; to create 36.27 (2) (b) 5., 36.27 (3p) (a) 1r. g., 38.24 (8) (a) 1r. g. and 45.01 (12) (fm) of the statutes; Relating to: expanding veterans benefits to individuals who served in Laos in support of the United States during the Vietnam War.",
+        "pdfFileName": "bill_3126996.pdf",
+        "txtFileName": "bill_3126996.txt"
     },
     {
         "billNumber": "AB28",
@@ -125,7 +175,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Special registration plates with white lettering on a black background. (FE)",
-        "billDescription": "An Act to amend 341.14 (6r) (e) and 341.14 (6r) (fm) 7.; to create 341.14 (6r) (b) 23., 341.14 (6r) (cm) and 341.14 (6r) (f) 70. of the statutes; Relating to: special registration plates with white lettering on a black background. (FE)"
+        "billDescription": "An Act to amend 341.14 (6r) (e) and 341.14 (6r) (fm) 7.; to create 341.14 (6r) (b) 23., 341.14 (6r) (cm) and 341.14 (6r) (f) 70. of the statutes; Relating to: special registration plates with white lettering on a black background. (FE)",
+        "pdfFileName": "bill_3126771.pdf",
+        "txtFileName": "bill_3126771.txt"
     },
     {
         "billNumber": "AB29",
@@ -133,7 +185,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Impoundment of vehicles used in certain traffic offenses.",
-        "billDescription": "An Act to create 345.13 of the statutes; Relating to: impoundment of vehicles used in certain traffic offenses."
+        "billDescription": "An Act to create 345.13 of the statutes; Relating to: impoundment of vehicles used in certain traffic offenses.",
+        "pdfFileName": "bill_3127074.pdf",
+        "txtFileName": "bill_3127074.txt"
     },
     {
         "billNumber": "AB30",
@@ -141,7 +195,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Prohibiting a foreign adversary from acquiring agricultural or forestry land in this state.",
-        "billDescription": "An Act to renumber and amend 710.02 (1) and 710.02 (9); to amend 710.02 (2) (intro.), 710.02 (3), 710.02 (5) (a) (intro.), 710.02 (5) (a) 1., 710.02 (5) (a) 2. and 710.02 (6); to create 710.02 (1g), 710.02 (1r) (d) and 710.02 (9) (b) of the statutes; Relating to: prohibiting a foreign adversary from acquiring agricultural or forestry land in this state."
+        "billDescription": "An Act to renumber and amend 710.02 (1) and 710.02 (9); to amend 710.02 (2) (intro.), 710.02 (3), 710.02 (5) (a) (intro.), 710.02 (5) (a) 1., 710.02 (5) (a) 2. and 710.02 (6); to create 710.02 (1g), 710.02 (1r) (d) and 710.02 (9) (b) of the statutes; Relating to: prohibiting a foreign adversary from acquiring agricultural or forestry land in this state.",
+        "pdfFileName": "bill_3127033.pdf",
+        "txtFileName": "bill_3127033.txt"
     },
     {
         "billNumber": "AB31",
@@ -149,7 +205,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Repair and replacement of implements of husbandry under warranty.",
-        "billDescription": "An Act to create subchapter XI of chapter 218 [precedes 218.60] of the statutes; Relating to: repair and replacement of implements of husbandry under warranty."
+        "billDescription": "An Act to create subchapter XI of chapter 218 [precedes 218.60] of the statutes; Relating to: repair and replacement of implements of husbandry under warranty.",
+        "pdfFileName": "bill_3126865.pdf",
+        "txtFileName": "bill_3126865.txt"
     },
     {
         "billNumber": "AB32",
@@ -157,7 +215,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Access to public high schools for military recruiters.",
-        "billDescription": "An Act to amend 119.04 (1); to create 118.40 (4) (ar) 3. and 120.12 (29) of the statutes; Relating to: access to public high schools for military recruiters."
+        "billDescription": "An Act to amend 119.04 (1); to create 118.40 (4) (ar) 3. and 120.12 (29) of the statutes; Relating to: access to public high schools for military recruiters.",
+        "pdfFileName": "bill_3126948.pdf",
+        "txtFileName": "bill_3126948.txt"
     },
     {
         "billNumber": "AB33",
@@ -165,7 +225,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Representations depicting nudity and providing a penalty.",
-        "billDescription": "An Act to create 942.09 (1) (e), 942.09 (2) (am) 4. and 942.09 (3m) (a) 3. of the statutes; Relating to: representations depicting nudity and providing a penalty."
+        "billDescription": "An Act to create 942.09 (1) (e), 942.09 (2) (am) 4. and 942.09 (3m) (a) 3. of the statutes; Relating to: representations depicting nudity and providing a penalty.",
+        "pdfFileName": "bill_3126783.pdf",
+        "txtFileName": "bill_3126783.txt"
     },
     {
         "billNumber": "AB34",
@@ -173,7 +235,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Court-issued criminal complaints in officer-involved deaths.",
-        "billDescription": "An Act to renumber 968.02 (3) and 968.26 (2) (d); to create 968.02 (3) (b) and 968.26 (2) (d) 2. of the statutes; Relating to: court-issued criminal complaints in officer-involved deaths."
+        "billDescription": "An Act to renumber 968.02 (3) and 968.26 (2) (d); to create 968.02 (3) (b) and 968.26 (2) (d) 2. of the statutes; Relating to: court-issued criminal complaints in officer-involved deaths.",
+        "pdfFileName": "bill_3126830.pdf",
+        "txtFileName": "bill_3126830.txt"
     },
     {
         "billNumber": "AB35",
@@ -181,7 +245,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Withdrawal of candidacy for certain offices filled at the general election and providing a penalty. (FE)",
-        "billDescription": "An Act to create 8.35 (1m), 12.13 (3) (ag) and 12.60 (1) (am) of the statutes; Relating to: withdrawal of candidacy for certain offices filled at the general election and providing a penalty. (FE)"
+        "billDescription": "An Act to create 8.35 (1m), 12.13 (3) (ag) and 12.60 (1) (am) of the statutes; Relating to: withdrawal of candidacy for certain offices filled at the general election and providing a penalty. (FE)",
+        "pdfFileName": "bill_3126899.pdf",
+        "txtFileName": "bill_3126899.txt"
     },
     {
         "billNumber": "AB36",
@@ -189,7 +255,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Law enforcement and firefighter annuitants in the Wisconsin Retirement System who are rehired by a participating employer. (FE)",
-        "billDescription": "An Act to amend 40.22 (1), 40.22 (2m) (intro.), 40.22 (2r) (intro.) and 40.22 (3) (intro.); to create 40.26 (7) of the statutes; Relating to: law enforcement and firefighter annuitants in the Wisconsin Retirement System who are rehired by a participating employer. (FE)"
+        "billDescription": "An Act to amend 40.22 (1), 40.22 (2m) (intro.), 40.22 (2r) (intro.) and 40.22 (3) (intro.); to create 40.26 (7) of the statutes; Relating to: law enforcement and firefighter annuitants in the Wisconsin Retirement System who are rehired by a participating employer. (FE)",
+        "pdfFileName": "bill_3127008.pdf",
+        "txtFileName": "bill_3127008.txt"
     },
     {
         "billNumber": "AB37",
@@ -197,7 +265,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Personalized registration plate fees for gold star family special registration plates. (FE)",
-        "billDescription": "An Act to amend 341.145 (3) of the statutes; Relating to: personalized registration plate fees for gold star family special registration plates. (FE)"
+        "billDescription": "An Act to amend 341.145 (3) of the statutes; Relating to: personalized registration plate fees for gold star family special registration plates. (FE)",
+        "pdfFileName": "bill_3126960.pdf",
+        "txtFileName": "bill_3126960.txt"
     },
     {
         "billNumber": "AB38",
@@ -205,7 +275,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "An income tax exemption for cash tips paid to an employee. (FE)",
-        "billDescription": "An Act to repeal 71.63 (6) (n) 1. and 71.63 (6) (n) 2.; to renumber and amend 71.63 (6) (n) (intro.); to amend 71.05 (6) (b) 19. cm., 71.05 (6) (b) 19. dm., 71.05 (6) (b) 28. e., 71.05 (6) (b) 28. f., 71.05 (6) (b) 32. b., 71.05 (6) (b) 32. c., 71.05 (6) (b) 33. b., 71.05 (6) (b) 33. c., 71.05 (6) (b) 35. c., 71.05 (6) (b) 35. d., 71.05 (6) (b) 38. c., 71.05 (6) (b) 38. d., 71.05 (6) (b) 42. c., 71.05 (6) (b) 42. d. and 71.05 (6) (b) 43. f.; to create 71.05 (1) (j) of the statutes; Relating to: an income tax exemption for cash tips paid to an employee. (FE)"
+        "billDescription": "An Act to repeal 71.63 (6) (n) 1. and 71.63 (6) (n) 2.; to renumber and amend 71.63 (6) (n) (intro.); to amend 71.05 (6) (b) 19. cm., 71.05 (6) (b) 19. dm., 71.05 (6) (b) 28. e., 71.05 (6) (b) 28. f., 71.05 (6) (b) 32. b., 71.05 (6) (b) 32. c., 71.05 (6) (b) 33. b., 71.05 (6) (b) 33. c., 71.05 (6) (b) 35. c., 71.05 (6) (b) 35. d., 71.05 (6) (b) 38. c., 71.05 (6) (b) 38. d., 71.05 (6) (b) 42. c., 71.05 (6) (b) 42. d. and 71.05 (6) (b) 43. f.; to create 71.05 (1) (j) of the statutes; Relating to: an income tax exemption for cash tips paid to an employee. (FE)",
+        "pdfFileName": "bill_3126984.pdf",
+        "txtFileName": "bill_3126984.txt"
     },
     {
         "billNumber": "AB39",
@@ -213,7 +285,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Requiring state employees to perform their work at the offices of their employer.",
-        "billDescription": "An Act to create 230.35 (6) of the statutes; Relating to: requiring state employees to perform their work at the offices of their employer."
+        "billDescription": "An Act to create 230.35 (6) of the statutes; Relating to: requiring state employees to perform their work at the offices of their employer.",
+        "pdfFileName": "bill_3127066.pdf",
+        "txtFileName": "bill_3127066.txt"
     },
     {
         "billNumber": "AB40",
@@ -221,7 +295,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "School safety grants and making an appropriation. (FE)",
-        "billDescription": "An Act to repeal 20.455 (2) (fc); to create 20.455 (2) (fc) of the statutes; Relating to: school safety grants and making an appropriation. (FE)"
+        "billDescription": "An Act to repeal 20.455 (2) (fc); to create 20.455 (2) (fc) of the statutes; Relating to: school safety grants and making an appropriation. (FE)",
+        "pdfFileName": "bill_3126876.pdf",
+        "txtFileName": "bill_3126876.txt"
     },
     {
         "billNumber": "AB41",
@@ -229,7 +305,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Local regulation of vegetable gardens.",
-        "billDescription": "An Act to create 66.04075 of the statutes; Relating to: local regulation of vegetable gardens."
+        "billDescription": "An Act to create 66.04075 of the statutes; Relating to: local regulation of vegetable gardens.",
+        "pdfFileName": "bill_3126817.pdf",
+        "txtFileName": "bill_3126817.txt"
     },
     {
         "billNumber": "AB42",
@@ -237,7 +315,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Local regulation of fowl.",
-        "billDescription": "An Act to create 66.0443 of the statutes; Relating to: local regulation of fowl."
+        "billDescription": "An Act to create 66.0443 of the statutes; Relating to: local regulation of fowl.",
+        "pdfFileName": "bill_3126925.pdf",
+        "txtFileName": "bill_3126925.txt"
     },
     {
         "billNumber": "AB43",
@@ -245,7 +325,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Permitting pharmacists to prescribe certain contraceptives, extending the time limit for emergency rule procedures, providing an exemption from emergency rule procedures, granting rule-making authority, and providing a penalty. (FE)",
-        "billDescription": "An Act to amend 450.095 (title) and 450.095 (3); to create 49.46 (2) (bg), 450.01 (16) (L), 450.095 (1) (ag) and (ar) and 450.095 (2m) of the statutes; Relating to: permitting pharmacists to prescribe certain contraceptives, extending the time limit for emergency rule procedures, providing an exemption from emergency rule procedures, granting rule-making authority, and providing a penalty. (FE)"
+        "billDescription": "An Act to amend 450.095 (title) and 450.095 (3); to create 49.46 (2) (bg), 450.01 (16) (L), 450.095 (1) (ag) and (ar) and 450.095 (2m) of the statutes; Relating to: permitting pharmacists to prescribe certain contraceptives, extending the time limit for emergency rule procedures, providing an exemption from emergency rule procedures, granting rule-making authority, and providing a penalty. (FE)",
+        "pdfFileName": "bill_3126914.pdf",
+        "txtFileName": "bill_3126914.txt"
     },
     {
         "billNumber": "AB44",
@@ -253,7 +335,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Allowing advanced practice nurse prescribers to pronounce the date, time, and place of a patient\u2019s death for purposes of the preparation of death records.",
-        "billDescription": "An Act to amend 69.01 (6g); to create 69.01 (1g) and 69.18 (1) (cL) of the statutes; Relating to: allowing advanced practice nurse prescribers to pronounce the date, time, and place of a patient\u2019s death for purposes of the preparation of death records."
+        "billDescription": "An Act to amend 69.01 (6g); to create 69.01 (1g) and 69.18 (1) (cL) of the statutes; Relating to: allowing advanced practice nurse prescribers to pronounce the date, time, and place of a patient\u2019s death for purposes of the preparation of death records.",
+        "pdfFileName": "bill_3127055.pdf",
+        "txtFileName": "bill_3127055.txt"
     },
     {
         "billNumber": "AB45",
@@ -261,7 +345,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Ratification of the Dietitian Licensure Compact. (FE)",
-        "billDescription": "An Act to renumber and amend 448.78; to amend 146.81 (1) (em), 146.997 (1) (d) 6., 252.14 (1) (ar) 4m., 253.065 (3), 253.065 (5), 440.03 (9) (a) (intro.), 440.03 (9) (a) 2., 440.03 (13) (b) (intro.), 440.15, 446.01 (1v) (f), 446.02 (6m), 448.70 (1m), 448.72 (6), 448.74 (1), 448.78 (title), 448.80, 448.82, 448.87 (2) (intro.), 448.87 (2) (a), 448.956 (1m) and 450.10 (3) (a) 5m.; to repeal and recreate 632.895 (1) (b) 5. b.; to create 14.833, 440.03 (11m) (c) 2rm., 440.03 (13) (c) 1. gm., 448.70 (1r), 448.70 (1s), 448.78 (1m) (title), 448.78 (1m) (f), 448.78 (2m), (3m) and (4m) and subchapter XIV of chapter 448 [precedes 448.9887] of the statutes; Relating to: ratification of the Dietitian Licensure Compact. (FE)"
+        "billDescription": "An Act to renumber and amend 448.78; to amend 146.81 (1) (em), 146.997 (1) (d) 6., 252.14 (1) (ar) 4m., 253.065 (3), 253.065 (5), 440.03 (9) (a) (intro.), 440.03 (9) (a) 2., 440.03 (13) (b) (intro.), 440.15, 446.01 (1v) (f), 446.02 (6m), 448.70 (1m), 448.72 (6), 448.74 (1), 448.78 (title), 448.80, 448.82, 448.87 (2) (intro.), 448.87 (2) (a), 448.956 (1m) and 450.10 (3) (a) 5m.; to repeal and recreate 632.895 (1) (b) 5. b.; to create 14.833, 440.03 (11m) (c) 2rm., 440.03 (13) (c) 1. gm., 448.70 (1r), 448.70 (1s), 448.78 (1m) (title), 448.78 (1m) (f), 448.78 (2m), (3m) and (4m) and subchapter XIV of chapter 448 [precedes 448.9887] of the statutes; Relating to: ratification of the Dietitian Licensure Compact. (FE)",
+        "pdfFileName": "bill_3126842.pdf",
+        "txtFileName": "bill_3126842.txt"
     },
     {
         "billNumber": "AB46",
@@ -269,7 +355,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Flags flown at state and local government buildings and eliminating a related administrative rule.",
-        "billDescription": "An Act to create 1.14 (1) (am) and 1.14 (1m) of the statutes; Relating to: flags flown at state and local government buildings and eliminating a related administrative rule."
+        "billDescription": "An Act to create 1.14 (1) (am) and 1.14 (1m) of the statutes; Relating to: flags flown at state and local government buildings and eliminating a related administrative rule.",
+        "pdfFileName": "bill_3127019.pdf",
+        "txtFileName": "bill_3127019.txt"
     },
     {
         "billNumber": "AB47",
@@ -277,7 +365,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Tuition and fee remission for certain veterans and their dependents enrolled in the University of Wisconsin System or a technical college. (FE)",
-        "billDescription": "An Act to amend 36.27 (3n) (a) 1m. a., 36.27 (3n) (a) 1m. b., 36.27 (3n) (b) (intro.), 36.27 (3n) (bd), 36.27 (3n) (bg), 36.27 (3n) (bm), 36.27 (3n) (c), 36.27 (3p) (a) 1r. (intro.), 38.24 (7) (a) 1m. a., 38.24 (7) (a) 1m. b., 38.24 (7) (a) 1p., 38.24 (7) (b) (intro.), 38.24 (7) (bd), 38.24 (7) (bg), 38.24 (7) (bm) and 38.24 (8) (a) 1r. (intro.); to create 36.27 (3n) (a) 1r. of the statutes; Relating to: tuition and fee remission for certain veterans and their dependents enrolled in the University of Wisconsin System or a technical college. (FE)"
+        "billDescription": "An Act to amend 36.27 (3n) (a) 1m. a., 36.27 (3n) (a) 1m. b., 36.27 (3n) (b) (intro.), 36.27 (3n) (bd), 36.27 (3n) (bg), 36.27 (3n) (bm), 36.27 (3n) (c), 36.27 (3p) (a) 1r. (intro.), 38.24 (7) (a) 1m. a., 38.24 (7) (a) 1m. b., 38.24 (7) (a) 1p., 38.24 (7) (b) (intro.), 38.24 (7) (bd), 38.24 (7) (bg), 38.24 (7) (bm) and 38.24 (8) (a) 1r. (intro.); to create 36.27 (3n) (a) 1r. of the statutes; Relating to: tuition and fee remission for certain veterans and their dependents enrolled in the University of Wisconsin System or a technical college. (FE)",
+        "pdfFileName": "bill_3126794.pdf",
+        "txtFileName": "bill_3126794.txt"
     },
     {
         "billNumber": "AB48",
@@ -285,7 +375,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Providing state aid to reimburse public and private schools that provide free meals to all pupils for the costs of those meals and making an appropriation. (FE)",
-        "billDescription": "An Act to repeal 115.341; to renumber 115.34 (1); to amend 20.255 (1) (jg), 20.255 (2) (cm), 20.255 (2) (cn), 115.34 (title), 115.34 (2) and 115.341 (1); to create 20.255 (2) (cL), 115.34 (1g) and 115.34 (3) to (5) of the statutes; Relating to: providing state aid to reimburse public and private schools that provide free meals to all pupils for the costs of those meals and making an appropriation. (FE)"
+        "billDescription": "An Act to repeal 115.341; to renumber 115.34 (1); to amend 20.255 (1) (jg), 20.255 (2) (cm), 20.255 (2) (cn), 115.34 (title), 115.34 (2) and 115.341 (1); to create 20.255 (2) (cL), 115.34 (1g) and 115.34 (3) to (5) of the statutes; Relating to: providing state aid to reimburse public and private schools that provide free meals to all pupils for the costs of those meals and making an appropriation. (FE)",
+        "pdfFileName": "bill_3126806.pdf",
+        "txtFileName": "bill_3126806.txt"
     },
     {
         "billNumber": "AB49",
@@ -293,7 +385,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "A minor\u2019s authority to consent to health care.",
-        "billDescription": "An Act to create 48.374 of the statutes; Relating to: a minor\u2019s authority to consent to health care."
+        "billDescription": "An Act to create 48.374 of the statutes; Relating to: a minor\u2019s authority to consent to health care.",
+        "pdfFileName": "bill_3127043.pdf",
+        "txtFileName": "bill_3127043.txt"
     },
     {
         "billNumber": "AJR6",
@@ -301,7 +395,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Recognizing that the Wisconsin State Legislature supports nuclear power and fusion energy as clean energy sources that are critical to safely meeting Wisconsin\u2019s growing energy demands and declaring the legislature\u2019s commitment to the continuation and expansion of nuclear power and nuclear technologies, the development of nuclear technologies and fusion energy, and employing the leadership and resources necessary to support the development of and investment in nuclear power, fusion energy, and related technologies in the state.",
-        "billDescription": "Relating to: recognizing that the Wisconsin State Legislature supports nuclear power and fusion energy as clean energy sources that are critical to safely meeting Wisconsin\u2019s growing energy demands and declaring the legislature\u2019s commitment to the continuation and expansion of nuclear power and nuclear technologies, the development of nuclear technologies and fusion energy, and employing the leadership and resources necessary to support the development of and investment in nuclear power, fusion energy, and related technologies in the state."
+        "billDescription": "Relating to: recognizing that the Wisconsin State Legislature supports nuclear power and fusion energy as clean energy sources that are critical to safely meeting Wisconsin\u2019s growing energy demands and declaring the legislature\u2019s commitment to the continuation and expansion of nuclear power and nuclear technologies, the development of nuclear technologies and fusion energy, and employing the leadership and resources necessary to support the development of and investment in nuclear power, fusion energy, and related technologies in the state.",
+        "pdfFileName": "bill_3126760.pdf",
+        "txtFileName": "bill_3126760.txt"
     },
     {
         "billNumber": "AJR7",
@@ -309,7 +405,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Proclaiming February 4, 2025, as Transit Equity Day.",
-        "billDescription": "Relating to: proclaiming February 4, 2025, as Transit Equity Day."
+        "billDescription": "Relating to: proclaiming February 4, 2025, as Transit Equity Day.",
+        "pdfFileName": "bill_3126972.pdf",
+        "txtFileName": "bill_3126972.txt"
     },
     {
         "billNumber": "AJR8",
@@ -317,7 +415,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Restricting the governor\u2019s partial veto authority to only rejecting entire bill sections of an appropriation bill that are capable of separate enactment and reducing appropriations in a bill (first consideration).",
-        "billDescription": "To amend section 10 (1) (c) of article V of the constitution; Relating to: restricting the governor\u2019s partial veto authority to only rejecting entire bill sections of an appropriation bill that are capable of separate enactment and reducing appropriations in a bill (first consideration)."
+        "billDescription": "To amend section 10 (1) (c) of article V of the constitution; Relating to: restricting the governor\u2019s partial veto authority to only rejecting entire bill sections of an appropriation bill that are capable of separate enactment and reducing appropriations in a bill (first consideration).",
+        "pdfFileName": "bill_3126937.pdf",
+        "txtFileName": "bill_3126937.txt"
     },
     {
         "billNumber": "AJR9",
@@ -325,7 +425,9 @@
         "billStatusDate": "2025-02-17",
         "billStatus": 1,
         "billTitle": "Honoring the life and enduring legacy of Robert George Uecker.",
-        "billDescription": "Relating to: honoring the life and enduring legacy of Robert George Uecker."
+        "billDescription": "Relating to: honoring the life and enduring legacy of Robert George Uecker.",
+        "pdfFileName": "bill_3126888.pdf",
+        "txtFileName": "bill_3126888.txt"
     },
     {
         "billNumber": "AB25",
@@ -333,7 +435,9 @@
         "billStatusDate": "2025-02-13",
         "billStatus": 1,
         "billTitle": "An incumbent transmission facility owner\u2019s right to construct, own, and maintain certain transmission facilities and Public Service Commission procedures if the transmission facility is a regionally cost-shared transmission line.",
-        "billDescription": "An Act to repeal 196.485 (1) (cr), 196.485 (1) (ef) and 196.485 (3g); to create 196.485 (1) (cr), 196.485 (1) (ef) and 196.485 (3g) of the statutes; Relating to: an incumbent transmission facility owner\u2019s right to construct, own, and maintain certain transmission facilities and Public Service Commission procedures if the transmission facility is a regionally cost-shared transmission line."
+        "billDescription": "An Act to repeal 196.485 (1) (cr), 196.485 (1) (ef) and 196.485 (3g); to create 196.485 (1) (cr), 196.485 (1) (ef) and 196.485 (3g) of the statutes; Relating to: an incumbent transmission facility owner\u2019s right to construct, own, and maintain certain transmission facilities and Public Service Commission procedures if the transmission facility is a regionally cost-shared transmission line.",
+        "pdfFileName": "bill_3119853.pdf",
+        "txtFileName": "bill_3119853.txt"
     },
     {
         "billNumber": "AB24",
@@ -341,7 +445,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "County sheriff assistance with certain federal immigration functions. (FE)",
-        "billDescription": "An Act to create 59.28 (3) and 79.039 (1g) of the statutes; Relating to: county sheriff assistance with certain federal immigration functions. (FE)"
+        "billDescription": "An Act to create 59.28 (3) and 79.039 (1g) of the statutes; Relating to: county sheriff assistance with certain federal immigration functions. (FE)",
+        "pdfFileName": "bill_3116734.pdf",
+        "txtFileName": "bill_3116734.txt"
     },
     {
         "billNumber": "SB28",
@@ -349,7 +455,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "An incumbent transmission facility owner\u2019s right to construct, own, and maintain certain transmission facilities and Public Service Commission procedures if the transmission facility is a regionally cost-shared transmission line.",
-        "billDescription": "An Act to repeal 196.485 (1) (cr), 196.485 (1) (ef) and 196.485 (3g); to create 196.485 (1) (cr), 196.485 (1) (ef) and 196.485 (3g) of the statutes; Relating to: an incumbent transmission facility owner\u2019s right to construct, own, and maintain certain transmission facilities and Public Service Commission procedures if the transmission facility is a regionally cost-shared transmission line."
+        "billDescription": "An Act to repeal 196.485 (1) (cr), 196.485 (1) (ef) and 196.485 (3g); to create 196.485 (1) (cr), 196.485 (1) (ef) and 196.485 (3g) of the statutes; Relating to: an incumbent transmission facility owner\u2019s right to construct, own, and maintain certain transmission facilities and Public Service Commission procedures if the transmission facility is a regionally cost-shared transmission line.",
+        "pdfFileName": "bill_3116168.pdf",
+        "txtFileName": "bill_3116168.txt"
     },
     {
         "billNumber": "SB29",
@@ -357,7 +465,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Requiring school boards to adopt policies to prohibit the use of wireless communication devices during instructional time.",
-        "billDescription": "An Act to amend 119.04 (1); to create 120.12 (29) of the statutes; Relating to: requiring school boards to adopt policies to prohibit the use of wireless communication devices during instructional time."
+        "billDescription": "An Act to amend 119.04 (1); to create 120.12 (29) of the statutes; Relating to: requiring school boards to adopt policies to prohibit the use of wireless communication devices during instructional time.",
+        "pdfFileName": "bill_3116375.pdf",
+        "txtFileName": "bill_3116375.txt"
     },
     {
         "billNumber": "SB30",
@@ -365,7 +475,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Required instruction in civics in the elementary and high school grades, high school graduation requirements, and private school educational program criteria. (FE)",
-        "billDescription": "An Act to amend 118.165 (1) (d) and 118.33 (1) (a) 1. b.; to create 115.28 (55v), 118.40 (2r) (b) 2. m., 118.40 (2x) (b) 2. m., 118.60 (2) (a) 10., 119.23 (2) (a) 10. and 121.02 (1) (L) 9. of the statutes; Relating to: required instruction in civics in the elementary and high school grades, high school graduation requirements, and private school educational program criteria. (FE)"
+        "billDescription": "An Act to amend 118.165 (1) (d) and 118.33 (1) (a) 1. b.; to create 115.28 (55v), 118.40 (2r) (b) 2. m., 118.40 (2x) (b) 2. m., 118.60 (2) (a) 10., 119.23 (2) (a) 10. and 121.02 (1) (L) 9. of the statutes; Relating to: required instruction in civics in the elementary and high school grades, high school graduation requirements, and private school educational program criteria. (FE)",
+        "pdfFileName": "bill_3116628.pdf",
+        "txtFileName": "bill_3116628.txt"
     },
     {
         "billNumber": "SB31",
@@ -373,7 +485,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "State agency status for certain physician assistants and advanced practice nurses who provide services without compensation for local health departments or school districts. (FE)",
-        "billDescription": "An Act to renumber and amend 251.07; to amend 165.25 (6) (c), 251.07 (title), 252.04 (9) and 895.46 (5) (b); to create 251.07 (1) and 252.01 (5) of the statutes; Relating to: state agency status for certain physician assistants and advanced practice nurses who provide services without compensation for local health departments or school districts. (FE)"
+        "billDescription": "An Act to renumber and amend 251.07; to amend 165.25 (6) (c), 251.07 (title), 252.04 (9) and 895.46 (5) (b); to create 251.07 (1) and 252.01 (5) of the statutes; Relating to: state agency status for certain physician assistants and advanced practice nurses who provide services without compensation for local health departments or school districts. (FE)",
+        "pdfFileName": "bill_3116502.pdf",
+        "txtFileName": "bill_3116502.txt"
     },
     {
         "billNumber": "SB32",
@@ -381,7 +495,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Requiring a school board to spend at least 70 percent of its operating expenditures on direct classroom expenditures and annual pay increases for school administrators. (FE)",
-        "billDescription": "An Act to amend 118.24 (1), 119.44 (2) (c) and 121.085 (1); to create 120.18 (1) (h) and 121.10 of the statutes; Relating to: requiring a school board to spend at least 70 percent of its operating expenditures on direct classroom expenditures and annual pay increases for school administrators. (FE)"
+        "billDescription": "An Act to amend 118.24 (1), 119.44 (2) (c) and 121.085 (1); to create 120.18 (1) (h) and 121.10 of the statutes; Relating to: requiring a school board to spend at least 70 percent of its operating expenditures on direct classroom expenditures and annual pay increases for school administrators. (FE)",
+        "pdfFileName": "bill_3116681.pdf",
+        "txtFileName": "bill_3116681.txt"
     },
     {
         "billNumber": "SB33",
@@ -389,7 +505,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Representations depicting nudity and providing a penalty.",
-        "billDescription": "An Act to create 942.09 (1) (e), 942.09 (2) (am) 4. and 942.09 (3m) (a) 3. of the statutes; Relating to: representations depicting nudity and providing a penalty."
+        "billDescription": "An Act to create 942.09 (1) (e), 942.09 (2) (am) 4. and 942.09 (3m) (a) 3. of the statutes; Relating to: representations depicting nudity and providing a penalty.",
+        "pdfFileName": "bill_3116654.pdf",
+        "txtFileName": "bill_3116654.txt"
     },
     {
         "billNumber": "SB34",
@@ -397,7 +515,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Withdrawal of candidacy for certain offices filled at the general election and providing a penalty. (FE)",
-        "billDescription": "An Act to create 8.35 (1m), 12.13 (3) (ag) and 12.60 (1) (am) of the statutes; Relating to: withdrawal of candidacy for certain offices filled at the general election and providing a penalty. (FE)"
+        "billDescription": "An Act to create 8.35 (1m), 12.13 (3) (ag) and 12.60 (1) (am) of the statutes; Relating to: withdrawal of candidacy for certain offices filled at the general election and providing a penalty. (FE)",
+        "pdfFileName": "bill_3116328.pdf",
+        "txtFileName": "bill_3116328.txt"
     },
     {
         "billNumber": "SB35",
@@ -405,7 +525,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Law enforcement and firefighter annuitants in the Wisconsin Retirement System who are rehired by a participating employer. (FE)",
-        "billDescription": "An Act to amend 40.22 (1), 40.22 (2m) (intro.), 40.22 (2r) (intro.) and 40.22 (3) (intro.); to create 40.26 (7) of the statutes; Relating to: law enforcement and firefighter annuitants in the Wisconsin Retirement System who are rehired by a participating employer. (FE)"
+        "billDescription": "An Act to amend 40.22 (1), 40.22 (2m) (intro.), 40.22 (2r) (intro.) and 40.22 (3) (intro.); to create 40.26 (7) of the statutes; Relating to: law enforcement and firefighter annuitants in the Wisconsin Retirement System who are rehired by a participating employer. (FE)",
+        "pdfFileName": "bill_3116704.pdf",
+        "txtFileName": "bill_3116704.txt"
     },
     {
         "billNumber": "SB36",
@@ -413,7 +535,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "An income tax exemption for cash tips paid to an employee. (FE)",
-        "billDescription": "An Act to repeal 71.63 (6) (n) 1. and 71.63 (6) (n) 2.; to renumber and amend 71.63 (6) (n) (intro.); to amend 71.05 (6) (b) 19. cm., 71.05 (6) (b) 19. dm., 71.05 (6) (b) 28. e., 71.05 (6) (b) 28. f., 71.05 (6) (b) 32. b., 71.05 (6) (b) 32. c., 71.05 (6) (b) 33. b., 71.05 (6) (b) 33. c., 71.05 (6) (b) 35. c., 71.05 (6) (b) 35. d., 71.05 (6) (b) 38. c., 71.05 (6) (b) 38. d., 71.05 (6) (b) 42. c., 71.05 (6) (b) 42. d. and 71.05 (6) (b) 43. f.; to create 71.05 (1) (j) of the statutes; Relating to: an income tax exemption for cash tips paid to an employee. (FE)"
+        "billDescription": "An Act to repeal 71.63 (6) (n) 1. and 71.63 (6) (n) 2.; to renumber and amend 71.63 (6) (n) (intro.); to amend 71.05 (6) (b) 19. cm., 71.05 (6) (b) 19. dm., 71.05 (6) (b) 28. e., 71.05 (6) (b) 28. f., 71.05 (6) (b) 32. b., 71.05 (6) (b) 32. c., 71.05 (6) (b) 33. b., 71.05 (6) (b) 33. c., 71.05 (6) (b) 35. c., 71.05 (6) (b) 35. d., 71.05 (6) (b) 38. c., 71.05 (6) (b) 38. d., 71.05 (6) (b) 42. c., 71.05 (6) (b) 42. d. and 71.05 (6) (b) 43. f.; to create 71.05 (1) (j) of the statutes; Relating to: an income tax exemption for cash tips paid to an employee. (FE)",
+        "pdfFileName": "bill_3116526.pdf",
+        "txtFileName": "bill_3116526.txt"
     },
     {
         "billNumber": "SB37",
@@ -421,7 +545,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Local regulation of vegetable gardens.",
-        "billDescription": "An Act to create 66.04075 of the statutes; Relating to: local regulation of vegetable gardens."
+        "billDescription": "An Act to create 66.04075 of the statutes; Relating to: local regulation of vegetable gardens.",
+        "pdfFileName": "bill_3116757.pdf",
+        "txtFileName": "bill_3116757.txt"
     },
     {
         "billNumber": "SB38",
@@ -429,7 +555,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Personalized registration plate fees for gold star family special registration plates. (FE)",
-        "billDescription": "An Act to amend 341.145 (3) of the statutes; Relating to: personalized registration plate fees for gold star family special registration plates. (FE)"
+        "billDescription": "An Act to amend 341.145 (3) of the statutes; Relating to: personalized registration plate fees for gold star family special registration plates. (FE)",
+        "pdfFileName": "bill_3116424.pdf",
+        "txtFileName": "bill_3116424.txt"
     },
     {
         "billNumber": "SB39",
@@ -437,7 +565,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Establishment of a Palliative Care Council. (FE)",
-        "billDescription": "An Act to create 15.197 (22m) and 146.695 of the statutes; Relating to: establishment of a Palliative Care Council. (FE)"
+        "billDescription": "An Act to create 15.197 (22m) and 146.695 of the statutes; Relating to: establishment of a Palliative Care Council. (FE)",
+        "pdfFileName": "bill_3116451.pdf",
+        "txtFileName": "bill_3116451.txt"
     },
     {
         "billNumber": "SB40",
@@ -445,7 +575,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Flags flown, hung, or displayed from a flagpole or the exterior of state and local buildings and eliminating a related administrative rule.",
-        "billDescription": "An Act to create 1.14 (1m) of the statutes; Relating to: flags flown, hung, or displayed from a flagpole or the exterior of state and local buildings and eliminating a related administrative rule."
+        "billDescription": "An Act to create 1.14 (1m) of the statutes; Relating to: flags flown, hung, or displayed from a flagpole or the exterior of state and local buildings and eliminating a related administrative rule.",
+        "pdfFileName": "bill_3116578.pdf",
+        "txtFileName": "bill_3116578.txt"
     },
     {
         "billNumber": "SB41",
@@ -453,7 +585,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "School safety grants and making an appropriation. (FE)",
-        "billDescription": "An Act to repeal 20.455 (2) (fc); to create 20.455 (2) (fc) of the statutes; Relating to: school safety grants and making an appropriation. (FE)"
+        "billDescription": "An Act to repeal 20.455 (2) (fc); to create 20.455 (2) (fc) of the statutes; Relating to: school safety grants and making an appropriation. (FE)",
+        "pdfFileName": "bill_3116400.pdf",
+        "txtFileName": "bill_3116400.txt"
     },
     {
         "billNumber": "SB42",
@@ -461,7 +595,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Permitting pharmacists to prescribe certain contraceptives, extending the time limit for emergency rule procedures, providing an exemption from emergency rule procedures, granting rule-making authority, and providing a penalty. (FE)",
-        "billDescription": "An Act to amend 450.095 (title) and 450.095 (3); to create 49.46 (2) (bg), 450.01 (16) (L), 450.095 (1) (ag) and (ar) and 450.095 (2m) of the statutes; Relating to: permitting pharmacists to prescribe certain contraceptives, extending the time limit for emergency rule procedures, providing an exemption from emergency rule procedures, granting rule-making authority, and providing a penalty. (FE)"
+        "billDescription": "An Act to amend 450.095 (title) and 450.095 (3); to create 49.46 (2) (bg), 450.01 (16) (L), 450.095 (1) (ag) and (ar) and 450.095 (2m) of the statutes; Relating to: permitting pharmacists to prescribe certain contraceptives, extending the time limit for emergency rule procedures, providing an exemption from emergency rule procedures, granting rule-making authority, and providing a penalty. (FE)",
+        "pdfFileName": "bill_3116477.pdf",
+        "txtFileName": "bill_3116477.txt"
     },
     {
         "billNumber": "SB43",
@@ -469,7 +605,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Allowing advanced practice nurse prescribers to pronounce the date, time, and place of a patient\u2019s death for purposes of the preparation of death records.",
-        "billDescription": "An Act to amend 69.01 (6g); to create 69.01 (1g) and 69.18 (1) (cL) of the statutes; Relating to: allowing advanced practice nurse prescribers to pronounce the date, time, and place of a patient\u2019s death for purposes of the preparation of death records."
+        "billDescription": "An Act to amend 69.01 (6g); to create 69.01 (1g) and 69.18 (1) (cL) of the statutes; Relating to: allowing advanced practice nurse prescribers to pronounce the date, time, and place of a patient\u2019s death for purposes of the preparation of death records.",
+        "pdfFileName": "bill_3116806.pdf",
+        "txtFileName": "bill_3116806.txt"
     },
     {
         "billNumber": "SB44",
@@ -477,7 +615,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Local regulation of fowl.",
-        "billDescription": "An Act to create 66.0443 of the statutes; Relating to: local regulation of fowl."
+        "billDescription": "An Act to create 66.0443 of the statutes; Relating to: local regulation of fowl.",
+        "pdfFileName": "bill_3116351.pdf",
+        "txtFileName": "bill_3116351.txt"
     },
     {
         "billNumber": "SJR8",
@@ -485,7 +625,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Proclaiming February 4, 2025, as Transit Equity Day.",
-        "billDescription": "Relating to: proclaiming February 4, 2025, as Transit Equity Day."
+        "billDescription": "Relating to: proclaiming February 4, 2025, as Transit Equity Day.",
+        "pdfFileName": "bill_3116782.pdf",
+        "txtFileName": "bill_3116782.txt"
     },
     {
         "billNumber": "SJR9",
@@ -493,7 +635,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Honoring the life and public service of Justice David T. Prosser Jr.",
-        "billDescription": "Relating to: honoring the life and public service of Justice David T. Prosser Jr."
+        "billDescription": "Relating to: honoring the life and public service of Justice David T. Prosser Jr.",
+        "pdfFileName": "bill_3116603.pdf",
+        "txtFileName": "bill_3116603.txt"
     },
     {
         "billNumber": "SJR10",
@@ -501,7 +645,9 @@
         "billStatusDate": "2025-02-12",
         "billStatus": 1,
         "billTitle": "Proclaiming February 2025 as Black History Month.",
-        "billDescription": "Relating to: proclaiming February 2025 as Black History Month."
+        "billDescription": "Relating to: proclaiming February 2025 as Black History Month.",
+        "pdfFileName": "bill_3116552.pdf",
+        "txtFileName": "bill_3116552.txt"
     },
     {
         "billNumber": "AB23",
@@ -509,7 +655,9 @@
         "billStatusDate": "2025-02-07",
         "billStatus": 1,
         "billTitle": "Establishment of a Palliative Care Council. (FE)",
-        "billDescription": "An Act to create 15.197 (22m) and 146.695 of the statutes; Relating to: establishment of a Palliative Care Council. (FE)"
+        "billDescription": "An Act to create 15.197 (22m) and 146.695 of the statutes; Relating to: establishment of a Palliative Care Council. (FE)",
+        "pdfFileName": "bill_3108553.pdf",
+        "txtFileName": "bill_3108553.txt"
     },
     {
         "billNumber": "SB27",
@@ -517,7 +665,9 @@
         "billStatusDate": "2025-02-07",
         "billStatus": 1,
         "billTitle": "Requiring state employees to perform their work at the offices of their employer. (FE)",
-        "billDescription": "An Act to create 230.35 (6) of the statutes; Relating to: requiring state employees to perform their work at the offices of their employer. (FE)"
+        "billDescription": "An Act to create 230.35 (6) of the statutes; Relating to: requiring state employees to perform their work at the offices of their employer. (FE)",
+        "pdfFileName": "bill_3109058.pdf",
+        "txtFileName": "bill_3109058.txt"
     },
     {
         "billNumber": "AB7",
@@ -525,7 +675,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Requiring local approval for certain wind and solar projects before Public Service Commission approval.",
-        "billDescription": "An Act to amend 66.0401 (1m) (intro.); to create 66.0401 (1r), 66.0401 (4) (h), 196.49 (4m) and 196.491 (3) (d) 9. of the statutes; Relating to: requiring local approval for certain wind and solar projects before Public Service Commission approval."
+        "billDescription": "An Act to amend 66.0401 (1m) (intro.); to create 66.0401 (1r), 66.0401 (4) (h), 196.49 (4m) and 196.491 (3) (d) 9. of the statutes; Relating to: requiring local approval for certain wind and solar projects before Public Service Commission approval.",
+        "pdfFileName": "bill_3104256.pdf",
+        "txtFileName": "bill_3104256.txt"
     },
     {
         "billNumber": "AB8",
@@ -533,7 +685,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Agreements for direct primary care.",
-        "billDescription": "An Act to create 146.78 and 600.01 (1) (b) 13. of the statutes; Relating to: agreements for direct primary care."
+        "billDescription": "An Act to create 146.78 and 600.01 (1) (b) 13. of the statutes; Relating to: agreements for direct primary care.",
+        "pdfFileName": "bill_3104743.pdf",
+        "txtFileName": "bill_3104743.txt"
     },
     {
         "billNumber": "AB9",
@@ -541,7 +695,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Allowing representatives of certain federally chartered youth membership organizations to provide information to pupils on public school property.",
-        "billDescription": "An Act to amend 119.04 (1); to create 118.065 of the statutes; Relating to: allowing representatives of certain federally chartered youth membership organizations to provide information to pupils on public school property."
+        "billDescription": "An Act to amend 119.04 (1); to create 118.065 of the statutes; Relating to: allowing representatives of certain federally chartered youth membership organizations to provide information to pupils on public school property.",
+        "pdfFileName": "bill_3104708.pdf",
+        "txtFileName": "bill_3104708.txt"
     },
     {
         "billNumber": "AB10",
@@ -549,7 +705,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "A sales and use tax exemption for the sale of gun safes. (FE)",
-        "billDescription": "An Act to amend 77.52 (13) and 77.53 (10); to create 77.54 (75) of the statutes; Relating to: a sales and use tax exemption for the sale of gun safes. (FE)"
+        "billDescription": "An Act to amend 77.52 (13) and 77.53 (10); to create 77.54 (75) of the statutes; Relating to: a sales and use tax exemption for the sale of gun safes. (FE)",
+        "pdfFileName": "bill_3104804.pdf",
+        "txtFileName": "bill_3104804.txt"
     },
     {
         "billNumber": "AB11",
@@ -557,7 +715,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Pelvic exams on unconscious patients and creating an administrative rule related to hospital requirements for pelvic exams on unconscious patients.",
-        "billDescription": "An Act to create 50.373 of the statutes; Relating to: pelvic exams on unconscious patients and creating an administrative rule related to hospital requirements for pelvic exams on unconscious patients."
+        "billDescription": "An Act to create 50.373 of the statutes; Relating to: pelvic exams on unconscious patients and creating an administrative rule related to hospital requirements for pelvic exams on unconscious patients.",
+        "pdfFileName": "bill_3104433.pdf",
+        "txtFileName": "bill_3104433.txt"
     },
     {
         "billNumber": "AB12",
@@ -565,7 +725,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "State agency status for certain physician assistants and advanced practice nurses who provide services without compensation for local health departments or school districts. (FE)",
-        "billDescription": "An Act to renumber and amend 251.07; to amend 165.25 (6) (c), 251.07 (title), 252.04 (9) and 895.46 (5) (b); to create 251.07 (1) and 252.01 (5) of the statutes; Relating to: state agency status for certain physician assistants and advanced practice nurses who provide services without compensation for local health departments or school districts. (FE)"
+        "billDescription": "An Act to renumber and amend 251.07; to amend 165.25 (6) (c), 251.07 (title), 252.04 (9) and 895.46 (5) (b); to create 251.07 (1) and 252.01 (5) of the statutes; Relating to: state agency status for certain physician assistants and advanced practice nurses who provide services without compensation for local health departments or school districts. (FE)",
+        "pdfFileName": "bill_3104537.pdf",
+        "txtFileName": "bill_3104537.txt"
     },
     {
         "billNumber": "AB13",
@@ -573,7 +735,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "The suspension of a rule of the Elections Commission.",
-        "billDescription": "An Act to create 5.051 of the statutes; Relating to: the suspension of a rule of the Elections Commission."
+        "billDescription": "An Act to create 5.051 of the statutes; Relating to: the suspension of a rule of the Elections Commission.",
+        "pdfFileName": "bill_3104599.pdf",
+        "txtFileName": "bill_3104599.txt"
     },
     {
         "billNumber": "AB14",
@@ -581,7 +745,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "The suspension of a rule of the Elections Commission.",
-        "billDescription": "An Act to create 5.051 of the statutes; Relating to: the suspension of a rule of the Elections Commission."
+        "billDescription": "An Act to create 5.051 of the statutes; Relating to: the suspension of a rule of the Elections Commission.",
+        "pdfFileName": "bill_3104467.pdf",
+        "txtFileName": "bill_3104467.txt"
     },
     {
         "billNumber": "AB15",
@@ -589,7 +755,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "The suspension of a rule of the Elections Commission.",
-        "billDescription": "An Act to create 5.051 of the statutes; Relating to: the suspension of a rule of the Elections Commission."
+        "billDescription": "An Act to create 5.051 of the statutes; Relating to: the suspension of a rule of the Elections Commission.",
+        "pdfFileName": "bill_3104399.pdf",
+        "txtFileName": "bill_3104399.txt"
     },
     {
         "billNumber": "AB16",
@@ -597,7 +765,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Repealing an administrative rule of the Department of Natural Resources related to the possession of firearms.",
-        "billDescription": "An Act Relating to: repealing an administrative rule of the Department of Natural Resources related to the possession of firearms."
+        "billDescription": "An Act Relating to: repealing an administrative rule of the Department of Natural Resources related to the possession of firearms.",
+        "pdfFileName": "bill_3104777.pdf",
+        "txtFileName": "bill_3104777.txt"
     },
     {
         "billNumber": "AB17",
@@ -605,7 +775,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Creating an employee ownership conversion costs tax credit, a deduction for capital gains from the transfer of a business to employee ownership, and an employee ownership education and outreach program. (FE)",
-        "billDescription": "An Act to amend 71.05 (6) (a) 15., 71.21 (4) (a), 71.26 (2) (a) 4., 71.34 (1k) (g) and 71.45 (2) (a) 10.; to create 71.05 (6) (b) 57., 71.07 (12), 71.10 (4) (em), 71.26 (2) (a) 13., 71.28 (12), 71.30 (3) (am), 71.45 (2) (a) 25., 71.47 (12), 71.49 (1) (am), 73.03 (78) and 73.03 (79) of the statutes; Relating to: creating an employee ownership conversion costs tax credit, a deduction for capital gains from the transfer of a business to employee ownership, and an employee ownership education and outreach program. (FE)"
+        "billDescription": "An Act to amend 71.05 (6) (a) 15., 71.21 (4) (a), 71.26 (2) (a) 4., 71.34 (1k) (g) and 71.45 (2) (a) 10.; to create 71.05 (6) (b) 57., 71.07 (12), 71.10 (4) (em), 71.26 (2) (a) 13., 71.28 (12), 71.30 (3) (am), 71.45 (2) (a) 25., 71.47 (12), 71.49 (1) (am), 73.03 (78) and 73.03 (79) of the statutes; Relating to: creating an employee ownership conversion costs tax credit, a deduction for capital gains from the transfer of a business to employee ownership, and an employee ownership education and outreach program. (FE)",
+        "pdfFileName": "bill_3104636.pdf",
+        "txtFileName": "bill_3104636.txt"
     },
     {
         "billNumber": "AB18",
@@ -613,7 +785,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Fee waivers for state park vehicle admission receipts to pupils with Every Kid Outdoors passes. (FE)",
-        "billDescription": "An Act to amend 27.01 (9) (bn) (title); to create 27.01 (9) (bg) of the statutes; Relating to: fee waivers for state park vehicle admission receipts to pupils with Every Kid Outdoors passes. (FE)"
+        "billDescription": "An Act to amend 27.01 (9) (bn) (title); to create 27.01 (9) (bg) of the statutes; Relating to: fee waivers for state park vehicle admission receipts to pupils with Every Kid Outdoors passes. (FE)",
+        "pdfFileName": "bill_3104501.pdf",
+        "txtFileName": "bill_3104501.txt"
     },
     {
         "billNumber": "AB19",
@@ -621,7 +795,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Increased penalties for crimes against adults at risk; restraining orders for adults at risk; freezing assets of a defendant charged with financial exploitation of an adult at risk; sexual assault of an adult at risk; and providing a penalty.",
-        "billDescription": "An Act to renumber 940.198 (1) (a) and 971.109 (1) (a); to renumber and amend 939.623 (1); to amend 343.12 (7) (c) 9j., 813.12 (5b), 813.123 (6g), 813.125 (5b), 911.01 (4) (c), 939.623 (title), 939.623 (2) (intro.), 939.623 (3), 940.198 (title), 940.198 (1) (b), 940.198 (2) (a), 940.198 (2) (b), 940.198 (2) (c), 940.198 (3) (a), 940.198 (3) (b), 940.198 (3) (c), 940.198 (4), 971.109 (title), 971.109 (2) (a) and 971.109 (2) (c); and to create 813.12 (1) (ab), 813.125 (1) (am) 2., 939.623 (1) (b), 940.198 (1) (ag), 940.225 (1) (e) and 971.109 (1) (ac) of the statutes; Relating to: increased penalties for crimes against adults at risk; restraining orders for adults at risk; freezing assets of a defendant charged with financial exploitation of an adult at risk; sexual assault of an adult at risk; and providing a penalty."
+        "billDescription": "An Act to renumber 940.198 (1) (a) and 971.109 (1) (a); to renumber and amend 939.623 (1); to amend 343.12 (7) (c) 9j., 813.12 (5b), 813.123 (6g), 813.125 (5b), 911.01 (4) (c), 939.623 (title), 939.623 (2) (intro.), 939.623 (3), 940.198 (title), 940.198 (1) (b), 940.198 (2) (a), 940.198 (2) (b), 940.198 (2) (c), 940.198 (3) (a), 940.198 (3) (b), 940.198 (3) (c), 940.198 (4), 971.109 (title), 971.109 (2) (a) and 971.109 (2) (c); and to create 813.12 (1) (ab), 813.125 (1) (am) 2., 939.623 (1) (b), 940.198 (1) (ag), 940.225 (1) (e) and 971.109 (1) (ac) of the statutes; Relating to: increased penalties for crimes against adults at risk; restraining orders for adults at risk; freezing assets of a defendant charged with financial exploitation of an adult at risk; sexual assault of an adult at risk; and providing a penalty.",
+        "pdfFileName": "bill_3104325.pdf",
+        "txtFileName": "bill_3104325.txt"
     },
     {
         "billNumber": "AB20",
@@ -629,7 +805,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Allowing certain married persons to claim the earned income tax credit when filing a separate return. (FE)",
-        "billDescription": "An Act to amend 71.07 (9e) (b); to create 71.07 (9e) (ar) of the statutes; Relating to: allowing certain married persons to claim the earned income tax credit when filing a separate return. (FE)"
+        "billDescription": "An Act to amend 71.07 (9e) (b); to create 71.07 (9e) (ar) of the statutes; Relating to: allowing certain married persons to claim the earned income tax credit when filing a separate return. (FE)",
+        "pdfFileName": "bill_3104672.pdf",
+        "txtFileName": "bill_3104672.txt"
     },
     {
         "billNumber": "AB21",
@@ -637,7 +815,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Technical colleges\u2019 lease of their facilities to others. (FE)",
-        "billDescription": "An Act to amend 38.14 (2) (d) 1. of the statutes; Relating to: technical colleges\u2019 lease of their facilities to others. (FE)"
+        "billDescription": "An Act to amend 38.14 (2) (d) 1. of the statutes; Relating to: technical colleges\u2019 lease of their facilities to others. (FE)",
+        "pdfFileName": "bill_3104291.pdf",
+        "txtFileName": "bill_3104291.txt"
     },
     {
         "billNumber": "AB22",
@@ -645,7 +825,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Limitations on the total value of taxable property that may be included in, and the lifespan of, a tax incremental financing district created in the city of Middleton. (FE)",
-        "billDescription": "An Act to create 66.1105 (6) (g) 7. and 66.1105 (17) (h) of the statutes; Relating to: limitations on the total value of taxable property that may be included in, and the lifespan of, a tax incremental financing district created in the city of Middleton. (FE)"
+        "billDescription": "An Act to create 66.1105 (6) (g) 7. and 66.1105 (17) (h) of the statutes; Relating to: limitations on the total value of taxable property that may be included in, and the lifespan of, a tax incremental financing district created in the city of Middleton. (FE)",
+        "pdfFileName": "bill_3104361.pdf",
+        "txtFileName": "bill_3104361.txt"
     },
     {
         "billNumber": "AJR3",
@@ -653,7 +835,9 @@
         "billStatusDate": "2025-02-06",
         "billStatus": 1,
         "billTitle": "Proclaiming January 2025 as Human Trafficking Awareness and Prevention Month in the state of Wisconsin.",
-        "billDescription": "Relating to: proclaiming January 2025 as Human Trafficking Awareness and Prevention Month in the state of Wisconsin."
+        "billDescription": "Relating to: proclaiming January 2025 as Human Trafficking Awareness and Prevention Month in the state of Wisconsin.",
+        "pdfFileName": "bill_3104567.pdf",
+        "txtFileName": "bill_3104567.txt"
     },
     {
         "billNumber": "SB15",
@@ -661,7 +845,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Increased penalties for crimes against adults at risk; restraining orders for adults at risk; freezing assets of a defendant charged with financial exploitation of an adult at risk; sexual assault of an adult at risk; and providing a penalty.",
-        "billDescription": "An Act to renumber 940.198 (1) (a) and 971.109 (1) (a); to renumber and amend 939.623 (1); to amend 343.12 (7) (c) 9j., 813.12 (5b), 813.123 (6g), 813.125 (5b), 911.01 (4) (c), 939.623 (title), 939.623 (2) (intro.), 939.623 (3), 940.198 (title), 940.198 (1) (b), 940.198 (2) (a), 940.198 (2) (b), 940.198 (2) (c), 940.198 (3) (a), 940.198 (3) (b), 940.198 (3) (c), 940.198 (4), 971.109 (title), 971.109 (2) (a) and 971.109 (2) (c); and to create 813.12 (1) (ab), 813.125 (1) (am) 2., 939.623 (1) (b), 940.198 (1) (ag), 940.225 (1) (e) and 971.109 (1) (ac) of the statutes; Relating to: increased penalties for crimes against adults at risk; restraining orders for adults at risk; freezing assets of a defendant charged with financial exploitation of an adult at risk; sexual assault of an adult at risk; and providing a penalty."
+        "billDescription": "An Act to renumber 940.198 (1) (a) and 971.109 (1) (a); to renumber and amend 939.623 (1); to amend 343.12 (7) (c) 9j., 813.12 (5b), 813.123 (6g), 813.125 (5b), 911.01 (4) (c), 939.623 (title), 939.623 (2) (intro.), 939.623 (3), 940.198 (title), 940.198 (1) (b), 940.198 (2) (a), 940.198 (2) (b), 940.198 (2) (c), 940.198 (3) (a), 940.198 (3) (b), 940.198 (3) (c), 940.198 (4), 971.109 (title), 971.109 (2) (a) and 971.109 (2) (c); and to create 813.12 (1) (ab), 813.125 (1) (am) 2., 939.623 (1) (b), 940.198 (1) (ag), 940.225 (1) (e) and 971.109 (1) (ac) of the statutes; Relating to: increased penalties for crimes against adults at risk; restraining orders for adults at risk; freezing assets of a defendant charged with financial exploitation of an adult at risk; sexual assault of an adult at risk; and providing a penalty.",
+        "pdfFileName": "bill_3101231.pdf",
+        "txtFileName": "bill_3101231.txt"
     },
     {
         "billNumber": "SB16",
@@ -669,7 +855,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Participation in interscholastic athletics and application of the public records and open meetings laws to interscholastic athletic associations.",
-        "billDescription": "An Act to amend 19.32 (1) and 19.82 (1); to create 19.32 (1db), 19.36 (17) and (18), 19.82 (1m) and 118.1335 of the statutes; Relating to: participation in interscholastic athletics and application of the public records and open meetings laws to interscholastic athletic associations."
+        "billDescription": "An Act to amend 19.32 (1) and 19.82 (1); to create 19.32 (1db), 19.36 (17) and (18), 19.82 (1m) and 118.1335 of the statutes; Relating to: participation in interscholastic athletics and application of the public records and open meetings laws to interscholastic athletic associations.",
+        "pdfFileName": "bill_3101003.pdf",
+        "txtFileName": "bill_3101003.txt"
     },
     {
         "billNumber": "SB17",
@@ -677,7 +865,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Special circumstances battery to a community service officer and providing a penalty.",
-        "billDescription": "An Act to amend 940.203 (2) (intro.), (a) and (b) of the statutes; Relating to: special circumstances battery to a community service officer and providing a penalty."
+        "billDescription": "An Act to amend 940.203 (2) (intro.), (a) and (b) of the statutes; Relating to: special circumstances battery to a community service officer and providing a penalty.",
+        "pdfFileName": "bill_3101058.pdf",
+        "txtFileName": "bill_3101058.txt"
     },
     {
         "billNumber": "SB18",
@@ -685,7 +875,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Changes to the educational assessment program and the school and school district accountability report. (FE)",
-        "billDescription": "An Act to renumber and amend 115.385 (1) (b); to amend 115.385 (1) (c); to create 115.385 (1) (b) 2m. and 118.30 (1j) of the statutes; Relating to: changes to the educational assessment program and the school and school district accountability report. (FE)"
+        "billDescription": "An Act to renumber and amend 115.385 (1) (b); to amend 115.385 (1) (c); to create 115.385 (1) (b) 2m. and 118.30 (1j) of the statutes; Relating to: changes to the educational assessment program and the school and school district accountability report. (FE)",
+        "pdfFileName": "bill_3100974.pdf",
+        "txtFileName": "bill_3100974.txt"
     },
     {
         "billNumber": "SB19",
@@ -693,7 +885,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Fee waivers for state park vehicle admission receipts to pupils with Every Kid Outdoors passes. (FE)",
-        "billDescription": "An Act to amend 27.01 (9) (bn) (title); to create 27.01 (9) (bg) of the statutes; Relating to: fee waivers for state park vehicle admission receipts to pupils with Every Kid Outdoors passes. (FE)"
+        "billDescription": "An Act to amend 27.01 (9) (bn) (title); to create 27.01 (9) (bg) of the statutes; Relating to: fee waivers for state park vehicle admission receipts to pupils with Every Kid Outdoors passes. (FE)",
+        "pdfFileName": "bill_3101172.pdf",
+        "txtFileName": "bill_3101172.txt"
     },
     {
         "billNumber": "SB20",
@@ -701,7 +895,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Allowing certain married persons to claim the earned income tax credit when filing a separate return. (FE)",
-        "billDescription": "An Act to amend 71.07 (9e) (b); to create 71.07 (9e) (ar) of the statutes; Relating to: allowing certain married persons to claim the earned income tax credit when filing a separate return. (FE)"
+        "billDescription": "An Act to amend 71.07 (9e) (b); to create 71.07 (9e) (ar) of the statutes; Relating to: allowing certain married persons to claim the earned income tax credit when filing a separate return. (FE)",
+        "pdfFileName": "bill_3101201.pdf",
+        "txtFileName": "bill_3101201.txt"
     },
     {
         "billNumber": "SB21",
@@ -709,7 +905,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Creating an employee ownership conversion costs tax credit, a deduction for capital gains from the transfer of a business to employee ownership, and an employee ownership education and outreach program. (FE)",
-        "billDescription": "An Act to amend 71.05 (6) (a) 15., 71.21 (4) (a), 71.26 (2) (a) 4., 71.34 (1k) (g) and 71.45 (2) (a) 10.; to create 71.05 (6) (b) 57., 71.07 (12), 71.10 (4) (em), 71.26 (2) (a) 13., 71.28 (12), 71.30 (3) (am), 71.45 (2) (a) 25., 71.47 (12), 71.49 (1) (am), 73.03 (78) and 73.03 (79) of the statutes; Relating to: creating an employee ownership conversion costs tax credit, a deduction for capital gains from the transfer of a business to employee ownership, and an employee ownership education and outreach program. (FE)"
+        "billDescription": "An Act to amend 71.05 (6) (a) 15., 71.21 (4) (a), 71.26 (2) (a) 4., 71.34 (1k) (g) and 71.45 (2) (a) 10.; to create 71.05 (6) (b) 57., 71.07 (12), 71.10 (4) (em), 71.26 (2) (a) 13., 71.28 (12), 71.30 (3) (am), 71.45 (2) (a) 25., 71.47 (12), 71.49 (1) (am), 73.03 (78) and 73.03 (79) of the statutes; Relating to: creating an employee ownership conversion costs tax credit, a deduction for capital gains from the transfer of a business to employee ownership, and an employee ownership education and outreach program. (FE)",
+        "pdfFileName": "bill_3101296.pdf",
+        "txtFileName": "bill_3101296.txt"
     },
     {
         "billNumber": "SB22",
@@ -717,7 +915,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Requiring school boards to make textbooks, curricula, and instructional materials available for inspection by school district residents.",
-        "billDescription": "An Act to amend 118.03 (1) and 118.03 (4); to create 118.03 (1m) and 118.032 of the statutes; Relating to: requiring school boards to make textbooks, curricula, and instructional materials available for inspection by school district residents."
+        "billDescription": "An Act to amend 118.03 (1) and 118.03 (4); to create 118.03 (1m) and 118.032 of the statutes; Relating to: requiring school boards to make textbooks, curricula, and instructional materials available for inspection by school district residents.",
+        "pdfFileName": "bill_3100912.pdf",
+        "txtFileName": "bill_3100912.txt"
     },
     {
         "billNumber": "SB23",
@@ -725,7 +925,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Extension of eligibility under the Medical Assistance program for postpartum women. (FE)",
-        "billDescription": "An Act to amend 49.46 (1) (a) 1m., 49.46 (1) (j), 49.47 (4) (ag) 2., 49.471 (6) (b) and 49.471 (7) (b) 1. of the statutes; Relating to: extension of eligibility under the Medical Assistance program for postpartum women. (FE)"
+        "billDescription": "An Act to amend 49.46 (1) (a) 1m., 49.46 (1) (j), 49.47 (4) (ag) 2., 49.471 (6) (b) and 49.471 (7) (b) 1. of the statutes; Relating to: extension of eligibility under the Medical Assistance program for postpartum women. (FE)",
+        "pdfFileName": "bill_3101086.pdf",
+        "txtFileName": "bill_3101086.txt"
     },
     {
         "billNumber": "SB24",
@@ -733,7 +935,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Limitations on the total value of taxable property that may be included in, and the lifespan of, a tax incremental financing district created in the city of Middleton. (FE)",
-        "billDescription": "An Act to create 66.1105 (6) (g) 7. and 66.1105 (17) (h) of the statutes; Relating to: limitations on the total value of taxable property that may be included in, and the lifespan of, a tax incremental financing district created in the city of Middleton. (FE)"
+        "billDescription": "An Act to create 66.1105 (6) (g) 7. and 66.1105 (17) (h) of the statutes; Relating to: limitations on the total value of taxable property that may be included in, and the lifespan of, a tax incremental financing district created in the city of Middleton. (FE)",
+        "pdfFileName": "bill_3101113.pdf",
+        "txtFileName": "bill_3101113.txt"
     },
     {
         "billNumber": "SB25",
@@ -741,7 +945,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Court-issued criminal complaints in officer-involved deaths.",
-        "billDescription": "An Act to renumber 968.02 (3) and 968.26 (2) (d); to create 968.02 (3) (b) and 968.26 (2) (d) 2. of the statutes; Relating to: court-issued criminal complaints in officer-involved deaths."
+        "billDescription": "An Act to renumber 968.02 (3) and 968.26 (2) (d); to create 968.02 (3) (b) and 968.26 (2) (d) 2. of the statutes; Relating to: court-issued criminal complaints in officer-involved deaths.",
+        "pdfFileName": "bill_3101144.pdf",
+        "txtFileName": "bill_3101144.txt"
     },
     {
         "billNumber": "SB26",
@@ -749,7 +955,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Technical colleges\u2019 lease of their facilities to others. (FE)",
-        "billDescription": "An Act to amend 38.14 (2) (d) 1. of the statutes; Relating to: technical colleges\u2019 lease of their facilities to others. (FE)"
+        "billDescription": "An Act to amend 38.14 (2) (d) 1. of the statutes; Relating to: technical colleges\u2019 lease of their facilities to others. (FE)",
+        "pdfFileName": "bill_3101531.pdf",
+        "txtFileName": "bill_3101531.txt"
     },
     {
         "billNumber": "SJR4",
@@ -757,7 +965,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "The freedom to gather in places of worship during a state of emergency (second consideration).",
-        "billDescription": "To amend section 18 of article I of the constitution; Relating to: the freedom to gather in places of worship during a state of emergency (second consideration)."
+        "billDescription": "To amend section 18 of article I of the constitution; Relating to: the freedom to gather in places of worship during a state of emergency (second consideration).",
+        "pdfFileName": "bill_3101321.pdf",
+        "txtFileName": "bill_3101321.txt"
     },
     {
         "billNumber": "SJR5",
@@ -765,7 +975,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Celebrating the 51st anniversary of the American Birkebeiner and proclaiming February 17 to 23, 2025, as American Birkebeiner Week in Wisconsin.",
-        "billDescription": "Relating to: celebrating the 51st anniversary of the American Birkebeiner and proclaiming February 17 to 23, 2025, as American Birkebeiner Week in Wisconsin."
+        "billDescription": "Relating to: celebrating the 51st anniversary of the American Birkebeiner and proclaiming February 17 to 23, 2025, as American Birkebeiner Week in Wisconsin.",
+        "pdfFileName": "bill_3100939.pdf",
+        "txtFileName": "bill_3100939.txt"
     },
     {
         "billNumber": "SJR6",
@@ -773,7 +985,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Honoring the life and enduring legacy of Robert George Uecker.",
-        "billDescription": "Relating to: honoring the life and enduring legacy of Robert George Uecker."
+        "billDescription": "Relating to: honoring the life and enduring legacy of Robert George Uecker.",
+        "pdfFileName": "bill_3101033.pdf",
+        "txtFileName": "bill_3101033.txt"
     },
     {
         "billNumber": "SJR7",
@@ -781,7 +995,9 @@
         "billStatusDate": "2025-02-05",
         "billStatus": 1,
         "billTitle": "Recognizing that the Wisconsin State Legislature supports nuclear power and fusion energy as clean energy sources that are critical to safely meeting Wisconsin\u2019s growing energy demands and declaring the legislature\u2019s commitment to the continuation and expansion of nuclear power and nuclear technologies, the development of nuclear technologies and fusion energy, and employing the leadership and resources necessary to support the development of and investment in nuclear power, fusion energy, and related technologies in the state.",
-        "billDescription": "Relating to: recognizing that the Wisconsin State Legislature supports nuclear power and fusion energy as clean energy sources that are critical to safely meeting Wisconsin\u2019s growing energy demands and declaring the legislature\u2019s commitment to the continuation and expansion of nuclear power and nuclear technologies, the development of nuclear technologies and fusion energy, and employing the leadership and resources necessary to support the development of and investment in nuclear power, fusion energy, and related technologies in the state."
+        "billDescription": "Relating to: recognizing that the Wisconsin State Legislature supports nuclear power and fusion energy as clean energy sources that are critical to safely meeting Wisconsin\u2019s growing energy demands and declaring the legislature\u2019s commitment to the continuation and expansion of nuclear power and nuclear technologies, the development of nuclear technologies and fusion energy, and employing the leadership and resources necessary to support the development of and investment in nuclear power, fusion energy, and related technologies in the state.",
+        "pdfFileName": "bill_3101265.pdf",
+        "txtFileName": "bill_3101265.txt"
     },
     {
         "billNumber": "SB10",
@@ -789,7 +1005,9 @@
         "billStatusDate": "2025-02-03",
         "billStatus": 1,
         "billTitle": "Access to public high schools for military recruiters.",
-        "billDescription": "An Act to amend 119.04 (1); to create 118.40 (4) (ar) 3. and 120.12 (29) of the statutes; Relating to: access to public high schools for military recruiters."
+        "billDescription": "An Act to amend 119.04 (1); to create 118.40 (4) (ar) 3. and 120.12 (29) of the statutes; Relating to: access to public high schools for military recruiters.",
+        "pdfFileName": "bill_3096019.pdf",
+        "txtFileName": "bill_3096019.txt"
     },
     {
         "billNumber": "SB11",
@@ -797,7 +1015,9 @@
         "billStatusDate": "2025-02-03",
         "billStatus": 1,
         "billTitle": "Allowing representatives of certain federally chartered youth membership organizations to provide information to pupils on public school property.",
-        "billDescription": "An Act to amend 119.04 (1); to create 118.065 of the statutes; Relating to: allowing representatives of certain federally chartered youth membership organizations to provide information to pupils on public school property."
+        "billDescription": "An Act to amend 119.04 (1); to create 118.065 of the statutes; Relating to: allowing representatives of certain federally chartered youth membership organizations to provide information to pupils on public school property.",
+        "pdfFileName": "bill_3095654.pdf",
+        "txtFileName": "bill_3095654.txt"
     },
     {
         "billNumber": "SB12",
@@ -805,7 +1025,9 @@
         "billStatusDate": "2025-02-03",
         "billStatus": 1,
         "billTitle": "A sales and use tax exemption for the sale of gun safes. (FE)",
-        "billDescription": "An Act to amend 77.52 (13) and 77.53 (10); to create 77.54 (75) of the statutes; Relating to: a sales and use tax exemption for the sale of gun safes. (FE)"
+        "billDescription": "An Act to amend 77.52 (13) and 77.53 (10); to create 77.54 (75) of the statutes; Relating to: a sales and use tax exemption for the sale of gun safes. (FE)",
+        "pdfFileName": "bill_3095799.pdf",
+        "txtFileName": "bill_3095799.txt"
     },
     {
         "billNumber": "SB13",
@@ -813,7 +1035,9 @@
         "billStatusDate": "2025-02-03",
         "billStatus": 1,
         "billTitle": "Incorporating cursive writing into the state model English language arts standards and requiring cursive writing in elementary grades. (FE)",
-        "billDescription": "An Act to create 115.28 (55p), 118.40 (2r) (b) 2. m., 118.40 (2x) (b) 2. m., 118.60 (2) (a) 10., 119.23 (2) (a) 10. and 121.02 (1) (k) 4. of the statutes; Relating to: incorporating cursive writing into the state model English language arts standards and requiring cursive writing in elementary grades. (FE)"
+        "billDescription": "An Act to create 115.28 (55p), 118.40 (2r) (b) 2. m., 118.40 (2x) (b) 2. m., 118.60 (2) (a) 10., 119.23 (2) (a) 10. and 121.02 (1) (k) 4. of the statutes; Relating to: incorporating cursive writing into the state model English language arts standards and requiring cursive writing in elementary grades. (FE)",
+        "pdfFileName": "bill_3095726.pdf",
+        "txtFileName": "bill_3095726.txt"
     },
     {
         "billNumber": "SB14",
@@ -821,7 +1045,9 @@
         "billStatusDate": "2025-02-03",
         "billStatus": 1,
         "billTitle": "Pelvic exams on unconscious patients and creating an administrative rule related to hospital requirements for pelvic exams on unconscious patients.",
-        "billDescription": "An Act to create 50.373 of the statutes; Relating to: pelvic exams on unconscious patients and creating an administrative rule related to hospital requirements for pelvic exams on unconscious patients."
+        "billDescription": "An Act to create 50.373 of the statutes; Relating to: pelvic exams on unconscious patients and creating an administrative rule related to hospital requirements for pelvic exams on unconscious patients.",
+        "pdfFileName": "bill_3095873.pdf",
+        "txtFileName": "bill_3095873.txt"
     },
     {
         "billNumber": "SJR3",
@@ -829,7 +1055,9 @@
         "billStatusDate": "2025-02-03",
         "billStatus": 1,
         "billTitle": "Proclaiming January 2025 as Human Trafficking Awareness and Prevention Month in the state of Wisconsin.",
-        "billDescription": "Relating to: proclaiming January 2025 as Human Trafficking Awareness and Prevention Month in the state of Wisconsin."
+        "billDescription": "Relating to: proclaiming January 2025 as Human Trafficking Awareness and Prevention Month in the state of Wisconsin.",
+        "pdfFileName": "bill_3095947.pdf",
+        "txtFileName": "bill_3095947.txt"
     },
     {
         "billNumber": "SB2",
@@ -837,7 +1065,9 @@
         "billStatusDate": "2025-01-24",
         "billStatus": 1,
         "billTitle": "Expanding veterans benefits to individuals who served in Laos in support of the United States during the Vietnam War.",
-        "billDescription": "An Act to amend 45.44 (3) (c) (intro.) and 45.51 (2) (a) 1.; to create 36.27 (2) (b) 5., 36.27 (3p) (a) 1r. g., 38.24 (8) (a) 1r. g. and 45.01 (12) (fm) of the statutes; Relating to: expanding veterans benefits to individuals who served in Laos in support of the United States during the Vietnam War."
+        "billDescription": "An Act to amend 45.44 (3) (c) (intro.) and 45.51 (2) (a) 1.; to create 36.27 (2) (b) 5., 36.27 (3p) (a) 1r. g., 38.24 (8) (a) 1r. g. and 45.01 (12) (fm) of the statutes; Relating to: expanding veterans benefits to individuals who served in Laos in support of the United States during the Vietnam War.",
+        "pdfFileName": "bill_3082231.pdf",
+        "txtFileName": "bill_3082231.txt"
     },
     {
         "billNumber": "SB3",
@@ -845,7 +1075,9 @@
         "billStatusDate": "2025-01-24",
         "billStatus": 1,
         "billTitle": "Requiring local approval for certain wind and solar projects before Public Service Commission approval.",
-        "billDescription": "An Act to amend 66.0401 (1m) (intro.); to create 66.0401 (1r), 66.0401 (4) (h), 196.49 (4m) and 196.491 (3) (d) 9. of the statutes; Relating to: requiring local approval for certain wind and solar projects before Public Service Commission approval."
+        "billDescription": "An Act to amend 66.0401 (1m) (intro.); to create 66.0401 (1r), 66.0401 (4) (h), 196.49 (4m) and 196.491 (3) (d) 9. of the statutes; Relating to: requiring local approval for certain wind and solar projects before Public Service Commission approval.",
+        "pdfFileName": "bill_3080926.pdf",
+        "txtFileName": "bill_3080926.txt"
     },
     {
         "billNumber": "SB4",
@@ -853,7 +1085,9 @@
         "billStatusDate": "2025-01-24",
         "billStatus": 1,
         "billTitle": "Agreements for direct primary care.",
-        "billDescription": "An Act to create 146.78 and 600.01 (1) (b) 13. of the statutes; Relating to: agreements for direct primary care."
+        "billDescription": "An Act to create 146.78 and 600.01 (1) (b) 13. of the statutes; Relating to: agreements for direct primary care.",
+        "pdfFileName": "bill_3080742.pdf",
+        "txtFileName": "bill_3080742.txt"
     },
     {
         "billNumber": "SB5",
@@ -861,7 +1095,9 @@
         "billStatusDate": "2025-01-24",
         "billStatus": 1,
         "billTitle": "Battery or threat to jurors and providing a penalty.",
-        "billDescription": "An Act to renumber and amend 940.20 (3) (title) and 940.20 (3); to amend 48.685 (2) (bb), 48.685 (5) (bm) 4., 48.686 (1) (c) 9., 48.686 (1) (c) 12., 48.686 (2) (bb), 50.065 (2) (bb), 165.70 (1) (b), 165.84 (7) (ab) 2., 301.048 (2) (bm) 1. a., 767.461 (4), 940.03, 941.29 (1g) (a), 941.291 (1) (b), 941.39 (title), 946.82 (4), 949.03 (2), 968.26 (1b) (a) 2. a., 969.08 (10) (b), 973.049 (2) and 973.123 (1); to create 939.22 (21) (es), 940.202 (1) and (3) and 941.38 (1) (b) 5s. of the statutes; Relating to: battery or threat to jurors and providing a penalty."
+        "billDescription": "An Act to renumber and amend 940.20 (3) (title) and 940.20 (3); to amend 48.685 (2) (bb), 48.685 (5) (bm) 4., 48.686 (1) (c) 9., 48.686 (1) (c) 12., 48.686 (2) (bb), 50.065 (2) (bb), 165.70 (1) (b), 165.84 (7) (ab) 2., 301.048 (2) (bm) 1. a., 767.461 (4), 940.03, 941.29 (1g) (a), 941.291 (1) (b), 941.39 (title), 946.82 (4), 949.03 (2), 968.26 (1b) (a) 2. a., 969.08 (10) (b), 973.049 (2) and 973.123 (1); to create 939.22 (21) (es), 940.202 (1) and (3) and 941.38 (1) (b) 5s. of the statutes; Relating to: battery or threat to jurors and providing a penalty.",
+        "pdfFileName": "bill_3081177.pdf",
+        "txtFileName": "bill_3081177.txt"
     },
     {
         "billNumber": "SB6",
@@ -869,7 +1105,9 @@
         "billStatusDate": "2025-01-24",
         "billStatus": 1,
         "billTitle": "Impoundment of vehicles used in certain traffic offenses.",
-        "billDescription": "An Act to create 345.13 of the statutes; Relating to: impoundment of vehicles used in certain traffic offenses."
+        "billDescription": "An Act to create 345.13 of the statutes; Relating to: impoundment of vehicles used in certain traffic offenses.",
+        "pdfFileName": "bill_3080683.pdf",
+        "txtFileName": "bill_3080683.txt"
     },
     {
         "billNumber": "SB7",
@@ -877,7 +1115,9 @@
         "billStatusDate": "2025-01-24",
         "billStatus": 1,
         "billTitle": "Prohibiting a foreign adversary from acquiring agricultural or forestry land in this state.",
-        "billDescription": "An Act to renumber and amend 710.02 (1) and 710.02 (9); to amend 710.02 (2) (intro.), 710.02 (3), 710.02 (5) (a) (intro.), 710.02 (5) (a) 1., 710.02 (5) (a) 2. and 710.02 (6); and to create 710.02 (1g), 710.02 (1r) (d) and 710.02 (9) (b) of the statutes; Relating to: prohibiting a foreign adversary from acquiring agricultural or forestry land in this state."
+        "billDescription": "An Act to renumber and amend 710.02 (1) and 710.02 (9); to amend 710.02 (2) (intro.), 710.02 (3), 710.02 (5) (a) (intro.), 710.02 (5) (a) 1., 710.02 (5) (a) 2. and 710.02 (6); and to create 710.02 (1g), 710.02 (1r) (d) and 710.02 (9) (b) of the statutes; Relating to: prohibiting a foreign adversary from acquiring agricultural or forestry land in this state.",
+        "pdfFileName": "bill_3080889.pdf",
+        "txtFileName": "bill_3080889.txt"
     },
     {
         "billNumber": "SB8",
@@ -885,7 +1125,9 @@
         "billStatusDate": "2025-01-24",
         "billStatus": 1,
         "billTitle": "Repair and replacement of implements of husbandry under warranty.",
-        "billDescription": "An Act to create subchapter XI of chapter 218 [precedes 218.60] of the statutes; Relating to: repair and replacement of implements of husbandry under warranty."
+        "billDescription": "An Act to create subchapter XI of chapter 218 [precedes 218.60] of the statutes; Relating to: repair and replacement of implements of husbandry under warranty.",
+        "pdfFileName": "bill_3080792.pdf",
+        "txtFileName": "bill_3080792.txt"
     },
     {
         "billNumber": "SB9",
@@ -893,7 +1135,9 @@
         "billStatusDate": "2025-01-24",
         "billStatus": 1,
         "billTitle": "Special registration plates with white lettering on a black background. (FE)",
-        "billDescription": "An Act to amend 341.14 (6r) (e) and 341.14 (6r) (fm) 7.; to create 341.14 (6r) (b) 23., 341.14 (6r) (cm) and 341.14 (6r) (f) 70. of the statutes; Relating to: special registration plates with white lettering on a black background. (FE)"
+        "billDescription": "An Act to amend 341.14 (6r) (e) and 341.14 (6r) (fm) 7.; to create 341.14 (6r) (b) 23., 341.14 (6r) (cm) and 341.14 (6r) (f) 70. of the statutes; Relating to: special registration plates with white lettering on a black background. (FE)",
+        "pdfFileName": "bill_3082233.pdf",
+        "txtFileName": "bill_3082233.txt"
     },
     {
         "billNumber": "SJR2",
@@ -901,7 +1145,9 @@
         "billStatusDate": "2025-01-14",
         "billStatus": 4,
         "billTitle": "Requiring photographic identification to vote in any election (second consideration).",
-        "billDescription": "To create section 1m of article III of the constitution; Relating to: requiring photographic identification to vote in any election (second consideration)."
+        "billDescription": "To create section 1m of article III of the constitution; Relating to: requiring photographic identification to vote in any election (second consideration).",
+        "pdfFileName": "bill_3040432.pdf",
+        "txtFileName": "bill_3040432.txt"
     },
     {
         "billNumber": "SJR1",
@@ -909,7 +1155,9 @@
         "billStatusDate": "2025-01-09",
         "billStatus": 4,
         "billTitle": "The session schedule for the 2025-2026 biennial session period.",
-        "billDescription": "Relating to: the session schedule for the 2025-2026 biennial session period."
+        "billDescription": "Relating to: the session schedule for the 2025-2026 biennial session period.",
+        "pdfFileName": "bill_3039848.pdf",
+        "txtFileName": "bill_3039848.txt"
     },
     {
         "billNumber": "AR1",
@@ -917,7 +1165,9 @@
         "billStatusDate": "2025-01-06",
         "billStatus": 4,
         "billTitle": "Notifying the senate and the governor that the 2025-2026 assembly is organized.",
-        "billDescription": "Relating to: notifying the senate and the governor that the 2025-2026 assembly is organized."
+        "billDescription": "Relating to: notifying the senate and the governor that the 2025-2026 assembly is organized.",
+        "pdfFileName": "bill_3039921.pdf",
+        "txtFileName": "bill_3039921.txt"
     },
     {
         "billNumber": "AR2",
@@ -925,7 +1175,9 @@
         "billStatusDate": "2025-01-06",
         "billStatus": 4,
         "billTitle": "Establishing the assembly committee structure and names for the 2025-2026 legislative session.",
-        "billDescription": "To repeal and recreate assembly rule 9 (1); Relating to: establishing the assembly committee structure and names for the 2025-2026 legislative session."
+        "billDescription": "To repeal and recreate assembly rule 9 (1); Relating to: establishing the assembly committee structure and names for the 2025-2026 legislative session.",
+        "pdfFileName": "bill_3039704.pdf",
+        "txtFileName": "bill_3039704.txt"
     },
     {
         "billNumber": "AJR1",
@@ -933,7 +1185,9 @@
         "billStatusDate": "2025-01-06",
         "billStatus": 1,
         "billTitle": "Requiring photographic identification to vote in any election (second consideration).",
-        "billDescription": "To create section 1m of article III of the constitution; Relating to: requiring photographic identification to vote in any election (second consideration)."
+        "billDescription": "To create section 1m of article III of the constitution; Relating to: requiring photographic identification to vote in any election (second consideration).",
+        "pdfFileName": "bill_3040434.pdf",
+        "txtFileName": "bill_3040434.txt"
     },
     {
         "billNumber": "SR1",
@@ -941,14 +1195,8 @@
         "billStatusDate": "2025-01-06",
         "billStatus": 4,
         "billTitle": "Notifying the assembly and the governor that the 2025-2026 senate is organized.",
-        "billDescription": "Relating to: notifying the assembly and the governor that the 2025-2026 senate is organized."
-    },
-    {
-        "billNumber": "UNKNOWN",
-        "billId": "UNKNOWN",
-        "billStatusDate": "UNKNOWN",
-        "billStatus": "UNKNOWN",
-        "billTitle": "UNKNOWN",
-        "billDescription": "UNKNOWN"
+        "billDescription": "Relating to: notifying the assembly and the governor that the 2025-2026 senate is organized.",
+        "pdfFileName": "bill_3039142.pdf",
+        "txtFileName": "bill_3039142.txt"
     }
 ]
