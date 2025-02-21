@@ -26,6 +26,7 @@ SET default_table_access_method = heap;
 --
 
 CREATE TABLE public.bills (
+<<<<<<< HEAD
     billnumber character varying(255),
     billid integer NOT NULL,
     billstatusdate date,
@@ -33,7 +34,17 @@ CREATE TABLE public.bills (
     billtitle text,
     billdescription text,
     aisummary text
+=======
+    billnumber VARCHAR(50),   
+    billid INTEGER PRIMARY KEY,  
+    billstatusdate DATE,
+    billstatus INTEGER,
+    billtitle TEXT, 
+    billdescription TEXT,  
+    aisummary TEXT  
+>>>>>>> 9e52c49 (linked scraped data to database)
 );
+
 
 
 ALTER TABLE public.bills OWNER TO juaneulogio;
