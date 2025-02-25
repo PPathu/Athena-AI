@@ -1,0 +1,203 @@
+2025 - 2026  LEGISLATURELRB-1667/1
+EHS:skw
+2025 SENATE BILL 28
+February 12, 2025 - Introduced by Senator LEMAHIEU , cosponsored by 
+Representative PETERSEN . Referred to Committee on Utilities and Tourism. 
+ 
+  ***AUTHORS SUBJECT TO CHANGE***
+AN ACT to repeal  196.485 (1) (cr), 196.485 (1) (ef) and 196.485 (3g); to create  
+196.485 (1) (cr), 196.485 (1) (ef) and 196.485 (3g) of the statutes; relating to:  
+an incumbent transmission facility owner [s right to construct, own, and 
+maintain certain transmission facilities and Public Service Commission 
+procedures if the transmission facility is a regionally cost-shared transmission 
+line.
+Analysis by the Legislative Reference Bureau
+This bill grants to an incumbent transmission facility owner the right to 
+construct, own, and maintain a transmission facility that has been approved for 
+construction in the Midcontinent Independent System Operator [s (MISO) 
+transmission plan and that connects to transmission facilities owned by that 
+incumbent transmission facility owner.  Under the bill, an Xincumbent 
+transmission facility owner Y includes a transmission company or transmission 
+utility (a cooperative or public utility that owns a transmission facility and provides 
+transmission service in this state), regardless of whether this state is its principal 
+place of business or where it is organized or headquartered.  Under current law, 
+MISO is an organization that is subject to the jurisdiction of the Federal Energy 1
+2
+3
+4
+5
+62025 - 2026  Legislature
+SENATE BILL 28- 2 - LRB-1667/1
+EHS:skw
+Regulatory Commission and that coordinates and controls electric transmission in 
+a region of the country that includes this state.  The bill provides that the right to 
+construct, own, and maintain a transmission facility that connects to transmission 
+facilities owned by two or more incumbent transmission facility owners belongs 
+individually and proportionally to each incumbent transmission facility owner, 
+unless otherwise agreed upon in writing.
+Under the bill, if under MISO [s transmission plan a regionally cost-shared 
+transmission line has been approved for construction and connection to facilities 
+owned by an incumbent transmission facility owner, the incumbent transmission 
+facility owner must give the Public Service Commission written notice regarding 
+the owner [s intent to construct, own, and maintain the line no later than 90 days 
+after approval of the transmission plan or 90 days after the date on which this bill 
+becomes law, whichever is later.  If the owner indicates that it does not intent to 
+construct the line, the bill requires it to fully explain that decision in the notice to 
+PSC.  In that case, the bill allows PSC to determine whether the incumbent 
+transmission facility owner or another entity must construct the line, taking into 
+consideration issues such as cost, efficiency, and reliability.  The bill defines 
+Xregionally cost-shared transmission line Y to mean a high-voltage transmission line 
+that is eligible for regional cost sharing and is not subject to a right of first refusal in 
+accordance with the MISO tariff.
+The bill requires an incumbent transmission facility owner with the right to 
+construct a MISO-approved regionally cost-shared transmission line to include in 
+any application for a certificate of public convenience and necessity an estimate of 
+the cost of construction, along with documentation that the estimate is the result of 
+competitively bid engineering, procurement, and construction contracts.  The bill 
+also requires such an incumbent transmission facility owner to provide to PSC until 
+construction is complete quarterly reports that include updated estimates of the 
+construction cost and an explanation of any changes from prior cost estimates.
+The bill requires an incumbent transmission facility owner with the right to 
+construct a MISO-approved regionally cost-shared transmission line to, as soon as 
+practicable after the information is available, submit a report to PSC, the assembly 
+speaker, the assembly minority leader, the senate majority leader, the senate 
+minority leader, and the governor detailing the amount of the costs of the 
+transmission line project that are being charged to energy consumers outside this 
+state.
+The bill sunsets the rights and responsibilities created under the bill after 10 
+years.
+The people of the state of Wisconsin, represented in senate and assembly, do 
+enact as follows:
+SECTION  1.  196.485 (1) (cr) of the statutes is created to read: 12025 - 2026  Legislature
+SENATE BILL 28- 3 - LRB-1667/1
+EHS:skw
+SECTION  1
+196.485 (1) (cr)  XIncumbent transmission facility owner Y includes a 
+transmission company or transmission utility, regardless of whether this state is its 
+principal place of business or where it is organized or headquartered.
+SECTION  2.  196.485 (1) (cr) of the statutes, as created by 2025 Wisconsin Act 
+.... (this act), is repealed.
+SECTION  3.  196.485 (1) (ef) of the statutes is created to read:
+196.485 (1) (ef)  XRegionally cost-shared transmission line Y means a high-
+voltage transmission line that is eligible, in whole or in part, for regional cost 
+sharing and is not subject to a right of first refusal in accordance with the tariff of 
+the Midwest independent system operator.
+SECTION  4.  196.485 (1) (ef) of the statutes, as created by 2025 Wisconsin Act 
+.... (this act), is repealed.
+SECTION  5.  196.485 (3g) of the statutes is created to read:
+196.485 (3g)  INCUMBENT  TRANSMISSION  FACILITY  OWNER  RIGHTS .  (a)  Rights.   
+Subject to the approval of the commission under s. 196.491 (3), an incumbent 
+transmission facility owner has the right to construct, own, and maintain a 
+transmission facility that has been approved for construction in the Midwest 
+independent system operator [s transmission plan and that connects to 
+transmission facilities owned by that incumbent transmission facility owner.  The 
+right to construct, own, and maintain a transmission facility that connects to 
+transmission facilities owned by 2 or more incumbent transmission facility owners 
+belongs individually and proportionally to each incumbent transmission facility 
+owner, unless otherwise agreed upon in writing.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 28- 4 - LRB-1667/1
+EHS:skw
+SECTION  5
+(b)  Commission procedure.   1.  If, in the Midwest independent system 
+operator [s transmission plan, a regionally cost-shared transmission line has been 
+approved for construction and connection to facilities owned by an incumbent 
+transmission facility owner, the incumbent transmission facility owner shall give 
+written notice to the commission regarding the owner [s intent to construct, own, 
+and maintain the regionally cost-shared transmission line no later than 90 days 
+after approval of the transmission plan or 90 days after the effective date of this 
+subdivision .... [LRB inserts date], whichever is later.
+2.  If an incumbent transmission facility owner indicates in its notice to the 
+commission under subd. 1. that it does not intend to construct the regionally cost-
+shared transmission line, it shall in the notice fully explain the basis for that 
+decision.  In that case, the commission may determine whether the incumbent 
+transmission facility owner or another entity is required to construct the regionally 
+cost-shared transmission line, taking into consideration issues such as cost, 
+efficiency, reliability, and other factors identified in this chapter.
+(c)  Cost control, requirement of competition, and cost allocation .  With respect 
+to a regionally cost-shared transmission line approved by the Midwest independent 
+system operator, an incumbent transmission facility owner with the right to 
+construct the transmission line shall do all of the following:
+1.  In any application filed pursuant to s. 196.491 (3), provide to the 
+commission an estimate of the cost to construct the regionally cost-shared 
+transmission line and documentation showing that this cost is the result of 
+competitively bid engineering, procurement, and construction contracts.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 28- 5 - LRB-1667/1
+EHS:skw
+SECTION  5
+2.  Until construction of the regionally cost-shared transmission line is 
+complete, provide to the commission a quarterly report that includes an updated 
+estimate of the cost to construct the regionally cost-shared transmission line and an 
+explanation of changes from prior cost estimates provided under this subdivision or 
+subd. 1.
+3.  As soon as practicable after the information is available, submit a report to 
+the commission, the assembly speaker, the assembly minority leader, the senate 
+majority leader, the senate minority leader, and the governor detailing the amount 
+of the costs of the regionally cost-shared transmission line project that are being 
+charged to energy consumers outside this state.
+SECTION  6.  196.485 (3g) of the statutes, as created by 2025 Wisconsin Act .... 
+(this act), is repealed.
+SECTION  7.  Effective dates.   This act takes effect on the day after 
+publication, except as follows:
+(1)  The repeal of ss. 196.485 (1) (cr) and (ef) and (3g) takes effect on the first 
+day of the 10th year beginning after publication.
+(END)1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17

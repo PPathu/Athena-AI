@@ -1,0 +1,525 @@
+2025 - 2026  LEGISLATURELRB-0675/1
+MJW:emw
+2025 ASSEMBLY BILL 26
+February 17, 2025 - Introduced by Representatives SORTWELL , BEHNKE , DITTRICH , 
+DONOVAN , FRANKLIN , MAXEY , MURPHY , MURSAU , NEDWESKI , NOVAK , 
+O'C ONNOR , PIWOWARCZYK , WICHGERS , ZIMMERMAN  and SUBECK , cosponsored 
+by Senators WANGGAARD , NASS and WIMBERGER . Referred to Committee on 
+Criminal Justice and Public Safety. 
+ 
+  ***AUTHORS SUBJECT TO CHANGE***
+AN ACT to renumber and amend  940.20 (3) (title) and 940.20 (3); to amend  
+48.685 (2) (bb), 48.685 (5) (bm) 4., 48.686 (1) (c) 9., 48.686 (1) (c) 12., 48.686 (2) 
+(bb), 50.065 (2) (bb), 165.70 (1) (b), 165.84 (7) (ab) 2., 301.048 (2) (bm) 1. a., 
+767.461 (4), 940.03, 941.29 (1g) (a), 941.291 (1) (b), 941.39 (title), 946.82 (4), 
+949.03 (2), 968.26 (1b) (a) 2. a., 969.08 (10) (b), 973.049 (2) and 973.123 (1); to 
+create  939.22 (21) (es), 940.202 (1) and (3) and 941.38 (1) (b) 5s. of the 
+statutes; relating to:  battery or threat to jurors and providing a penalty.
+Analysis by the Legislative Reference Bureau
+Under current law, the crime of battery is defined as intentionally causing 
+another person bodily harm and is a Class A misdemeanor.  Under current law, if 
+the battery is a special circumstance battery—for example, the battery is 
+committed against an individual because of the individual [s status as a law 
+enforcement officer, witness in a trial, or juror—the penalty is increased to a Class 
+H felony.  Under this bill, a threat or battery against a juror or a threat or battery 
+against a family member of a juror is a Class H felony.
+Current law also allows a judge, upon sentencing a person for a crime, to 1
+2
+3
+4
+5
+6
+72025 - 2026  Legislature
+ASSEMBLY BILL 26- 2 - LRB-0675/1
+MJW:emw
+prohibit the person from contacting a victim of or witness to the person [s crime 
+during any part of the person [s sentence or probation.  The bill allows a judge to 
+prohibit a person who is convicted of a crime from contacting, for any part of the 
+person[s sentence or probation, a juror who served at any proceeding related to the 
+person[s crime.
+Because this bill creates a new crime or revises a penalty for an existing crime, 
+the Joint Review Committee on Criminal Penalties may be requested to prepare a 
+report.
+The people of the state of Wisconsin, represented in senate and assembly, do 
+enact as follows:
+SECTION  1.  48.685 (2) (bb) of the statutes is amended to read:
+48.685 (2) (bb)  If information obtained under par. (am), (b), or (ba) indicates a 
+charge of a serious crime, but does not completely and clearly indicate the final 
+disposition of the charge, the department, county department, child welfare agency, 
+or entity shall make every reasonable effort to contact the clerk of courts to 
+determine the final disposition of the charge.  If a background information form 
+under sub. (6) (a) or (am) indicates a charge or a conviction of a serious crime, but 
+information obtained under par. (am), (b), or (ba) does not indicate such a charge or 
+conviction, the department, county department, child welfare agency, or entity 
+shall make every reasonable effort to contact the clerk of courts to obtain a copy of 
+the criminal complaint and the final disposition of the complaint.  If information 
+obtained under par. (am), (b), or (ba), a background information form under sub. (6) 
+(a) or (am), or any other information indicates a conviction of a violation of s. 940.19 
+(1), 940.195, 940.20, 940.202, 940.204, 941.30, 942.08, 947.01 (1), or 947.013 
+obtained not more than 5 years before the date on which that information was 
+obtained, the department, county department, child welfare agency, or entity shall 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+162025 - 2026  Legislature
+ASSEMBLY BILL 26- 3 - LRB-0675/1
+MJW:emw
+SECTION  1
+make every reasonable effort to contact the clerk of courts to obtain a copy of the 
+criminal complaint and judgment of conviction relating to that violation.
+SECTION  2.  48.685 (5) (bm) 4. of the statutes is amended to read:
+48.685 (5) (bm) 4.  A violation of s. 940.19 (3), 1999 stats., or of s. 125.075 (1), 
+125.085 (3) (a) 2., 125.105 (2) (b), 125.66 (3), 125.68 (12), 940.09, 940.19 (2), (4), (5), 
+or (6), 940.20, 940.202, 940.203, 940.204, 940.205, 940.207, or 940.25, a violation of 
+s. 346.63 (1), (2), (5), or (6) that is a felony under s. 346.65 (2) (am) 4. to 7., or (f), (2j) 
+(d), or (3m), or an offense under ch. 961 that is a felony, if committed not more than 
+5 years before the date of the investigation under sub. (2) (am).
+SECTION  3.  48.686 (1) (c) 9. of the statutes is amended to read:
+48.686 (1) (c) 9.  A violation of s. 125.075 (1), 125.085 (3) (a) 2., 125.105 (2) (b), 
+125.66 (3), 125.68 (12), 940.09, 940.19 (2), (4), (5), or (6), 940.20, 940.202, 940.203, 
+940.204, 940.205, 940.207, 940.25, or 943.231 (1), a violation of s. 346.63 (1), (2), (5), 
+or (6) that is a felony under s. 346.65 (2) (am) 4., 5., 6., or 7. or (f), (2j) (d), or (3m), or 
+an offense under ch. 961 that is a felony.
+SECTION  4.  48.686 (1) (c) 12. of the statutes is amended to read:
+48.686 (1) (c) 12.  A violation of the laws of another state or United States 
+jurisdiction that if committed in this state would constitute felony battery under s. 
+940.19 (2), (4), (5), or (6), 940.20, 940.202, or 940.204, a felony offense of domestic 
+abuse, as defined in s. 813.12 (1) (am), a sex offense or a violent crime under ch. 948, 
+or a violation of s. 940.225 if the victim was a child.
+SECTION  5.  48.686 (2) (bb) of the statutes is amended to read:
+48.686 (2) (bb)  If information obtained under par. (am) indicates a charge of a 
+serious crime, but does not completely and clearly indicate the final disposition of 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+242025 - 2026  Legislature
+ASSEMBLY BILL 26- 4 - LRB-0675/1
+MJW:emw
+SECTION  5
+the charge, the department shall make every reasonable effort to contact the clerk 
+of courts to determine the final disposition of the charge.  If information submitted 
+to the department under par. (ag) indicates a charge or a conviction of a serious 
+crime, but information obtained under par. (am) does not indicate such a charge or 
+conviction, the department shall make every reasonable effort to contact the clerk 
+of courts to obtain a copy of the criminal complaint and the final disposition of the 
+complaint.  If information obtained under par. (am), information submitted under 
+par. (ag), or any other information indicates a conviction of a violation of s. 940.19 
+(1), 940.195, 940.20, 940.202, 940.204, 941.30, 942.08, 947.01 (1), or 947.013 
+obtained not more than 5 years before the date on which that information was 
+obtained, the department shall make every reasonable effort to contact the clerk of 
+courts to obtain a copy of the criminal complaint and judgment of conviction 
+relating to that violation.
+SECTION  6.  50.065 (2) (bb) of the statutes is amended to read:
+50.065 (2) (bb)  If information obtained under par. (am) or (b) indicates a 
+charge of a serious crime, but does not completely and clearly indicate the final 
+disposition of the charge, the department or entity shall make every reasonable 
+effort to contact the clerk of courts to determine the final disposition of the charge.  
+If a background information form under sub. (6) (a) or (am), or any disclosure made 
+pursuant to a disclosure policy described under sub. (6) (am), indicates a charge or 
+a conviction of a serious crime, but information obtained under par. (am) or (b) does 
+not indicate such a charge or conviction, the department or entity shall make every 
+reasonable effort to contact the clerk of courts to obtain a copy of the criminal 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 26- 5 - LRB-0675/1
+MJW:emw
+SECTION  6
+complaint and the final disposition of the complaint.  If information obtained under 
+par. (am) or (b), a background information form under sub. (6) (a) or (am), any 
+disclosure made pursuant to a disclosure policy described under sub. (6) (am), or 
+any other information indicates a conviction of a violation of s. 940.19 (1), 940.195, 
+940.20, 940.202, 940.204, 941.30, 942.08, 947.01 (1), or 947.013 obtained not more 
+than 5 years before the date on which that information was obtained, the 
+department or entity shall make every reasonable effort to contact the clerk of 
+courts to obtain a copy of the criminal complaint and judgment of conviction 
+relating to that violation.
+SECTION  7.  165.70 (1) (b) of the statutes is amended to read:
+165.70 (1) (b)  Except as provided in sub. (1m), enforce chs. 945 and 961 and ss. 
+940.20 (3), 940.201, 940.202, 941.25, 941.26, 943.01 (2) (c), 943.011, 943.27, 943.28, 
+943.30, 944.30 (1m), 944.31, 944.32, 944.33, 944.34, 946.65, 947.02 (3) and (4), 
+948.075, 948.08, and 948.081.
+SECTION  8.  165.84 (7) (ab) 2. of the statutes is amended to read:
+165.84 (7) (ab) 2.  A felony violation of s. 940.02, 940.03, 940.06, 940.07, 
+940.08, 940.09 (1c), 940.10, 940.19 (2), (4), (5), or (6), 940.195 (2), (4), (5), or (6), 
+940.20, 940.201 (2), 940.202, 940.203 (2), 940.204, 940.205 (2), 940.207 (2), 940.208, 
+940.23, 941.30, or 948.03 (3) or (5) (a) 4.
+SECTION  9.  301.048 (2) (bm) 1. a. of the statutes is amended to read:
+301.048 (2) (bm) 1. a.  A crime specified in s. 940.19 (3), 1999 stats., s. 940.195 
+(3), 1999 stats., s. 943.23 (1m), 1999 stats., s. 943.23 (1r), 1999 stats., or s. 943.23 
+(1g), 2021 stats., or s. 940.01, 940.02, 940.03, 940.05, 940.06, 940.08, 940.09, 940.10, 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 26- 6 - LRB-0675/1
+MJW:emw
+SECTION  9
+940.19 (4) or (5), 940.195 (4) or (5), 940.198 (2), 940.20, 940.201, 940.202, 940.203, 
+940.204, 940.21, 940.225 (1) to (3), 940.23, 940.235, 940.285 (2) (a) 1. or 2., 940.29, 
+940.295 (3) (b) 1g., 1m., 1r., 2., or 3., 940.31, 940.43 (1) to (3), 940.45 (1) to (3), 941.20 
+(2) or (3), 941.26, 941.30, 941.327, 943.01 (2) (c), 943.011, 943.013, 943.02, 943.04, 
+943.06, 943.10 (2), 943.231 (1), 943.30, 943.32, 946.43, 947.015, 948.02 (1) or (2), 
+948.025, 948.03, 948.04, 948.05, 948.051, 948.06, 948.07, 948.08, 948.085, or 
+948.30.
+SECTION  10.  767.461 (4) of the statutes is amended to read:
+767.461 (4)  A term of incarceration, extended supervision, parole, or 
+probation for a violation of s. 940.01, 940.02, 940.03, 940.05, 940.06, 940.08, 940.09, 
+940.10, 940.19, 940.195, 940.20, 940.201 (2), 940.202, 940.203 (2), 940.204, 940.225 
+(1), (2), or (3), 940.23, 940.235, 940.24 (1), 940.30, 940.302 (2), 940.305, 940.31, 
+940.32 (2), (2e), or (2m), 940.42, 940.43, 940.44, 940.45, 941.20, 941.29, 941.30, 
+941.39, 943.011 (2), 947.012, 947.013, 948.02 (1) or (2), 948.025, 948.03, 948.04, 
+948.05, 948.051, 948.055, 948.06, 948.07, 948.08, 948.085, 948.095, 948.30, 948.55, 
+or 951.02 or any felony to which the penalty enhancer under s. 939.621 could be 
+imposed, for a violation of a 72-hour no contact order under s. 968.075 (5), for a 
+violation of a domestic abuse restraining order, child abuse restraining order, or 
+harassment restraining order, or for a violation to which a penalty enhancer for the 
+use of a dangerous weapon is applied.
+SECTION  11.  939.22 (21) (es) of the statutes is created to read:
+939.22 (21) (es)  Battery or threat to a juror or the family member of a juror, as 
+prohibited in s. 940.202.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 26- 7 - LRB-0675/1
+MJW:emw
+SECTION  12
+SECTION  12.  940.03 of the statutes is amended to read:
+940.03   Felony murder.   Whoever causes the death of another human being 
+while committing or attempting to commit a crime specified in s. 940.19, 940.195, 
+940.20, 940.201, 940.202, 940.203, 940.204, 940.225 (1) or (2) (a), 940.30, 940.31, 
+943.02, 943.10 (2), 943.231 (1), or 943.32 (2) may be imprisoned for not more than 15 
+years in excess of the maximum term of imprisonment provided by law for that 
+crime or attempt.
+SECTION  13.  940.20 (3) (title) of the statutes is renumbered 940.202 (title) 
+and amended to read:
+940.202   (title)  Battery or threat to jurors.
+SECTION  14.  940.20 (3) of the statutes is renumbered 940.202 (2) and 
+amended to read:
+940.202 (2)  Whoever intentionally causes bodily harm or threatens to cause 
+bodily harm to a person who he or she knows or has reason to know is or was a 
+grand or petit juror, and by reason of any verdict or indictment assented to by the 
+person, for a reason related to the person [s service as a juror, without the consent of 
+the person injured harmed or threatened, is guilty of a Class H felony.
+SECTION  15.  940.202 (1) and (3) of the statutes are created to read:
+940.202 (1)  In this section:
+(a)  XFamily member Y means a spouse, child, stepchild, foster child, parent, 
+sibling, or grandchild.
+(b)  XJurorY means a person who is or was a grand or petit juror or is a 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 26- 8 - LRB-0675/1
+MJW:emw
+SECTION  15
+prospective grand or petit juror who has received a summons to appear for jury 
+service.
+(3)  Whoever intentionally causes bodily harm or threatens to cause bodily 
+harm to a person who he or she knows or has reason to know is a family member of 
+a juror, for a reason related to the juror [s service as a juror, without the consent of 
+the person harmed or threatened, is guilty of a Class H felony.
+SECTION  16.  941.29 (1g) (a) of the statutes is amended to read:
+941.29 (1g) (a)  XViolent felony Y means any felony under s. 943.23 (1m), 1999 
+stats., s. 943.23 (1r), 1999 stats., or s. 943.23 (1g), 2021 stats., this section, or s. 
+940.01, 940.02, 940.03, 940.05, 940.06, 940.08, 940.09, 940.10, 940.19, 940.195, 
+940.198, 940.20, 940.201, 940.202, 940.203, 940.204, 940.21, 940.225, 940.23, 
+940.235, 940.285 (2), 940.29, 940.295 (3), 940.30, 940.302, 940.305, 940.31, 940.43 
+(1) to (3), 940.45 (1) to (3), 941.20, 941.26, 941.28, 941.2905, 941.292, 941.30, 
+941.327 (2) (b) 3. or 4., 943.02, 943.04, 943.06, 943.10 (2), 943.231 (1), 943.32, 
+943.87, 946.43, 948.02 (1) or (2), 948.025, 948.03, 948.04, 948.05, 948.051, 948.06, 
+948.07, 948.08, 948.085, or 948.30.
+SECTION  17.  941.291 (1) (b) of the statutes is amended to read:
+941.291 (1) (b)  XViolent felony Y means any felony, or the solicitation, 
+conspiracy, or attempt to commit any felony, under s. 943.23 (1m) or (1r), 1999 
+stats., or s. 943.23 (1g), 2021 stats., or s. 940.01, 940.02, 940.03, 940.05, 940.06, 
+940.08, 940.09, 940.10, 940.19, 940.195, 940.198, 940.20, 940.201, 940.202, 
+940.203, 940.204, 940.21, 940.225, 940.23, 940.285 (2), 940.29, 940.295 (3), 940.30, 
+940.305, 940.31, 940.43 (1) to (3), 940.45 (1) to (3), 941.20, 941.26, 941.28, 941.29, 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 26- 9 - LRB-0675/1
+MJW:emw
+SECTION  17
+941.30, 941.327, 943.01 (2) (c), 943.011, 943.013, 943.02, 943.04, 943.06, 943.10 (2), 
+943.231 (1), 943.32, 943.81, 943.82, 943.83, 943.85, 943.86, 943.87, 943.88, 943.89, 
+943.90, 946.43, 947.015, 948.02 (1) or (2), 948.025, 948.03, 948.04, 948.05, 948.06, 
+948.07, 948.08, 948.085, or 948.30; or, if the victim is a financial institution, as 
+defined in s. 943.80 (2), a felony, or the solicitation, conspiracy, or attempt to commit 
+a felony under s. 943.84 (1) or (2).
+SECTION  18.  941.38 (1) (b) 5s. of the statutes is created to read:
+941.38 (1) (b) 5s.  Battery or threat to a juror or the family member of a juror, 
+as prohibited in s. 940.202.
+SECTION  19.  941.39 (title) of the statutes is amended to read:
+941.39   (title)  Victim, witness, juror, or co-actor contact.
+SECTION  20.  946.82 (4) of the statutes is amended to read:
+946.82 (4)  XRacketeering activity Y means any activity specified in 18 USC 
+1961 (1) in effect as of April 27, 1982, or the attempt, conspiracy to commit, or 
+commission of any of the felonies specified in:  chs. 945 and 961, subch. V of ch. 551, 
+and ss. 49.49, 134.05, 139.44 (1), (2m), and (8), 180.0129, 181.0129, 185.825, 201.09 
+(2), 215.12, 221.0625, 221.0636, 221.0637, 221.1004, 553.41 (3) and (4), 553.52 (2), 
+940.01, 940.19 (4) to (6), 940.20, 940.201, 940.202, 940.203, 940.21, 940.30, 940.302 
+(2), 940.305, 940.31, 941.20 (2) and (3), 941.26, 941.28, 941.298, 941.31, 941.32, 
+942.09, 943.01 (2), (2d), or (2g), 943.011, 943.012, 943.013, 943.02, 943.03, 943.04, 
+943.05, 943.06, 943.10, 943.20 (3) (bf) to (e), 943.201, 943.203, 943.23 (2) and (3), 
+943.231 (1), 943.24 (2), 943.27, 943.28, 943.30, 943.32, 943.34 (1) (bf), (bm), and (c), 
+943.38, 943.39, 943.40, 943.41 (8) (b) and (c), 943.50 (4) (bf), (bm), and (c) and (4m), 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 26- 10 - LRB-0675/1
+MJW:emw
+SECTION  20
+943.60, 943.70, 943.76, 943.81, 943.82, 943.825, 943.83, 943.84, 943.85, 943.86, 
+943.87, 943.88, 943.89, 943.90, 944.21 (5) (c) and (e), 944.32, 944.34, 945.03 (1m), 
+945.04 (1m), 945.05 (1), 945.08, 946.10, 946.11, 946.12, 946.13, 946.31, 946.32 (1), 
+946.48, 946.49, 946.61, 946.64, 946.65, 946.72, 946.76, 946.79, 947.015, 948.05, 
+948.051, 948.08, 948.12, 948.125, and 948.30.
+SECTION  21.  949.03 (2) of the statutes is amended to read:
+949.03 (2)  The commission or the attempt to commit any crime specified in s. 
+346.62 (4), 346.63 (2) or (6), 940.01, 940.02, 940.03, 940.05, 940.06, 940.07, 940.08, 
+940.09, 940.10, 940.19, 940.198, 940.20, 940.201, 940.202, 940.204, 940.21, 940.22 
+(2), 940.225, 940.23, 940.235, 940.24, 940.25, 940.285, 940.29, 940.30, 940.302 (2), 
+940.305, 940.31, 940.32, 941.327, 942.09, 943.02, 943.03, 943.04, 943.10, 943.20, 
+943.231 (1), 943.32, 943.81, 943.86, 943.87, 948.02, 948.025, 948.03, 948.04, 948.05, 
+948.051, 948.06, 948.07, 948.075, 948.08, 948.085, 948.09, 948.095, 948.20, 948.21 
+(1), 948.30, or 948.51.
+SECTION  22.  968.26 (1b) (a) 2. a. of the statutes is amended to read:
+968.26 (1b) (a) 2. a.  Section 940.04, 940.11, 940.19 (2), (4), (5), or (6), 940.195 
+(2), (4), (5), or (6), 940.198 (2) (b) or (c) or (3), 940.20, 940.201, 940.202, 940.203, 
+940.204, 940.205, 940.207, 940.208, 940.22 (2), 940.225 (3), 940.29, 940.302 (2) (c), 
+940.32, 941.32, 941.38 (2), 942.09 (2), 943.10, 943.205, 943.32 (1), 946.43, 946.44, 
+946.47, 946.48, 948.02 (3), 948.03 (2) (b) or (c), (3), or (4), 948.04, 948.055, 948.095, 
+948.10 (1) (a), 948.11, 948.13 (2) (a), 948.14, 948.20, 948.23 (1), (2), or (3) (c) 2. or 3., 
+or 948.30 (1).
+SECTION  23.  969.08 (10) (b) of the statutes is amended to read:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 26- 11 - LRB-0675/1
+MJW:emw
+SECTION  23
+969.08 (10) (b)  XSerious crime Y means any crime specified in s. 943.23 (1m), 
+1999 stats., s. 943.23 (1r), 1999 stats., or s. 943.23 (1g), 2021 stats., or s. 346.62 (4), 
+940.01, 940.02, 940.03, 940.05, 940.06, 940.08, 940.09, 940.10, 940.19 (5), 940.195 
+(5), 940.198 (2) (a) or (c), 940.20, 940.201, 940.202, 940.203, 940.204, 940.21, 
+940.225 (1) to (3), 940.23, 940.24, 940.25, 940.29, 940.295 (3) (b) 1g., 1m., 1r., 2. or 
+3., 940.302 (2), 940.31, 941.20 (2) or (3), 941.26, 941.30, 941.327, 943.01 (2) (c), 
+943.011, 943.013, 943.02, 943.03, 943.04, 943.06, 943.10, 943.231 (1), 943.30, 
+943.32, 943.81, 943.82, 943.825, 943.83, 943.85, 943.86, 943.87, 943.88, 943.89, 
+943.90, 946.01, 946.02, 946.43, 947.015, 948.02 (1) or (2), 948.025, 948.03, 948.04, 
+948.05, 948.051, 948.06, 948.07, 948.085, or 948.30 or, if the victim is a financial 
+institution, as defined in s. 943.80 (2), a crime under s. 943.84 (1) or (2).
+SECTION  24.  973.049 (2) of the statutes is amended to read:
+973.049 (2)  When a court imposes a sentence on an individual or places an 
+individual on probation for the conviction of a crime, the court may prohibit the 
+individual from contacting victims of, witnesses to, jurors who served at any 
+proceeding relating to, or co-actors in, a crime considered at sentencing during any 
+part of the individual [s sentence or period of probation if the court determines that 
+the prohibition would be in the interest of public protection.  For purposes of the 
+prohibition, the court may determine who are the victims of or witnesses to any 
+crime considered at sentencing.
+SECTION  25.  973.123 (1) of the statutes is amended to read:
+973.123 (1)  In this section, Xviolent felony Y means any felony under s. 943.23 
+(1m), 1999 stats., s. 943.23 (1r), 1999 stats., or s. 943.23 (1g), 2021 stats., or s. 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 26- 12 - LRB-0675/1
+MJW:emw
+SECTION  25
+940.01, 940.02, 940.03, 940.05, 940.06, 940.08, 940.09, 940.10, 940.19, 940.195, 
+940.198, 940.20, 940.201, 940.202, 940.203, 940.204, 940.21, 940.225, 940.23, 
+940.235, 940.285 (2), 940.29, 940.295 (3), 940.30, 940.302, 940.305, 940.31, 940.43 
+(1) to (3), 940.45 (1) to (3), 941.20, 941.26, 941.28, 941.29, 941.292, 941.30, 941.327 
+(2) (b) 3. or 4., 943.02, 943.04, 943.06, 943.10 (2), 943.231 (1), 943.32, 943.87, 
+946.43, 948.02 (1) or (2), 948.025, 948.03, 948.04, 948.05, 948.051, 948.06, 948.07, 
+948.08, 948.085, or 948.30.
+(END)1
+2
+3
+4
+5
+6
+7
+8
