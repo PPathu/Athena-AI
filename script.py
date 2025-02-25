@@ -1,7 +1,17 @@
 import json
 import psycopg2
 from keys import userkey
+from dotenv import load_dotenv, find_dotenv
+import os
 
+dotenv_path = find_dotenv()
+
+if load_dotenv(dotenv_path):
+    print("SUCCESS: .env loaded")
+else:
+    print("ERROR: .env not loaded")
+DATABASE_URL = os.getenv("DATABASE_URL")
+print(f"Database URL: {DATABASE_URL}")
 
 # Load JSON Data
 with open("data.json", "r") as file:
