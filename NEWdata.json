@@ -2353,8 +2353,8 @@
         "description": "An Act to create 8.35 (1m), 12.13 (3) (ag) and 12.60 (1) (am) of the statutes; Relating to: withdrawal of candidacy for certain offices filled at the general election and providing a penalty. (FE)",
         "status": "Introduced",
         "statusDate": "2025-02-17",
-        "last_action": "Read first time and referred to Committee on Campaigns and Elections",
-        "last_action_date": "2025-02-17",
+        "last_action": "Fiscal estimate received",
+        "last_action_date": "2025-02-28",
         "url": "https://legiscan.com/WI/bill/AB35/2025",
         "links": {
             "pdf": "Bill Text/bill_3126899.pdf",
@@ -2376,6 +2376,13 @@
                 "chamber": "A",
                 "chamber_id": 99,
                 "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Fiscal estimate received",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 0
             }
         ]
     },
@@ -3649,8 +3656,8 @@
         "description": "An Act to amend 77.54 (30) (a) 2. of the statutes; Relating to: the sales and use tax exemption for electricity and natural gas sold for residential use. (FE)",
         "status": "Introduced",
         "statusDate": "2025-02-24",
-        "last_action": "Read first time and referred to Committee on Ways and Means",
-        "last_action_date": "2025-02-24",
+        "last_action": "Fiscal estimate received",
+        "last_action_date": "2025-02-28",
         "url": "https://legiscan.com/WI/bill/AB69/2025",
         "links": {
             "pdf": "Bill Text/bill_3138942.pdf",
@@ -3672,6 +3679,13 @@
                 "chamber": "A",
                 "chamber_id": 99,
                 "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Fiscal estimate received",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 0
             }
         ]
     },
@@ -3819,6 +3833,822 @@
             {
                 "date": "2025-02-24",
                 "action": "Read first time and referred to Committee on Mental Health and Substance Abuse Prevention",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB74",
+        "session": "2025-2026 Regular Session",
+        "title": "Parental notification of alleged sexual misconduct by a school staff member. (FE)",
+        "description": "An Act to create 118.07 (6) of the statutes; Relating to: parental notification of alleged sexual misconduct by a school staff member. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB74/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3147401.pdf",
+            "txt": "Bill Text/bill_3147401.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB75",
+        "session": "2025-2026 Regular Session",
+        "title": "Department of Justice collection and reporting of certain criminal case data. (FE)",
+        "description": "An Act to create 165.845 (1r) (a) 3., 165.845 (1r) (f) and 758.19 (8) of the statutes; Relating to: Department of Justice collection and reporting of certain criminal case data. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Judiciary",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB75/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3147564.pdf",
+            "txt": "Bill Text/bill_3147564.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Judiciary",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB76",
+        "session": "2025-2026 Regular Session",
+        "title": "Creating an individual income tax deduction for certain income earned by an individual from the practice of psychiatry or from providing psychiatric or mental health services. (FE)",
+        "description": "An Act to create 71.05 (6) (b) 57., 71.53 (2) (g) and 71.77 (9) of the statutes; Relating to: creating an individual income tax deduction for certain income earned by an individual from the practice of psychiatry or from providing psychiatric or mental health services. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Ways and Means",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB76/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148157.pdf",
+            "txt": "Bill Text/bill_3148157.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Ways and Means",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB77",
+        "session": "2025-2026 Regular Session",
+        "title": "Registration plate concealment devices and providing a penalty.",
+        "description": "An Act to create 347.495 and 347.50 (6) of the statutes; Relating to: registration plate concealment devices and providing a penalty.",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Transportation",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB77/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148286.pdf",
+            "txt": "Bill Text/bill_3148286.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Transportation",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB78",
+        "session": "2025-2026 Regular Session",
+        "title": "Impoundment of vehicles used in certain reckless driving offenses. (FE)",
+        "description": "An Act to amend 349.115 (1) and 349.115 (3); to create 349.115 (1m) of the statutes; Relating to: impoundment of vehicles used in certain reckless driving offenses. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB78/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148179.pdf",
+            "txt": "Bill Text/bill_3148179.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB79",
+        "session": "2025-2026 Regular Session",
+        "title": "Prosecuting or adjudicating delinquent a person under the age of 18 for committing an act of prostitution.",
+        "description": "An Act to amend 51.20 (13) (cr), 165.76 (1) (am), 938.34 (15) (a) 1., 944.30 (1m) (intro.), 944.30 (2m) and 973.015 (2m) (intro.) of the statutes; Relating to: prosecuting or adjudicating delinquent a person under the age of 18 for committing an act of prostitution.",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB79/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148005.pdf",
+            "txt": "Bill Text/bill_3148005.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB80",
+        "session": "2025-2026 Regular Session",
+        "title": "Ratification of the Social Work Licensure Compact. (FE)",
+        "description": "An Act to renumber 457.25 (1); to amend 46.90 (4) (ab) 4., 48.56 (2), 48.561 (2), 49.45 (30j) (a) 1., 51.03 (6) (a), 55.043 (1m) (a) 4., 146.81 (1) (hg), 146.89 (1) (r) 6., 146.89 (1) (r) 7., 146.997 (1) (d) 11., 252.14 (1) (ar) 7., 252.15 (1) (er), 253.10 (2) (f), 303.08 (1) (f), 440.03 (13) (b) (intro.), 440.15, 446.01 (1v) (m), 450.10 (3) (a) 10., 457.01 (1c), 457.01 (1r), 457.01 (10), 457.02 (5) and (5m), 457.03 (2), 457.033, 457.035 (2), 457.04 (1), 457.04 (2), 457.04 (4), 457.04 (7), 457.09 (4) (b) 1., 457.09 (4) (b) 2., 457.24 (1), 457.26 (2) (intro.) and 905.04 (1) (g); to repeal and recreate 632.89 (1) (dm); to create 14.898, 440.03 (11m) (c) 2v., 440.03 (13) (c) 1. id., 457.01 (5g), 457.01 (5j), 457.01 (12), 457.08 (4m), 457.25 (1g) and subchapter III of chapter 457 [precedes 457.70] of the statutes; Relating to: ratification of the Social Work Licensure Compact. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Children and Families",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB80/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3147962.pdf",
+            "txt": "Bill Text/bill_3147962.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Children and Families",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB81",
+        "session": "2025-2026 Regular Session",
+        "title": "Excluding expenditures funded by referenda from shared costs for the purpose of determining equalization aid for school districts. (FE)",
+        "description": "An Act to amend 121.07 (6) (a) (intro.) and 121.07 (6) (am); to create 121.07 (6) (ap) of the statutes; Relating to: excluding expenditures funded by referenda from shared costs for the purpose of determining equalization aid for school districts. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Education",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB81/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148090.pdf",
+            "txt": "Bill Text/bill_3148090.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Education",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB82",
+        "session": "2025-2026 Regular Session",
+        "title": "Exempting certain conveyances between grandparents and grandchildren from the real estate transfer fee. (FE)",
+        "description": "An Act to amend 77.25 (8) of the statutes; Relating to: exempting certain conveyances between grandparents and grandchildren from the real estate transfer fee. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Housing and Real Estate",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB82/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148330.pdf",
+            "txt": "Bill Text/bill_3148330.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Housing and Real Estate",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB83",
+        "session": "2025-2026 Regular Session",
+        "title": "Governmental restrictions based on the energy source of a motor vehicle or other device.",
+        "description": "An Act to amend 20.931 (title); to create 20.931 (1) (am) and 20.931 (3) of the statutes; Relating to: governmental restrictions based on the energy source of a motor vehicle or other device.",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on State Affairs",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB83/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148245.pdf",
+            "txt": "Bill Text/bill_3148245.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on State Affairs",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB84",
+        "session": "2025-2026 Regular Session",
+        "title": "Prostitution crime surcharge and making an appropriation. (FE)",
+        "description": "An Act to amend 20.455 (2) (hd) and 48.48 (19); to create 20.437 (1) (hf), 814.75 (28), 814.76 (21), 944.35 and 973.05 (2m) (fr) of the statutes; Relating to: prostitution crime surcharge and making an appropriation. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB84/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3147940.pdf",
+            "txt": "Bill Text/bill_3147940.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB85",
+        "session": "2025-2026 Regular Session",
+        "title": "Recommendation to revoke extended supervision, parole, or probation if a person is charged with a crime. (FE)",
+        "description": "An Act to amend 302.113 (8m) (a), 302.114 (8m) (a), 304.06 (3) and 973.10 (2) (intro.) of the statutes; Relating to: recommendation to revoke extended supervision, parole, or probation if a person is charged with a crime. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Judiciary",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB85/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148305.pdf",
+            "txt": "Bill Text/bill_3148305.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Judiciary",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB86",
+        "session": "2025-2026 Regular Session",
+        "title": "Imposing the penalty of life imprisonment for the crime of child trafficking and providing a penalty. (FE)",
+        "description": "An Act to renumber and amend 948.051 (1) and 948.051 (2); to amend 302.114 (1), 303.065 (1) (b) 2., 304.02 (5) and 973.014 (2); to create 948.051 (1) (b) and 948.051 (2) (a) and (b) of the statutes; Relating to: imposing the penalty of life imprisonment for the crime of child trafficking and providing a penalty. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Judiciary",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB86/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148110.pdf",
+            "txt": "Bill Text/bill_3148110.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Judiciary",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB87",
+        "session": "2025-2026 Regular Session",
+        "title": "Restitution orders following a conviction for human trafficking and restoration of the right to vote to a person barred from voting as a result of a felony conviction. (FE)",
+        "description": "An Act to amend 304.078 (3) and 973.20 (10) (a) of the statutes; Relating to: restitution orders following a conviction for human trafficking and restoration of the right to vote to a person barred from voting as a result of a felony conviction. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Judiciary",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB87/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148026.pdf",
+            "txt": "Bill Text/bill_3148026.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Judiciary",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB88",
+        "session": "2025-2026 Regular Session",
+        "title": "Civil action for injury or damages resulting from riot or vandalism, participation in a riot, prohibiting certain limitations or restrictions on law enforcement responses to riot or vandalism activity, and providing a penalty.",
+        "description": "An Act to create 66.0511 (5), 895.4465 and 947.065 of the statutes; Relating to: civil action for injury or damages resulting from riot or vandalism, participation in a riot, prohibiting certain limitations or restrictions on law enforcement responses to riot or vandalism activity, and providing a penalty.",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Judiciary",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB88/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3147985.pdf",
+            "txt": "Bill Text/bill_3147985.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Judiciary",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB89",
+        "session": "2025-2026 Regular Session",
+        "title": "Theft crimes and providing a penalty. (FE)",
+        "description": "An Act to create 943.20 (5), 943.50 (6), 971.19 (2m) and 971.36 (5) of the statutes; Relating to: theft crimes and providing a penalty. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB89/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148201.pdf",
+            "txt": "Bill Text/bill_3148201.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB90",
+        "session": "2025-2026 Regular Session",
+        "title": "Copies of and inspection or disclosure of information contained in certain vital records. (FE)",
+        "description": "An Act to amend 69.20 (2) (b), 69.21 (1) (a) 2. a., 69.21 (2) (a), 69.21 (2) (b), 69.21 (2) (d) 1. and 69.30 (3) of the statutes; Relating to: copies of and inspection or disclosure of information contained in certain vital records. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on State Affairs",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB90/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3147879.pdf",
+            "txt": "Bill Text/bill_3147879.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on State Affairs",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB91",
+        "session": "2025-2026 Regular Session",
+        "title": "The requirement that first class cities and first class city school districts place school resource officers in schools. (FE)",
+        "description": "An Act to renumber and amend 62.90 (8); to amend 79.02 (2) (b) and 79.02 (3); to create 62.90 (8) (c), (d) and (e), 79.02 (4) and 115.437 (2) (b) 3. of the statutes; Relating to: the requirement that first class cities and first class city school districts place school resource officers in schools. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB91/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148069.pdf",
+            "txt": "Bill Text/bill_3148069.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Criminal Justice and Public Safety",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB92",
+        "session": "2025-2026 Regular Session",
+        "title": "Spinal cord injury research grants and symposia and making an appropriation. (FE)",
+        "description": "An Act to create 15.197 (20), 20.435 (1) (cd) and 255.45 of the statutes; Relating to: spinal cord injury research grants and symposia and making an appropriation. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Colleges and Universities",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB92/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148133.pdf",
+            "txt": "Bill Text/bill_3148133.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Colleges and Universities",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB93",
+        "session": "2025-2026 Regular Session",
+        "title": "The distribution and labeling of fertilizers and soil or plant additives produced from manure. (FE)",
+        "description": "An Act to renumber 94.64 (1) (a); to amend 94.64 (3m) (a) (intro.), 94.64 (3m) (a) 1., 94.64 (9) (c), 94.65 (4) (a) (intro.) and 94.65 (4) (b); to create 94.64 (1) (ag), 94.64 (1) (u), 94.64 (2) (f), 94.64 (3m) (a) 3., 94.65 (1) (bm), 94.65 (1) (fm) and 94.65 (5m) of the statutes; Relating to: the distribution and labeling of fertilizers and soil or plant additives produced from manure. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Agriculture",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB93/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148049.pdf",
+            "txt": "Bill Text/bill_3148049.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Agriculture",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB94",
+        "session": "2025-2026 Regular Session",
+        "title": "Ratification of the agreement negotiated between the State of Wisconsin and the Wisconsin State Building Trades Negotiating Committee, for the 2024-25 fiscal year, covering employees in the building trades crafts collective bargaining unit, and authorizing an expenditure of funds. (FE)",
+        "description": "An Act Relating to: ratification of the agreement negotiated between the State of Wisconsin and the Wisconsin State Building Trades Negotiating Committee, for the 2024-25 fiscal year, covering employees in the building trades crafts collective bargaining unit, and authorizing an expenditure of funds. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Rules",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB94/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3147921.pdf",
+            "txt": "Bill Text/bill_3147921.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Rules",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB95",
+        "session": "2025-2026 Regular Session",
+        "title": "Ratification of the agreement negotiated between the University of Wisconsin-Madison and the Wisconsin State Building Trades Negotiating Committee, for the 2024-25 fiscal year, covering employees in the building trades crafts collective bargaining unit, and authorizing an expenditure of funds. (FE)",
+        "description": "An Act Relating to: ratification of the agreement negotiated between the University of Wisconsin-Madison and the Wisconsin State Building Trades Negotiating Committee, for the 2024-25 fiscal year, covering employees in the building trades crafts collective bargaining unit, and authorizing an expenditure of funds. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Rules",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB95/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148222.pdf",
+            "txt": "Bill Text/bill_3148222.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Rules",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB96",
+        "session": "2025-2026 Regular Session",
+        "title": "Ratification of the agreement negotiated between the Board of Regents of the University of Wisconsin System and the Wisconsin State Building Trades Negotiating Committee, for the 2024-25 fiscal year, covering employees in the building trades crafts collective bargaining unit, and authorizing an expenditure of funds. (FE)",
+        "description": "An Act Relating to: ratification of the agreement negotiated between the Board of Regents of the University of Wisconsin System and the Wisconsin State Building Trades Negotiating Committee, for the 2024-25 fiscal year, covering employees in the building trades crafts collective bargaining unit, and authorizing an expenditure of funds. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Rules",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB96/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3147899.pdf",
+            "txt": "Bill Text/bill_3147899.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Rules",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            }
+        ]
+    },
+    {
+        "docType": "Assembly Bill",
+        "billNumber": "AB97",
+        "session": "2025-2026 Regular Session",
+        "title": "Extension of eligibility under the Medical Assistance program for postpartum women. (FE)",
+        "description": "An Act to amend 49.46 (1) (a) 1m., 49.46 (1) (j), 49.47 (4) (ag) 2., 49.471 (6) (b) and 49.471 (7) (b) 1. of the statutes; Relating to: extension of eligibility under the Medical Assistance program for postpartum women. (FE)",
+        "status": "Introduced",
+        "statusDate": "2025-02-28",
+        "last_action": "Read first time and referred to Committee on Regulatory Licensing Reform",
+        "last_action_date": "2025-02-28",
+        "url": "https://legiscan.com/WI/bill/AB97/2025",
+        "links": {
+            "pdf": "Bill Text/bill_3148265.pdf",
+            "txt": "Bill Text/bill_3148265.txt"
+        },
+        "amendments": [],
+        "seeAlso": [],
+        "history": [
+            {
+                "date": "2025-02-28",
+                "action": "Introduced",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Read first time and referred to Committee on Regulatory Licensing Reform",
                 "chamber": "A",
                 "chamber_id": 99,
                 "importance": 1
@@ -6135,7 +6965,7 @@
         "status": "Introduced",
         "statusDate": "2025-02-07",
         "last_action": "Fiscal estimate received",
-        "last_action_date": "2025-02-27",
+        "last_action_date": "2025-02-28",
         "url": "https://legiscan.com/WI/bill/SB27/2025",
         "links": {
             "pdf": "Bill Text/bill_3109058.pdf",
@@ -6342,6 +7172,13 @@
             },
             {
                 "date": "2025-02-27",
+                "action": "Fiscal estimate received",
+                "chamber": "S",
+                "chamber_id": 100,
+                "importance": 0
+            },
+            {
+                "date": "2025-02-28",
                 "action": "Fiscal estimate received",
                 "chamber": "S",
                 "chamber_id": 100,

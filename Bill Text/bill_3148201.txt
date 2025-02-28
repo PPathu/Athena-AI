@@ -1,0 +1,70 @@
+2025 - 2026  LEGISLATURELRB-0026/1
+CMH:emw
+2025 ASSEMBLY BILL 89
+February 28, 2025 - Introduced by Representatives PENTERMAN , ALLEN , BEHNKE , 
+DONOVAN , FRANKLIN , GOEBEN , GUNDRUM , GUSTAFSON , B. J ACOBSON , KNODL , 
+MAXEY , MELOTIK , MURPHY , PIWOWARCZYK , TUSLER , WICHGERS , WITTKE , 
+KRUG, MURSAU  and KAUFERT , cosponsored by Senators JACQUE , HUTTON , 
+NASS and TOMCZYK . Referred to Committee on Criminal Justice and Public 
+Safety. 
+ 
+  ***AUTHORS SUBJECT TO CHANGE***
+AN ACT to create  943.20 (5), 943.50 (6), 971.19 (2m) and 971.36 (5) of the 
+statutes; relating to:  theft crimes and providing a penalty.
+Analysis by the Legislative Reference Bureau
+Under current law, the penalty for the crime of property theft varies by the 
+value of the property taken. The penalty ranges from a Class A misdemeanor if the 
+value of the property is not more than $2,500 to a Class F felony if the value of the 
+property exceeds $100,000. Similarly, the penalty for the crime of retail theft varies 
+by the value of the merchandise or service that is taken.  The penalty ranges from a 
+Class A misdemeanor if the value is not more than $500 to a Class G felony if the 
+value exceeds $10,000.
+This bill specifies that, if, in a six-month period, a defendant commits more 
+than one violation of property theft or more than one violation of retail theft, the 
+value of items taken at each violation may be aggregated and the crimes may be 
+prosecuted as one property theft crime or one retail theft crime.  The penalty for the 
+crime would be determined by the aggregated value of the items taken.
+Because this bill creates a new crime or revises a penalty for an existing crime, 
+the Joint Review Committee on Criminal Penalties may be requested to prepare a 
+report.
+For further information see the state and local fiscal estimate, which will be 
+printed as an appendix to this bill.1
+22025 - 2026  Legislature
+ASSEMBLY BILL 89- 2 - LRB-0026/1
+CMH:emw
+SECTION  1
+The people of the state of Wisconsin, represented in senate and assembly, do 
+enact as follows:
+SECTION  1.  943.20 (5) of the statutes is created to read:
+943.20 (5)  AGGREGATION  OF VALUES .  For purposes of charging and penalty 
+determinations under sub. (3) (a) to (cm), the value of property from multiple 
+violations committed by the same person in a 6-month period may be aggregated.
+SECTION  2.  943.50 (6) of the statutes is created to read:
+943.50 (6)  For purposes of charging and penalty determinations under sub. 
+(4) (a) to (c), the value of property from multiple violations committed by the same 
+person in a 6-month period may be aggregated.
+SECTION  3.  971.19 (2m) of the statutes is created to read:
+971.19 (2m)   If 2 or more violations of s. 943.20 or 943.50 are prosecuted as a 
+single crime as provided in s. 971.36 (5), the trial may be in any county in which any 
+of the violations occurred and the prosecutor shall have exclusive jurisdiction over 
+the violations.
+SECTION  4.  971.36 (5) of the statutes is created to read:
+971.36 (5)  In any case involving aggregated acts under s. 943.20 (5) or 943.50 
+(6), notwithstanding sub. (3), the acts may be prosecuted as a single crime.
+(END)1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17

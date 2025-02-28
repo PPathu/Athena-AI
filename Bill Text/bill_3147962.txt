@@ -1,0 +1,2586 @@
+2025 - 2026  LEGISLATURELRB-1704/1
+MED:emw
+2025 ASSEMBLY BILL 80
+February 28, 2025 - Introduced by Representatives VANDER MEER, TITTL, 
+ANDERSON , BARE, DITTRICH , DOYLE , EMERSON , FRANKLIN , GREEN , GUNDRUM , 
+J. J ACOBSON , JOERS , JOHNSON , KNODL , MELOTIK , MIRESSE , MOORE  
+OMOKUNDE , MURSAU , NOVAK , O'C ONNOR , PHELPS , ROE, SINICKI , SNYDER , 
+STUBBS , UDELL  and VINING , cosponsored by Senators STAFSHOLT , CABRAL -
+GUEVARA , CARPENTER , DASSLER -ALFHEIM , DRAKE , JAMES , KEYESKI , LARSON , 
+PFAFF , SPREITZER , WALL and RATCLIFF . Referred to Committee on Children 
+and Families. 
+ 
+  ***AUTHORS SUBJECT TO CHANGE***
+AN ACT to renumber  457.25 (1); to amend  46.90 (4) (ab) 4., 48.56 (2), 48.561 
+(2), 49.45 (30j) (a) 1., 51.03 (6) (a), 55.043 (1m) (a) 4., 146.81 (1) (hg), 146.89 (1) 
+(r) 6., 146.89 (1) (r) 7., 146.997 (1) (d) 11., 252.14 (1) (ar) 7., 252.15 (1) (er), 
+253.10 (2) (f), 303.08 (1) (f), 440.03 (13) (b) (intro.), 440.15, 446.01 (1v) (m), 
+450.10 (3) (a) 10., 457.01 (1c), 457.01 (1r), 457.01 (10), 457.02 (5) and (5m), 
+457.03 (2), 457.033, 457.035 (2), 457.04 (1), 457.04 (2), 457.04 (4), 457.04 (7), 
+457.09 (4) (b) 1., 457.09 (4) (b) 2., 457.24 (1), 457.26 (2) (intro.) and 905.04 (1) 
+(g); to repeal and recreate  632.89 (1) (dm); to create  14.898, 440.03 (11m) (c) 
+2v., 440.03 (13) (c) 1. id., 457.01 (5g), 457.01 (5j), 457.01 (12), 457.08 (4m), 
+457.25 (1g) and subchapter III of chapter 457 [precedes 457.70] of the statutes; 
+relating to:  ratification of the Social Work Licensure Compact.
+Analysis by the Legislative Reference Bureau
+This bill ratifies and enters Wisconsin into the Social Work Licensure 
+Compact, which provides for the ability of a social worker to become eligible to 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+112025 - 2026  Legislature
+ASSEMBLY BILL 80- 2 - LRB-1704/1
+MED:emw
+practice in other compact states.  Significant provisions of the compact include the 
+following:
+1.  The creation of a Social Work Licensure Compact Commission, which 
+includes one member or administrator of the licensure authorities of each member 
+state.  The commission has various powers and duties granted in the compact, 
+including establishing bylaws, promulgating binding rules for the compact, hiring 
+officers, electing or appointing employees, and establishing and electing an 
+executive committee. The commission may levy on and collect an annual 
+assessment from each member state or impose fees on licensees of member states to 
+cover the cost of the operations and activities of the commission and its staff.
+2.  The ability for a social worker who is licensed in a home state and satisfies 
+certain other criteria to obtain a multistate license, which allows a social worker to 
+practice social work in all other compact states (remote states) under a multistate 
+authorization to practice.  The compact specifies a number of requirements in order 
+for an individual to obtain a social worker multistate license, including holding or 
+being eligible for a social worker license in a home state, paying any required fees, 
+and satisfying a number of criteria that are specific to the category of social work 
+license the individual is seeking—bachelor [s, master [s, or clinical.  A regulated 
+social worker [s services in a remote state are subject to that member state [s 
+regulatory authority.  A remote state may take actions against a social worker [s 
+multistate authorization to practice within that remote state, and if any adverse 
+action is taken by a home state against a licensee [s multistate license, the social 
+worker[s multistate authorization to practice in all other member states is 
+deactivated until all encumbrances have been removed from the multistate license.
+3.  The ability of member states to issue subpoenas that are enforceable in 
+other states.
+4.  The creation of a coordinated data system containing licensure and 
+disciplinary action information on social workers.  The compact requires all home 
+state disciplinary orders that impose adverse actions against the license of a 
+regulated social worker to include a statement that the regulated social worker [s 
+multistate authorization to practice is deactivated in all member states until all 
+conditions of the decision, order, or agreement are satisfied.  A member state must 
+submit a uniform data set to the data system on all individuals to whom the 
+compact is applicable as required by the rules of the commission.
+5.  Provisions regarding resolutions of disputes among member states and 
+between member and nonmember states, including a process for termination of a 
+state[s membership in the compact if the state defaults on its obligations under the 
+compact.
+Since the compact has already been enacted by the minimum number of states 
+required for it to become active, the compact becomes effective in this state upon 
+enactment of the bill.  The compact provides that it may be amended upon 
+enactment of an amendment by all member states.  A state may withdraw from the 
+compact by repealing the statute authorizing the compact, but the compact provides 2025 - 2026  Legislature
+ASSEMBLY BILL 80- 3 - LRB-1704/1
+MED:emw
+SECTION  1
+that a withdrawal does not take effect until 180 days after the effective date of that 
+repeal.
+For further information see the state fiscal estimate, which will be printed as 
+an appendix to this bill.
+The people of the state of Wisconsin, represented in senate and assembly, do 
+enact as follows:
+SECTION  1.  14.898 of the statutes is created to read:
+14.898   Social work licensure compact.   There is created a social work 
+licensure compact commission as specified in s. 457.70.  The delegate on the 
+commission representing this state shall be appointed by the marriage and family 
+therapy, professional counseling, and social work examining board as provided in s. 
+457.70 (10) (b) 1. and shall be an individual described in s. 457.70 (10) (b) 2. a. or b.  
+The commission has the powers and duties granted and imposed under s. 457.70.
+SECTION  2.  46.90 (4) (ab) 4. of the statutes is amended to read:
+46.90 (4) (ab) 4.  A social worker, professional counselor, or marriage and 
+family therapist certified under, as those terms are defined in subch. I of ch. 457 or 
+a professional counselor who is exercising the privilege to practice, as defined in s. 
+457.50 (2) (s), in this state.
+SECTION  3.  48.56 (2) of the statutes is amended to read:
+48.56 (2)  Each county department shall employ personnel who devote all or 
+part of their time to child welfare services.  Whenever possible, these personnel 
+shall be social workers certified under subch. I of ch. 457, as defined in s. 457.01 
+(10).
+SECTION  4.  48.561 (2) of the statutes is amended to read:
+48.561 (2)  The department shall employ personnel in a county having a 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+192025 - 2026  Legislature
+ASSEMBLY BILL 80- 4 - LRB-1704/1
+MED:emw
+SECTION  4
+population of 750,000 or more who devote all of their time directly or indirectly to 
+child welfare services.  Whenever possible, these personnel shall be social workers 
+certified under subch. I of ch. 457, as defined in s. 457.01 (10).
+SECTION  5.  49.45 (30j) (a) 1. of the statutes is amended to read:
+49.45 (30j)  (a) 1.  XCompetent mental health professional Y means a physician 
+who has completed a residence in psychiatry; a psychologist; a private practice 
+school psychologist who is licensed under ch. 455; a marriage and family therapist 
+who is licensed under s. 457.10 or 457.11; a professional counselor who is licensed 
+under s. 457.12 or 457.13 or who is exercising the professional counselor privilege to 
+practice, as defined in s. 457.50 (2) (s) 457.01 (7), in this state; an advanced practice 
+social worker who holds a certificate under s. 457.08 (2), as defined in s. 457.01 (1c); 
+an independent social worker who holds a certificate under s. 457.08 (3), as defined 
+in s. 457.01 (2g); a clinical social worker who is licensed under s. 457.08 (4), as 
+defined in s. 457.01 (1r); a clinical substance abuse counselor or independent 
+clinical supervisor who is certified under s. 440.88, or any of these individuals who 
+is practicing under a currently valid training or temporary license or certificate 
+granted under applicable provisions of ch. 457.  XCompetent mental health 
+professional Y does not include an individual whose license, certificate, or privilege 
+is suspended, revoked, or voluntarily surrendered, or whose license, certificate, or 
+privilege is limited or restricted, when practicing in areas prohibited by the 
+limitation or restriction.
+SECTION  6.  51.03 (6) (a) of the statutes is amended to read:
+51.03 (6) (a)  In this subsection, Xlicensed treatment professional Y means a 
+physician who has completed a residence in psychiatry; a psychologist; a private 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+242025 - 2026  Legislature
+ASSEMBLY BILL 80- 5 - LRB-1704/1
+MED:emw
+SECTION  6
+practice school psychologist who is licensed under ch. 455; a marriage and family 
+therapist who is licensed under s. 457.10 or 457.11, as defined in s. 457.01 (3); a 
+professional counselor who is licensed under s. 457.12 or 457.13 or who is exercising 
+the professional counselor privilege to practice, as defined in s. 457.50 (2) (s), in this 
+state, as defined in s. 457.01 (7); an advanced practice social worker who holds a 
+certificate under s. 457.08 (2), as defined in s. 457.01 (1c); an independent social 
+worker who is licensed under s. 457.08 (3), as defined in s. 457.01 (2g); a clinical 
+social worker who is licensed under s. 457.08 (4), as defined in s. 457.01 (1r); or any 
+of these individuals who is practicing under a currently valid training or temporary 
+license or certificate granted under applicable provisions of ch. 457.  XLicensed 
+treatment professional Y does not include an individual whose license, certificate, or 
+privilege is suspended, revoked, or voluntarily surrendered, or whose license, 
+certificate, or privilege is limited or restricted, when practicing in areas prohibited 
+by the limitation or restriction.
+SECTION  7.  55.043 (1m) (a) 4. of the statutes is amended to read:
+55.043 (1m)  (a) 4.  A social worker, professional counselor, or marriage and 
+family therapist certified under, as those terms are defined in subch. I of ch. 457 or 
+a professional counselor who is exercising the privilege to practice, as defined in s. 
+457.50 (2) (s), in this state.
+SECTION  8.  146.81 (1) (hg) of the statutes is amended to read:
+146.81 (1) (hg)  A social worker, marriage and family therapist, or professional 
+counselor certified or licensed under, as those terms are defined in subch. I of ch. 
+457 or a professional counselor who is exercising the privilege to practice, as defined 
+in s. 457.50 (2) (s), in this state.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+242025 - 2026  Legislature
+ASSEMBLY BILL 80- 6 - LRB-1704/1
+MED:emw
+SECTION  9
+SECTION  9.  146.89 (1) (r) 6. of the statutes is amended to read:
+146.89 (1) (r) 6.  A social worker who holds a certificate granted under subch. 
+I of ch. 457, as defined in s. 457.01 (10).
+SECTION  10.  146.89 (1) (r) 7. of the statutes is amended to read:
+146.89 (1) (r) 7.  A marriage and family therapist who is licensed under subch. 
+I of ch. 457, as defined in s. 457.01 (3) or a professional counselor who is licensed 
+under subch. I of ch. 457, as defined in s. 457.01 (7).
+SECTION  11.  146.997 (1) (d) 11. of the statutes is amended to read:
+146.997 (1) (d) 11.  A social worker, marriage and family therapist or 
+professional counselor certified under, as those terms are defined in subch. I of ch. 
+457 or a professional counselor who is exercising the privilege to practice, as defined 
+in s. 457.50 (2) (s), in this state.
+SECTION  12.  252.14 (1) (ar) 7. of the statutes is amended to read:
+252.14 (1) (ar) 7.  A social worker, marriage and family therapist, or 
+professional counselor certified or licensed under, as those terms are defined in 
+subch. I of ch. 457 or a professional counselor who is exercising the privilege to 
+practice, as defined in s. 457.50 (2) (s), in this state.
+SECTION  13.  252.15 (1) (er) of the statutes is amended to read:
+252.15 (1) (er)  XSocial worker Y means an individual who is certified or 
+licensed as a social worker, advanced practice social worker, independent social 
+worker, or clinical social worker under, as those terms are defined in subch. I of ch. 
+457.
+SECTION  14.  253.10 (2) (f) of the statutes is amended to read:
+253.10 (2) (f)  XQualified person assisting the physician Y means a social 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+242025 - 2026  Legislature
+ASSEMBLY BILL 80- 7 - LRB-1704/1
+MED:emw
+SECTION  14
+worker certified under subch. I of ch. 457, as defined in s. 457.01 (10), a registered 
+nurse or a physician assistant to whom a physician who is to perform or induce an 
+abortion has delegated the responsibility, as the physician [s agent, for providing the 
+information required under sub. (3) (c) 2.
+SECTION  15.  303.08 (1) (f) of the statutes is amended to read:
+303.08 (1) (f)  Obtaining counseling or therapy from an approved public 
+treatment facility, as defined in s. 51.45 (2) (c), an approved private treatment 
+facility, as defined in s. 51.45 (2) (b), a psychiatrist, a psychologist, a licensed 
+clinical social worker, as defined in s. 457.01 (1r), a professional counselor, as 
+defined in s. 457.01 (7), or a certified an independent social worker, as defined in s. 
+457.01 (2g), or an advanced practice social worker, as defined in s. 457.01 (1c), who 
+is authorized to practice psychotherapy under subch. I of ch. 457.
+SECTION  16.  440.03 (11m) (c) 2v. of the statutes is created to read:
+440.03 (11m)  (c) 2v.  The coordinated data system under s. 457.70 (11), if such 
+disclosure is required under the social work licensure compact under s. 457.70.
+SECTION  17.  440.03 (13) (b) (intro.) of the statutes is amended to read:
+440.03 (13) (b) (intro.)  The department may investigate whether an applicant 
+for or holder of any of the following credentials has been charged with or convicted 
+of a crime only pursuant to rules promulgated by the department under this 
+paragraph, including rules that establish the criteria that the department will use 
+to determine whether an investigation under this paragraph is necessary, except as 
+provided in par. (c) and ss. 441.51 (5) (a) 5., 447.50 (3) (a) 5., 448.980 (5) (b) 3., 
+448.985 (3) (a) 4., 448.987 (3) (a) 5. a. and (5) (b) 2. a., 448.988 (3) (a) 5., 455.50 (3) (e) 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 8 - LRB-1704/1
+MED:emw
+SECTION  17
+4. and (f) 4., 457.50 (3) (b) 3. and (5) (b) 2. a., 457.70 (3) (b) 4. and (7) (b) 3., and 
+459.70 (3) (b) 2.:
+SECTION  18.  440.03 (13) (c) 1. id. of the statutes is created to read:
+440.03 (13) (c) 1. id.  An applicant for any category of social worker multistate 
+license under s. 457.08 (4m) when required pursuant to the social work licensure 
+compact under s. 457.70.
+SECTION  19.  440.15 of the statutes is amended to read:
+440.15   No fingerprinting.   Except as provided under ss. 440.03 (13) (c), 
+441.51 (5) (a) 5., 447.50 (3) (a) 5., 448.980 (5) (b) 3., 448.985 (3) (a) 4., 448.987 (3) (a) 
+5. a. and (5) (b) 2. a., 448.988 (3) (a) 5., 450.071 (3) (c) 9., 450.075 (3) (c) 9., 455.50 (3) 
+(e) 4. and (f) 4., 457.50 (3) (b) 3. and (5) (b) 2. a., 457.70 (3) (b) 4. and (7) (b) 3., and 
+459.70 (3) (b) 1., the department or a credentialing board may not require that an 
+applicant for a credential or a credential holder be fingerprinted or submit 
+fingerprints in connection with the department [s or the credentialing board [s 
+credentialing.
+SECTION  20.  446.01 (1v) (m) of the statutes is amended to read:
+446.01 (1v) (m)  Marriage and family therapy, professional counseling, and 
+social work examining board under subch. I of ch. 457.  XHealth care professional Y 
+also includes an individual who is exercising the professional counselor privilege to 
+practice, as defined in s. 457.50 (2) (s), in this state and an individual who is 
+exercising a multistate authorization to practice, as defined in s. 457.70 (2) (q), 
+under any category of social worker multistate license, as defined in s. 457.70 (2) (r), 
+in this state.
+SECTION  21.  450.10 (3) (a) 10. of the statutes is amended to read:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+242025 - 2026  Legislature
+ASSEMBLY BILL 80- 9 - LRB-1704/1
+MED:emw
+SECTION  21
+450.10 (3) (a) 10.  A social worker, marriage and family therapist, or 
+professional counselor certified or licensed under, as those terms are defined in 
+subch. I of ch. 457 or a professional counselor who is exercising the privilege to 
+practice, as defined in s. 457.50 (2) (s), in this state.
+SECTION  22.  457.01 (1c) of the statutes is amended to read:
+457.01 (1c)  XAdvanced practice social worker Y means an individual who holds 
+an advanced practice social worker certificate granted by the social worker section 
+or who is exercising a multistate authorization to practice under a master [s-
+category multistate license.
+SECTION  23.  457.01 (1r) of the statutes is amended to read:
+457.01 (1r)  XClinical social worker Y means an individual who holds a license 
+to practice clinical social work granted by the social worker section or who is 
+exercising a multistate authorization to practice under a clinical-category 
+multistate license.
+SECTION  24.  457.01 (5g) of the statutes is created to read:
+457.01 (5g)  XMultistate authorization to practice Y means the multistate 
+authorization to practice, as defined in s. 457.70 (2) (q), of an individual to practice 
+the appropriate category of social work in this state under a multistate license 
+granted by another state that is a party to the social work licensure compact.
+SECTION  25.  457.01 (5j) of the statutes is created to read:
+457.01 (5j)  XMultistate license Y has the meaning given in s. 457.70 (2) (r).
+SECTION  26.  457.01 (10) of the statutes is amended to read:
+457.01 (10)  XSocial worker Y means an individual who holds a social worker 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 10 - LRB-1704/1
+MED:emw
+SECTION  26
+certificate granted by the social worker section or who is exercising a multistate 
+authorization to practice under a bachelor [s-category multistate license.
+SECTION  27.  457.01 (12) of the statutes is created to read:
+457.01 (12)  XSocial work licensure compact Y means the social work licensure 
+compact under s. 457.70.
+SECTION  28.  457.02 (5) and (5m) of the statutes are amended to read:
+457.02 (5)  Authorize any individual who is certified under s. 457.08 (1), 
+457.09 (1), or 457.14 (1) (a) to (c) or who is exercising a multistate authorization to 
+practice to use the title Xalcohol and drug counselor Y or Xchemical dependency 
+counselor Y unless the individual is certified as an alcohol and drug counselor or as 
+a chemical dependency counselor through a process recognized by the department.
+(5m)   Authorize any individual who is certified under s. 457.08 (1), 457.09 (1), 
+or 457.14 (1) (a) to (c) or who is exercising a multistate authorization to practice to 
+treat substance use disorder as a specialty unless the individual is a certified 
+substance abuse counselor, clinical supervisor, or prevention specialist under s. 
+440.88, or unless the individual satisfies educational and supervised training 
+requirements established in rules promulgated by the examining board.  In 
+promulgating rules under this subsection, the examining board shall consider the 
+requirements for qualifying as a certified substance abuse counselor, clinical 
+supervisor, or prevention specialist under s. 440.88.
+SECTION  29.  457.03 (2) of the statutes is amended to read:
+457.03 (2)  Upon the advice of the social worker section, marriage and family 
+therapist section, and professional counselor section, promulgate rules establishing 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 11 - LRB-1704/1
+MED:emw
+SECTION  29
+a code of ethics to govern the professional conduct of certificate credential holders 
+and licensees individuals exercising a multistate authorization to practice.  The 
+rules shall specify the services included within the practice of social work, advanced 
+practice social work, or independent social work that an individual who is certified 
+under this subchapter as a social worker, advanced practice social worker, or 
+independent social worker may perform and the degree of supervision, if any, 
+required to perform those services.
+SECTION  30.  457.033 of the statutes is amended to read:
+457.033   Psychometric testing.   The marriage and family therapy, 
+professional counseling, and social work examining board and the psychology 
+examining board shall jointly promulgate rules that specify the different levels of 
+psychometric testing that an individual who is certified or licensed under this 
+subchapter a credential holder, or an individual who holds a valid professional 
+counselor privilege to practice in this state is exercising a multistate authorization 
+to practice, is qualified to perform.  Such rules shall be consistent with the 
+guidelines of the American Psychological Association, or other nationally 
+recognized guidelines, for performing psychometric testing.  A certificate credential 
+holder, licensee, or holder of a professional counselor privilege or individual who is 
+exercising a multistate authorization to practice may not engage in psychometric 
+testing except as provided under the rules promulgated under this section.
+SECTION  31.  457.035 (2) of the statutes is amended to read:
+457.035 (2)  The individual is certified as an advanced practice social worker 
+or independent social worker and the individual engages in psychotherapy only 
+under the supervision of an individual specified in s. 457.08 (4) (c) 1., 2., 3., or 4.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+242025 - 2026  Legislature
+ASSEMBLY BILL 80- 12 - LRB-1704/1
+MED:emw
+SECTION  32
+SECTION  32.  457.04 (1) of the statutes is amended to read:
+457.04 (1)  Use the title Xsocial worker Y unless the person is certified as a 
+social worker under this subchapter or holds a bachelor [s-category multistate 
+license granted in another state that is a party to the social work licensure compact.
+SECTION  33.  457.04 (2) of the statutes is amended to read:
+457.04 (2)  Use the title Xadvanced practice social worker Y unless the person is 
+certified as an advanced practice social worker under this subchapter or holds a 
+master[s-category multistate license granted in another state that is a party to the 
+social work licensure compact.
+SECTION  34.  457.04 (4) of the statutes is amended to read:
+457.04 (4)  Practice clinical social work or designate himself or herself as a 
+clinical social worker or use or assume the title Xclinical social worker Y or any other 
+title or designation that represents or may tend to represent the person as a clinical 
+social worker unless the person is licensed as a clinical social worker under this 
+subchapter or holds a clinical-category multistate license granted in another state 
+that is a party to the social work licensure compact or unless the person is certified 
+under this subchapter as an advanced practice social worker or independent social 
+worker or holds a master [s-category multistate license granted in another state that 
+is a party to the social work licensure compact, and the person practices clinical 
+social work under the supervision of a person who is licensed as a  clinical social 
+worker under this subchapter.
+SECTION  35.  457.04 (7) of the statutes is amended to read:
+457.04 (7)  Practice psychotherapy unless the person is licensed under this 
+subchapter, holds a valid professional counselor privilege to practice in this state, or 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+242025 - 2026  Legislature
+ASSEMBLY BILL 80- 13 - LRB-1704/1
+MED:emw
+SECTION  35
+is a certificate holder who may practice psychotherapy under except in accordance 
+with the rules promulgated under ss. 457.03 and 457.035.
+SECTION  36.  457.08 (4m) of the statutes is created to read:
+457.08 (4m)   M ULTISTATE  SOCIAL  WORK  LICENSES .  (a)  The social worker 
+section shall grant a clinical-category multistate license to any of the following:
+1.  An individual who holds or is eligible for a clinical social worker license 
+under sub. (4), satisfies the requirements under s. 457.70 (4) (a) and (b), and pays 
+the fee specified in s. 440.05 (1).
+2.  An individual who holds a clinical-category multistate license in another 
+state that is a party to the social work licensure compact, has changed his or her 
+state of primary domicile to this state, satisfies the requirements under s. 457.70 (7) 
+(b), and pays the fee specified in s. 440.05 (1).
+(b)  The social worker section shall grant a master [s-category multistate 
+license to any of the following:
+1.  An individual who holds or is eligible for an advanced practice social worker 
+certificate under sub. (2), satisfies the requirements under s. 457.70 (4) (a) and (c), 
+and pays the fee specified in s. 440.05 (1).
+2.  An individual who holds a master [s-category multistate license in another 
+state that is a party to the social work licensure compact, has changed his or her 
+state of primary domicile to this state, satisfies the requirements under s. 457.70 (7) 
+(b), and pays the fee specified in s. 440.05 (1).
+(c)  The social worker section shall grant a bachelor [s-category multistate 
+license to any of the following:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 14 - LRB-1704/1
+MED:emw
+SECTION  36
+1.  An individual who holds or is eligible for a social worker certificate under 
+sub. (1), satisfies the requirements under s. 457.70 (4) (a) and (d), and pays the fee 
+specified in s. 440.05 (1).
+2.  An individual who holds a bachelor [s-category multistate license in another 
+state that is a party to the social work licensure compact, has changed his or her 
+state of primary domicile to this state, satisfies the requirements under s. 457.70 (7) 
+(b), and pays the fee specified in s. 440.05 (1).
+SECTION  37.  457.09 (4) (b) 1. of the statutes is amended to read:
+457.09 (4) (b) 1.  A human services internship that involves direct practice 
+with clients and that is supervised by a social worker certified under this 
+subchapter who has a bachelor [s or master [s degree in social work.
+SECTION  38.  457.09 (4) (b) 2. of the statutes is amended to read:
+457.09 (4) (b) 2.  One year of social work employment that involves direct 
+practice with clients and that is supervised by a social worker certified under this 
+subchapter who has a bachelor [s or master [s degree in social work.
+SECTION  39.  457.24 (1) of the statutes is amended to read:
+457.24 (1)  Except as provided in sub. (2), a person licensed as a  clinical social 
+worker, marriage and family therapist, or professional counselor under this 
+subchapter or who is exercising the professional counselor privilege to practice in 
+this state may not practice clinical social work, marriage and family therapy, or 
+professional counseling unless he or she has in effect professional liability 
+insurance.  The examining board shall promulgate rules establishing the minimum 
+amount of insurance required under this subsection.
+SECTION  40.  457.25 (1) of the statutes is renumbered 457.25 (1r).1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+242025 - 2026  Legislature
+ASSEMBLY BILL 80- 15 - LRB-1704/1
+MED:emw
+SECTION  41
+SECTION  41.  457.25 (1g) of the statutes is created to read:
+457.25 (1g)  In this section, Xcredential holder Y includes an individual 
+practicing under a multistate authorization to practice.
+SECTION  42.  457.26 (2) (intro.) of the statutes is amended to read:
+457.26 (2) (intro.)  Subject to the rules promulgated under s. 440.03 (1), the 
+appropriate section of the examining board may reprimand a credential holder or 
+an individual practicing under a multistate authorization to practice or deny, limit, 
+suspend, or revoke a credential under this subchapter or a multistate authorization 
+to practice if it finds that the applicant or credential holder or individual has done 
+any of the following:
+SECTION  43.  Subchapter III of chapter 457 [precedes 457.70] of the statutes is 
+created to read:
+CHAPTER 457
+SUBCHAPTER III
+SOCIAL WORK LICENSURE COMPACT
+457.70   Social work licensure compact.  (1)  PURPOSE .  The purpose of this 
+compact is to facilitate interstate practice of regulated social workers by improving 
+public access to competent social work services.  The compact preserves the 
+regulatory authority of states to protect public health and safety through the 
+current system of state licensure.  This compact is designed to achieve the following 
+objectives:
+(a)  Increase public access to social work services;
+(b)  Reduce overly burdensome and duplicative requirements associated with 
+holding multiple licenses;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+242025 - 2026  Legislature
+ASSEMBLY BILL 80- 16 - LRB-1704/1
+MED:emw
+SECTION  43
+(c)  Enhance the member states [ ability to protect the public [s health and 
+safety;
+(d)  Encourage the cooperation of member states in regulating multistate 
+practice;
+(e)  Promote mobility and address workforce shortages by eliminating the 
+necessity for licenses in multiple states by providing for the mutual recognition of 
+other member state licenses;
+(f)  Support military families;
+(g)  Facilitate the exchange of licensure and disciplinary information among 
+member states;
+(h)  Authorize all member states to hold a regulated social worker accountable 
+for abiding by a member state [s laws, regulations, and applicable professional 
+standards in the member state in which the client is located at the time care is 
+rendered; and
+(i)  Allow for the use of telehealth to facilitate increased access to regulated 
+social work services.
+(2)  DEFINITIONS .  As used in this compact, and except as otherwise provided, 
+the following definitions shall apply:
+(a)  XActive military member Y means any individual with full-time duty status 
+in the active armed forces of the United States including members of the national 
+guard and reserve.
+(b)  XAdverse action Y means any administrative, civil, equitable or criminal 
+action permitted by a state [s laws which is imposed by a licensing authority or other 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 17 - LRB-1704/1
+MED:emw
+SECTION  43
+authority against a regulated social worker, including actions against an 
+individual [s license or multistate authorization to practice such as revocation, 
+suspension, probation, monitoring of the licensee, limitation on the licensee [s 
+practice, or any other encumbrance on licensure affecting a regulated social 
+worker[s authorization to practice, including issuance of a cease and desist action.
+(c)  XAlternative program Y means a nondisciplinary monitoring or practice 
+remediation process approved by a licensing authority to address practitioners with 
+an impairment.
+(d)  XCharter member states Y means member states who have enacted 
+legislation to adopt this compact where such legislation predates the effective date 
+of this compact as described in sub. (14).
+(e)  XCompact commission Y or Xcommission Y means the government agency 
+whose membership consists of all states that have enacted this compact, which is 
+known as the social work licensure compact commission, as described in sub. (10), 
+and which shall operate as an instrumentality of the member states.
+(f)  XCurrent significant investigative information Y means:
+1.  Investigative information that a licensing authority, after a preliminary 
+inquiry that includes notification and an opportunity for the regulated social 
+worker to respond has reason to believe is not groundless and, if proved true, would 
+indicate more than a minor infraction as may be defined by the commission; or
+2.  Investigative information that indicates that the regulated social worker 
+represents an immediate threat to public health and safety, as may be defined by 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 80- 18 - LRB-1704/1
+MED:emw
+SECTION  43
+the commission, regardless of whether the regulated social worker has been notified 
+and has had an opportunity to respond.
+(g)  XData system Y means a repository of information about licensees, 
+including, continuing education, examination, licensure, current significant 
+investigative information, disqualifying event, multistate license(s) and adverse 
+action information or other information as required by the commission.
+(h)  XDisqualifying event Y means any adverse action or incident which results 
+in an encumbrance that disqualifies or makes the licensee ineligible to either 
+obtain, retain or renew a multistate license.
+(i)  XDomicile Y means the jurisdiction in which the licensee resides and 
+intends to remain indefinitely.
+(j)  XEncumbrance Y means a revocation or suspension of, or any limitation on, 
+the full and unrestricted practice of social work licensed and regulated by a 
+licensing authority.
+(k)  XExecutive committee Y means a group of delegates elected or appointed to 
+act on behalf of, and within the powers granted to them by, the compact and 
+commission.
+(L)  XHome state Y means the member state that is the licensee [s primary 
+domicile.
+(m)  XImpairment Y means a condition(s) that may impair a practitioner [s 
+ability to engage in full and unrestricted practice as a regulated social worker 
+without some type of intervention and may include alcohol and drug dependence, 
+mental health impairment, and neurological or physical impairments.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 19 - LRB-1704/1
+MED:emw
+SECTION  43
+(n)  XLicensee(s) Y means an individual who currently holds a license from a 
+state to practice as a regulated social worker.
+(o)  XLicensing authority Y means the board or agency of a member state, or 
+equivalent, that is responsible for the licensing and regulation of regulated social 
+workers.
+(p)  XMember state Y means a state, commonwealth, district, or territory of the 
+United States of America that has enacted this compact.
+(q)  XMultistate authorization to practice Y means a legally authorized privilege 
+to practice, which is equivalent to a license, associated with a multistate license 
+permitting the practice of social work in a remote state.
+(r)  XMultistate license Y means a license to practice as a regulated social 
+worker issued by a home state licensing authority that authorizes the regulated 
+social worker to practice in all member states under multistate authorization to 
+practice.
+(s)  XQualifying national exam Y means a national licensing examination 
+approved by the commission.
+(t)  XRegulated social worker Y means any clinical, master [s or bachelor [s social 
+worker licensed by a member state regardless of the title used by that member 
+state.
+(u)  XRemote state Y means a member state other than the licensee [s home 
+state.
+(v)  XRule(s)Y or Xrule(s) of the commission Y means a regulation or regulations 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 80- 20 - LRB-1704/1
+MED:emw
+SECTION  43
+duly promulgated by the commission, as authorized by the compact, that has the 
+force of law.
+(w)  XSingle state license Y means a social work license issued by any state that 
+authorizes practice only within the issuing state and does not include multistate 
+authorization to practice in any member state.
+(x)  XSocial work Y or Xsocial work services Y means the application of social 
+work theory, knowledge, methods, ethics, and the professional use of self to restore 
+or enhance social, psychosocial, or biopsychosocial functioning of individuals, 
+couples, families, groups, organizations, and communities through the care and 
+services provided by a regulated social worker as set forth in the member state [s 
+statutes and regulations in the state where the services are being provided.
+(y)  XStateY means any state, commonwealth, district, or territory of the 
+United States of America that regulates the practice of social work.
+(z)  XUnencumbered license Y means a license that authorizes a regulated 
+social worker to engage in the full and unrestricted practice of social work.
+(3)  STATE  PARTICIPATION  IN THE COMPACT .  (a)  To be eligible to participate in 
+the compact, a potential member state must currently meet all of the following 
+criteria:
+1.  License and regulate the practice of social work at either the clinical, 
+master[s, or bachelor [s category.
+2.  Require applicants for licensure to graduate from a program that is:
+a.  Operated by a college or university recognized by the licensing authority;
+b.  Accredited, or in candidacy by an institution that subsequently becomes 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 21 - LRB-1704/1
+MED:emw
+SECTION  43
+accredited, by an accrediting agency recognized by either the Council for Higher 
+Education Accreditation, or its successor; or the United States department of 
+education; and
+c.  Corresponds to the licensure sought as outlined in sub. (4).
+3.  Require applicants for clinical licensure to complete a period of supervised 
+practice.
+4.  Have a mechanism in place for receiving, investigating, and adjudicating 
+complaints about licensees.
+(b)  To maintain membership in the compact a member state shall:
+1.  Require that applicants for a multistate license pass a qualifying national 
+exam for the corresponding category of multistate license sought as outlined in sub. 
+(4).
+2.  Participate fully in the commission [s data system, including using the 
+commission [s unique identifier as defined in rules;
+3.  Notify the commission, in compliance with the terms of the compact and 
+rules, of any adverse action or the availability of current significant investigative 
+information regarding a licensee;
+4.  Implement procedures for considering the criminal history records of 
+applicants for a multistate license.  Such procedures shall include the submission of 
+fingerprints or other biometric-based information by applicants for the purpose of 
+obtaining an applicant [s criminal history record information from the federal 
+bureau of investigation and the agency responsible for retaining that state [s 
+criminal records.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 22 - LRB-1704/1
+MED:emw
+SECTION  43
+5.  Comply with the rules of the commission;
+6.  Require an applicant to obtain or retain a license in the home state and 
+meet the home state [s qualifications for licensure or renewal of licensure, as well as 
+all other applicable home state laws;
+7.  Authorize a licensee holding a multistate license in any member state to 
+practice in accordance with the terms of the compact and rules of the commission; 
+and
+8.  Designate a delegate to participate in the commission meetings.
+(c)  A member state meeting the requirements of pars. (a) and (b) shall 
+designate the categories of social work licensure that are eligible for issuance of a 
+multistate license for applicants in such member state.  To the extent that any 
+member state does not meet the requirements for participation in the compact at 
+any particular category of social work licensure, such member state may choose, but 
+is not obligated to, issue a multistate license to applicants that otherwise meet the 
+requirements of sub. (4) for issuance of a multistate license in such category or 
+categories of licensure.
+(d)  The home state may charge a fee for granting the multistate license.
+(4)  SOCIAL  WORKER  PARTICIPATION  IN THE COMPACT .  (a)  To be eligible for a 
+multistate license under the terms and provisions of the compact, an applicant, 
+regardless of category must:
+1.  Hold or be eligible for an active, unencumbered license in the home state;
+2.  Pay any applicable fees, including any state fee, for the multistate license;
+3.  Submit, in connection with an application for a multistate license, 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 23 - LRB-1704/1
+MED:emw
+SECTION  43
+fingerprints or other biometric data for the purpose of obtaining criminal history 
+record information from the federal bureau of investigation and the agency 
+responsible for retaining that state [s criminal records.
+4.  Notify the home state of any adverse action, encumbrance, or restriction on 
+any professional license taken by any member state or nonmember state within 30 
+days from the date the action is taken.
+5.  Meet any continuing competence requirements established by the home 
+state;
+6.  Abide by the laws, regulations, and applicable standards in the member 
+state where the client is located at the time care is rendered.
+(b)  An applicant for a clinical-category multistate license must meet all of the 
+following requirements:
+1.  Fulfill a competency requirement, which shall be satisfied by either:
+a.  Passage of a clinical-category qualifying national exam; or
+b.  Licensure of the applicant in their home state at the clinical category, 
+beginning prior to such time as a qualifying national exam was required by the 
+home state and accompanied by a period of continuous social work licensure 
+thereafter, all of which may be further governed by the rules of the commission; or
+c.  The substantial equivalency of the foregoing competency requirements 
+which the commission may determine by rule.
+2  Attain at least a master [s degree in social work from a program that is:
+a.  Operated by a college or university recognized by the licensing authority; 
+and1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 24 - LRB-1704/1
+MED:emw
+SECTION  43
+b.  Accredited, or in candidacy that subsequently becomes accredited, by an 
+accrediting agency recognized by either the Council for Higher Education 
+Accreditation or its successor; or the United States department of education.
+3.  Fulfill a practice requirement, which shall be satisfied by demonstrating 
+completion of either:
+a.  A period of postgraduate supervised clinical practice equal to a minimum of 
+3,000 hours; or
+b.  A minimum of 2 years of full-time postgraduate supervised clinical 
+practice; or
+c.  The substantial equivalency of the foregoing practice requirements which 
+the commission may determine by rule.
+(c)  An applicant for a master [s-category multistate license must meet all of 
+the following requirements:
+1.  Fulfill a competency requirement, which shall be satisfied by either:
+a.  Passage of a masters-category qualifying national exam;
+b.  Licensure of the applicant in their home state at the master [s category, 
+beginning prior to such time as a qualifying national exam was required by the 
+home state at the master [s category and accompanied by a continuous period of 
+social work licensure thereafter, all of which may be further governed by the rules of 
+the commission; or
+c.  The substantial equivalency of the foregoing competency requirements 
+which the commission may determine by rule.
+2.  Attain at least a master [s degree in social work from a program that is:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 25 - LRB-1704/1
+MED:emw
+SECTION  43
+a.  Operated by a college or university recognized by the licensing authority; 
+and
+b.  Accredited, or in candidacy that subsequently becomes accredited, by an 
+accrediting agency recognized by either the Council for Higher Education 
+Accreditation or its successor; or the United States department of education.
+(d)  An applicant for a bachelor [s-category multistate license must meet all of 
+the following requirements:
+1.  Fulfill a competency requirement, which shall be satisfied by either:
+a.  Passage of a bachelor [s-category qualifying national exam;
+b.  Licensure of the applicant in their home state at the bachelor [s category, 
+beginning prior to such time as a qualifying national exam was required by the 
+home state and accompanied by a period of continuous social work licensure 
+thereafter, all of which may be further governed by the rules of the commission; or
+c.  The substantial equivalency of the foregoing competency requirements 
+which the commission may determine by rule.
+2.  Attain at least a bachelor [s degree in social work from a program that is:
+a.  Operated by a college or university recognized by the licensing authority; 
+and
+b.  Accredited, or in candidacy that subsequently becomes accredited, by an 
+accrediting agency recognized by either the Council for Higher Education 
+Accreditation or its successor; or the United States department of education.
+(e)  The multistate license for a regulated social worker is subject to the 
+renewal requirements of the home state.  The regulated social worker must 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 26 - LRB-1704/1
+MED:emw
+SECTION  43
+maintain compliance with the requirements of par. (a) to be eligible to renew a 
+multistate license.
+(f)  The regulated social worker [s services in a remote state are subject to that 
+member state [s regulatory authority.  A remote state may, in accordance with due 
+process and that member state [s laws, remove a regulated social worker [s 
+multistate authorization to practice in the remote state for a specific period of time, 
+impose fines, and take any other necessary actions to protect the health and safety 
+of its citizens.
+(g)  If a multistate license is encumbered, the regulated social worker [s 
+multistate authorization to practice shall be deactivated in all remote states until 
+the multistate license is no longer encumbered.
+(h)  If a multistate authorization to practice is encumbered in a remote state, 
+the regulated social worker [s multistate authorization to practice may be 
+deactivated in that state until the multistate authorization to practice is no longer 
+encumbered.
+(5)  ISSUANCE  OF A MULTISTATE  LICENSE .  (a)  Upon receipt of an application for 
+multistate license, the home state licensing authority shall determine the 
+applicant [s eligibility for a multistate license in accordance with sub. (4).
+(b)  If such applicant is eligible pursuant to sub. (4), the home state licensing 
+authority shall issue a multistate license that authorizes the applicant or regulated 
+social worker to practice in all member states under a multistate authorization to 
+practice.
+(c)  Upon issuance of a multistate license, the home state licensing authority 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 27 - LRB-1704/1
+MED:emw
+SECTION  43
+shall designate whether the regulated social worker holds a multistate license in 
+the bachelor [s, master [s, or clinical category of social work.
+(d)  A multistate license issued by a home state to a resident in that state shall 
+be recognized by all compact member states as authorizing social work practice 
+under a multistate authorization to practice corresponding to each category of 
+licensure regulated in each member state.
+(6)  A UTHORITY  OF INTERSTATE  COMPACT  COMMISSION  AND MEMBER  STATE  
+LICENSING  AUTHORITIES .  (a)  Nothing in this compact, nor any rule of the 
+commission, shall be construed to limit, restrict, or in any way reduce the ability of 
+a member state to enact and enforce laws, regulations, or other rules related to the 
+practice of social work in that state, where those laws, regulations, or other rules 
+are not inconsistent with the provisions of this compact.
+(b)  Nothing in this compact shall affect the requirements established by a 
+member state for the issuance of a single state license.
+(c)  Nothing in this compact, nor any rule of the commission, shall be construed 
+to limit, restrict, or in any way reduce the ability of a member state to take adverse 
+action against a licensee [s single state license to practice social work in that state.
+(d)  Nothing in this compact, nor any rule of the commission, shall be 
+construed to limit, restrict, or in any way reduce the ability of a remote state to take 
+adverse action against a licensee [s multistate authorization to practice in that 
+state.
+(e)  Nothing in this compact, nor any rule of the commission, shall be 
+construed to limit, restrict, or in any way reduce the ability of a licensee [s home 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 28 - LRB-1704/1
+MED:emw
+SECTION  43
+state to take adverse action against a licensee [s multistate license based upon 
+information provided by a remote state.
+(7)  REISSUANCE  OF A MULTISTATE  LICENSE  BY A NEW HOME  STATE .  (a)  A 
+licensee can hold a multistate license, issued by their home state, in only one 
+member state at any given time.
+(b)  If a licensee changes their home state by moving between 2 member states:
+1.  The licensee shall immediately apply for the reissuance of their multistate 
+license in their new home state.  The licensee shall pay all applicable fees and notify 
+the prior home state in accordance with the rules of the commission.
+2.  Upon receipt of an application to reissue a multistate license, the new home 
+state shall verify that the multistate license is active, unencumbered and eligible 
+for reissuance under the terms of the compact and the rules of the commission.  The 
+multistate license issued by the prior home state will be deactivated and all 
+member states notified in accordance with the applicable rules adopted by the 
+commission.
+3.  Prior to the reissuance of the multistate license, the new home state shall 
+conduct procedures for considering the criminal history records of the licensee.  
+Such procedures shall include the submission of fingerprints or other biometric-
+based information by applicants for the purpose of obtaining an applicant [s 
+criminal history record information from the federal bureau of investigation and the 
+agency responsible for retaining that state [s criminal records.
+4.  If required for initial licensure, the new home state may require completion 
+of jurisprudence requirements in the new home state.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 29 - LRB-1704/1
+MED:emw
+SECTION  43
+5.  Notwithstanding any other provision of this compact, if a licensee does not 
+meet the requirements set forth in this compact for the reissuance of a multistate 
+license by the new home state, then the licensee shall be subject to the new home 
+state requirements for the issuance of a single state license in that state.
+(c)  If a licensee changes their primary state of residence by moving from a 
+member state to a nonmember state, or from a nonmember state to a member state, 
+then the licensee shall be subject to the state requirements for the issuance of a 
+single state license in the new home state.
+(d)  Nothing in this compact shall interfere with a licensee [s ability to hold a 
+single state license in multiple states; however, for the purposes of this compact, a 
+licensee shall have only one home state, and only one multistate license.
+(e)  Nothing in this compact shall interfere with the requirements established 
+by a member state for the issuance of a single state license.
+(8)  M ILITARY  FAMILIES .  An active military member or their spouse shall 
+designate a home state where the individual has a multistate license.  The 
+individual may retain their home state designation during the period the service 
+member is on active duty.
+(9)  ADVERSE  ACTIONS .  (a)  In addition to the other powers conferred by state 
+law, a remote state shall have the authority, in accordance with existing state due 
+process law, to:
+1.  Take adverse action against a regulated social worker [s multistate 
+authorization to practice only within that member state, and issue subpoenas for 
+both hearings and investigations that require the attendance and testimony of 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 30 - LRB-1704/1
+MED:emw
+SECTION  43
+witnesses as well as the production of evidence.  Subpoenas issued by a licensing 
+authority in a member state for the attendance and testimony of witnesses or the 
+production of evidence from another member state shall be enforced in the latter 
+state by any court of competent jurisdiction, according to the practice and procedure 
+of that court applicable to subpoenas issued in proceedings pending before it.  The 
+issuing licensing authority shall pay any witness fees, travel expenses, mileage, and 
+other fees required by the service statutes of the state in which the witnesses or 
+evidence are located.
+2.  Only the home state shall have the power to take adverse action against a 
+regulated social worker [s multistate license.
+(b)  For purposes of taking adverse action, the home state shall give the same 
+priority and effect to reported conduct received from a member state as it would if 
+the conduct had occurred within the home state.  In so doing, the home state shall 
+apply its own state laws to determine appropriate action.
+(c)  The home state shall complete any pending investigations of a regulated 
+social worker who changes their home state during the course of the investigations.  
+The home state shall also have the authority to take appropriate action(s) and shall 
+promptly report the conclusions of the investigations to the administrator of the 
+data system.  The administrator of the data system shall promptly notify the new 
+home state of any adverse actions.
+(d)  A member state, if otherwise permitted by state law, may recover from the 
+affected regulated social worker the costs of investigations and dispositions of cases 
+resulting from any adverse action taken against that regulated social worker.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 31 - LRB-1704/1
+MED:emw
+SECTION  43
+(e)  A member state may take adverse action based on the factual findings of 
+another member state, provided that the member state follows its own procedures 
+for taking the adverse action.
+(f)  Joint investigations.   1.  In addition to the authority granted to a member 
+state by its respective social work practice act or other applicable state law, any 
+member state may participate with other member states in joint investigations of 
+licensees.
+2.  Member states shall share any investigative, litigation, or compliance 
+materials in furtherance of any joint or individual investigation initiated under the 
+compact.
+(g)  If adverse action is taken by the home state against the multistate license 
+of a regulated social worker, the regulated social worker [s multistate authorization 
+to practice in all other member states shall be deactivated until all encumbrances 
+have been removed from the multistate license.  All home state disciplinary orders 
+that impose adverse action against the license of a regulated social worker shall 
+include a statement that the regulated social worker [s multistate authorization to 
+practice is deactivated in all member states until all conditions of the decision, 
+order or agreement are satisfied.
+(h)  If a member state takes adverse action, it shall promptly notify the 
+administrator of the data system.  The administrator of the data system shall 
+promptly notify the home state and all other member states of any adverse actions 
+by remote states.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 80- 32 - LRB-1704/1
+MED:emw
+SECTION  43
+(i)  Nothing in this compact shall override a member state [s decision that 
+participation in an alternative program may be used in lieu of adverse action.
+(j)  Nothing in this compact shall authorize a member state to demand the 
+issuance of subpoenas for attendance and testimony of witnesses or the production 
+of evidence from another member state for lawful actions within that member state.
+(k)  Nothing in this compact shall authorize a member state to impose 
+discipline against a regulated social worker who holds a multistate authorization to 
+practice for lawful actions within another member state.
+(10)  ESTABLISHMENT  OF SOCIAL  WORK  LICENSURE  COMPACT  COMMISSION .  (a)  
+The compact member states hereby create and establish a joint government agency 
+whose membership consists of all member states that have enacted the compact 
+known as the social work licensure compact commission.  The commission is an 
+instrumentality of the compact states acting jointly and not an instrumentality of 
+any one state.  The commission shall come into existence on or after the effective 
+date of the compact as set forth in sub. (14).
+(b)  Membership, voting, and meetings.   1.  Each member state shall have and 
+be limited to one delegate selected by that member state [s state licensing authority.
+2.  The delegate shall be either:
+a.  A current member of the state licensing authority at the time of 
+appointment, who is a regulated social worker or public member of the state 
+licensing authority; or
+b.  An administrator of the state licensing authority or their designee.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 80- 33 - LRB-1704/1
+MED:emw
+SECTION  43
+3.  The commission shall by rule or bylaw establish a term of office for 
+delegates and may by rule or bylaw establish term limits.
+4.  The commission may recommend removal or suspension any delegate from 
+office.
+5.  A member state [s state licensing authority shall fill any vacancy of its 
+delegate occurring on the commission within 60 days of the vacancy.
+6.  Each delegate shall be entitled to one vote on all matters before the 
+commission requiring a vote by commission delegates.
+7.  A delegate shall vote in person or by such other means as provided in the 
+bylaws.  The bylaws may provide for delegates to meet by telecommunication, 
+videoconference, or other means of communication.
+8.  The commission shall meet at least once during each calendar year.  
+Additional meetings may be held as set forth in the bylaws.  The commission may 
+meet by telecommunication, video conference or other similar electronic means.
+(c)  The commission shall have the following powers:
+1.  Establish the fiscal year of the commission;
+2.  Establish code of conduct and conflict of interest policies;
+3.  Establish and amend rules and bylaws;
+4.  Maintain its financial records in accordance with the bylaws;
+5.  Meet and take such actions as are consistent with the provisions of this 
+compact, the commission [s rules, and the bylaws;
+6.  Initiate and conclude legal proceedings or actions in the name of the 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 80- 34 - LRB-1704/1
+MED:emw
+SECTION  43
+commission, provided that the standing of any state licensing board to sue or be 
+sued under applicable law shall not be affected;
+7.  Maintain and certify records and information provided to a member state 
+as the authenticated business records of the commission, and designate an agent to 
+do so on the commission [s behalf;
+8.  Purchase and maintain insurance and bonds;
+9.  Borrow, accept, or contract for services of personnel, including, but not 
+limited to, employees of a member state;
+10.  Conduct an annual financial review;
+11.  Hire employees, elect or appoint officers, fix compensation, define duties, 
+grant such individuals appropriate authority to carry out the purposes of the 
+compact, and establish the commission [s personnel policies and programs relating 
+to conflicts of interest, qualifications of personnel, and other related personnel 
+matters;
+12.  Assess and collect fees;
+13.  Accept any and all appropriate gifts, donations, grants of money, other 
+sources of revenue, equipment, supplies, materials, and services, and receive, 
+utilize, and dispose of the same; provided that at all times the commission shall 
+avoid any appearance of impropriety or conflict of interest;
+14.  Lease, purchase, retain, own, hold, improve, or use any property, real, 
+personal, or mixed, or any undivided interest therein;
+15.  Sell, convey, mortgage, pledge, lease, exchange, abandon, or otherwise 
+dispose of any property real, personal, or mixed;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 35 - LRB-1704/1
+MED:emw
+SECTION  43
+16.  Establish a budget and make expenditures;
+17.  Borrow money;
+18.  Appoint committees, including standing committees, composed of 
+members, state regulators, state legislators or their representatives, and consumer 
+representatives, and such other interested persons as may be designated in this 
+compact and the bylaws;
+19.  Provide and receive information from, and cooperate with, law 
+enforcement agencies;
+20.  Establish and elect an executive committee, including a chair and a vice 
+chair;
+21.  Determine whether a state [s adopted language is materially different from 
+the model compact language such that the state would not qualify for participation 
+in the compact; and
+22.  Perform such other functions as may be necessary or appropriate to 
+achieve the purposes of this compact.
+(d)  The executive committee.   1.  The executive committee shall have the power 
+to act on behalf of the commission according to the terms of this compact.  The 
+powers, duties, and responsibilities of the executive committee shall include:
+a.  Oversee the day-to-day activities of the administration of the compact 
+including enforcement and compliance with the provisions of the compact, its rules 
+and bylaws, and other such duties as deemed necessary;
+b.  Recommend to the commission changes to the rules or bylaws, changes to 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 80- 36 - LRB-1704/1
+MED:emw
+SECTION  43
+this compact legislation, fees charged to compact member states, fees charged to 
+licensees, and other fees;
+c.  Ensure compact administration services are appropriately provided, 
+including by contract;
+d.  Prepare and recommend the budget;
+e.  Maintain financial records on behalf of the commission;
+f.  Monitor compact compliance of member states and provide compliance 
+reports to the commission;
+g.  Establish additional committees as necessary;
+h.  Exercise the powers and duties of the commission during the interim 
+between commission meetings, except for adopting or amending rules, adopting or 
+amending bylaws, and exercising any other powers and duties expressly reserved to 
+the commission by rule or bylaw; and
+i.  Other duties as provided in the rules or bylaws of the commission.
+2.  The executive committee shall be composed of up to 11 members:
+a.  The chair and vice chair of the commission shall be voting members of the 
+executive committee; and
+b.  The commission shall elect 5 voting members from the current membership 
+of the commission.
+c.  Up to 4 ex officio, nonvoting members from 4 recognized national social 
+work organizations.
+d.  The ex officio members will be selected by their respective organizations.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 80- 37 - LRB-1704/1
+MED:emw
+SECTION  43
+3.  The commission may remove any member of the executive committee as 
+provided in the commission [s bylaws.
+4.  The executive committee shall meet at least annually.
+a.  Executive committee meetings shall be open to the public, except that the 
+executive committee may meet in a closed, nonpublic meeting as provided in par. (f) 
+2. below.
+b.  The executive committee shall give 7 days [ notice of its meetings, posted on 
+its website and as determined to provide notice to persons with an interest in the 
+business of the commission.
+c.  The executive committee may hold a special meeting in accordance with 
+par. (f) 1. b. below.
+(e)  The commission shall adopt and provide to the member states an annual 
+report.
+(f)  Meetings of the commission.   1.  All meetings shall be open to the public, 
+except that the commission may meet in a closed, nonpublic meeting as provided in 
+subd. 2. below.
+a.  Public notice for all meetings of the full commission of meetings shall be 
+given in the same manner as required under the rule-making provisions in sub. 
+(12), except that the commission may hold a special meeting as provided in subd. 1. 
+b. below.
+b.  The commission may hold a special meeting when it must meet to conduct 
+emergency business by giving 48 hours [ notice to all commissioners, on the 
+commission [s website, and other means as provided in the commission [s rules.  The 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 38 - LRB-1704/1
+MED:emw
+SECTION  43
+commission [s legal counsel shall certify that the commission [s need to meet 
+qualifies as an emergency.
+2.  The commission or the executive committee or other committees of the 
+commission may convene in a closed, nonpublic meeting for the commission or 
+executive committee or other committees of the commission to receive legal advice 
+or to discuss:
+a.  Noncompliance of a member state with its obligations under the compact;
+b.  The employment, compensation, discipline or other matters, practices or 
+procedures related to specific employees;
+c.  Current or threatened discipline of a licensee by the commission or by a 
+member state [s licensing authority;
+d.  Current, threatened, or reasonably anticipated litigation;
+e.  Negotiation of contracts for the purchase, lease, or sale of goods, services, or 
+real estate;
+f.  Accusing any person of a crime or formally censuring any person;
+g.  Trade secrets or commercial or financial information that is privileged or 
+confidential;
+h.  Information of a personal nature where disclosure would constitute a 
+clearly unwarranted invasion of personal privacy;
+i.  Investigative records compiled for law enforcement purposes;
+j.  Information related to any investigative reports prepared by or on behalf of 
+or for use of the commission or other committee charged with responsibility of 
+investigation or determination of compliance issues pursuant to the compact;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 39 - LRB-1704/1
+MED:emw
+SECTION  43
+k.  Matters specifically exempted from disclosure by federal or member state 
+law; or
+L.  Other matters as promulgated by the commission by rule.
+3.  If a meeting, or portion of a meeting, is closed, the presiding officer shall 
+state that the meeting will be closed and reference each relevant exempting 
+provision, and such reference shall be recorded in the minutes.
+4.  The commission shall keep minutes that fully and clearly describe all 
+matters discussed in a meeting and shall provide a full and accurate summary of 
+actions taken, and the reasons therefore, including a description of the views 
+expressed.  All documents considered in connection with an action shall be 
+identified in such minutes.  All minutes and documents of a closed meeting shall 
+remain under seal, subject to release only by a majority vote of the commission or 
+order of a court of competent jurisdiction.
+(g)  Financing of the commission.   1.  The commission shall pay, or provide for 
+the payment of, the reasonable expenses of its establishment, organization, and 
+ongoing activities.
+2.  The commission may accept any and all appropriate revenue sources as 
+provided in par. (c) 13.
+3.  The commission may levy on and collect an annual assessment from each 
+member state and impose fees on licensees of member states to whom it grants a 
+multistate license to cover the cost of the operations and activities of the 
+commission and its staff, which must be in a total amount sufficient to cover its 
+annual budget as approved each year for which revenue is not provided by other 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 40 - LRB-1704/1
+MED:emw
+SECTION  43
+sources.  The aggregate annual assessment amount for member states shall be 
+allocated based upon a formula that the commission shall promulgate by rule.
+4.  The commission shall not incur obligations of any kind prior to securing the 
+funds adequate to meet the same; nor shall the commission pledge the credit of any 
+of the member states, except by and with the authority of the member state.
+5.  The commission shall keep accurate accounts of all receipts and 
+disbursements.  The receipts and disbursements of the commission shall be subject 
+to the financial review and accounting procedures established under its bylaws.  
+However, all receipts and disbursements of funds handled by the commission shall 
+be subject to an annual financial review by a certified or licensed public accountant, 
+and the report of the financial review shall be included in and become part of the 
+annual report of the commission.
+(h)  Qualified immunity, defense, and indemnification.   1.  The members, 
+officers, executive director, employees and representatives of the commission shall 
+be immune from suit and liability, both personally and in their official capacity, for 
+any claim for damage to or loss of property or personal injury or other civil liability 
+caused by or arising out of any actual or alleged act, error, or omission that 
+occurred, or that the person against whom the claim is made had a reasonable basis 
+for believing occurred within the scope of commission employment, duties or 
+responsibilities; provided that nothing in this subdivision shall be construed to 
+protect any such person from suit or liability for any damage, loss, injury, or liability 
+caused by the intentional or willful or wanton misconduct of that person.  The 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 80- 41 - LRB-1704/1
+MED:emw
+SECTION  43
+procurement of insurance of any type by the commission shall not in any way 
+compromise or limit the immunity granted hereunder.
+2.  The commission shall defend any member, officer, executive director, 
+employee, and representative of the commission in any civil action seeking to 
+impose liability arising out of any actual or alleged act, error, or omission that 
+occurred within the scope of commission employment, duties, or responsibilities, or 
+as determined by the commission that the person against whom the claim is made 
+had a reasonable basis for believing occurred within the scope of commission 
+employment, duties, or responsibilities; provided that nothing herein shall be 
+construed to prohibit that person from retaining their own counsel at their own 
+expense; and provided further, that the actual or alleged act, error, or omission did 
+not result from that person [s intentional or willful or wanton misconduct.
+3.  The commission shall indemnify and hold harmless any member, officer, 
+executive director, employee, and representative of the commission for the amount 
+of any settlement or judgment obtained against that person arising out of any 
+actual or alleged act, error, or omission that occurred within the scope of 
+commission employment, duties, or responsibilities, or that such person had a 
+reasonable basis for believing occurred within the scope of commission 
+employment, duties, or responsibilities, provided that the actual or alleged act, 
+error, or omission did not result from the intentional or willful or wanton 
+misconduct of that person.
+4.  Nothing herein shall be construed as a limitation on the liability of any 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 80- 42 - LRB-1704/1
+MED:emw
+SECTION  43
+licensee for professional malpractice or misconduct, which shall be governed solely 
+by any other applicable state laws.
+5.  Nothing in this compact shall be interpreted to waive or otherwise abrogate 
+a member state [s state action immunity or state action affirmative defense with 
+respect to antitrust claims under the Sherman Act, Clayton Act, or any other state 
+or federal antitrust or anticompetitive law or regulation.
+6.  Nothing in this compact shall be construed to be a waiver of sovereign 
+immunity by the member states or by the commission.
+(11)  DATA SYSTEM .  (a)  The commission shall provide for the development, 
+maintenance, operation, and utilization of a coordinated data system.
+(b)  The commission shall assign each applicant for a multistate license a 
+unique identifier, as determined by the rules of the commission.
+(c)  Notwithstanding any other provision of state law to the contrary, a 
+member state shall submit a uniform data set to the data system on all individuals 
+to whom this compact is applicable as required by the rules of the commission, 
+including:
+1.  Identifying information;
+2.  Licensure data;
+3.  Adverse actions against a license and information related thereto;
+4.  Nonconfidential information related to alternative program participation, 
+the beginning and ending dates of such participation, and other information related 
+to such participation not made confidential under member state law;
+5.  Any denial of application for licensure, and the reason(s) for such denial;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 43 - LRB-1704/1
+MED:emw
+SECTION  43
+6.  The presence of current significant investigative information; and
+7.  Other information that may facilitate the administration of this compact or 
+the protection of the public, as determined by the rules of the commission.
+(d)  The records and information provided to a member state pursuant to this 
+compact or through the data system, when certified by the commission or an agent 
+thereof, shall constitute the authenticated business records of the commission, and 
+shall be entitled to any associated hearsay exception in any relevant judicial, quasi-
+judicial or administrative proceedings in a member state.
+(e)  Current significant investigative information pertaining to a licensee in 
+any member state will only be available to other member states.
+1.  It is the responsibility of the member states to report any adverse action 
+against a licensee and to monitor the database to determine whether adverse action 
+has been taken against a licensee.  Adverse action information pertaining to a 
+licensee in any member state will be available to any other member state.
+(f)  Member states contributing information to the data system may designate 
+information that may not be shared with the public without the express permission 
+of the contributing state.
+(g)  Any information submitted to the data system that is subsequently 
+expunged pursuant to federal law or the laws of the member state contributing the 
+information shall be removed from the data system.
+(12)  RULE MAKING .  (a)  The commission shall promulgate reasonable rules in 
+order to effectively and efficiently implement and administer the purposes and 
+provisions of the compact.  A rule shall be invalid and have no force or effect only if 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 44 - LRB-1704/1
+MED:emw
+SECTION  43
+a court of competent jurisdiction holds that the rule is invalid because the 
+commission exercised its rule-making authority in a manner that is beyond the 
+scope and purposes of the compact, or the powers granted hereunder, or based upon 
+another applicable standard of review.
+(b)  The rules of the commission shall have the force of law in each member 
+state, provided however that where the rules of the commission conflict with the 
+laws of the member state that establish the member state [s laws, regulations, and 
+applicable standards that govern the practice of social work as held by a court of 
+competent jurisdiction, the rules of the commission shall be ineffective in that state 
+to the extent of the conflict.
+(c)  The commission shall exercise its rule-making powers pursuant to the 
+criteria set forth in this subsection and the rules adopted thereunder.  Rules shall 
+become binding on the day following adoption or the date specified in the rule or 
+amendment, whichever is later.
+(d)  If a majority of the legislatures of the member states rejects a rule or 
+portion of a rule, by enactment of a statute or resolution in the same manner used 
+to adopt the compact within 4 years of the date of adoption of the rule, then such 
+rule shall have no further force and effect in any member state.
+(e)  Rules shall be adopted at a regular or special meeting of the commission.
+(f)  Prior to adoption of a proposed rule, the commission shall hold a public 
+hearing and allow persons to provide oral and written comments, data, facts, 
+opinions, and arguments.
+(g)  Prior to adoption of a proposed rule by the commission, and at least 30 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 45 - LRB-1704/1
+MED:emw
+SECTION  43
+days in advance of the meeting at which the commission will hold a public hearing 
+on the proposed rule, the commission shall provide a notice of proposed rule 
+making:
+1.  On the website of the commission or other publicly accessible platform;
+2.  To persons who have requested notice of the commission [s notices of 
+proposed rule making, and
+3.  In such other way(s) as the commission may by rule specify.
+(h)  The notice of proposed rule making shall include:
+1.  The time, date, and location of the public hearing at which the commission 
+will hear public comments on the proposed rule and, if different, the time, date, and 
+location of the meeting where the commission will consider and vote on the 
+proposed rule;
+2.  If the hearing is held via telecommunication, video conference, or other 
+electronic means, the commission shall include the mechanism for access to the 
+hearing in the notice of proposed rule making;
+3.  The text of the proposed rule and the reason therefor;
+4.  A request for comments on the proposed rule from any interested person; 
+and
+5.  The manner in which interested persons may submit written comments.
+(i)  All hearings will be recorded.  A copy of the recording and all written 
+comments and documents received by the commission in response to the proposed 
+rule shall be available to the public.
+(j)  Nothing in this subsection shall be construed as requiring a separate 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 46 - LRB-1704/1
+MED:emw
+SECTION  43
+hearing on each rule.  Rules may be grouped for the convenience of the commission 
+at hearings required by this subsection.
+(k)  The commission shall, by majority vote of all members, take final action on 
+the proposed rule based on the rule-making record and the full text of the rule.
+1.  The commission may adopt changes to the proposed rule provided the 
+changes do not enlarge the original purpose of the proposed rule.
+2.  The commission shall provide an explanation of the reasons for substantive 
+changes made to the proposed rule as well as reasons for substantive changes not 
+made that were recommended by commenters.
+3.  The commission shall determine a reasonable effective date for the rule.  
+Except for an emergency as provided in par. (L), the effective date of the rule shall 
+be no sooner than 30 days after issuing the notice that it adopted or amended the 
+rule.
+(L)  Upon determination that an emergency exists, the commission may 
+consider and adopt an emergency rule with 48 hours [ notice, with opportunity to 
+comment, provided that the usual rule-making procedures provided in the compact 
+and in this subsection shall be retroactively applied to the rule as soon as 
+reasonably possible, in no event later than 90 days after the effective date of the 
+rule.  For the purposes of this provision, an emergency rule is one that must be 
+adopted immediately in order to:
+1.  Meet an imminent threat to public health, safety, or welfare;
+2.  Prevent a loss of commission or member state funds;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 80- 47 - LRB-1704/1
+MED:emw
+SECTION  43
+3.  Meet a deadline for the promulgation of a rule that is established by federal 
+law or rule; or
+4.  Protect public health and safety.
+(m)  The commission or an authorized committee of the commission may direct 
+revisions to a previously adopted rule for purposes of correcting typographical 
+errors, errors in format, errors in consistency, or grammatical errors.  Public notice 
+of any revisions shall be posted on the website of the commission.  The revision shall 
+be subject to challenge by any person for a period of 30 days after posting.  The 
+revision may be challenged only on grounds that the revision results in a material 
+change to a rule.  A challenge shall be made in writing and delivered to the 
+commission prior to the end of the notice period.  If no challenge is made, the 
+revision will take effect without further action.  If the revision is challenged, the 
+revision may not take effect without the approval of the commission.
+(n)  No member state [s rule-making requirements shall apply under this 
+compact.
+(13)  OVERSIGHT , DISPUTE  RESOLUTION , AND ENFORCEMENT .  (a)  Oversight.   1.  
+The executive and judicial branches of state government in each member state shall 
+enforce this compact and take all actions necessary and appropriate to implement 
+the compact.
+2.  Except as otherwise provided in this compact, venue is proper and judicial 
+proceedings by or against the commission shall be brought solely and exclusively in 
+a court of competent jurisdiction where the principal office of the commission is 
+located.  The commission may waive venue and jurisdictional defenses to the extent 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 48 - LRB-1704/1
+MED:emw
+SECTION  43
+it adopts or consents to participate in alternative dispute resolution proceedings.  
+Nothing herein shall affect or limit the selection or propriety of venue in any action 
+against a licensee for professional malpractice, misconduct or any such similar 
+matter.
+3.  The commission shall be entitled to receive service of process in any 
+proceeding regarding the enforcement or interpretation of the compact and shall 
+have standing to intervene in such a proceeding for all purposes.  Failure to provide 
+the commission service of process shall render a judgment or order void as to the 
+commission, this compact, or promulgated rules.
+(b)  Default, technical assistance, and termination.   1.  If the commission 
+determines that a member state has defaulted in the performance of its obligations 
+or responsibilities under this compact or the promulgated rules, the commission 
+shall provide written notice to the defaulting state.  The notice of default shall 
+describe the default, the proposed means of curing the default, and any other action 
+that the commission may take, and shall offer training and specific technical 
+assistance regarding the default.
+2.  The commission shall provide a copy of the notice of default to the other 
+member states.
+(c)  If a state in default fails to cure the default, the defaulting state may be 
+terminated from the compact upon an affirmative vote of a majority of the delegates 
+of the member states, and all rights, privileges and benefits conferred on that state 
+by this compact may be terminated on the effective date of termination.  A cure of 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+ASSEMBLY BILL 80- 49 - LRB-1704/1
+MED:emw
+SECTION  43
+the default does not relieve the offending state of obligations or liabilities incurred 
+during the period of default.
+(d)  Termination of membership in the compact shall be imposed only after all 
+other means of securing compliance have been exhausted.  Notice of intent to 
+suspend or terminate shall be given by the commission to the governor, the majority 
+and minority leaders of the defaulting state [s legislature, the defaulting state [s 
+state licensing authority and each of the member states [ state licensing authority.
+(e)  A state that has been terminated is responsible for all assessments, 
+obligations, and liabilities incurred through the effective date of termination, 
+including obligations that extend beyond the effective date of termination.
+(f)  Upon the termination of a state [s membership from this compact, that 
+state shall immediately provide notice to all licensees within that state of such 
+termination.  The terminated state shall continue to recognize all licenses granted 
+pursuant to this compact for a minimum of 6 months after the date of said notice of 
+termination.
+(g)  The commission shall not bear any costs related to a state that is found to 
+be in default or that has been terminated from the compact, unless agreed upon in 
+writing between the commission and the defaulting state.
+(h)  The defaulting state may appeal the action of the commission by 
+petitioning the U.S. District Court for the District of Columbia or the federal 
+district where the commission has its principal offices.  The prevailing party shall 
+be awarded all costs of such litigation, including reasonable attorney [s fees.
+(i)  Dispute resolution.   1.  Upon request by a member state, the commission 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 50 - LRB-1704/1
+MED:emw
+SECTION  43
+shall attempt to resolve disputes related to the compact that arise among member 
+states and between member and nonmember states.
+2.  The commission shall promulgate a rule providing for both mediation and 
+binding dispute resolution for disputes as appropriate.
+(j)  Enforcement.   1.  By majority vote as provided by rule, the commission may 
+initiate legal action against a member state in default in the United States District 
+Court for the District of Columbia or the federal district where the commission has 
+its principal offices to enforce compliance with the provisions of the compact and its 
+promulgated rules.  The relief sought may include both injunctive relief and 
+damages.  In the event judicial enforcement is necessary, the prevailing party shall 
+be awarded all costs of such litigation, including reasonable attorney [s fees.  The 
+remedies herein shall not be the exclusive remedies of the commission.  The 
+commission may pursue any other remedies available under federal or the 
+defaulting member state [s law.
+2.  A member state may initiate legal action against the commission in the 
+U.S. District Court for the District of Columbia or the federal district where the 
+commission has its principal offices to enforce compliance with the provisions of the 
+compact and its promulgated rules.  The relief sought may include both injunctive 
+relief and damages.  In the event judicial enforcement is necessary, the prevailing 
+party shall be awarded all costs of such litigation, including reasonable attorney [s 
+fees.
+3.  No person other than a member state shall enforce this compact against the 
+commission.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 51 - LRB-1704/1
+MED:emw
+SECTION  43
+(14)  EFFECTIVE  DATE , WITHDRAWAL , AND AMENDMENT .  (a)  The compact shall 
+come into effect on the date on which the compact statute is enacted into law in the 
+7th member state.
+1.  On or after the effective date of the compact, the commission shall convene 
+and review the enactment of each of the first 7 member states ( Xcharter member 
+statesY) to determine if the statute enacted by each such charter member state is 
+materially different than the model compact statute.
+a.  A charter member state whose enactment is found to be materially 
+different from the model compact statute shall be entitled to the default process set 
+forth in sub. (13).
+b.  If any member state is later found to be in default, or is terminated or 
+withdraws from the compact, the commission shall remain in existence and the 
+compact shall remain in effect even if the number of member states should be less 
+than 7.
+2.  Member states enacting the compact subsequent to the 7 initial charter 
+member states shall be subject to the process set forth in sub. (10) (c) 21. to 
+determine if their enactments are materially different from the model compact 
+statute and whether they qualify for participation in the compact.
+3.  All actions taken for the benefit of the commission or in furtherance of the 
+purposes of the administration of the compact prior to the effective date of the 
+compact or the commission coming into existence shall be considered to be actions 
+of the commission unless specifically repudiated by the commission.
+4.  Any state that joins the compact subsequent to the commission [s initial 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 52 - LRB-1704/1
+MED:emw
+SECTION  43
+adoption of the rules and bylaws shall be subject to the rules and bylaws as they 
+exist on the date on which the compact becomes law in that state.  Any rule that has 
+been previously adopted by the commission shall have the full force and effect of law 
+on the day the compact becomes law in that state.
+(b)  Any member state may withdraw from this compact by enacting a statute 
+repealing the same.
+1.  A member state [s withdrawal shall not take effect until 180 days after 
+enactment of the repealing statute.
+2.  Withdrawal shall not affect the continuing requirement of the withdrawing 
+state[s licensing authority to comply with the investigative and adverse action 
+reporting requirements of this compact prior to the effective date of withdrawal.
+3.  Upon the enactment of a statute withdrawing from this compact, a state 
+shall immediately provide notice of such withdrawal to all licensees within that 
+state.  Notwithstanding any subsequent statutory enactment to the contrary, such 
+withdrawing state shall continue to recognize all licenses granted pursuant to this 
+compact for a minimum of 180 days after the date of such notice of withdrawal.
+(c)  Nothing contained in this compact shall be construed to invalidate or 
+prevent any licensure agreement or other cooperative arrangement between a 
+member state and a nonmember state that does not conflict with the provisions of 
+this compact.
+(d)  This compact may be amended by the member states.  No amendment to 
+this compact shall become effective and binding upon any member state until it is 
+enacted into the laws of all member states.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 53 - LRB-1704/1
+MED:emw
+SECTION  43
+(15)  C ONSTRUCTION  AND SEVERABILITY .  (a)  This compact and the 
+commission [s rule-making authority shall be liberally construed so as to effectuate 
+the purposes, and the implementation and administration of the compact.  
+Provisions of the compact expressly authorizing or requiring the promulgation of 
+rules shall not be construed to limit the commission [s rule-making authority solely 
+for those purposes.
+(b)  The provisions of this compact shall be severable and if any phrase, clause, 
+sentence or provision of this compact is held by a court of competent jurisdiction to 
+be contrary to the constitution of any member state, a state seeking participation in 
+the compact, or of the United States, or the applicability thereof to any government, 
+agency, person or circumstance is held to be unconstitutional by a court of 
+competent jurisdiction, the validity of the remainder of this compact and the 
+applicability thereof to any other government, agency, person or circumstance shall 
+not be affected thereby.
+(c)  Notwithstanding par. (b), the commission may deny a state [s participation 
+in the compact or, in accordance with the requirements of sub. (13) (b), terminate a 
+member state [s participation in the compact, if it determines that a constitutional 
+requirement of a member state is a material departure from the compact.  
+Otherwise, if this compact shall be held to be contrary to the constitution of any 
+member state, the compact shall remain in full force and effect as to the remaining 
+member states and in full force and effect as to the member state affected as to all 
+severable matters.
+(16)  CONSISTENT  EFFECT  AND CONFLICT  WITH  OTHER  STATE  LAWS .  (a)  A 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 54 - LRB-1704/1
+MED:emw
+SECTION  43
+licensee providing services in a remote state under a multistate authorization to 
+practice shall adhere to the laws and regulations, including laws, regulations, and 
+applicable standards, of the remote state where the client is located at the time care 
+is rendered.
+(b)  Nothing herein shall prevent or inhibit the enforcement of any other law of 
+a member state that is not inconsistent with the compact.
+(c)  Any laws, statutes, regulations, or other legal requirements in a member 
+state in conflict with the compact are superseded to the extent of the conflict.
+(d)  All permissible agreements between the commission and the member 
+states are binding in accordance with their terms.
+457.71   Implementation of the social work licensure compact.   (1)  In 
+this section, Xmultistate authorization to practice Y has the meaning given in s. 
+457.70 (2) (q).
+(2) (a)  An individual who is exercising the multistate authorization to practice 
+in this state shall comply with s. 440.03 (13) (am).
+(b)  Subject to s. 457.70 and any rules promulgated thereunder, ss. 440.20 to 
+440.22 and the rules promulgated under s. 440.03 (1) shall apply to an individual 
+who is exercising the multistate authorization to practice in this state in the same 
+manner that they apply to holders of certificates or licenses issued under subch. I.
+SECTION  44.  632.89 (1) (dm) of the statutes is repealed and recreated to read:
+632.89 (1) (dm)  XLicensed mental health professional Y means a clinical social 
+worker, a marriage and family therapist, or a professional counselor, as those terms 
+are defined in subch. I of ch. 457.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 80- 55 - LRB-1704/1
+MED:emw
+SECTION  45
+SECTION  45.  905.04 (1) (g) of the statutes is amended to read:
+905.04 (1) (g)  XSocial worker Y means an individual who is certified or licensed 
+as a social worker, advanced practice social worker, independent social worker, or 
+clinical social worker under, as those terms are defined in subch. I of ch. 457, or an 
+individual reasonably believed by the patient to be a social worker, advanced 
+practice social worker, independent social worker, or clinical social worker.
+(END)1
+2
+3
+4
+5
+6
+7

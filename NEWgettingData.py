@@ -113,16 +113,9 @@ def get_master_list():
                 "txt": f"Bill Text/bill_{doc_id}.txt" if doc_id else None
             },
             "amendments": bill_details.get("amendments", []),
-            "seeAlso": bill_details.get("seeAlso", []),
+            "seeAlso": bill_details.get("bill", {}).get("sasts", []),
             "history": bill_details.get("history", [])
         }
-
-        #debugging statements
-        #print(f"Processed Bill: {bill_number}")
-        #print(f"Session: {new_bill_data['session']}")
-        #print(f"Amendments: {len(new_bill_data['amendments'])} items")
-        #print(f"See Also: {len(new_bill_data['seeAlso'])} items")
-        #print(f"History: {len(new_bill_data['history'])} items\n")
 
         bills.append(new_bill_data)
 
@@ -196,23 +189,30 @@ def fetch_bill_details(bill_id):
     response = requests.get(url)
 
     if response.status_code != 200:
-        print(f"Error: Failed to fetch bill details for Bill ID {bill_id}")
+        print(f"Error: failed to get bill details for Bill ID {bill_id}")
         return {}
+
     try:
         data = response.json()
     except json.JSONDecodeError:
-        print(f"Error: Failed to parse JSON response for Bill ID {bill_id}")
+        print(f"Error: failed to get JSON response for Bill ID {bill_id}")
         return {}
 
     bill_data = data.get("bill", {})
+    sasts_count = len(bill_data.get("sasts", []))
 
-    print(f"   sasts (related bills): {len(bill_data.get('sasts', []))}")
+    #debugging purposes
+    if sasts_count > 0:
+        print(f"Bill ID {bill_id}: Found {sasts_count} related bills.")
+    else:
+        print(f"Bill ID {bill_id}: No related bills (sasts).")
 
     return {
         "amendments": bill_data.get("amendments", []),
         "seeAlso": bill_data.get("sasts", []),
         "history": bill_data.get("history", [])
     }
+
 
 #saves extracted bill data to CSV file & converts list fields into strings
 def save_to_csv(bills):
@@ -243,7 +243,7 @@ def save_to_csv(bills):
                 bill["links"].get("pdf", "N/A") if "links" in bill else "N/A",
                 bill["links"].get("txt", "N/A") if "links" in bill else "N/A",
                 "; ".join([amend.get("title", "N/A") for amend in bill.get("amendments", [])]),  
-                "; ".join([related.get("billNumber", "N/A") for related in bill.get("seeAlso", [])]),  
+                "; ".join([related.get("sast_bill_number", "N/A") for related in bill.get("sasts", [])]),
                 "; ".join([f"{hist.get('date', 'N/A')} - {hist.get('action', 'N/A')}" for hist in bill.get("history", [])])  
             ])
     print(f"CSV data saved to {output_file}")
