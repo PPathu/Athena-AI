@@ -1,0 +1,2460 @@
+2025 - 2026  LEGISLATURELRB-1423/1
+JPC:all
+2025 SENATE BILL 50
+February 21, 2025 - Introduced by Senators PFAFF , HESSELBEIN , DRAKE , 
+CARPENTER , DASSLER -ALFHEIM , HABUSH  SINYKIN , L. J OHNSON , KEYESKI , 
+RATCLIFF , ROYS, SMITH , SPREITZER , WALL and WIRCH , cosponsored by 
+Representatives SUBECK , SPAUDE , JOHNSON , ANDERSON , ANDRACA , ARNEY , 
+BARE, BILLINGS , BROWN , CRUZ, DESANTO , DOYLE , EMERSON , FITZGERALD , 
+GOODWIN , HAYWOOD , HONG, HYSELL , J. J ACOBSON , JOERS , KIRSCH , MADISON , 
+MAYADEV , MCCARVILLE , MCGUIRE , MIRESSE , MOORE  OMOKUNDE , NEUBAUER , 
+ORTIZ-VELEZ , PALMERI , PHELPS , PRADO , RIVERA -WAGNER , ROE, SINICKI , 
+SNODGRASS , STROUD , STUBBS , TAYLOR , TENORIO , UDELL  and VINING . Referred 
+to Committee on Health.
+AN ACT to repeal  49.45 (18) (ag); to renumber and amend  632.895 (6); to 
+amend  49.45 (18) (ac), 609.83 and 632.895 (6) (title); to create  15.07 (3) (bm) 
+7., 15.735, 20.145 (1) (a), 20.145 (1) (g) 4., 49.45 (18) (b) 8., 255.056 (2g), 
+450.085 (3), 601.31 (1) (nv), 601.31 (1) (nw), 601.41 (14), 601.415 (14), 601.56, 
+601.57, 601.575, subchapter VI of chapter 601 [precedes 601.78], 632.865 
+(2m), 632.868, 632.869 and 632.895 (6) (b) of the statutes; relating to:  health 
+care costs omnibus, granting rule-making authority, making an 
+appropriation, and providing a penalty.
+Analysis by the Legislative Reference Bureau
+Elimination of cost sharing for prescription drugs under the Medical 
+Assistance program
+Under current law, certain persons who receive health services under the 
+Medical Assistance program, also known in this state as BadgerCare, are required 
+to contribute a cost-sharing payment to the cost of certain health services.  This bill 
+eliminates all cost-sharing payments for prescription drugs under the Medical 1
+2
+3
+4
+5
+6
+7
+82025 - 2026  Legislature
+SENATE BILL 50- 2 - LRB-1423/1
+JPC:all
+Assistance program.  The Medical Assistance program is a joint state and federal 
+program that provides health services to individuals who have limited financial 
+resources.
+Cost-sharing cap on insulin
+The bill prohibits every health insurance policy and governmental self-insured 
+health plan that covers insulin and imposes cost sharing on prescription drugs from 
+imposing cost sharing on insulin in an amount that exceeds $35 for a one-month 
+supply.  Current law requires every health insurance policy that provides coverage 
+of expenses incurred for treatment of diabetes to provide coverage for specified 
+expenses and items, including insulin.  The required coverage under current law for 
+certain diabetes treatments other than insulin infusion pumps is subject to the 
+same exclusions, limitations, deductibles, and coinsurance provisions of the policy 
+as other covered expenses.  The bill [s cost-sharing limitation on insulin supersedes 
+the specification that the exclusions, limitations, deductibles, and coinsurance are 
+the same as for other coverage.
+Fiduciary and disclosure requirements for pharmacy benefit managers
+The bill imposes fiduciary and disclosure requirements on pharmacy benefit 
+managers.  Pharmacy benefit managers contract with health plans that provide 
+prescription drug benefits to administer those benefits for the plans.  They also 
+have contracts with pharmacies and pay the pharmacies for providing drugs to the 
+plan beneficiaries.
+The bill provides that a pharmacy benefit manager owes a fiduciary duty to a 
+health plan sponsor.  The bill also requires that a pharmacy benefit manager 
+annually disclose all of the following information to the plan sponsor:
+1.  The indirect profit received by the pharmacy benefit manager from owning 
+a pharmacy or service provider.
+2.  Any payments made to a consultant or broker who works on behalf of the 
+plan sponsor.
+3.  From the amounts received from drug manufacturers, the amounts 
+retained by the pharmacy benefit manager that are related to the plan sponsor [s 
+claims or bona fide service fees.
+4.  The amounts received from network pharmacies and the amount retained 
+by the pharmacy benefit manager.
+Reimbursements for certain 340B program entities
+The bill prohibits any person from reimbursing certain entities that 
+participate in the federal drug pricing program, known as the 340B program, for a 
+drug subject to an agreement under the program at a rate lower than that paid for 
+the same drug to pharmacies that have a similar prescription volume.  The bill also 
+prohibits a person from imposing any fee, charge back, or other adjustment on the 
+basis of the entity [s participation in the 340B program.  The entities covered by the 
+prohibitions under the bill are federally qualified health centers, critical access 
+hospitals, and grantees under the federal Ryan White HIV/AIDS program, as well 2025 - 2026  Legislature
+SENATE BILL 50- 3 - LRB-1423/1
+JPC:all
+as these entities [ pharmacies and any pharmacy with which any of the entities have 
+contracted to dispense drugs through the 340B program.
+Drug repository program
+Under current law, the Department of Health Services must maintain a drug 
+repository program under which any person may donate certain drugs or supplies 
+to be dispensed to and used by eligible individuals, prioritizing uninsured and 
+indigent individuals.  The bill allows DHS to partner with out-of-state drug 
+repository programs.  The bill also allows out-of-state persons to donate to the drug 
+repository program in Wisconsin and persons in Wisconsin to donate to 
+participating drug repository programs in other states.  Further, the bill directs 
+DHS to study and implement a centralized, physical drug repository program.
+Value-based diabetes medication pilot project
+The bill directs the Office of the Commissioner of Insurance to develop a pilot 
+project under which a pharmacy benefit manager and pharmaceutical 
+manufacturer are directed to create a value-based, sole-source arrangement to 
+reduce the costs of prescription diabetes medication.  The bill allows OCI to 
+promulgate rules to implement the pilot project.
+Pharmacist continuing education credits for volunteering at free and 
+charitable clinics
+Under current law, a licensed pharmacist must renew his or her license every 
+two years.  An applicant for renewal of a pharmacist license must submit proof that 
+he or she has completed 30 hours of continuing education within the two-year 
+period immediately preceding the date of his or her application.  The bill allows 
+pharmacists to meet up to 10 hours of the continuing education requirement for 
+each two-year period by volunteering at a free and charitable clinic approved by the 
+Pharmacy Examining Board.
+Prescription drug importation program
+The bill requires the commissioner of insurance, in consultation with persons 
+interested in the sale and pricing of prescription drugs and federal officials and 
+agencies, to design and implement a prescription drug importation program for the 
+benefit of and that generates savings for Wisconsin residents.  The bill establishes 
+requirements for the program, including all of the following:
+1.  The commissioner must designate a state agency to become a licensed 
+wholesale distributor or contract with a licensed wholesale distributor and to seek 
+federal certification and approval to import prescription drugs.
+2.  The program must comply with certain federal regulations and import from 
+Canadian suppliers only prescription drugs that are not brand-name drugs, have 
+fewer than four competitor drugs in this country, and for which importation creates 
+substantial savings.
+3.  The commissioner must ensure that prescription drugs imported under the 
+program are not distributed, dispensed, or sold outside of Wisconsin.2025 - 2026  Legislature
+SENATE BILL 50- 4 - LRB-1423/1
+JPC:all
+4.  The program must have an audit procedure to ensure the program complies 
+with certain requirements specified in the bill.
+Before submitting the proposed program to the federal government for 
+certification, the commissioner must submit the proposed program to the Joint 
+Committee on Finance for its approval.
+Pharmacy benefits tool grants
+The bill directs OCI to award grants in an amount of up to $500,000 in each 
+fiscal year to health care providers to develop and implement a patient pharmacy 
+benefits tool that would allow prescribers to disclose the cost of prescription drugs 
+for patients.  The tool must be usable by physicians and other prescribers to 
+determine the cost of prescription drugs for their patients.  Any health care 
+provider that receives a grant to develop and implement a patient pharmacy 
+benefits tool is required to contribute matching funds equal to at least 50 percent of 
+the total grant awarded.
+Prescription drug purchasing entity study
+The bill requires OCI to conduct a study on the viability of creating or 
+implementing a state prescription drug purchasing entity.
+Licensure of pharmacy services administrative organizations
+The bill requires that a pharmacy services administrative organization 
+(PSAO) be licensed by OCI.  Under the bill, a PSAO is an entity operating in 
+Wisconsin that does all of the following:
+1.  Contracts with an independent pharmacy to conduct business on the 
+pharmacy [s behalf with a third-party payer.
+2.  Provides at least one administrative service to an independent pharmacy 
+and negotiates and enters into a contract with a third-party payer or pharmacy 
+benefit manager on the pharmacy [s behalf.
+The bill defines Xindependent pharmacy Y to mean a licensed pharmacy 
+operating in Wisconsin that is under common ownership with no more than two 
+other pharmacies.  XAdministrative service Y is defined to mean assisting with 
+claims or audits, providing centralized payment, performing certification in a 
+specialized care program, providing compliance support, setting flat fees for generic 
+drugs, assisting with store layout, managing inventory, providing marketing 
+support, providing management and analysis of payment and drug dispensing data, 
+or providing resources for retail cash cards.  The bill defines Xthird-party payer Y to 
+mean an entity operating in Wisconsin that pays or insures health, medical, or 
+prescription drug expenses on behalf of beneficiaries.  The bill uses the current law 
+definition of Xpharmacy benefit manager, Y which is an entity doing business in 
+Wisconsin that contracts to administer or manage prescription drug benefits on 
+behalf of an insurer or other entity that provides prescription drug benefits to 
+Wisconsin residents.
+To obtain the license required by the bill, a person must apply to OCI and 
+provide the contact information for the applicant and a contact person, evidence of 2025 - 2026  Legislature
+SENATE BILL 50- 5 - LRB-1423/1
+JPC:all
+financial responsibility of at least $1,000,000, and any other information required 
+by the commissioner by rule.  Under the bill, the license fee is set by the 
+commissioner, and the term of a license is two years.
+The bill also requires that a PSAO disclose to OCI the extent of any ownership 
+or control by an entity that provides pharmacy services; provides prescription drug 
+or device services; or manufactures, sells, or distributes prescription drugs, 
+biologicals, or medical devices.  The PSAO must notify OCI within five days of any 
+material change in its ownership or control related to such an entity.
+Licensure of pharmaceutical representatives
+The bill requires a pharmaceutical representative to be licensed by OCI and to 
+display the pharmaceutical representative [s license during each visit with a health 
+care professional.  The bill defines Xpharmaceutical representative Y to mean an 
+individual who markets or promotes pharmaceuticals to health care professionals 
+on behalf of a pharmaceutical manufacturer for compensation.
+The term of a license issued under the bill is one year, and the license is 
+renewable.  The application to obtain or renew a license must include the 
+applicant [s contact information, a description of the type of work in which the 
+applicant will engage, the license fee, an attestation that professional education 
+requirements are met, proof that any penalties and other fees are paid, and any 
+other information required by OCI by rule.  Under the bill, the license fee is set by 
+the commissioner.  The bill requires the pharmaceutical representative to report, 
+within four business days, any change to the information provided on the 
+application or any material change to the pharmaceutical representative [s business 
+operations or other information required to be reported under the bill.
+The bill requires that a pharmaceutical representative complete a professional 
+education course prior to becoming licensed and to annually complete at least five 
+hours of continuing professional education courses.  The coursework must include, 
+at a minimum, training in ethical standards, whistleblower protections, and the 
+laws and rules applicable to pharmaceutical marketing.  The bill directs the 
+commissioner to regularly publish a list of courses that fulfill the education 
+requirements.  Under the bill, a course provider must disclose any conflict of 
+interest to the commissioner, and the courses may not be provided by the employer 
+of a pharmaceutical representative or be funded by the pharmaceutical industry or 
+a third party funded by the industry.
+The bill requires that, no later than June 1 of each year, a pharmaceutical 
+representative report to OCI the pharmaceutical representative [s total number of 
+contacts with health care professionals in Wisconsin, the specialties of those health 
+care professionals, the location and duration of each contact, the pharmaceuticals 
+discussed, and the value of any item provided to a health care professional.  The bill 
+directs the commissioner to publish the information on OCI [s website without 
+identifying individual health care professionals.
+The bill requires that a pharmaceutical representative, during each contact 
+with a health care professional, disclose the wholesale acquisition cost of any 2025 - 2026  Legislature
+SENATE BILL 50- 6 - LRB-1423/1
+JPC:all
+pharmaceuticals discussed and the names of at least three generic prescription 
+drugs from the same therapeutic class.
+The bill directs the commissioner to promulgate ethical standards for 
+pharmaceutical representatives.  Additionally, the bill prohibits a pharmaceutical 
+representative from engaging in deceptive or misleading marketing of a 
+pharmaceutical product; using a title or designation that could reasonably lead a 
+licensed health care professional, or an employee or representative of such a 
+professional, to believe that the pharmaceutical representative is licensed to 
+practice in a health occupation unless the pharmaceutical representative holds a 
+license to practice in that health occupation; or attending a patient examination 
+without the patient [s consent.
+An individual who violates any of the requirements under the bill is subject to 
+a forfeiture, and the individual [s license may be suspended or revoked.  An 
+individual whose license is revoked must wait at least two years before applying for 
+a new license.
+Insulin safety net programs
+The bill requires insulin manufacturers to establish a program under which 
+qualifying Wisconsin residents who are in urgent need of insulin and are uninsured 
+or have limited insurance coverage can be dispensed insulin at a pharmacy.  An 
+individual is in urgent need of insulin if the individual needs insulin in order to 
+avoid the likelihood of suffering a significant health consequence and possesses less 
+than a seven-day supply of insulin readily available for use.  Under the program, if 
+a qualifying individual in urgent need of insulin provides a pharmacy with a form 
+attesting that the individual meets the program [s eligibility requirements, specified 
+proof of residency, and a valid insulin prescription, the pharmacy must dispense a 
+30-day supply of insulin to the individual and may charge the individual a 
+copayment of no more than $35.  The pharmacy may submit an electronic payment 
+claim for the insulin [s acquisition cost to the manufacturer or agree to receive a 
+replacement of the same insulin in the amount dispensed.
+The bill also requires that each insulin manufacturer establish a patient 
+assistance program to make insulin available to any qualifying Wisconsin resident 
+who, among other requirements, is uninsured or has limited insurance coverage 
+and whose family income does not exceed 400 percent of the federal poverty line.  
+Under the bill, an individual must apply to participate in a manufacturer [s 
+program.  If the manufacturer determines that the individual meets the program [s 
+eligibility requirements, the manufacturer must issue the individual a statement of 
+eligibility, which is valid for 12 months and may be renewed.  Under the bill, if an 
+individual with a statement of eligibility and valid insulin prescription requests 
+insulin from a pharmacy, the pharmacy must submit an order to the manufacturer, 
+who must then provide a 90-day supply of insulin at no charge to the individual or 
+pharmacy.  The pharmacy may charge the individual a copayment of no more than 
+$50.  Under the bill, a manufacturer is not required to issue a statement of 
+eligibility if the individual has prescription drug coverage through an individual or 2025 - 2026  Legislature
+SENATE BILL 50- 7 - LRB-1423/1
+JPC:all
+group health plan and the manufacturer determines that the individual [s insulin 
+needs are better addressed through the manufacturer [s copayment assistance 
+program.  In such case, the manufacturer must provide the individual with 
+necessary drug coupons to submit to a pharmacy, and the individual may not be 
+required to pay more than a $50 copayment for a 90-day supply of insulin.
+Under the bill, if the manufacturer determines that an individual is not 
+eligible for the patient assistance program, the individual may file an appeal with 
+OCI.  The bill directs OCI to establish procedures for deciding appeals.  Under the 
+bill, OCI must issue a decision within 10 days, and that decision is final.
+The bill requires that insulin manufacturers annually report to OCI certain 
+information, including the number of individuals served and the cost of insulin 
+dispensed under the programs and that OCI annually report to the governor and 
+the legislature on the programs.  The bill also directs OCI to conduct public 
+outreach and develop an information sheet about the programs, conduct 
+satisfaction surveys of individuals and pharmacies that participate in the 
+programs, and report to the governor and the legislature on the surveys by July 1, 
+2028.  Additionally, the bill requires that OCI develop a training program for health 
+care navigators to assist individuals in accessing appropriate long-term insulin 
+options and maintain a list of trained navigators.
+The bill provides that a manufacturer that fails to comply with the bill [s 
+provisions may be assessed a forfeiture of up to $200,000 per month of 
+noncompliance, which increases to $400,000 per month if the manufacturer 
+continues to be in noncompliance after six months and to $600,000 per month if the 
+manufacturer continues to be in noncompliance after one year.  The bill [s 
+requirements do not apply to manufacturers with annual insulin sales revenue in 
+Wisconsin of no more than $2,000,000 or to insulin that costs less than a specified 
+dollar amount.
+Prescription Drug Affordability Review Board
+The bill creates a Prescription Drug Affordability Review Board, whose 
+purpose is to protect Wisconsin residents and other stakeholders from the high 
+costs of prescription drugs.  The board consists of the commissioner of insurance 
+and the following members, all of whom are appointed by the governor for four-year 
+terms:
+1.  Two members who represent the pharmaceutical drug industry, at least 
+one of whom is a licensed pharmacist.
+2.  Two members who represent the health insurance industry.
+3.  Two members who represent the health care industry, at least one of whom 
+is a licensed practitioner.
+4.  Two members who represent the interests of the public.
+The bill requires the board to meet in open session at least four times per year 
+to review prescription drug pricing information.  The board must provide at least 
+two weeks [ public notice of each meeting, make the meeting [s materials publicly 
+available at least one week prior to the meeting, and provide the opportunity for 2025 - 2026  Legislature
+SENATE BILL 50- 8 - LRB-1423/1
+JPC:all
+public comment.  The bill imposes conflict of interest requirements for the board 
+relating to recusal and public disclosure of certain conflicts.  The bill directs the 
+board to access and assess drug pricing information, to the extent practicable, by 
+accessing and assessing information from other states, by assessing spending for 
+the drug in Wisconsin, and by accessing other available pricing information.
+Under the bill, the board must conduct drug cost affordability reviews.  The 
+board must identify prescription drugs whose launch wholesale acquisition cost 
+exceeds specified thresholds, prescription drugs whose increase in wholesale 
+acquisition cost exceeds specified thresholds, and other prescription drugs that may 
+create affordability challenges for the health care system in Wisconsin.  For each 
+identified prescription drug, the board must determine whether to conduct an 
+affordability review by seeking stakeholder input and considering the average 
+patient cost share for the drug.  During an affordability review, the board must 
+determine whether use of the prescription drug that is fully consistent with the 
+labeling approved by the federal Food and Drug Administration or standard 
+medical practice has led or will lead to an affordability challenge for the health care 
+system in Wisconsin.  In making this determination, the bill requires the board to 
+consider a variety of factors, which include the following:
+1.  The drug [s wholesale acquisition cost.
+2.  The average monetary price concession, discount, or rebate the 
+manufacturer provides, or is expected to provide, for the drug to health plans.
+3.  The total amount of price concessions, discounts, and rebates the 
+manufacturer provides to each pharmacy benefit manager for the drug.
+4.  The price at which therapeutic alternatives have been sold and the average 
+monetary concession, discount, or rebate the manufacturer provides, or is expected 
+to provide, to health plan payors and pharmacy benefit managers for therapeutic 
+alternatives.
+5.  The costs to health plans based on patient access consistent with federal 
+labeled indications and recognized standard medical practice.
+6.  The impact on patient access resulting from the drug [s cost relative to 
+insurance benefit design.
+7.  The current or expected dollar value of drug-specific patient access 
+programs that are supported by the manufacturer.
+8.  The relative financial impacts to health, medical, or social services costs 
+that can be quantified and compared to baseline effects of existing therapeutic 
+alternatives.
+9.  The average patient copay or other cost sharing for the drug.
+If the board determines that a prescription drug will lead to an affordability 
+challenge, the bill directs the board to establish an upper payment limit for that 
+drug that applies to all purchases and payor reimbursements of the drug dispensed 
+or administered to individuals in Wisconsin.  In establishing the upper payment 
+limit, the board must consider the cost of administering the drug, the cost of 
+delivering it to consumers, and other relevant administrative costs.  For certain 2025 - 2026  Legislature
+SENATE BILL 50- 9 - LRB-1423/1
+JPC:all
+drugs, the board must solicit information from the manufacturer regarding the 
+price increase and, if the board determines that the price increase is not a result of 
+the need for increased manufacturing capacity or other effort to improve patient 
+access during a public health emergency, the board must establish an upper 
+payment limit equal to the drug [s cost prior to the price increase.
+Further, this bill provides $500,000 in program revenue in fiscal year 2026 ]27 
+for onetime implementation costs associated with establishing an Office of 
+Prescription Drug Affordability in OCI.  The bill provides that the Office of 
+Prescription Drug Affordability is responsible for prescription drug affordability 
+programming within OCI and for overseeing the operations of the Prescription 
+Drug Affordability Review Board.  Additionally, the bill authorizes and funds for 
+fiscal year 2026 ]27 16.0 positions for the Office of Prescription Drug Affordability.
+Finally, the bill credits to the appropriation account for OCI [s general program 
+operations all moneys received from the regulation of pharmacy benefit managers, 
+pharmacy benefit management brokers, pharmacy benefit management 
+consultants, pharmacy services administrative organizations, and pharmaceutical 
+sales representatives.
+This proposal may contain a health insurance mandate requiring a social and 
+financial impact report under s. 601.423, stats.
+For further information see the state fiscal estimate, which will be printed as 
+an appendix to this bill.
+The people of the state of Wisconsin, represented in senate and assembly, do 
+enact as follows:
+SECTION  1.  15.07 (3) (bm) 7. of the statutes is created to read:
+15.07 (3) (bm) 7.  The prescription drug affordability review board shall meet 
+at least 4 times each year.
+SECTION  2.  15.735 of the statutes is created to read:
+15.735  Same; attached board.  (1)   There is created a prescription drug 
+affordability review board attached to the office of the commissioner of insurance 
+under s. 15.03.  The board shall consist of the following members:
+(a)  The commissioner of insurance or his or her designee.
+(b)  Two members appointed for 4-year terms who represent the 1
+2
+3
+4
+5
+6
+7
+8
+92025 - 2026  Legislature
+SENATE BILL 50- 10 - LRB-1423/1
+JPC:all
+SECTION  2
+pharmaceutical drug industry, including pharmaceutical drug manufacturers and 
+wholesalers.  At least one of the members appointed under this paragraph shall be 
+a pharmacist licensed in this state.
+(c)  Two members appointed for 4-year terms who represent the health 
+insurance industry, including insurers and pharmacy benefit managers.
+(d)  Two members appointed for 4-year terms who represent the health care 
+industry, including hospitals, physicians, pharmacies, and pharmacists.  At least 
+one of the members appointed under this paragraph shall be a licensed health care 
+practitioner.
+(e)  Two members appointed for 4-year terms who represent the interests of 
+the public.
+(2)  A member appointed under sub. (1), except for a member appointed under 
+sub. (1) (b), may not be an employee of, a board member of, or a consultant to a drug 
+manufacturer or trade association for drug manufacturers.
+(3)  Any conflict of interest, including any financial or personal association, 
+that has the potential to bias or has the appearance of biasing an individual [s 
+decision in matters related to the board or the conduct of the board [s activities shall 
+be considered and disclosed when appointing that individual to the board under 
+sub. (1).
+SECTION  3.  20.005 (3) (schedule) of the statutes:  at the appropriate place, 
+insert the following amounts for the purposes indicated:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+212025 - 2026  Legislature
+SENATE BILL 50- 11 - LRB-1423/1
+JPC:all
+SECTION  3
+2025-26 2026-27
+20.145 Insurance, office of the commissioner of
+(1) S UPERVISION  OF THE INSURANCE  INDUSTRY
+(a) State operations GPR A -0- 500,000
+SECTION  4.  20.145 (1) (a) of the statutes is created to read:
+20.145 (1) (a)  State operations.   The amounts in the schedule for general 
+program operations.
+SECTION  5.  20.145 (1) (g) 4. of the statutes is created to read:
+20.145 (1) (g) 4.  All moneys received from the regulation of pharmacy benefit 
+managers, pharmacy benefit management brokers, pharmacy benefit management 
+consultants, pharmacy services administrative organizations, and pharmaceutical 
+sales representatives.
+SECTION  6.  49.45 (18) (ac) of the statutes is amended to read:
+49.45 (18) (ac)  Except as provided in pars. (am) to (d), and subject to par. (ag), 
+any person eligible for medical assistance under s. 49.46, 49.468, or 49.47, or for the 
+benefits under s. 49.46 (2) (a) and (b) under s. 49.471, shall pay up to the maximum 
+amounts allowable under 42 CFR 447.53 to 447.58 for purchases of services 
+provided under s. 49.46 (2).  The service provider shall collect the specified or 
+allowable copayment, coinsurance, or deductible, unless the service provider 
+determines that the cost of collecting the copayment, coinsurance, or deductible 
+exceeds the amount to be collected.  The department shall reduce payments to each 
+provider by the amount of the specified or allowable copayment, coinsurance, or 
+deductible.  No provider may deny care or services because the recipient is unable to 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 12 - LRB-1423/1
+JPC:all
+SECTION  6
+share costs, but an inability to share costs specified in this subsection does not 
+relieve the recipient of liability for these costs.
+SECTION  7.  49.45 (18) (ag) of the statutes is repealed.
+SECTION  8.  49.45 (18) (b) 8. of the statutes is created to read:
+49.45 (18) (b) 8.  Prescription drugs.
+SECTION  9.  255.056 (2g) of the statutes is created to read:
+255.056 (2g)  The department may partner with out-of-state drug repository 
+programs.  The department may authorize a medical facility or pharmacy that 
+elects to participate in the drug repository program to receive drugs or supplies 
+from out of state, and the department may authorize an out-of-state entity that 
+participates in a partner out-of-state drug repository program to receive drugs or 
+supplies from Wisconsin.
+SECTION  10.  450.085 (3) of the statutes is created to read:
+450.085 (3)  An applicant for renewal of a license under s. 450.08 (2) (a) may 
+count, for purposes of the continuing education requirement under sub. (1), up to 10 
+hours spent as a volunteer at a free and charitable clinic approved by the board.
+SECTION  11.  601.31 (1) (nv) of the statutes is created to read:
+601.31 (1) (nv)  For issuing or renewing a license as a pharmaceutical 
+representative under s. 601.56, an amount to be set by the commissioner by rule.
+SECTION  12.  601.31 (1) (nw) of the statutes is created to read:
+601.31 (1) (nw)  For issuing or renewing a license as a pharmacy services 
+administrative organization under s. 601.57, an amount to be set by the 
+commissioner by rule.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 13 - LRB-1423/1
+JPC:all
+SECTION  13
+SECTION  13.  601.41 (14) of the statutes is created to read:
+601.41 (14)  V ALUE -BASED  DIABETES  MEDICATION  PILOT  PROJECT .  The 
+commissioner shall develop a pilot project to direct a pharmacy benefit manager, as 
+defined in s. 632.865 (1) (c), and a pharmaceutical manufacturer to create a value-
+based, sole-source arrangement to reduce the costs of prescription medication used 
+to treat diabetes.  The commissioner may promulgate rules to implement this 
+subsection.
+SECTION  14.  601.415 (14) of the statutes is created to read:
+601.415 (14)  PATIENT  PHARMACY  BENEFITS  TOOL .  (a)  From the appropriation 
+under s. 20.145 (1) (a), beginning in the 2026-27 fiscal year, the office shall award 
+grants in a total amount of up to $500,000 each fiscal year to health care providers 
+to develop and implement a tool for prescribers to disclose the cost of prescription 
+drugs for patients.  The tool must be usable by physicians and other prescribers to 
+determine the cost of prescription drugs for their patients.
+(b)  Any health care provider that receives a grant under par. (a) shall 
+contribute matching funds equal to at least 50 percent of the grant amount 
+awarded.
+SECTION  15.  601.56 of the statutes is created to read:
+601.56  Pharmaceutical representatives.   (1)  D EFINITIONS .  In this 
+section:
+(a)  XHealth care professional Y means a physician or other health care 
+practitioner who is licensed to provide health care services or to prescribe 
+pharmaceutical or biologic products.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 14 - LRB-1423/1
+JPC:all
+SECTION  15
+(b)  XPharmaceutical Y means a medication that may legally be dispensed only 
+with a valid prescription from a health care professional.
+(c)  XPharmaceutical representative Y means an individual who markets or 
+promotes pharmaceuticals to health care professionals on behalf of a 
+pharmaceutical manufacturer for compensation.
+(d)  XWholesale acquisition cost Y means the most recently reported 
+manufacturer list or catalog price for a brand-name or generic drug available to 
+wholesalers or direct purchasers in the United States, before application of 
+discounts, rebates, or reductions in price.
+(2)  LICENSURE .  (a)  No individual may act as a pharmaceutical representative 
+in this state without being licensed by the commissioner as a pharmaceutical 
+representative under this section.  In order to obtain or renew a license, the 
+individual shall apply to the commissioner in the form and manner prescribed by 
+the commissioner.  The term of a license issued under this paragraph is one year 
+and is renewable.  The application to obtain or renew a license shall include all of 
+the following information:
+1.  The applicant [s full name, residence address and telephone number, and 
+business address and telephone number.
+2.  A description of the type of work in which the applicant will engage.
+3.  The fee under s. 601.31 (1) (nv).
+4.  An attestation that the applicant meets the professional education 
+requirements under sub. (3).
+5.  Proof that the applicant has paid any assessed penalties and fees.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 15 - LRB-1423/1
+JPC:all
+SECTION  15
+6.  Any other information required by the commissioner by rule.
+(b)  The pharmaceutical representative licensed under par. (a) shall notify the 
+commissioner in writing of any change to the information submitted on an 
+application under par. (a) or any material change to the pharmaceutical 
+representative [s business operations or to any other information provided under 
+this section.  The pharmaceutical representative shall provide the notification no 
+later than 4 business days after the change or material change occurs.
+(c)  A pharmaceutical representative licensed under par. (a) shall display the 
+pharmaceutical representative [s license during each visit with a health care 
+professional.
+(3)  PROFESSIONAL  EDUCATION  REQUIREMENTS .  (a)  In order to become initially 
+licensed under sub. (2) (a), a pharmaceutical representative shall complete a 
+professional education course approved by the commissioner.  A pharmaceutical 
+representative shall, upon request, provide the commissioner with proof that he or 
+she has completed an approved professional education course.
+(b)  In order to renew a license under sub. (2) (a), a pharmaceutical 
+representative shall complete a minimum of 5 hours of continuing professional 
+education courses.  A pharmaceutical representative who has renewed a license 
+under sub. (2) (a) shall, upon request, provide the commissioner with proof that he 
+or she has completed a minimum of 5 hours of continuing professional education 
+courses.
+(c)  The professional education coursework required under pars. (a) and (b) 
+shall include training in ethical standards, whistleblower protections, laws and 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 16 - LRB-1423/1
+JPC:all
+SECTION  15
+rules applicable to pharmaceutical marketing, and other subjects that the 
+commissioner identifies by rule.
+(d)  The commissioner shall regularly designate courses that fulfill the 
+requirements under this subsection and publish a list of the designated courses.
+(e)  The professional education coursework required under this subsection may 
+not be provided by the employer of a pharmaceutical representative or be funded, in 
+any way, by the pharmaceutical industry or a 3rd party funded by the 
+pharmaceutical industry.  A provider of a course designated under par. (d) shall 
+disclose any conflict of interest to the commissioner.
+(4)  DISCLOSURE  TO COMMISSIONER .  (a)  No later than June 1 of each year, a 
+pharmaceutical representative licensed under sub. (2) (a) shall provide to the 
+commissioner, in the manner prescribed by the commissioner, all of the following 
+information from the previous calendar year:
+1.  The total number of times the pharmaceutical representative contacted 
+health care professionals in this state and the specialties of the health care 
+professionals contacted.
+2.  For each contact with a health care professional in this state, the location 
+and duration of the contact, the pharmaceuticals for which the pharmaceutical 
+representative provided information, and the value of any item, including a product 
+sample, compensation, material, or gift, provided to the health care professional.
+(b)  The commissioner shall publish the information received under par. (a) on 
+the commissioner [s website in a manner in which individual health care 
+professionals are not identifiable by name or other identifiers.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 17 - LRB-1423/1
+JPC:all
+SECTION  15
+(5)  DISCLOSURE  TO HEALTH  CARE  PROFESSIONALS .  During each contact with a 
+health care professional, a pharmaceutical representative licensed under sub. (2) 
+(a) shall disclose the wholesale acquisition cost of any pharmaceutical for which the 
+pharmaceutical representative provides information and the names of at least 3 
+generic prescription drugs from the same therapeutic class or, if 3 are not available, 
+as many as are available for prescriptive use.
+(6)  ETHICAL  STANDARDS .  The commissioner shall promulgate rules that 
+contain ethical standards for pharmaceutical representatives and shall publish the 
+ethical standards on the commissioner [s website.  A pharmaceutical representative 
+licensed under sub. (2) (a) shall comply with the ethical standards contained in the 
+rules and may not do any of the following:
+(a)  Engage in deceptive or misleading marketing of a pharmaceutical, 
+including the knowing concealment, suppression, omission, misleading 
+representation, or misstatement of a material fact.
+(b)  Use a title or designation that could reasonably lead a licensed health care 
+professional, or an employee or representative of a licensed health care professional, 
+to believe that the pharmaceutical representative is licensed to practice medicine, 
+nursing, dentistry, optometry, pharmacy, or other similar health occupation in this 
+state unless the pharmaceutical representative holds that license to practice.
+(c)  Attend a patient examination without the patient [s consent.
+(7)  ENFORCEMENT .  (a)  Any individual who violates this section shall be 
+required to forfeit not less than $1,000 nor more than $3,000 for each offense.  Each 
+day of continued violation constitutes a separate offense.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 18 - LRB-1423/1
+JPC:all
+SECTION  15
+(b)  The commissioner may suspend or revoke the license of a pharmaceutical 
+representative who violates this section.  A suspended or revoked license may not be 
+reinstated until the pharmaceutical representative remedies all violations related 
+to the suspension or revocation and pays all assessed penalties and fees.  A 
+pharmaceutical representative whose license is revoked for any cause may not be 
+issued a license under sub. (2) (a) until at least 2 years after the date of revocation.
+(c)  A health care professional who meets with a pharmaceutical 
+representative who does not display the pharmaceutical representative [s license or 
+share the information required under sub. (5) may report the pharmaceutical 
+representative to the commissioner.
+(8)  RULES .  The commissioner may promulgate rules to implement this 
+section.
+SECTION  16.  601.57 of the statutes is created to read:
+601.57  Pharmacy services administrative organizations .  (1)  
+DEFINITIONS .  In this section:
+(a)  XAdministrative service Y means any of the following:
+1.  Assisting with claims.
+2.  Assisting with audits.
+3.  Providing centralized payment.
+4.  Performing certification in a specialized care program.
+5.  Providing compliance support.
+6.  Setting flat fees for generic drugs.
+7.  Assisting with store layout.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 19 - LRB-1423/1
+JPC:all
+SECTION  16
+8.  Managing inventory.
+9.  Providing marketing support.
+10.  Providing management and analysis of payment and drug dispensing 
+data.
+11.  Providing resources for retail cash cards.
+(b)  XIndependent pharmacy Y means a pharmacy operating in this state that is 
+licensed under s. 450.06 or 450.065 and is under common ownership with no more 
+than 2 other pharmacies.
+(c)  XPharmacy benefit manager Y has the meaning given in s. 632.865 (1) (c).
+(d)  XPharmacy services administrative organization Y means an entity 
+operating in this state that does all of the following:
+1.  Contracts with an independent pharmacy to conduct business on the 
+independent pharmacy [s behalf with a 3rd-party payer.
+2.  Provides at least one administrative service to an independent pharmacy 
+and negotiates and enters into a contract with a 3rd-party payer or pharmacy 
+benefit manager on behalf of the independent pharmacy.
+(e)  XThird-party payer Y means an entity, including a plan sponsor, health 
+maintenance organization, or insurer, operating in this state that pays or insures 
+health, medical, or prescription drug expenses on behalf of beneficiaries.
+(2)  LICENSURE .  (a)  No person may operate as a pharmacy services 
+administrative organization in this state without being licensed by the 
+commissioner as a pharmacy services administrative organization under this 
+section.  In order to obtain or renew a license, the person shall apply to the 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 20 - LRB-1423/1
+JPC:all
+SECTION  16
+commissioner in the form and manner prescribed by the commissioner.  The 
+application shall include all of the following:
+1.  The name, address, telephone number, and federal employer identification 
+number of the applicant.
+2.  The name, business address, and telephone number of a contact person for 
+the applicant.
+3.  The fee under s. 601.31 (1) (nw).
+4.  Evidence of financial responsibility of at least $1,000,000.
+5.  Any other information required by the commissioner by rule.
+(b)  The term of a license issued under par. (a) shall be 2 years from the date of 
+issuance.
+(3)  DISCLOSURE  TO THE COMMISSIONER .  (a)  A pharmacy services 
+administrative organization licensed under sub. (2) shall disclose to the 
+commissioner the extent of any ownership or control of the pharmacy services 
+administrative organization by an entity that does any of the following:
+1.  Provides pharmacy services.
+2.  Provides prescription drug or device services.
+3.  Manufactures, sells, or distributes prescription drugs, biologicals, or 
+medical devices.
+(b)  A pharmacy services administrative organization licensed under sub. (2) 
+shall notify the commissioner in writing within 5 days of any material change in its 
+ownership or control relating to an entity described in par. (a).1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 21 - LRB-1423/1
+JPC:all
+SECTION  16
+(4)  RULES .  The commissioner may promulgate rules to implement this 
+section.
+SECTION  17.  601.575 of the statutes is created to read:
+601.575   Prescription drug importation program.   (1)  IMPORTATION  
+PROGRAM  REQUIREMENTS .  The commissioner, in consultation with persons 
+interested in the sale and pricing of prescription drugs and appropriate officials 
+and agencies of the federal government, shall design and implement a prescription 
+drug importation program for the benefit of residents of this state, that generates 
+savings for residents, and that satisfies all of the following:
+(a)  The commissioner shall designate a state agency to become a licensed 
+wholesale distributor or to contract with a licensed wholesale distributor and shall 
+seek federal certification and approval to import prescription drugs.
+(b)  The program shall comply with relevant requirements of 21 USC 384, 
+including safety and cost savings requirements.
+(c)  The program shall import prescription drugs from Canadian suppliers 
+regulated under any appropriate Canadian or provincial laws.
+(d)  The program shall have a process to sample the purity, chemical 
+composition, and potency of imported prescription drugs.
+(e)  The program shall import only those prescription drugs for which 
+importation creates substantial savings for residents of this state and only those 
+prescription drugs that are not brand-name drugs and that have fewer than 4 
+competitor prescription drugs in the United States.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 22 - LRB-1423/1
+JPC:all
+SECTION  17
+(f)  The commissioner shall ensure that prescription drugs imported under the 
+program are not distributed, dispensed, or sold outside of this state.
+(g)  The program shall ensure all of the following:
+1.  Participation by any pharmacy or health care provider in the program is 
+voluntary.
+2.  Any pharmacy or health care provider participating in the program has the 
+appropriate license or other credential in this state.
+3.  Any pharmacy or health care provider participating in the program charges 
+a consumer or health plan the actual acquisition cost of the imported prescription 
+drug that is dispensed.
+(h)  The program shall ensure that a payment by a health plan or health 
+insurance policy for a prescription drug imported under the program reimburses no 
+more than the actual acquisition cost of the imported prescription drug that is 
+dispensed.
+(i)  The program shall ensure that any health plan or health insurance policy 
+participating in the program does all of the following:
+1.  Maintains a formulary and claims payment system with current 
+information on prescription drugs imported under the program.
+2.  Bases cost-sharing amounts for participants or insureds under the plan or 
+policy on no more than the actual acquisition cost of the prescription drug imported 
+under the program that is dispensed to the participant or insured.
+3.  Demonstrates to the commissioner or a state agency designated by the 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 23 - LRB-1423/1
+JPC:all
+SECTION  17
+commissioner how premiums under the plan or policy are affected by savings on 
+prescription drugs imported under the program.
+(j)  Any wholesale distributor importing prescription drugs under the program 
+shall limit its profit margin to the amount established by the commissioner or a 
+state agency designated by the commissioner.
+(k)  The program may not import any generic prescription drug that would 
+violate federal patent laws on branded products in the United States.
+(L)  The program shall comply with tracking and tracing requirements of 21 
+USC 360eee and 360eee-1, to the extent practical and feasible, before the 
+prescription drug to be imported comes into the possession of this state [s wholesale 
+distributor and fully after the prescription drug to be imported is in the possession 
+of this state [s wholesale distributor.
+(m)  The program shall establish a fee or other mechanism to finance the 
+program that does not jeopardize significant savings to residents of this state.
+(n)  The program shall have an audit function that ensures all of the following:
+1.  The commissioner has a sound methodology to determine the most cost-
+effective prescription drugs to include in the program.
+2.  The commissioner has a process in place to select Canadian suppliers that 
+are high quality, high performing, and in full compliance with Canadian laws.
+3.  Prescription drugs imported under the program are pure, unadulterated, 
+potent, and safe.
+4.  The program is complying with the requirements of this subsection.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 24 - LRB-1423/1
+JPC:all
+SECTION  17
+5.  The program is adequately financed to support administrative functions of 
+the program while generating significant cost savings to residents of this state.
+6.  The program does not put residents of this state at a higher risk than if the 
+program did not exist.
+7.  The program provides and is projected to continue to provide substantial 
+cost savings to residents of this state.
+(2)  ANTICOMPETITIVE  BEHAVIOR .  The commissioner, in consultation with the 
+attorney general, shall identify the potential for and monitor anticompetitive 
+behavior in industries affected by a prescription drug importation program.
+(3)  APPROVAL  OF PROGRAM  DESIGN ; CERTIFICATION .  No later than the first day 
+of the 7th month beginning after the effective date of this subsection .... [LRB 
+inserts date], the commissioner shall submit to the joint committee on finance a 
+report that includes the design of the prescription drug importation program in 
+accordance with this section.  The commissioner may not submit the proposed 
+program to the federal department of health and human services unless the joint 
+committee on finance approves the proposed program.  Within 14 days of the date of 
+approval by the joint committee on finance of the proposed program, the 
+commissioner shall submit to the federal department of health and human services 
+a request for certification of the approved program.
+(4)  IMPLEMENTATION  OF CERTIFIED  PROGRAM .  After the federal department of 
+health and human services certifies the prescription drug importation program 
+submitted under sub. (3), the commissioner shall begin implementation of the 
+program, and the program shall be fully operational by 180 days after the date of 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 25 - LRB-1423/1
+JPC:all
+SECTION  17
+certification by the federal department of health and human services.  The 
+commissioner shall do all of the following to implement the program to the extent 
+the action is in accordance with other state laws and the certification by the federal 
+department of health and human services:
+(a)  Become a licensed wholesale distributor, designate another state agency to 
+become a licensed wholesale distributor, or contract with a licensed wholesale 
+distributor.
+(b)  Contract with one or more Canadian suppliers that meet the criteria in 
+sub. (1) (c) and (n).
+(c)  Create an outreach and marketing plan to communicate with and provide 
+information to health plans and health insurance policies, employers, pharmacies, 
+health care providers, and residents of this state on participating in the program.
+(d)  Develop and implement a registration process for health plans and health 
+insurance policies, pharmacies, and health care providers interested in 
+participating in the program.
+(e)  Create a publicly accessible source for listing prices of prescription drugs 
+imported under the program.
+(f)  Create, publicize, and implement a method of communication to promptly 
+answer questions from and address the needs of persons affected by the 
+implementation of the program before the program is fully operational.
+(g)  Establish the audit functions under sub. (1) (n) with a timeline to complete 
+each audit function every 2 years.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 26 - LRB-1423/1
+JPC:all
+SECTION  17
+(h)  Conduct any other activities determined by the commissioner to be 
+important to successful implementation of the program.
+(5)  REPORT .  By January 1 and July 1 of each year, the commissioner shall 
+submit to the joint committee on finance a report including all of the following:
+(a)  A list of prescription drugs included in the prescription drug importation 
+program under this section.
+(b)  The number of pharmacies, health care providers, and health plans and 
+health insurance policies participating in the prescription drug importation 
+program under this section.
+(c)  The estimated amount of savings to residents of this state, health plans 
+and health insurance policies, and employers resulting from the implementation of 
+the prescription drug importation program under this section reported from the 
+date of the previous report under this subsection and from the date the program 
+was fully operational.
+(d)  Findings of any audit functions under sub. (1) (n) completed since the date 
+of the previous report under this subsection.
+(6)  RULE MAKING .  The commissioner may promulgate any rules necessary to 
+implement this section.
+SECTION  18.  Subchapter VI of chapter 601 [precedes 601.78] of the statutes is 
+created to read:
+CHAPTER 601
+SUBCHAPTER VI1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 27 - LRB-1423/1
+JPC:all
+SECTION  18
+PRESCRIPTION DRUG  
+AFFORDABILITY REVIEW BOARD
+601.78  Definitions.  In this subchapter:
+(1)  XBiologicY means a drug that is produced or distributed in accordance with 
+a biologics license application approved under 21 CFR 601.20.
+(2)  XBiosimilar Y means a drug that is produced or distributed in accordance 
+with a biologics license application approved under 42 USC 262 (k) (3).
+(3)  XBoardY means the prescription drug affordability review board 
+established under s. 15.735 (1).
+(4)  XBrand name drug Y means a drug that is produced or distributed in 
+accordance with an original new drug application approved under 21 USC 355 (c), 
+other than an authorized generic drug, as defined in 42 CFR 447.502.
+(5)  XDrug product Y means a brand name drug, a generic drug, a biologic, a 
+biosimilar, or an over-the-counter drug.
+(6)  XFinancial benefit Y includes an honorarium, a fee, a stock, the value of the 
+stock holdings of a member of the board or any immediate family member, and any 
+direct financial benefit deriving from the finding of a review conducted under s. 
+601.79.
+(7)  XGeneric drug Y means any of the following:
+(a)  A retail drug that is marketed or distributed in accordance with an 
+abbreviated new drug application approved under 21 USC 355 (j).
+(b)  An authorized generic drug, as defined in 42 CFR 447.502.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 28 - LRB-1423/1
+JPC:all
+SECTION  18
+(c)  A drug that entered the market prior to 1962 and was not originally 
+marketed under a new drug application.
+(8)  XImmediate family member Y means a spouse, grandparent, parent, 
+sibling, child, stepchild, or grandchild or the spouse of a grandparent, parent, 
+sibling, child, stepchild, or grandchild.
+(9)  XManufacturer Y means an entity that does all of the following:
+(a)  Engages in the manufacture of a drug product or enters into a lease with 
+another manufacturer to market and distribute a prescription drug product under 
+the entity [s own name.
+(b)  Sets or changes the wholesale acquisition cost of the drug product or 
+prescription drug product described in par. (a).
+(10)  XOver-the-counter drug Y means a drug intended for human use that does 
+not require a prescription and meets the requirements of 21 CFR parts 328 to 369.
+(11)  XPharmacy benefit manager Y has the meaning given in s. 632.865 (1) (c).
+(12)  XPrescription drug product Y means a brand name drug, a generic drug, a 
+biologic, or a biosimilar.
+601.785  Prescription drug affordability review board.  (1)  MISSION .  
+The purpose of the board is to protect state residents, the state, local governments, 
+health plans, health care providers, pharmacies licensed in this state, and other 
+stakeholders of the health care system in this state from the high costs of 
+prescription drug products.
+(2)  POWERS  AND DUTIES .  (a)  The board shall do all of the following:
+1.  Meet in open session at least 4 times per year to review prescription drug 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 29 - LRB-1423/1
+JPC:all
+SECTION  18
+product pricing information, except that the chair may cancel or postpone a meeting 
+if there is no business to transact.
+2.  To the extent practicable, access and assess pricing information for 
+prescription drug products by doing all of the following:
+a.  Accessing and assessing information from other states by entering into 
+memoranda of understanding with other states to which manufacturers report 
+pricing information.
+b.  Assessing spending for specific prescription drug products in this state.
+c.  Accessing other available pricing information.
+(b)  The board may do any of the following:
+1.  Promulgate rules for the administration of this subchapter.
+2.  Enter into a contract with an independent 3rd party for any service 
+necessary to carry out the powers and duties of the board as described in this 
+subsection.  Unless written permission is granted by the board, a person with whom 
+the board contracts may not release, publish, or otherwise use any information to 
+which the person has access under the contract.
+(c)  The board shall establish and maintain a website to provide public notices 
+and make meeting materials available under sub. (3) (a) and to disclose conflicts of 
+interest under sub. (4) (d).
+(3)  MEETING  REQUIREMENTS .  (a)  Pursuant to s. 19.84, the board shall provide 
+public notice of each board meeting at least 2 weeks prior to the meeting and shall 
+make the materials for each meeting publicly available at least one week prior to 
+the meeting.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 30 - LRB-1423/1
+JPC:all
+SECTION  18
+(b)  Notwithstanding s. 19.84 (2), the board shall provide an opportunity for 
+public comment at each open meeting and shall provide the public with the 
+opportunity to provide written comments on pending decisions of the board.
+(c)  Notwithstanding subch. V of ch. 19, any portion of a meeting of the board 
+concerning proprietary data and information shall be conducted in closed session 
+and shall in all respects remain confidential.
+(d)  The board may allow expert testimony at any meeting, including when the 
+board meets in closed session.
+(4)  CONFLICTS  OF INTEREST .  (a)  A member of the board shall recuse himself 
+or herself from a decision by the board relating to a prescription drug product if the 
+member or an immediate family member has received or could receive any of the 
+following:
+1.  A direct financial benefit deriving from a determination, or a finding of a 
+study or review, by the board relating to the prescription drug product.
+2.  A financial benefit in excess of $5,000 in a calendar year from any person 
+who owns, manufactures, or provides a prescription drug product to be studied or 
+reviewed by the board.
+(b)  A conflict of interest under this subsection shall be disclosed by the board 
+when hiring board staff, by the appointing authority when appointing members to 
+the board, and by the board when a member of the board is recused from any 
+decision relating to a review of a prescription drug product.
+(c)  A conflict of interest under this subsection shall be disclosed no later than 
+5 days after the conflict is identified, except that, if the conflict is identified within 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 31 - LRB-1423/1
+JPC:all
+SECTION  18
+5 days of an open meeting of the board, the conflict shall be disclosed prior to the 
+meeting.
+(d)  The board shall disclose a conflict of interest under this subsection on the 
+board[s website unless the chair of the board recuses the member from a final 
+decision relating to a review of the prescription drug product.  The disclosure shall 
+include the type, nature, and magnitude of the interests of the member involved.
+(e)  A member of the board or a 3rd-party contractor may not accept any gift or 
+donation of services or property that indicates a potential conflict of interest or has 
+the appearance of biasing the work of the board.
+601.79  Drug cost affordability review.  (1)  IDENTIFICATION  OF DRUGS .  
+The board shall identify prescription drug products that are any of the following:
+(a)  A brand name drug or biologic that, as adjusted annually to reflect 
+adjustments to the U.S. consumer price index for all urban consumers, U.S. city 
+average, as determined by the U.S. department of labor, has a launch wholesale 
+acquisition cost of at least $30,000 per year or course of treatment.
+(b)  A brand name drug or biologic that, as adjusted annually to reflect 
+adjustments to the U.S. consumer price index for all urban consumers, U.S. city 
+average, as determined by the U.S. department of labor, has a wholesale acquisition 
+cost that has increased at least $3,000 during a 12-month period.
+(c)  A biosimilar that has a launch wholesale acquisition cost that is not 15 
+percent or more lower than the referenced brand biologic at the time the biosimilar 
+is launched.
+(d)  A generic drug that has a wholesale acquisition cost, as adjusted annually 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 32 - LRB-1423/1
+JPC:all
+SECTION  18
+to reflect adjustments to the U.S. consumer price index for all urban consumers, 
+U.S. city average, as determined by the U.S. department of labor, that meets all of 
+the following conditions:
+1.  Is at least $100 for a supply lasting a patient for a period of 30 consecutive 
+days based on the recommended dosage approved for labeling by the federal food 
+and drug administration, a supply lasting a patient for a period of fewer than 30 
+days based on the recommended dosage approved for labeling by the federal food 
+and drug administration, or one unit of the drug if the labeling approved by the 
+federal food and drug administration does not recommend a finite dosage.
+2.  Increased by at least 200 percent during the preceding 12-month period, as 
+determined by the difference between the resulting wholesale acquisition cost and 
+the average of the wholesale acquisition cost reported over the preceding 12 
+months.
+(e)  Other prescription drug products, including drugs to address public health 
+emergencies, that may create affordability challenges for the health care system 
+and patients in this state.
+(2)  AFFORDABILITY  REVIEW .  (a)  After identifying prescription drug products 
+under sub. (1), the board shall determine whether to conduct an affordability 
+review for each identified prescription drug product by seeking stakeholder input 
+about the prescription drug product and considering the average patient cost share 
+of the prescription drug product.
+(b)  The information used to conduct an affordability review under par. (a) may 
+include any document and research related to the manufacturer [s selection of the 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 33 - LRB-1423/1
+JPC:all
+SECTION  18
+introductory price or price increase of the prescription drug product, including life 
+cycle management, net average price in this state, market competition and context, 
+projected revenue, and the estimated value or cost-effectiveness of the prescription 
+drug product.
+(c)  The failure of a manufacturer to provide the board with information for an 
+affordability review under par. (b) does not affect the authority of the board to 
+conduct the review.
+(3)  AFFORDABILITY  CHALLENGE .  When conducting an affordability review of a 
+prescription drug product under sub. (2), the board shall determine whether use of 
+the prescription drug product that is fully consistent with the labeling approved by 
+the federal food and drug administration or standard medical practice has led or 
+will lead to an affordability challenge for the health care system in this state, 
+including high out-of-pocket costs for patients.  To the extent practicable, in 
+determining whether a prescription drug product has led or will lead to an 
+affordability challenge, the board shall consider all of the following factors:
+(a)  The wholesale acquisition cost for the prescription drug product sold in 
+this state.
+(b)  The average monetary price concession, discount, or rebate the 
+manufacturer provides, or is expected to provide, to health plans in this state as 
+reported by manufacturers and health plans, expressed as a percentage of the 
+wholesale acquisition cost for the prescription drug product under review.
+(c)  The total amount of the price concessions, discounts, and rebates the 
+manufacturer provides to each pharmacy benefit manager for the prescription drug 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 34 - LRB-1423/1
+JPC:all
+SECTION  18
+product under review, as reported by the manufacturer and pharmacy benefit 
+manager and expressed as a percentage of the wholesale acquisition cost.
+(d)  The price at which therapeutic alternatives to the prescription drug 
+product have been sold in this state.
+(e)  The average monetary concession, discount, or rebate the manufacturer 
+provides or is expected to provide to health plan payors and pharmacy benefit 
+managers in this state for therapeutic alternatives to the prescription drug product.
+(f)  The costs to health plans based on patient access consistent with labeled 
+indications by the federal food and drug administration and recognized standard 
+medical practice.
+(g)  The impact on patient access resulting from the cost of the prescription 
+drug product relative to insurance benefit design.
+(h)  The current or expected dollar value of drug-specific patient access 
+programs that are supported by the manufacturer.
+(i)  The relative financial impacts to health, medical, or social services costs 
+that can be quantified and compared to baseline effects of existing therapeutic 
+alternatives to the prescription drug product.
+(j)  The average patient copay or other cost sharing for the prescription drug 
+product in this state.
+(k)  Any information a manufacturer chooses to provide.
+(L)  Any other factors as determined by the board by rule.
+(4)  UPPER  PAYMENT  LIMIT .  (a)  If the board determines under sub. (3) that use 
+of a prescription drug product has led or will lead to an affordability challenge, the 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 35 - LRB-1423/1
+JPC:all
+SECTION  18
+board shall establish an upper payment limit for the prescription drug product after 
+considering all of the following:
+1.  The cost of administering the drug.
+2.  The cost of delivering the drug to consumers.
+3.  Other relevant administrative costs related to the drug.
+(b)  For a prescription drug product identified in sub. (1) (b) or (d) 2., the board 
+shall solicit information from the manufacturer regarding the price increase.  To 
+the extent that the price increase is not a result of the need for increased 
+manufacturing capacity or other effort to improve patient access during a public 
+health emergency, the board shall establish an upper payment limit under par. (a) 
+that is equal to the cost to consumers prior to the price increase.
+(c) 1.  An upper payment limit established under par. (a) shall apply to all 
+purchases and payor reimbursements of the prescription drug product dispensed or 
+administered to individuals in this state in person, by mail, or by other means.
+2.  Notwithstanding subd. 1., while state-sponsored and state-regulated 
+health plans and health programs shall limit drug reimbursements and drug 
+payment to no more than the upper payment limit established under par. (a), a plan 
+subject to the Employee Retirement Income Security Act of 1974 or Part D of 
+Medicare under 42 USC 1395w-101 et seq. may choose to reimburse more than the 
+upper payment limit.  A provider who dispenses and administers a prescription 
+drug product in this state to an individual in this state may not bill a payor more 
+than the upper payment limit to the patient regardless of whether a plan subject to 
+the Employee Retirement Income Security Act of 1974 or Part D of Medicare under 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 36 - LRB-1423/1
+JPC:all
+SECTION  18
+42 USC 1395w-101 et seq. chooses to reimburse the provider above the upper 
+payment limit.
+(5)  PUBLIC  INSPECTION .  Information submitted to the board under this 
+section shall be open to public inspection only as provided under ss. 19.31 to 19.39.
+(6)  NO PROHIBITION  ON MARKETING .  Nothing in this section may be construed 
+to prevent a manufacturer from marketing a prescription drug product approved by 
+the federal food and drug administration while the prescription drug product is 
+under review by the board.
+(7)  APPEALS .  A person aggrieved by a decision of the board may request an 
+appeal of the decision no later than 30 days after the board makes the 
+determination.  The board shall hear the appeal and make a final decision no later 
+than 60 days after the appeal is requested.  A person aggrieved by a final decision of 
+the board may petition for judicial review  in a court of competent jurisdiction.
+SECTION  19.  609.83 of the statutes is amended to read:
+609.83   Coverage of drugs and devices.   Limited service health 
+organizations, preferred provider plans, and defined network plans are subject to 
+ss. 632.853, 632.861, and 632.895 (6) (b), (16t), and (16v).
+SECTION  20.  632.865 (2m) of the statutes is created to read:
+632.865 (2m)  FIDUCIARY  DUTY  AND DISCLOSURES  TO HEALTH  BENEFIT  PLAN  
+SPONSORS .  (a)  A pharmacy benefit manager owes a fiduciary duty to the health 
+benefit plan sponsor to act according to the health benefit plan sponsor [s 
+instructions and in the best interests of the health benefit plan sponsor.
+(b)  A pharmacy benefit manager shall annually provide, no later than the 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 37 - LRB-1423/1
+JPC:all
+SECTION  20
+date and using the method prescribed by the commissioner by rule, the health 
+benefit plan sponsor all of the following information from the previous calendar 
+year:
+1.  The indirect profit received by the pharmacy benefit manager from owning 
+any interest in a pharmacy or service provider.
+2.  Any payment made by the pharmacy benefit manager to a consultant or 
+broker who works on behalf of the health benefit plan sponsor.
+3.  From the amounts received from all drug manufacturers, the amounts 
+retained by the pharmacy benefit manager, and not passed through to the health 
+benefit plan sponsor, that are related to the health benefit plan sponsor [s claims or 
+bona fide service fees.
+4.  The amounts, including pharmacy access and audit recovery fees, received 
+from all pharmacies that are in the pharmacy benefit manager [s network or have a 
+contract to be in the network and, from these amounts, the amount retained by the 
+pharmacy benefit manager and not passed through to the health benefit plan 
+sponsor.
+SECTION  21.  632.868 of the statutes is created to read:
+632.868  Insulin safety net programs.  (1)  DEFINITIONS .  In this section:
+(a)  XManufacturer Y means a person engaged in the manufacturing of insulin 
+that is self-administered on an outpatient basis.
+(b)  XNavigator Y has the meaning given in s. 628.90 (3).
+(c)  XPatient assistance program Y means a program established by a 
+manufacturer under sub. (3) (a).1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 38 - LRB-1423/1
+JPC:all
+SECTION  21
+(d)  XPharmacy Y means an entity licensed under s. 450.06 or 450.065.
+(e)  XUrgent need of insulin Y means having less than a 7-day supply of insulin 
+readily available for use and needing insulin in order to avoid the likelihood of 
+suffering a significant health consequence.
+(f)  XUrgent need safety net program Y means a program established by a 
+manufacturer under sub. (2) (a).
+(2)  URGENT  NEED  SAFETY  NET PROGRAM .  (a)  Establishment of program .  No 
+later than July 1, 2026, each manufacturer shall establish an urgent need safety net 
+program to make insulin available in accordance with this subsection to individuals 
+who meet the eligibility requirements under par. (b).
+(b)  Eligible individual.  An individual shall be eligible to receive insulin under 
+an urgent need safety net program if all of the following conditions are met:
+1.  The individual is in urgent need of insulin.
+2.  The individual is a resident of this state.
+3.  The individual is not receiving public assistance under ch. 49.
+4.  The individual is not enrolled in prescription drug coverage through an 
+individual or group health plan that limits the total cost sharing amount, including 
+copayments, deductibles, and coinsurance, that an enrollee is required to pay for a 
+30-day supply of insulin to no more than $75, regardless of the type or amount of 
+insulin prescribed.
+5.  The individual has not received insulin under an urgent need safety net 
+program within the previous 12 months, except as allowed under par. (d).
+(c)  Provision of insulin under an urgent need safety net program .  1.  In order 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 39 - LRB-1423/1
+JPC:all
+SECTION  21
+to receive insulin under an urgent need safety net program, an individual who 
+meets the eligibility requirements under par. (b) shall provide a pharmacy with all 
+of the following:
+a.  A completed application, on a form prescribed by the commissioner that 
+shall include an attestation by the individual, or the individual [s parent or legal 
+guardian if the individual is under the age of 18, that the individual meets all of the 
+eligibility requirements under par. (b).
+b.  A valid insulin prescription.
+c.  A valid Wisconsin driver [s license or state identification card.  If the 
+individual is under the age of 18, the individual [s parent or legal guardian shall 
+meet this requirement.
+2.  Upon receipt of the information described in subd. 1. a. to c., the pharmacist 
+shall dispense a 30-day supply of the prescribed insulin to the individual.  The 
+pharmacy shall also provide the individual with the information sheet described in 
+sub. (8) (b) 2. and the list of navigators described in sub. (8) (c).  The pharmacy may 
+collect a copayment, not to exceed $35, from the individual to cover the pharmacy [s 
+costs of processing and dispensing the insulin.  The pharmacy shall notify the 
+health care practitioner who issued the prescription no later than 72 hours after the 
+insulin is dispensed.
+3.  A pharmacy that dispenses insulin under subd. 2. may submit to the 
+manufacturer, or the manufacturer [s vendor, a claim for payment that is in 
+accordance with the national council for prescription drug programs [ standards for 
+electronic claims processing, except that no claim may be submitted if the 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 40 - LRB-1423/1
+JPC:all
+SECTION  21
+manufacturer agrees to send the pharmacy a replacement of the same insulin in 
+the amount dispensed.  If the pharmacy submits an electronic claim, the 
+manufacturer or vendor shall reimburse the pharmacy in an amount that covers 
+the pharmacy [s acquisition cost.
+4.  A pharmacy that dispenses insulin under subd. 2. shall retain a copy of the 
+application form described in subd. 1. a.
+(d)  Eligibility of certain individuals .  An individual who has applied for public 
+assistance under ch. 49 but for whom a determination of eligibility has not been 
+made or whose coverage has not become effective or an individual who has an 
+appeal pending under sub. (3) (c) 4. may access insulin under this subsection if the 
+individual is in urgent need of insulin.  To access a 30-day supply of insulin, the 
+individual shall attest to the pharmacy that the individual is described in this 
+paragraph and comply with par. (c) 1.
+(3)  PATIENT  ASSISTANCE  PROGRAM .  (a)  Establishment of program .  No later 
+than July 1, 2026, each manufacturer shall establish a patient assistance program 
+to make insulin available in accordance with this subsection to individuals who 
+meet the eligibility requirements under par. (b).  Under the patient assistance 
+program, the manufacturer shall do all of the following:
+1.  Provide the commissioner with information regarding the patient 
+assistance program, including contact information for individuals to call for 
+assistance in accessing the patient assistance program.
+2.  Provide a hotline for individuals to call or access between 8 a.m. and 10 p.m. 
+on weekdays and between 10 a.m. and 6 p.m. on Saturdays.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 41 - LRB-1423/1
+JPC:all
+SECTION  21
+3.  List the eligibility requirements under par. (b) on the manufacturer [s 
+website.
+4.  Maintain the privacy of all information received from an individual 
+applying for or participating in the patient assistance program and not sell, share, 
+or disseminate the information unless required under this section or authorized, in 
+writing, by the individual.
+(b)  Eligible individual .  An individual shall be eligible to receive insulin under 
+a patient assistance program if all of the following conditions are met:
+1.  The individual is a resident of this state.
+2.  The individual, or the individual [s parent or legal guardian if the individual 
+is under the age of 18, has a valid Wisconsin driver [s license or state identification 
+card.
+3.  The individual has a valid insulin prescription.
+4.  The family income of the individual does not exceed 400 percent of the 
+poverty line as defined and revised annually under 42 USC 9902 (2) for a family the 
+size of the individual [s family.
+5.  The individual is not receiving public assistance under ch. 49.
+6.  The individual is not eligible to receive health care through a federally 
+funded program or receive prescription drug benefits through the U.S. department 
+of veterans affairs, except that this subdivision does not apply to an individual who 
+is enrolled in a policy under Part D of Medicare under 42 USC 1395w-101 et seq. if 
+the individual has spent at least $1,000 on prescription drugs in the current 
+calendar year.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 42 - LRB-1423/1
+JPC:all
+SECTION  21
+7.  The individual is not enrolled in prescription drug coverage through an 
+individual or group health plan that limits the total cost sharing amount, including 
+copayments, deductibles, and coinsurance, that an enrollee is required to pay for a 
+30-day supply of insulin to no more than $75, regardless of the type or amount of 
+insulin needed.
+(c)  Application for patient assistance program .  1.  An individual may apply to 
+participate in a patient assistance program by filing an application with the 
+manufacturer that established the patient assistance program, the individual [s 
+health care practitioner if the practitioner participates in the patient assistance 
+program, or a navigator included on the list under sub. (8) (c).   A health care 
+practitioner or navigator shall immediately submit the application to the 
+manufacturer.  Upon receipt of an application, the manufacturer shall determine 
+the individual [s eligibility under par. (b) and, except as provided in subd. 2., notify 
+the individual of the determination no later than 10 days after receipt of the 
+application.
+2.  If necessary to determine the individual [s eligibility under par. (b), the 
+manufacturer may request additional information from an individual who has filed 
+an application under subd. 1. no later than 5 days after receipt of the application.  
+Upon receipt of the additional information, the manufacturer shall determine the 
+individual [s eligibility under par. (b) and notify the individual of the determination 
+no later than 3 days after receipt of the requested information.
+3.  Except as provided in subd. 5., if the manufacturer determines under subd. 
+1. or 2. that the individual is eligible for the patient assistance program, the 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 43 - LRB-1423/1
+JPC:all
+SECTION  21
+manufacturer shall provide the individual with a statement of eligibility.  The 
+statement of eligibility shall be valid for 12 months and may be renewed upon a 
+determination by the manufacturer that the individual continues to meet the 
+eligibility requirements under par. (b).
+4.  If the manufacturer determines under subd. 1. or 2. that the individual is 
+not eligible for the patient assistance program, the manufacturer shall provide the 
+reason for the determination in the notification under subd. 1. or 2.  The individual 
+may appeal the determination by filing an appeal with the commissioner that shall 
+include all of the information provided to the manufacturer under subds. 1. and 2.  
+The commissioner shall establish procedures for deciding appeals under this 
+subdivision.  The commissioner shall issue a decision no later than 10 days after the 
+appeal is filed, and the commissioner [s decision shall be final.  If the commissioner 
+determines that the individual meets the eligibility requirements under par. (b), the 
+manufacturer shall provide the individual with the statement of eligibility 
+described in subd. 3.
+5.  In the case of an individual who has prescription drug coverage through an 
+individual or group health plan,  if the manufacturer determines under subd. 1. or 2. 
+that the individual is eligible for the patient assistance program but also 
+determines that the individual [s insulin needs are better addressed through the use 
+of the manufacturer [s copayment assistance program rather than the patient 
+assistance program, the manufacturer shall inform the individual of the 
+determination and provide the individual with the necessary coupons to submit to 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 44 - LRB-1423/1
+JPC:all
+SECTION  21
+a pharmacy.  The individual may not be required to pay more than the copayment 
+amount specified in par. (d) 2.
+(d)  Provision of insulin under a patient assistance program .  1.  Upon receipt 
+from an individual of the eligibility statement described in par. (c) 3. and a valid 
+insulin prescription, a pharmacy shall submit an order containing the name of the 
+insulin and daily dosage amount to the manufacturer.  The pharmacy shall include 
+with the order the pharmacy [s name, shipping address, office telephone number, 
+fax number, email address, and contact name, as well as any days or times when 
+deliveries are not accepted by the pharmacy.
+2.  Upon receipt of an order meeting the requirements under subd. 1., the 
+manufacturer shall send the pharmacy a 90-day supply of insulin, or lesser amount 
+if requested in the order, at no charge to the individual or pharmacy.  The pharmacy 
+shall dispense the insulin to the individual associated with the order.  The insulin 
+shall be dispensed at no charge to the individual, except that the pharmacy may 
+collect a copayment from the individual to cover the pharmacy [s costs for processing 
+and dispensing in an amount not to exceed $50 for each 90-day supply of insulin.  
+The pharmacy may not seek reimbursement from the manufacturer or a 3rd-party 
+payer.
+3.  The pharmacy may submit a reorder to the manufacturer if the individual [s 
+eligibility statement described in par. (c) 3. has not expired.  The reorder shall be 
+treated as an order for purposes of subd. 2.
+4.  Notwithstanding subds. 2. and 3., a manufacturer may send the insulin 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 45 - LRB-1423/1
+JPC:all
+SECTION  21
+directly to the individual if the manufacturer provides a mail-order service option, 
+in which case the pharmacy may not collect a copayment from the individual.
+(4)  EXCEPTIONS .  (a)  This section does not apply to a manufacturer that shows 
+to the commissioner [s satisfaction that the manufacturer [s annual gross revenue 
+from insulin sales in this state does not exceed $2,000,000.
+(b)  A manufacturer may not be required to make an insulin product available 
+under sub. (2) or (3) if the wholesale acquisition cost of the insulin product does not 
+exceed $8, as adjusted annually based on the U.S. consumer price index for all 
+urban consumers, U.S. city average, per milliliter or the applicable national council 
+for prescription drug programs [ plan billing unit.
+(5)  CONFIDENTIALITY .  All medical information solicited or obtained by any 
+person under this section shall be subject to the applicable provisions of state law 
+relating to confidentiality of medical information, including s. 610.70.
+(6)  R EIMBURSEMENT  PROHIBITION .  No person, including a manufacturer, 
+pharmacy, pharmacist, or 3rd-party administrator, as part of participating in an 
+urgent need safety net program or patient assistance program may request or seek, 
+or cause another person to request or seek, any reimbursement or other 
+compensation for which payment may be made in whole or in part under a federal 
+health care program, as defined in 42 USC 1320a-7b (f).
+(7)  REPORTS .  (a)  Annually, no later than March 1, each manufacturer shall 
+report to the commissioner all of the following information for the previous calendar 
+year:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 46 - LRB-1423/1
+JPC:all
+SECTION  21
+1.  The number of individuals who received insulin under the manufacturer [s 
+urgent need safety net program.
+2.  The number of individuals who sought assistance under the 
+manufacturer [s patient assistance program and the number of individuals who 
+were determined to be ineligible under sub. (3) (c) 4.
+3.  The wholesale acquisition cost of the insulin provided by the manufacturer 
+through the urgent need safety net program and patient assistance program.
+(b)  Annually, no later than April 1, the commissioner shall submit to the 
+governor and the chief clerk of each house of the legislature, for distribution to the 
+legislature under s. 13.172 (2), a report on the urgent need safety net programs and 
+patient assistance programs that includes all of the following:
+1.  The information provided to the commissioner under par. (a).
+2.  The forfeitures assessed under sub. (9) during the previous calendar year, 
+including the name of the manufacturer and amount of the forfeiture.
+(8)  ADDITIONAL  RESPONSIBILITIES  OF COMMISSIONER .  (a)  Application form .  
+The commissioner shall make the application form described in sub. (2) (c) 1. a. 
+available on the office [s website and shall make the form available to pharmacies 
+and health care providers who prescribe or dispense insulin, hospital emergency 
+departments, urgent care clinics, and community health clinics.
+(b)  Public outreach .  1.  The commissioner shall conduct public outreach to 
+create awareness of the urgent need safety net programs and patient assistance 
+programs.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 47 - LRB-1423/1
+JPC:all
+SECTION  21
+2.  The commissioner shall develop and make available on the office [s website 
+an information sheet that contains all of the following information:
+a.  A description of how to access insulin through an urgent need safety net 
+program.
+b.  A description of how to access insulin through a patient assistance 
+program.
+c.  Information on how to contact a navigator for assistance in accessing 
+insulin through an urgent need safety net program or patient assistance program.
+d.  Information on how to contact the commissioner if a manufacturer 
+determines that an individual is not eligible for a patient assistance program.
+e.  A notification that an individual may contact the commissioner for more 
+information or assistance in accessing ongoing affordable insulin options.
+(c)  Navigators .  The commissioner shall develop a training program to provide 
+navigators with information and the resources necessary to assist individuals in 
+accessing appropriate long-term insulin options.  The commissioner shall compile a 
+list of navigators that have completed the training program and are available to 
+assist individuals in accessing affordable insulin coverage options.  The list shall be 
+made available on the office [s website and to pharmacies and health care 
+practitioners who dispense and prescribe insulin.
+(d)  Satisfaction surveys .  1.  The commissioner shall develop and conduct a 
+satisfaction survey of individuals who have accessed insulin through urgent need 
+safety net programs and patient assistance programs.  The survey shall ask 
+whether the individual is still in need of a long-term solution for affordable insulin 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 48 - LRB-1423/1
+JPC:all
+SECTION  21
+and shall include questions about the individual [s satisfaction with all of the 
+following, if applicable:
+a.  Accessibility to urgent-need insulin.
+b.  Adequacy of the information sheet and list of navigators received from the 
+pharmacy.
+c.  Helpfulness of a navigator.
+d.  Ease of access in applying for a patient assistance program and receiving 
+insulin from the pharmacy under the patient assistance program.
+2.  The commissioner shall develop and conduct a satisfaction survey of 
+pharmacies that have dispensed insulin through urgent need safety net programs 
+and patient assistance programs.  The survey shall include questions about the 
+pharmacy [s satisfaction with all of the following, if applicable:
+a.  Timeliness of reimbursement from manufacturers for insulin dispensed by 
+the pharmacy under urgent need safety net programs.
+b.  Ease in submitting insulin orders to manufacturers.
+c.  Timeliness of receiving insulin orders from manufacturers.
+3.  The commissioner may contract with a nonprofit entity to develop and 
+conduct the surveys under subds. 1. and 2. and to evaluate the survey results.
+4.  No later than July 1, 2028, the commissioner shall submit to the governor 
+and the chief clerk of each house of the legislature, for distribution to the legislature 
+under s. 13.172 (2), a report on the results of the surveys under subds. 1. and 2.
+(9)  PENALTY .  A manufacturer that fails to comply with this section may be 
+required to forfeit up to $200,000 per month of noncompliance, with the maximum 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 49 - LRB-1423/1
+JPC:all
+SECTION  21
+forfeiture increasing to $400,000 per month if the manufacturer continues to be in 
+noncompliance after 6 months and increasing to $600,000 per month if the 
+manufacturer continues to be in noncompliance after one year.
+SECTION  22.  632.869 of the statutes is created to read:
+632.869   Reimbursement to federal drug pricing program 
+participants.  (1)  In this section:
+(a)  XCovered entity Y means an entity described in 42 USC 256b (a) (4) (A), (D), 
+(E), (J), or (N) that participates in the federal drug pricing program under 42 USC 
+256b, a pharmacy of the entity, or a pharmacy contracted with the entity to 
+dispense drugs purchased through the federal drug pricing program under 42 USC 
+256b.
+(b)  XPharmacy benefit manager Y has the meaning given in s. 632.865 (1) (c).
+(2)  No person, including a pharmacy benefit manager or 3rd-party payer, may 
+do any of the following:
+(a)  Reimburse a covered entity for a drug that is subject to an agreement 
+under 42 USC 256b at a rate lower than that paid for the same drug to pharmacies 
+that are not covered entities and have a similar prescription volume to that of the 
+covered entity.
+(b)  Assess a covered entity any fee, charge back, or other adjustment on the 
+basis of the covered entity [s participation in the federal drug pricing program under 
+42 USC 256b.
+SECTION  23.  632.895 (6) (title) of the statutes is amended to read:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+222025 - 2026  Legislature
+SENATE BILL 50- 50 - LRB-1423/1
+JPC:all
+SECTION  23
+632.895 (6) (title)  E QUIPMENT  AND SUPPLIES  FOR TREATMENT  OF DIABETES ; 
+INSULIN .
+SECTION  24.  632.895 (6) of the statutes is renumbered 632.895 (6) (a) and 
+amended to read:
+632.895 (6) (a)  Every disability insurance policy which that provides coverage 
+of expenses incurred for treatment of diabetes shall provide coverage for expenses 
+incurred by the installation and use of an insulin infusion pump, coverage for all 
+other equipment and supplies, including insulin or any other prescription 
+medication, used in the treatment of diabetes, and coverage of diabetic self-
+management education programs.  Coverage Except as provided in par. (b), 
+coverage required under this subsection shall be subject to the same exclusions, 
+limitations, deductibles, and coinsurance provisions of the policy as other covered 
+expenses, except that insulin infusion pump coverage may be limited to the 
+purchase of one pump per year and the insurer may require the insured to use a 
+pump for 30 days before purchase.
+SECTION  25.  632.895 (6) (b) of the statutes is created to read:
+632.895 (6) (b) 1.  In this paragraph:
+a.  XCost sharing Y means the total of any deductible, copayment, or 
+coinsurance amounts imposed on a person covered under a policy or plan.
+b.  XSelf-insured health plan Y has the meaning given in s. 632.85 (1) (c).
+2.  Every disability insurance policy and self-insured health plan that covers 
+insulin and imposes cost sharing on prescription drugs may not impose cost sharing 
+on insulin in an amount that exceeds $35 for a one-month supply of insulin.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 51 - LRB-1423/1
+JPC:all
+SECTION  25
+3.  Nothing in this paragraph prohibits a disability insurance policy or self-
+insured health plan from imposing cost sharing on insulin in an amount less than 
+the amount specified under subd. 2.  Nothing in this paragraph requires a disability 
+insurance policy or self-insured health plan to impose any cost sharing on insulin.
+SECTION  26. Nonstatutory provisions.
+(1)  C ENTRALIZED  DRUG  REPOSITORY .  The department of health services shall 
+study and implement a centralized, physical drug repository program under s. 
+255.056.
+(2)  P RESCRIPTION  DRUG  IMPORTATION  PROGRAM .  The commissioner of 
+insurance shall submit the first report required under s. 601.575 (5) by the next 
+January 1 or July 1, whichever is earliest, that is at least 180 days after the date the 
+prescription drug importation program is fully operational under s. 601.575 (4).  
+The commissioner of insurance shall include in the first 3 reports submitted under 
+s. 601.575 (5) information on the implementation of the audit functions under s. 
+601.575 (1) (n).
+(3)  P RESCRIPTION  DRUG  PURCHASING  ENTITY .  During the 2025-27 fiscal 
+biennium, the office of the commissioner of insurance shall conduct a study on the 
+viability of creating or implementing a state prescription drug purchasing entity.
+(4)  O FFICE  OF PRESCRIPTION  DRUG  AFFORDABILITY .  The office of the 
+commissioner of insurance shall establish an office of prescription drug 
+affordability in the office of the commissioner of insurance.  The office of 
+prescription drug affordability shall be responsible for prescription drug 
+affordability programming within the office of the commissioner of insurance and 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 50- 52 - LRB-1423/1
+JPC:all
+SECTION  26
+shall oversee the operations of the prescription drug affordability review board 
+established under s. 15.735.
+(5)  S TAGGERED  TERMS  FOR PRESCRIPTION  DRUG  AFFORDABILITY  REVIEW  BOARD .  
+Notwithstanding the length of terms specified for the members of the board under 
+s. 15.735 (1) (b) to (e), 2 of the initial members shall be appointed for terms expiring 
+on May 1, 2026; 2 of the initial members shall be appointed for terms expiring on 
+May 1, 2027; 2 of the initial members shall be appointed for terms expiring on May 
+1, 2028; and 2 of the initial members shall be appointed for terms expiring on May 
+1, 2029.
+SECTION  27.  Fiscal changes.
+(1)  O FFICE  OF PRESCRIPTION  DRUG  AFFORDABILITY .  In the schedule under s. 
+20.005 (3) for the appropriation to the office of the commissioner of insurance under 
+s. 20.145 (1) (g), the dollar amount for fiscal year 2026-27 is increased by $1,701,000 
+to provide $500,000 in onetime implementation costs for establishing an office of 
+prescription drug affordability in the office of the commissioner of insurance and 
+$1,201,000 to increase the authorized FTE positions for the office of the 
+commissioner of insurance by 16.0 PR positions within the office of prescription 
+drug affordability, including 5.0 insurance examiners, 4.0 policy initiatives 
+advisors, 2.0 attorneys, 1.0 insurance program manager, 2.0 insurance 
+administrators, and 2.0 operations program associates.
+SECTION  28.  Effective dates.   This act takes effect on the day after 
+publication, except as follows:
+(1)  C OST-SHARING  CAP ON INSULIN .  The treatment of ss. 609.83 and 632.895 
+(6) (title), the renumbering and amendment of s. 632.895 (6), and the creation of s. 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+242025 - 2026  Legislature
+SENATE BILL 50- 53 - LRB-1423/1
+JPC:all
+SECTION  28
+632.895 (6) (b) take effect on the first day of the 4th month beginning after 
+publication.
+(2)  P HARMACY  BENEFIT  TOOL  GRANTS .  The treatment of ss. 20.005 (3) 
+(schedule), 20.145 (1) (a), and 601.415 (14) takes effect on the day after publication, 
+or on the 2nd day after publication of the 2025 biennial budget act, whichever is 
+later.
+(3)  L ICENSURE  OF PHARMACY  SERVICES  ADMINISTRATIVE  ORGANIZATIONS  AND 
+PHARMACEUTICAL  REPRESENTATIVES .  The treatment of ss. 601.31 (1) (nv) and (nw), 
+601.56, and 601.57 takes effect on the first day of the 7th month beginning after 
+publication.
+(4)  P RESCRIPTION  DRUG  AFFORDABILITY  REVIEW  BOARD .  The treatment of ss. 
+15.07 (3) (bm) 7., 15.735, and 20.145 (1) (g) 4. and subch. VI of ch. 601 and S ECTIONS  
+26 (4) and (5) and 27  (1) of this act take effect on the first day of the 7th month 
+beginning after publication or on the 2nd day after publication of the 2025 biennial 
+budget act, whichever is later.
+(END)1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
