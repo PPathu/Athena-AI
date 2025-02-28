@@ -118,11 +118,11 @@ def get_master_list():
         }
 
         #debugging statements
-        print(f"Processed Bill: {bill_number}")
-        print(f"Session: {new_bill_data['session']}")
-        print(f"Amendments: {len(new_bill_data['amendments'])} items")
-        print(f"See Also: {len(new_bill_data['seeAlso'])} items")
-        print(f"History: {len(new_bill_data['history'])} items\n")
+        #print(f"Processed Bill: {bill_number}")
+        #print(f"Session: {new_bill_data['session']}")
+        #print(f"Amendments: {len(new_bill_data['amendments'])} items")
+        #print(f"See Also: {len(new_bill_data['seeAlso'])} items")
+        #print(f"History: {len(new_bill_data['history'])} items\n")
 
         bills.append(new_bill_data)
 
