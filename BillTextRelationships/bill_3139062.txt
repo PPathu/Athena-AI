@@ -1,0 +1,54 @@
+2025 - 2026  LEGISLATURELRB-1254/1
+JPC:emw
+2025 ASSEMBLY BILL 54
+February 24, 2025 - Introduced by Representatives NOVAK , GUNDRUM , B. 
+JACOBSON , MURSAU , SORTWELL , STEFFEN  and TITTL, cosponsored by Senators 
+JAMES , CABRAL -GUEVARA  and WANGGAARD . Referred to Committee on Health, 
+Aging and Long-Term Care. 
+ 
+  ***AUTHORS SUBJECT TO CHANGE***
+AN ACT to create  49.45 (9o) of the statutes; relating to:  utilization 
+management controls for antipsychotic prescription drugs under the Medical 
+Assistance program.
+Analysis by the Legislative Reference Bureau
+This bill prohibits the Department of Health Services from imposing any 
+utilization management controls for prescription drugs under the Medical 
+Assistance program that are approved by the federal Food and Drug Administration 
+and are classified as antipsychotic.  Utilization management controls are formal 
+techniques used by a health carrier or prescription drug utilization management 
+entity that are designed to evaluate prescription drug medical necessity, 
+appropriateness, efficacy, or efficiency.  Currently, DHS administers the Medical 
+Assistance program, which is a joint federal and state program that provides health 
+services to individuals who have limited financial resources.
+For further information see the state fiscal estimate, which will be printed as 
+an appendix to this bill.
+The people of the state of Wisconsin, represented in senate and assembly, do 
+enact as follows:1
+2
+32025 - 2026  Legislature
+ASSEMBLY BILL 54- 2 - LRB-1254/1
+JPC:emw
+SECTION  1
+SECTION  1.  49.45 (9o) of the statutes is created to read:
+49.45 (9o)  U TILIZATION  MANAGEMENT  CONTROLS  FOR ANTIPSYCHOTIC  
+PRESCRIPTION  DRUGS .  (a)  In this subsection:
+1.  XPrescription drug Y has the meaning given in s. 450.01 (20).
+2.  XUtilization management controls Y means a set of formal techniques used 
+by a health carrier or prescription drug utilization management entity that are 
+designed to evaluate prescription drug medical necessity, appropriateness, efficacy, 
+or efficiency, including prior authorization and step therapy protocols.
+(b)  The department may not impose utilization management controls for any 
+prescription drug that is approved by the federal food and drug administration and 
+is classified as an antipsychotic.
+(END)1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
