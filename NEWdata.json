@@ -1,6 +1,7 @@
 [
     {
         "docType": "Assembly Bill",
+        "billId": 1950234,
         "billNumber": "AB1",
         "session": "2025-2026 Regular Session",
         "title": "Changes to the educational assessment program and the school and school district accountability report. (FE)",
@@ -15,6 +16,7 @@
             "txt": "Bill Text/bill_3093564.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -119,6 +121,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1952554,
         "billNumber": "AB2",
         "session": "2025-2026 Regular Session",
         "title": "Requiring school boards to adopt policies to prohibit the use of wireless communication devices during instructional time.",
@@ -174,6 +177,16 @@
                 "alt_state_link": "",
                 "alt_amendment_size": 0,
                 "alt_amendment_hash": ""
+            }
+        ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_227407.txt",
+                "pdf": "Bill Text/amendment_227407.pdf"
+            },
+            {
+                "text": "Bill Text/amendment_229505.txt",
+                "pdf": "Bill Text/amendment_229505.pdf"
             }
         ],
         "seeAlso": [],
@@ -308,6 +321,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1952847,
         "billNumber": "AB3",
         "session": "2025-2026 Regular Session",
         "title": "Incorporating cursive writing into the state model English language arts standards and requiring cursive writing in elementary grades. (FE)",
@@ -322,6 +336,7 @@
             "txt": "Bill Text/bill_3096833.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -440,6 +455,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1952651,
         "billNumber": "AB4",
         "session": "2025-2026 Regular Session",
         "title": "Required instruction in civics in the elementary and high school grades, high school graduation requirements, and private school educational program criteria. (FE)",
@@ -474,6 +490,12 @@
                 "alt_state_link": "",
                 "alt_amendment_size": 0,
                 "alt_amendment_hash": ""
+            }
+        ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_230080.txt",
+                "pdf": "Bill Text/amendment_230080.pdf"
             }
         ],
         "seeAlso": [],
@@ -615,6 +637,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1952454,
         "billNumber": "AB5",
         "session": "2025-2026 Regular Session",
         "title": "Requiring school boards to make textbooks, curricula, and instructional materials available for inspection by school district residents.",
@@ -629,6 +652,7 @@
             "txt": "Bill Text/bill_3096443.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -740,6 +764,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1953975,
         "billNumber": "AB6",
         "session": "2025-2026 Regular Session",
         "title": "Requiring a school board to spend at least 70 percent of its operating expenditures on direct classroom expenditures and annual pay increases for school administrators. (FE)",
@@ -795,6 +820,16 @@
                 "alt_state_link": "",
                 "alt_amendment_size": 0,
                 "alt_amendment_hash": ""
+            }
+        ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_230210.txt",
+                "pdf": "Bill Text/amendment_230210.pdf"
+            },
+            {
+                "text": "Bill Text/amendment_230211.txt",
+                "pdf": "Bill Text/amendment_230211.pdf"
             }
         ],
         "seeAlso": [],
@@ -957,6 +992,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1958669,
         "billNumber": "AB7",
         "session": "2025-2026 Regular Session",
         "title": "Requiring local approval for certain wind and solar projects before Public Service Commission approval.",
@@ -971,6 +1007,7 @@
             "txt": "Bill Text/bill_3104256.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -998,6 +1035,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1959159,
         "billNumber": "AB8",
         "session": "2025-2026 Regular Session",
         "title": "Agreements for direct primary care.",
@@ -1012,6 +1050,7 @@
             "txt": "Bill Text/bill_3104743.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1046,6 +1085,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1959122,
         "billNumber": "AB9",
         "session": "2025-2026 Regular Session",
         "title": "Allowing representatives of certain federally chartered youth membership organizations to provide information to pupils on public school property.",
@@ -1060,6 +1100,7 @@
             "txt": "Bill Text/bill_3104708.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1080,6 +1121,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1959218,
         "billNumber": "AB10",
         "session": "2025-2026 Regular Session",
         "title": "A sales and use tax exemption for the sale of gun safes. (FE)",
@@ -1114,6 +1156,12 @@
                 "alt_state_link": "",
                 "alt_amendment_size": 0,
                 "alt_amendment_hash": ""
+            }
+        ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_232676.txt",
+                "pdf": "Bill Text/amendment_232676.pdf"
             }
         ],
         "seeAlso": [],
@@ -1164,6 +1212,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1958843,
         "billNumber": "AB11",
         "session": "2025-2026 Regular Session",
         "title": "Pelvic exams on unconscious patients and creating an administrative rule related to hospital requirements for pelvic exams on unconscious patients.",
@@ -1198,6 +1247,12 @@
                 "alt_state_link": "",
                 "alt_amendment_size": 0,
                 "alt_amendment_hash": ""
+            }
+        ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_227081.txt",
+                "pdf": "Bill Text/amendment_227081.pdf"
             }
         ],
         "seeAlso": [],
@@ -1283,6 +1338,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1958951,
         "billNumber": "AB12",
         "session": "2025-2026 Regular Session",
         "title": "State agency status for certain physician assistants and advanced practice nurses who provide services without compensation for local health departments or school districts. (FE)",
@@ -1297,6 +1353,7 @@
             "txt": "Bill Text/bill_3104537.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1331,6 +1388,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1959015,
         "billNumber": "AB13",
         "session": "2025-2026 Regular Session",
         "title": "The suspension of a rule of the Elections Commission.",
@@ -1345,6 +1403,7 @@
             "txt": "Bill Text/bill_3104599.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1365,6 +1424,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1958879,
         "billNumber": "AB14",
         "session": "2025-2026 Regular Session",
         "title": "The suspension of a rule of the Elections Commission.",
@@ -1379,6 +1439,7 @@
             "txt": "Bill Text/bill_3104467.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1399,6 +1460,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1958808,
         "billNumber": "AB15",
         "session": "2025-2026 Regular Session",
         "title": "The suspension of a rule of the Elections Commission.",
@@ -1413,6 +1475,7 @@
             "txt": "Bill Text/bill_3104399.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1433,6 +1496,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1959192,
         "billNumber": "AB16",
         "session": "2025-2026 Regular Session",
         "title": "Repealing an administrative rule of the Department of Natural Resources related to the possession of firearms.",
@@ -1447,6 +1511,7 @@
             "txt": "Bill Text/bill_3104777.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1467,6 +1532,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1959051,
         "billNumber": "AB17",
         "session": "2025-2026 Regular Session",
         "title": "Creating an employee ownership conversion costs tax credit, a deduction for capital gains from the transfer of a business to employee ownership, and an employee ownership education and outreach program. (FE)",
@@ -1481,6 +1547,7 @@
             "txt": "Bill Text/bill_3104636.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1515,6 +1582,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1958913,
         "billNumber": "AB18",
         "session": "2025-2026 Regular Session",
         "title": "Fee waivers for state park vehicle admission receipts to pupils with Every Kid Outdoors passes. (FE)",
@@ -1529,6 +1597,7 @@
             "txt": "Bill Text/bill_3104501.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1563,6 +1632,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1958737,
         "billNumber": "AB19",
         "session": "2025-2026 Regular Session",
         "title": "Increased penalties for crimes against adults at risk; restraining orders for adults at risk; freezing assets of a defendant charged with financial exploitation of an adult at risk; sexual assault of an adult at risk; and providing a penalty.",
@@ -1577,6 +1647,7 @@
             "txt": "Bill Text/bill_3104325.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1597,6 +1668,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1959087,
         "billNumber": "AB20",
         "session": "2025-2026 Regular Session",
         "title": "Allowing certain married persons to claim the earned income tax credit when filing a separate return. (FE)",
@@ -1611,6 +1683,7 @@
             "txt": "Bill Text/bill_3104672.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1645,6 +1718,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1958703,
         "billNumber": "AB21",
         "session": "2025-2026 Regular Session",
         "title": "Technical colleges\u2019 lease of their facilities to others. (FE)",
@@ -1659,6 +1733,7 @@
             "txt": "Bill Text/bill_3104291.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1707,6 +1782,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1958772,
         "billNumber": "AB22",
         "session": "2025-2026 Regular Session",
         "title": "Limitations on the total value of taxable property that may be included in, and the lifespan of, a tax incremental financing district created in the city of Middleton. (FE)",
@@ -1721,6 +1797,7 @@
             "txt": "Bill Text/bill_3104361.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1762,6 +1839,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1962311,
         "billNumber": "AB23",
         "session": "2025-2026 Regular Session",
         "title": "Establishment of a Palliative Care Council. (FE)",
@@ -1796,6 +1874,12 @@
                 "alt_state_link": "",
                 "alt_amendment_size": 0,
                 "alt_amendment_hash": ""
+            }
+        ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_229567.txt",
+                "pdf": "Bill Text/amendment_229567.pdf"
             }
         ],
         "seeAlso": [],
@@ -1867,6 +1951,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1967971,
         "billNumber": "AB24",
         "session": "2025-2026 Regular Session",
         "title": "County sheriff assistance with certain federal immigration functions. (FE)",
@@ -1881,6 +1966,7 @@
             "txt": "Bill Text/bill_3116734.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1915,6 +2001,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1970309,
         "billNumber": "AB25",
         "session": "2025-2026 Regular Session",
         "title": "An incumbent transmission facility owner\u2019s right to construct, own, and maintain certain transmission facilities and Public Service Commission procedures if the transmission facility is a regionally cost-shared transmission line.",
@@ -1929,6 +2016,7 @@
             "txt": "Bill Text/bill_3119853.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -1970,6 +2058,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972724,
         "billNumber": "AB26",
         "session": "2025-2026 Regular Session",
         "title": "Battery or threat to jurors and providing a penalty.",
@@ -1984,6 +2073,7 @@
             "txt": "Bill Text/bill_3126853.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2004,6 +2094,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972872,
         "billNumber": "AB27",
         "session": "2025-2026 Regular Session",
         "title": "Expanding veterans benefits to individuals who served in Laos in support of the United States during the Vietnam War.",
@@ -2018,6 +2109,7 @@
             "txt": "Bill Text/bill_3126996.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2038,6 +2130,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972637,
         "billNumber": "AB28",
         "session": "2025-2026 Regular Session",
         "title": "Special registration plates with white lettering on a black background. (FE)",
@@ -2052,6 +2145,7 @@
             "txt": "Bill Text/bill_3126771.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2072,6 +2166,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972957,
         "billNumber": "AB29",
         "session": "2025-2026 Regular Session",
         "title": "Impoundment of vehicles used in certain traffic offenses.",
@@ -2129,6 +2224,16 @@
                 "alt_amendment_hash": ""
             }
         ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_230648.txt",
+                "pdf": "Bill Text/amendment_230648.pdf"
+            },
+            {
+                "text": "Bill Text/amendment_230649.txt",
+                "pdf": "Bill Text/amendment_230649.pdf"
+            }
+        ],
         "seeAlso": [],
         "history": [
             {
@@ -2163,6 +2268,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972911,
         "billNumber": "AB30",
         "session": "2025-2026 Regular Session",
         "title": "Prohibiting a foreign adversary from acquiring agricultural or forestry land in this state.",
@@ -2177,6 +2283,7 @@
             "txt": "Bill Text/bill_3127033.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2204,6 +2311,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972736,
         "billNumber": "AB31",
         "session": "2025-2026 Regular Session",
         "title": "Repair and replacement of implements of husbandry under warranty.",
@@ -2218,6 +2326,7 @@
             "txt": "Bill Text/bill_3126865.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2245,6 +2354,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972823,
         "billNumber": "AB32",
         "session": "2025-2026 Regular Session",
         "title": "Access to public high schools for military recruiters.",
@@ -2259,6 +2369,7 @@
             "txt": "Bill Text/bill_3126948.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2279,6 +2390,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972649,
         "billNumber": "AB33",
         "session": "2025-2026 Regular Session",
         "title": "Representations depicting nudity and providing a penalty.",
@@ -2293,6 +2405,7 @@
             "txt": "Bill Text/bill_3126783.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2313,6 +2426,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972700,
         "billNumber": "AB34",
         "session": "2025-2026 Regular Session",
         "title": "Court-issued criminal complaints in officer-involved deaths.",
@@ -2327,6 +2441,7 @@
             "txt": "Bill Text/bill_3126830.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2347,6 +2462,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972772,
         "billNumber": "AB35",
         "session": "2025-2026 Regular Session",
         "title": "Withdrawal of candidacy for certain offices filled at the general election and providing a penalty. (FE)",
@@ -2361,6 +2477,7 @@
             "txt": "Bill Text/bill_3126899.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2388,6 +2505,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972885,
         "billNumber": "AB36",
         "session": "2025-2026 Regular Session",
         "title": "Law enforcement and firefighter annuitants in the Wisconsin Retirement System who are rehired by a participating employer. (FE)",
@@ -2402,6 +2520,7 @@
             "txt": "Bill Text/bill_3127008.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2436,6 +2555,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972835,
         "billNumber": "AB37",
         "session": "2025-2026 Regular Session",
         "title": "Personalized registration plate fees for gold star family special registration plates. (FE)",
@@ -2450,6 +2570,7 @@
             "txt": "Bill Text/bill_3126960.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2470,20 +2591,22 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972859,
         "billNumber": "AB38",
         "session": "2025-2026 Regular Session",
         "title": "An income tax exemption for cash tips paid to an employee. (FE)",
         "description": "An Act to repeal 71.63 (6) (n) 1. and 71.63 (6) (n) 2.; to renumber and amend 71.63 (6) (n) (intro.); to amend 71.05 (6) (b) 19. cm., 71.05 (6) (b) 19. dm., 71.05 (6) (b) 28. e., 71.05 (6) (b) 28. f., 71.05 (6) (b) 32. b., 71.05 (6) (b) 32. c., 71.05 (6) (b) 33. b., 71.05 (6) (b) 33. c., 71.05 (6) (b) 35. c., 71.05 (6) (b) 35. d., 71.05 (6) (b) 38. c., 71.05 (6) (b) 38. d., 71.05 (6) (b) 42. c., 71.05 (6) (b) 42. d. and 71.05 (6) (b) 43. f.; to create 71.05 (1) (j) of the statutes; Relating to: an income tax exemption for cash tips paid to an employee. (FE)",
         "status": "Introduced",
         "statusDate": "2025-02-17",
-        "last_action": "Representative Gustafson added as a coauthor",
-        "last_action_date": "2025-02-18",
+        "last_action": "Fiscal estimate received",
+        "last_action_date": "2025-02-28",
         "url": "https://legiscan.com/WI/bill/AB38/2025",
         "links": {
             "pdf": "Bill Text/bill_3126984.pdf",
             "txt": "Bill Text/bill_3126984.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2506,11 +2629,19 @@
                 "chamber": "A",
                 "chamber_id": 99,
                 "importance": 0
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Fiscal estimate received",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 0
             }
         ]
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972947,
         "billNumber": "AB39",
         "session": "2025-2026 Regular Session",
         "title": "Requiring state employees to perform their work at the offices of their employer.",
@@ -2525,6 +2656,7 @@
             "txt": "Bill Text/bill_3127066.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2552,6 +2684,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972748,
         "billNumber": "AB40",
         "session": "2025-2026 Regular Session",
         "title": "School safety grants and making an appropriation. (FE)",
@@ -2566,6 +2699,7 @@
             "txt": "Bill Text/bill_3126876.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2586,6 +2720,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972686,
         "billNumber": "AB41",
         "session": "2025-2026 Regular Session",
         "title": "Local regulation of vegetable gardens.",
@@ -2600,6 +2735,7 @@
             "txt": "Bill Text/bill_3126817.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2620,6 +2756,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972799,
         "billNumber": "AB42",
         "session": "2025-2026 Regular Session",
         "title": "Local regulation of fowl.",
@@ -2634,6 +2771,7 @@
             "txt": "Bill Text/bill_3126925.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2661,6 +2799,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972787,
         "billNumber": "AB43",
         "session": "2025-2026 Regular Session",
         "title": "Permitting pharmacists to prescribe certain contraceptives, extending the time limit for emergency rule procedures, providing an exemption from emergency rule procedures, granting rule-making authority, and providing a penalty. (FE)",
@@ -2675,6 +2814,7 @@
             "txt": "Bill Text/bill_3126914.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2730,6 +2870,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972935,
         "billNumber": "AB44",
         "session": "2025-2026 Regular Session",
         "title": "Allowing advanced practice nurse prescribers to pronounce the date, time, and place of a patient\u2019s death for purposes of the preparation of death records.",
@@ -2744,6 +2885,7 @@
             "txt": "Bill Text/bill_3127055.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2771,6 +2913,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972712,
         "billNumber": "AB45",
         "session": "2025-2026 Regular Session",
         "title": "Ratification of the Dietitian Licensure Compact. (FE)",
@@ -2785,6 +2928,7 @@
             "txt": "Bill Text/bill_3126842.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2826,6 +2970,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972897,
         "billNumber": "AB46",
         "session": "2025-2026 Regular Session",
         "title": "Flags flown at state and local government buildings and eliminating a related administrative rule.",
@@ -2840,6 +2985,7 @@
             "txt": "Bill Text/bill_3127019.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2860,6 +3006,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972661,
         "billNumber": "AB47",
         "session": "2025-2026 Regular Session",
         "title": "Tuition and fee remission for certain veterans and their dependents enrolled in the University of Wisconsin System or a technical college. (FE)",
@@ -2874,6 +3021,7 @@
             "txt": "Bill Text/bill_3126794.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2901,6 +3049,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972674,
         "billNumber": "AB48",
         "session": "2025-2026 Regular Session",
         "title": "Providing state aid to reimburse public and private schools that provide free meals to all pupils for the costs of those meals and making an appropriation. (FE)",
@@ -2915,6 +3064,7 @@
             "txt": "Bill Text/bill_3126806.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2935,6 +3085,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1972923,
         "billNumber": "AB49",
         "session": "2025-2026 Regular Session",
         "title": "A minor\u2019s authority to consent to health care.",
@@ -2949,6 +3100,7 @@
             "txt": "Bill Text/bill_3127043.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -2976,6 +3128,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1974122,
         "billNumber": "AB50",
         "session": "2025-2026 Regular Session",
         "title": "State finances and appropriations, constituting the executive budget act of the 2025 legislature. (FE)",
@@ -2990,6 +3143,7 @@
             "txt": "Bill Text/bill_3129008.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3024,6 +3178,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1977778,
         "billNumber": "AB51",
         "session": "2025-2026 Regular Session",
         "title": "Participation in interscholastic athletics and application of the public records and open meetings laws to interscholastic athletic associations.",
@@ -3038,6 +3193,7 @@
             "txt": "Bill Text/bill_3133764.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3058,6 +3214,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1977971,
         "billNumber": "AB52",
         "session": "2025-2026 Regular Session",
         "title": "Expanding the homestead income tax credit. (FE)",
@@ -3072,6 +3229,7 @@
             "txt": "Bill Text/bill_3133951.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3092,6 +3250,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981766,
         "billNumber": "AB53",
         "session": "2025-2026 Regular Session",
         "title": "Special circumstances battery to a community service officer and providing a penalty.",
@@ -3106,6 +3265,7 @@
             "txt": "Bill Text/bill_3138987.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3126,6 +3286,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981841,
         "billNumber": "AB54",
         "session": "2025-2026 Regular Session",
         "title": "Utilization management controls for antipsychotic prescription drugs under the Medical Assistance program. (FE)",
@@ -3140,6 +3301,7 @@
             "txt": "Bill Text/bill_3139062.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3160,6 +3322,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981742,
         "billNumber": "AB55",
         "session": "2025-2026 Regular Session",
         "title": "Possession of a firearm on school grounds by school employees and fees for licenses to carry a concealed weapon. (FE)",
@@ -3174,6 +3337,7 @@
             "txt": "Bill Text/bill_3138964.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3194,6 +3358,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981790,
         "billNumber": "AB56",
         "session": "2025-2026 Regular Session",
         "title": "Requiring the display of the national motto in public schools and on public buildings. (FE)",
@@ -3208,6 +3373,7 @@
             "txt": "Bill Text/bill_3139010.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3228,6 +3394,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981779,
         "billNumber": "AB57",
         "session": "2025-2026 Regular Session",
         "title": "Requirements concerning assistance in the detention of individuals who are or are alleged to be not lawfully present in the United States.",
@@ -3242,6 +3409,7 @@
             "txt": "Bill Text/bill_3138999.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3262,6 +3430,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981865,
         "billNumber": "AB58",
         "session": "2025-2026 Regular Session",
         "title": "Flags flown, hung, or displayed from a flagpole or the exterior of state and local buildings and eliminating a related administrative rule.",
@@ -3276,6 +3445,7 @@
             "txt": "Bill Text/bill_3139085.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3296,6 +3466,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981854,
         "billNumber": "AB59",
         "session": "2025-2026 Regular Session",
         "title": "The use of federal capitalization grant funds for lead service line replacement. (FE)",
@@ -3310,6 +3481,7 @@
             "txt": "Bill Text/bill_3139074.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3330,6 +3502,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1982000,
         "billNumber": "AB60",
         "session": "2025-2026 Regular Session",
         "title": "Referendum questions for certain referenda that affect property taxes. (FE)",
@@ -3344,6 +3517,7 @@
             "txt": "Bill Text/bill_3139211.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3364,6 +3538,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981904,
         "billNumber": "AB61",
         "session": "2025-2026 Regular Session",
         "title": "Injuring or killing a police or fire animal and providing a penalty.",
@@ -3378,6 +3553,7 @@
             "txt": "Bill Text/bill_3139122.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3398,6 +3574,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981754,
         "billNumber": "AB62",
         "session": "2025-2026 Regular Session",
         "title": "Health care costs omnibus, granting rule-making authority, making an appropriation, and providing a penalty. (FE)",
@@ -3412,6 +3589,7 @@
             "txt": "Bill Text/bill_3138976.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3432,6 +3610,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981816,
         "billNumber": "AB63",
         "session": "2025-2026 Regular Session",
         "title": "Financing the operating costs and certain out-of-state projects of nonprofit institutions and compensation of employees of the Wisconsin Health and Educational Facilities Authority. (FE)",
@@ -3446,6 +3625,7 @@
             "txt": "Bill Text/bill_3139037.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3473,6 +3653,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981731,
         "billNumber": "AB64",
         "session": "2025-2026 Regular Session",
         "title": "An income tax subtraction for certain expenses paid by a school teacher. (FE)",
@@ -3487,6 +3668,7 @@
             "txt": "Bill Text/bill_3138952.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3507,6 +3689,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981915,
         "billNumber": "AB65",
         "session": "2025-2026 Regular Session",
         "title": "Entering certain places with intent to commit battery and providing a penalty.",
@@ -3521,6 +3704,7 @@
             "txt": "Bill Text/bill_3139133.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3541,6 +3725,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981891,
         "billNumber": "AB66",
         "session": "2025-2026 Regular Session",
         "title": "Dismissing or amending certain criminal charges and deferred prosecution agreements for certain crimes.",
@@ -3555,6 +3740,7 @@
             "txt": "Bill Text/bill_3139111.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3575,6 +3761,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981827,
         "billNumber": "AB67",
         "session": "2025-2026 Regular Session",
         "title": "Venue for actions in which there is a governmental party.",
@@ -3589,6 +3776,7 @@
             "txt": "Bill Text/bill_3139049.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3609,6 +3797,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981977,
         "billNumber": "AB68",
         "session": "2025-2026 Regular Session",
         "title": "The prescription drug monitoring program. (FE)",
@@ -3623,6 +3812,7 @@
             "txt": "Bill Text/bill_3139191.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3650,6 +3840,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981720,
         "billNumber": "AB69",
         "session": "2025-2026 Regular Session",
         "title": "The sales and use tax exemption for electricity and natural gas sold for residential use. (FE)",
@@ -3664,6 +3855,7 @@
             "txt": "Bill Text/bill_3138942.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3691,6 +3883,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981940,
         "billNumber": "AB70",
         "session": "2025-2026 Regular Session",
         "title": "A disclaimer of parental rights and payments allowed in connection with an adoption.",
@@ -3705,6 +3898,7 @@
             "txt": "Bill Text/bill_3139156.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3725,6 +3919,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981928,
         "billNumber": "AB71",
         "session": "2025-2026 Regular Session",
         "title": "School district operating referenda.",
@@ -3739,6 +3934,7 @@
             "txt": "Bill Text/bill_3139145.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3766,6 +3962,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981952,
         "billNumber": "AB72",
         "session": "2025-2026 Regular Session",
         "title": "Ratification of the Driver License Compact. (FE)",
@@ -3780,6 +3977,7 @@
             "txt": "Bill Text/bill_3139167.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3807,6 +4005,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1981803,
         "billNumber": "AB73",
         "session": "2025-2026 Regular Session",
         "title": "Statutory recognition of specialized treatment court and commercial court dockets.",
@@ -3821,6 +4020,7 @@
             "txt": "Bill Text/bill_3139024.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3841,6 +4041,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988072,
         "billNumber": "AB74",
         "session": "2025-2026 Regular Session",
         "title": "Parental notification of alleged sexual misconduct by a school staff member. (FE)",
@@ -3855,6 +4056,7 @@
             "txt": "Bill Text/bill_3147401.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3875,6 +4077,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988277,
         "billNumber": "AB75",
         "session": "2025-2026 Regular Session",
         "title": "Department of Justice collection and reporting of certain criminal case data. (FE)",
@@ -3889,6 +4092,7 @@
             "txt": "Bill Text/bill_3147564.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3909,6 +4113,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988794,
         "billNumber": "AB76",
         "session": "2025-2026 Regular Session",
         "title": "Creating an individual income tax deduction for certain income earned by an individual from the practice of psychiatry or from providing psychiatric or mental health services. (FE)",
@@ -3923,6 +4128,7 @@
             "txt": "Bill Text/bill_3148157.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3943,6 +4149,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988936,
         "billNumber": "AB77",
         "session": "2025-2026 Regular Session",
         "title": "Registration plate concealment devices and providing a penalty.",
@@ -3957,6 +4164,7 @@
             "txt": "Bill Text/bill_3148286.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -3977,6 +4185,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988818,
         "billNumber": "AB78",
         "session": "2025-2026 Regular Session",
         "title": "Impoundment of vehicles used in certain reckless driving offenses. (FE)",
@@ -3991,6 +4200,7 @@
             "txt": "Bill Text/bill_3148179.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4011,6 +4221,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988628,
         "billNumber": "AB79",
         "session": "2025-2026 Regular Session",
         "title": "Prosecuting or adjudicating delinquent a person under the age of 18 for committing an act of prostitution.",
@@ -4025,6 +4236,7 @@
             "txt": "Bill Text/bill_3148005.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4045,6 +4257,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988580,
         "billNumber": "AB80",
         "session": "2025-2026 Regular Session",
         "title": "Ratification of the Social Work Licensure Compact. (FE)",
@@ -4059,6 +4272,7 @@
             "txt": "Bill Text/bill_3147962.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4079,6 +4293,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988724,
         "billNumber": "AB81",
         "session": "2025-2026 Regular Session",
         "title": "Excluding expenditures funded by referenda from shared costs for the purpose of determining equalization aid for school districts. (FE)",
@@ -4093,6 +4308,7 @@
             "txt": "Bill Text/bill_3148090.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4113,6 +4329,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988982,
         "billNumber": "AB82",
         "session": "2025-2026 Regular Session",
         "title": "Exempting certain conveyances between grandparents and grandchildren from the real estate transfer fee. (FE)",
@@ -4127,6 +4344,7 @@
             "txt": "Bill Text/bill_3148330.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4147,6 +4365,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988890,
         "billNumber": "AB83",
         "session": "2025-2026 Regular Session",
         "title": "Governmental restrictions based on the energy source of a motor vehicle or other device.",
@@ -4161,6 +4380,7 @@
             "txt": "Bill Text/bill_3148245.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4181,6 +4401,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988557,
         "billNumber": "AB84",
         "session": "2025-2026 Regular Session",
         "title": "Prostitution crime surcharge and making an appropriation. (FE)",
@@ -4195,6 +4416,7 @@
             "txt": "Bill Text/bill_3147940.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4215,6 +4437,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988958,
         "billNumber": "AB85",
         "session": "2025-2026 Regular Session",
         "title": "Recommendation to revoke extended supervision, parole, or probation if a person is charged with a crime. (FE)",
@@ -4229,6 +4452,7 @@
             "txt": "Bill Text/bill_3148305.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4249,6 +4473,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988746,
         "billNumber": "AB86",
         "session": "2025-2026 Regular Session",
         "title": "Imposing the penalty of life imprisonment for the crime of child trafficking and providing a penalty. (FE)",
@@ -4263,6 +4488,7 @@
             "txt": "Bill Text/bill_3148110.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4283,6 +4509,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988652,
         "billNumber": "AB87",
         "session": "2025-2026 Regular Session",
         "title": "Restitution orders following a conviction for human trafficking and restoration of the right to vote to a person barred from voting as a result of a felony conviction. (FE)",
@@ -4297,6 +4524,7 @@
             "txt": "Bill Text/bill_3148026.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4317,6 +4545,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988604,
         "billNumber": "AB88",
         "session": "2025-2026 Regular Session",
         "title": "Civil action for injury or damages resulting from riot or vandalism, participation in a riot, prohibiting certain limitations or restrictions on law enforcement responses to riot or vandalism activity, and providing a penalty.",
@@ -4331,6 +4560,7 @@
             "txt": "Bill Text/bill_3147985.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4351,6 +4581,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988843,
         "billNumber": "AB89",
         "session": "2025-2026 Regular Session",
         "title": "Theft crimes and providing a penalty. (FE)",
@@ -4365,6 +4596,7 @@
             "txt": "Bill Text/bill_3148201.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4385,6 +4617,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988492,
         "billNumber": "AB90",
         "session": "2025-2026 Regular Session",
         "title": "Copies of and inspection or disclosure of information contained in certain vital records. (FE)",
@@ -4399,6 +4632,7 @@
             "txt": "Bill Text/bill_3147879.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4419,6 +4653,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988700,
         "billNumber": "AB91",
         "session": "2025-2026 Regular Session",
         "title": "The requirement that first class cities and first class city school districts place school resource officers in schools. (FE)",
@@ -4433,6 +4668,7 @@
             "txt": "Bill Text/bill_3148069.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4453,6 +4689,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988770,
         "billNumber": "AB92",
         "session": "2025-2026 Regular Session",
         "title": "Spinal cord injury research grants and symposia and making an appropriation. (FE)",
@@ -4467,6 +4704,7 @@
             "txt": "Bill Text/bill_3148133.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4487,6 +4725,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988677,
         "billNumber": "AB93",
         "session": "2025-2026 Regular Session",
         "title": "The distribution and labeling of fertilizers and soil or plant additives produced from manure. (FE)",
@@ -4501,6 +4740,7 @@
             "txt": "Bill Text/bill_3148049.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4521,6 +4761,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988535,
         "billNumber": "AB94",
         "session": "2025-2026 Regular Session",
         "title": "Ratification of the agreement negotiated between the State of Wisconsin and the Wisconsin State Building Trades Negotiating Committee, for the 2024-25 fiscal year, covering employees in the building trades crafts collective bargaining unit, and authorizing an expenditure of funds. (FE)",
@@ -4535,6 +4776,7 @@
             "txt": "Bill Text/bill_3147921.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4555,6 +4797,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988866,
         "billNumber": "AB95",
         "session": "2025-2026 Regular Session",
         "title": "Ratification of the agreement negotiated between the University of Wisconsin-Madison and the Wisconsin State Building Trades Negotiating Committee, for the 2024-25 fiscal year, covering employees in the building trades crafts collective bargaining unit, and authorizing an expenditure of funds. (FE)",
@@ -4569,6 +4812,7 @@
             "txt": "Bill Text/bill_3148222.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4589,6 +4833,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988513,
         "billNumber": "AB96",
         "session": "2025-2026 Regular Session",
         "title": "Ratification of the agreement negotiated between the Board of Regents of the University of Wisconsin System and the Wisconsin State Building Trades Negotiating Committee, for the 2024-25 fiscal year, covering employees in the building trades crafts collective bargaining unit, and authorizing an expenditure of funds. (FE)",
@@ -4603,6 +4848,7 @@
             "txt": "Bill Text/bill_3147899.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4623,6 +4869,7 @@
     },
     {
         "docType": "Assembly Bill",
+        "billId": 1988913,
         "billNumber": "AB97",
         "session": "2025-2026 Regular Session",
         "title": "Extension of eligibility under the Medical Assistance program for postpartum women. (FE)",
@@ -4637,6 +4884,7 @@
             "txt": "Bill Text/bill_3148265.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4657,6 +4905,7 @@
     },
     {
         "docType": "Assembly Resolution",
+        "billId": 1903249,
         "billNumber": "AR1",
         "session": "2025-2026 Regular Session",
         "title": "Notifying the senate and the governor that the 2025-2026 assembly is organized.",
@@ -4671,6 +4920,7 @@
             "txt": "Bill Text/bill_3039921.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4698,6 +4948,7 @@
     },
     {
         "docType": "Assembly Resolution",
+        "billId": 1903016,
         "billNumber": "AR2",
         "session": "2025-2026 Regular Session",
         "title": "Establishing the assembly committee structure and names for the 2025-2026 legislative session.",
@@ -4712,6 +4963,7 @@
             "txt": "Bill Text/bill_3039704.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4739,6 +4991,7 @@
     },
     {
         "docType": "Assembly Resolution",
+        "billId": 1952356,
         "billNumber": "AR3",
         "session": "2025-2026 Regular Session",
         "title": "Observing February 28, 2025, as Rare Disease Day in Wisconsin.",
@@ -4753,6 +5006,7 @@
             "txt": "Bill Text/bill_3096345.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4808,6 +5062,7 @@
     },
     {
         "docType": "Assembly Resolution",
+        "billId": 1968867,
         "billNumber": "AR4",
         "session": "2025-2026 Regular Session",
         "title": "Proclaiming our appreciation and respect for our Grocery and Retail Food Employees.",
@@ -4822,6 +5077,7 @@
             "txt": "Bill Text/bill_3118085.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4877,6 +5133,7 @@
     },
     {
         "docType": "Assembly Resolution",
+        "billId": 1981965,
         "billNumber": "AR5",
         "session": "2025-2026 Regular Session",
         "title": "Celebrating Saint Patrick\u2019s Day on March 17, 2025.",
@@ -4891,6 +5148,7 @@
             "txt": "Bill Text/bill_3139179.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -4911,6 +5169,7 @@
     },
     {
         "docType": "Assembly Joint Resolution",
+        "billId": 1903327,
         "billNumber": "AJR1",
         "session": "2025-2026 Regular Session",
         "title": "Requiring photographic identification to vote in any election (second consideration).",
@@ -4925,6 +5184,7 @@
             "txt": "Bill Text/bill_3040434.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5001,6 +5261,7 @@
     },
     {
         "docType": "Assembly Joint Resolution",
+        "billId": 1952750,
         "billNumber": "AJR2",
         "session": "2025-2026 Regular Session",
         "title": "Celebrating the 51st anniversary of the American Birkebeiner and proclaiming February 17 to 23, 2025, as American Birkebeiner Week in Wisconsin.",
@@ -5015,6 +5276,7 @@
             "txt": "Bill Text/bill_3096737.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5084,6 +5346,7 @@
     },
     {
         "docType": "Assembly Joint Resolution",
+        "billId": 1958982,
         "billNumber": "AJR3",
         "session": "2025-2026 Regular Session",
         "title": "Proclaiming January 2025 as Human Trafficking Awareness and Prevention Month in the state of Wisconsin.",
@@ -5098,6 +5361,7 @@
             "txt": "Bill Text/bill_3104567.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5118,6 +5382,7 @@
     },
     {
         "docType": "Assembly Joint Resolution",
+        "billId": 1964106,
         "billNumber": "AJR4",
         "session": "2025-2026 Regular Session",
         "title": "Honoring the life and public service of Justice David T. Prosser Jr.",
@@ -5132,6 +5397,7 @@
             "txt": "Bill Text/bill_3111089.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5201,6 +5467,7 @@
     },
     {
         "docType": "Assembly Joint Resolution",
+        "billId": 1971848,
         "billNumber": "AJR5",
         "session": "2025-2026 Regular Session",
         "title": "Proclaiming February 2025 as Black History Month.",
@@ -5235,6 +5502,12 @@
                 "alt_state_link": "",
                 "alt_amendment_size": 0,
                 "alt_amendment_hash": ""
+            }
+        ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_230161.txt",
+                "pdf": "Bill Text/amendment_230161.pdf"
             }
         ],
         "seeAlso": [],
@@ -5313,6 +5586,7 @@
     },
     {
         "docType": "Assembly Joint Resolution",
+        "billId": 1972625,
         "billNumber": "AJR6",
         "session": "2025-2026 Regular Session",
         "title": "Recognizing that the Wisconsin State Legislature supports nuclear power and fusion energy as clean energy sources that are critical to safely meeting Wisconsin\u2019s growing energy demands and declaring the legislature\u2019s commitment to the continuation and expansion of nuclear power and nuclear technologies, the development of nuclear technologies and fusion energy, and employing the leadership and resources necessary to support the development of and investment in nuclear power, fusion energy, and related technologies in the state.",
@@ -5327,6 +5601,7 @@
             "txt": "Bill Text/bill_3126760.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5347,6 +5622,7 @@
     },
     {
         "docType": "Assembly Joint Resolution",
+        "billId": 1972847,
         "billNumber": "AJR7",
         "session": "2025-2026 Regular Session",
         "title": "Proclaiming February 4, 2025, as Transit Equity Day.",
@@ -5361,6 +5637,7 @@
             "txt": "Bill Text/bill_3126972.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5388,6 +5665,7 @@
     },
     {
         "docType": "Assembly Joint Resolution",
+        "billId": 1972811,
         "billNumber": "AJR8",
         "session": "2025-2026 Regular Session",
         "title": "Restricting the governor\u2019s partial veto authority to only rejecting entire bill sections of an appropriation bill that are capable of separate enactment and reducing appropriations in a bill (first consideration).",
@@ -5402,6 +5680,7 @@
             "txt": "Bill Text/bill_3126937.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5436,6 +5715,7 @@
     },
     {
         "docType": "Assembly Joint Resolution",
+        "billId": 1972760,
         "billNumber": "AJR9",
         "session": "2025-2026 Regular Session",
         "title": "Honoring the life and enduring legacy of Robert George Uecker.",
@@ -5450,6 +5730,7 @@
             "txt": "Bill Text/bill_3126888.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5484,6 +5765,7 @@
     },
     {
         "docType": "Assembly Joint Resolution",
+        "billId": 1981878,
         "billNumber": "AJR10",
         "session": "2025-2026 Regular Session",
         "title": "The freedom to gather in places of worship during a state of emergency (second consideration).",
@@ -5498,6 +5780,7 @@
             "txt": "Bill Text/bill_3139098.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5518,6 +5801,7 @@
     },
     {
         "docType": "Assembly Joint Resolution",
+        "billId": 1981989,
         "billNumber": "AJR11",
         "session": "2025-2026 Regular Session",
         "title": "Honoring the life and public service of Representative Jim Soletski.",
@@ -5532,6 +5816,7 @@
             "txt": "Bill Text/bill_3139202.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5559,6 +5844,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1940797,
         "billNumber": "SB2",
         "session": "2025-2026 Regular Session",
         "title": "Expanding veterans benefits to individuals who served in Laos in support of the United States during the Vietnam War.",
@@ -5573,6 +5859,7 @@
             "txt": "Bill Text/bill_3082231.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5635,6 +5922,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1941150,
         "billNumber": "SB3",
         "session": "2025-2026 Regular Session",
         "title": "Requiring local approval for certain wind and solar projects before Public Service Commission approval.",
@@ -5649,6 +5937,7 @@
             "txt": "Bill Text/bill_3080926.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5676,6 +5965,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1940443,
         "billNumber": "SB4",
         "session": "2025-2026 Regular Session",
         "title": "Agreements for direct primary care.",
@@ -5690,6 +5980,7 @@
             "txt": "Bill Text/bill_3080742.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5738,6 +6029,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1940622,
         "billNumber": "SB5",
         "session": "2025-2026 Regular Session",
         "title": "Battery or threat to jurors and providing a penalty.",
@@ -5752,6 +6044,7 @@
             "txt": "Bill Text/bill_3081177.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5779,6 +6072,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1940974,
         "billNumber": "SB6",
         "session": "2025-2026 Regular Session",
         "title": "Impoundment of vehicles used in certain traffic offenses.",
@@ -5834,6 +6128,16 @@
                 "alt_state_link": "",
                 "alt_amendment_size": 0,
                 "alt_amendment_hash": ""
+            }
+        ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_226247.txt",
+                "pdf": "Bill Text/amendment_226247.pdf"
+            },
+            {
+                "text": "Bill Text/amendment_226536.txt",
+                "pdf": "Bill Text/amendment_226536.pdf"
             }
         ],
         "seeAlso": [],
@@ -5912,6 +6216,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1940268,
         "billNumber": "SB7",
         "session": "2025-2026 Regular Session",
         "title": "Prohibiting a foreign adversary from acquiring agricultural or forestry land in this state.",
@@ -5926,6 +6231,7 @@
             "txt": "Bill Text/bill_3080889.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5946,6 +6252,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1940090,
         "billNumber": "SB8",
         "session": "2025-2026 Regular Session",
         "title": "Repair and replacement of implements of husbandry under warranty.",
@@ -5960,6 +6267,7 @@
             "txt": "Bill Text/bill_3080792.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -5994,6 +6302,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1941326,
         "billNumber": "SB9",
         "session": "2025-2026 Regular Session",
         "title": "Special registration plates with white lettering on a black background. (FE)",
@@ -6008,6 +6317,7 @@
             "txt": "Bill Text/bill_3082233.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6028,6 +6338,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1952176,
         "billNumber": "SB10",
         "session": "2025-2026 Regular Session",
         "title": "Access to public high schools for military recruiters.",
@@ -6042,6 +6353,7 @@
             "txt": "Bill Text/bill_3096019.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6062,6 +6374,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1951782,
         "billNumber": "SB11",
         "session": "2025-2026 Regular Session",
         "title": "Allowing representatives of certain federally chartered youth membership organizations to provide information to pupils on public school property.",
@@ -6076,6 +6389,7 @@
             "txt": "Bill Text/bill_3095654.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6096,6 +6410,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1951939,
         "billNumber": "SB12",
         "session": "2025-2026 Regular Session",
         "title": "A sales and use tax exemption for the sale of gun safes. (FE)",
@@ -6132,6 +6447,12 @@
                 "alt_amendment_hash": ""
             }
         ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_232838.txt",
+                "pdf": "Bill Text/amendment_232838.pdf"
+            }
+        ],
         "seeAlso": [],
         "history": [
             {
@@ -6166,6 +6487,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1951860,
         "billNumber": "SB13",
         "session": "2025-2026 Regular Session",
         "title": "Incorporating cursive writing into the state model English language arts standards and requiring cursive writing in elementary grades. (FE)",
@@ -6180,6 +6502,7 @@
             "txt": "Bill Text/bill_3095726.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6207,6 +6530,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1952020,
         "billNumber": "SB14",
         "session": "2025-2026 Regular Session",
         "title": "Pelvic exams on unconscious patients and creating an administrative rule related to hospital requirements for pelvic exams on unconscious patients.",
@@ -6241,6 +6565,12 @@
                 "alt_state_link": "",
                 "alt_amendment_size": 0,
                 "alt_amendment_hash": ""
+            }
+        ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_226462.txt",
+                "pdf": "Bill Text/amendment_226462.pdf"
             }
         ],
         "seeAlso": [],
@@ -6347,6 +6677,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956486,
         "billNumber": "SB15",
         "session": "2025-2026 Regular Session",
         "title": "Increased penalties for crimes against adults at risk; restraining orders for adults at risk; freezing assets of a defendant charged with financial exploitation of an adult at risk; sexual assault of an adult at risk; and providing a penalty.",
@@ -6361,6 +6692,7 @@
             "txt": "Bill Text/bill_3101231.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6395,6 +6727,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956231,
         "billNumber": "SB16",
         "session": "2025-2026 Regular Session",
         "title": "Participation in interscholastic athletics and application of the public records and open meetings laws to interscholastic athletic associations.",
@@ -6409,6 +6742,7 @@
             "txt": "Bill Text/bill_3101003.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6436,6 +6770,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956294,
         "billNumber": "SB17",
         "session": "2025-2026 Regular Session",
         "title": "Special circumstances battery to a community service officer and providing a penalty.",
@@ -6450,6 +6785,7 @@
             "txt": "Bill Text/bill_3101058.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6470,6 +6806,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956200,
         "billNumber": "SB18",
         "session": "2025-2026 Regular Session",
         "title": "Changes to the educational assessment program and the school and school district accountability report. (FE)",
@@ -6484,6 +6821,7 @@
             "txt": "Bill Text/bill_3100974.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6511,6 +6849,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956420,
         "billNumber": "SB19",
         "session": "2025-2026 Regular Session",
         "title": "Fee waivers for state park vehicle admission receipts to pupils with Every Kid Outdoors passes. (FE)",
@@ -6525,6 +6864,7 @@
             "txt": "Bill Text/bill_3101172.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6552,6 +6892,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956453,
         "billNumber": "SB20",
         "session": "2025-2026 Regular Session",
         "title": "Allowing certain married persons to claim the earned income tax credit when filing a separate return. (FE)",
@@ -6566,6 +6907,7 @@
             "txt": "Bill Text/bill_3101201.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6607,6 +6949,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956554,
         "billNumber": "SB21",
         "session": "2025-2026 Regular Session",
         "title": "Creating an employee ownership conversion costs tax credit, a deduction for capital gains from the transfer of a business to employee ownership, and an employee ownership education and outreach program. (FE)",
@@ -6621,6 +6964,7 @@
             "txt": "Bill Text/bill_3101296.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6648,6 +6992,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956131,
         "billNumber": "SB22",
         "session": "2025-2026 Regular Session",
         "title": "Requiring school boards to make textbooks, curricula, and instructional materials available for inspection by school district residents.",
@@ -6662,6 +7007,7 @@
             "txt": "Bill Text/bill_3100912.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6689,6 +7035,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956325,
         "billNumber": "SB23",
         "session": "2025-2026 Regular Session",
         "title": "Extension of eligibility under the Medical Assistance program for postpartum women. (FE)",
@@ -6703,6 +7050,7 @@
             "txt": "Bill Text/bill_3101086.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6765,6 +7113,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956356,
         "billNumber": "SB24",
         "session": "2025-2026 Regular Session",
         "title": "Limitations on the total value of taxable property that may be included in, and the lifespan of, a tax incremental financing district created in the city of Middleton. (FE)",
@@ -6779,6 +7128,7 @@
             "txt": "Bill Text/bill_3101113.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6813,6 +7163,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956389,
         "billNumber": "SB25",
         "session": "2025-2026 Regular Session",
         "title": "Court-issued criminal complaints in officer-involved deaths.",
@@ -6827,6 +7178,7 @@
             "txt": "Bill Text/bill_3101144.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6889,6 +7241,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1956587,
         "billNumber": "SB26",
         "session": "2025-2026 Regular Session",
         "title": "Technical colleges\u2019 lease of their facilities to others. (FE)",
@@ -6903,6 +7256,7 @@
             "txt": "Bill Text/bill_3101531.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -6958,6 +7312,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1962801,
         "billNumber": "SB27",
         "session": "2025-2026 Regular Session",
         "title": "Requiring state employees to perform their work at the offices of their employer. (FE)",
@@ -6972,6 +7327,7 @@
             "txt": "Bill Text/bill_3109058.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7188,6 +7544,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967564,
         "billNumber": "SB28",
         "session": "2025-2026 Regular Session",
         "title": "An incumbent transmission facility owner\u2019s right to construct, own, and maintain certain transmission facilities and Public Service Commission procedures if the transmission facility is a regionally cost-shared transmission line.",
@@ -7202,6 +7559,7 @@
             "txt": "Bill Text/bill_3116168.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7243,6 +7601,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967616,
         "billNumber": "SB29",
         "session": "2025-2026 Regular Session",
         "title": "Requiring school boards to adopt policies to prohibit the use of wireless communication devices during instructional time.",
@@ -7279,6 +7638,12 @@
                 "alt_amendment_hash": ""
             }
         ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_231500.txt",
+                "pdf": "Bill Text/amendment_231500.pdf"
+            }
+        ],
         "seeAlso": [],
         "history": [
             {
@@ -7306,6 +7671,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967868,
         "billNumber": "SB30",
         "session": "2025-2026 Regular Session",
         "title": "Required instruction in civics in the elementary and high school grades, high school graduation requirements, and private school educational program criteria. (FE)",
@@ -7320,6 +7686,7 @@
             "txt": "Bill Text/bill_3116628.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7347,6 +7714,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967743,
         "billNumber": "SB31",
         "session": "2025-2026 Regular Session",
         "title": "State agency status for certain physician assistants and advanced practice nurses who provide services without compensation for local health departments or school districts. (FE)",
@@ -7361,6 +7729,7 @@
             "txt": "Bill Text/bill_3116502.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7381,6 +7750,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967920,
         "billNumber": "SB32",
         "session": "2025-2026 Regular Session",
         "title": "Requiring a school board to spend at least 70 percent of its operating expenditures on direct classroom expenditures and annual pay increases for school administrators. (FE)",
@@ -7395,6 +7765,7 @@
             "txt": "Bill Text/bill_3116681.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7429,6 +7800,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967893,
         "billNumber": "SB33",
         "session": "2025-2026 Regular Session",
         "title": "Representations depicting nudity and providing a penalty.",
@@ -7443,6 +7815,7 @@
             "txt": "Bill Text/bill_3116654.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7470,6 +7843,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967569,
         "billNumber": "SB34",
         "session": "2025-2026 Regular Session",
         "title": "Withdrawal of candidacy for certain offices filled at the general election and providing a penalty. (FE)",
@@ -7484,6 +7858,7 @@
             "txt": "Bill Text/bill_3116328.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7511,6 +7886,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967943,
         "billNumber": "SB35",
         "session": "2025-2026 Regular Session",
         "title": "Law enforcement and firefighter annuitants in the Wisconsin Retirement System who are rehired by a participating employer. (FE)",
@@ -7525,6 +7901,7 @@
             "txt": "Bill Text/bill_3116704.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7552,20 +7929,22 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967767,
         "billNumber": "SB36",
         "session": "2025-2026 Regular Session",
         "title": "An income tax exemption for cash tips paid to an employee. (FE)",
         "description": "An Act to repeal 71.63 (6) (n) 1. and 71.63 (6) (n) 2.; to renumber and amend 71.63 (6) (n) (intro.); to amend 71.05 (6) (b) 19. cm., 71.05 (6) (b) 19. dm., 71.05 (6) (b) 28. e., 71.05 (6) (b) 28. f., 71.05 (6) (b) 32. b., 71.05 (6) (b) 32. c., 71.05 (6) (b) 33. b., 71.05 (6) (b) 33. c., 71.05 (6) (b) 35. c., 71.05 (6) (b) 35. d., 71.05 (6) (b) 38. c., 71.05 (6) (b) 38. d., 71.05 (6) (b) 42. c., 71.05 (6) (b) 42. d. and 71.05 (6) (b) 43. f.; to create 71.05 (1) (j) of the statutes; Relating to: an income tax exemption for cash tips paid to an employee. (FE)",
         "status": "Introduced",
         "statusDate": "2025-02-12",
-        "last_action": "Representative Gustafson added as a cosponsor",
-        "last_action_date": "2025-02-18",
+        "last_action": "Fiscal estimate received",
+        "last_action_date": "2025-02-28",
         "url": "https://legiscan.com/WI/bill/SB36/2025",
         "links": {
             "pdf": "Bill Text/bill_3116526.pdf",
             "txt": "Bill Text/bill_3116526.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7588,11 +7967,19 @@
                 "chamber": "S",
                 "chamber_id": 100,
                 "importance": 0
+            },
+            {
+                "date": "2025-02-28",
+                "action": "Fiscal estimate received",
+                "chamber": "S",
+                "chamber_id": 100,
+                "importance": 0
             }
         ]
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967995,
         "billNumber": "SB37",
         "session": "2025-2026 Regular Session",
         "title": "Local regulation of vegetable gardens.",
@@ -7607,6 +7994,7 @@
             "txt": "Bill Text/bill_3116757.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7627,6 +8015,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967665,
         "billNumber": "SB38",
         "session": "2025-2026 Regular Session",
         "title": "Personalized registration plate fees for gold star family special registration plates. (FE)",
@@ -7641,6 +8030,7 @@
             "txt": "Bill Text/bill_3116424.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7661,6 +8051,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967692,
         "billNumber": "SB39",
         "session": "2025-2026 Regular Session",
         "title": "Establishment of a Palliative Care Council. (FE)",
@@ -7695,6 +8086,12 @@
                 "alt_state_link": "",
                 "alt_amendment_size": 0,
                 "alt_amendment_hash": ""
+            }
+        ],
+        "amendment_links": [
+            {
+                "text": "Bill Text/amendment_229838.txt",
+                "pdf": "Bill Text/amendment_229838.pdf"
             }
         ],
         "seeAlso": [],
@@ -7738,6 +8135,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967817,
         "billNumber": "SB40",
         "session": "2025-2026 Regular Session",
         "title": "Flags flown, hung, or displayed from a flagpole or the exterior of state and local buildings and eliminating a related administrative rule.",
@@ -7752,6 +8150,7 @@
             "txt": "Bill Text/bill_3116578.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7772,6 +8171,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967641,
         "billNumber": "SB41",
         "session": "2025-2026 Regular Session",
         "title": "School safety grants and making an appropriation. (FE)",
@@ -7786,6 +8186,7 @@
             "txt": "Bill Text/bill_3116400.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7806,6 +8207,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967717,
         "billNumber": "SB42",
         "session": "2025-2026 Regular Session",
         "title": "Permitting pharmacists to prescribe certain contraceptives, extending the time limit for emergency rule procedures, providing an exemption from emergency rule procedures, granting rule-making authority, and providing a penalty. (FE)",
@@ -7820,6 +8222,7 @@
             "txt": "Bill Text/bill_3116477.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7882,6 +8285,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1968044,
         "billNumber": "SB43",
         "session": "2025-2026 Regular Session",
         "title": "Allowing advanced practice nurse prescribers to pronounce the date, time, and place of a patient\u2019s death for purposes of the preparation of death records.",
@@ -7896,6 +8300,7 @@
             "txt": "Bill Text/bill_3116806.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7923,6 +8328,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1967592,
         "billNumber": "SB44",
         "session": "2025-2026 Regular Session",
         "title": "Local regulation of fowl.",
@@ -7937,6 +8343,7 @@
             "txt": "Bill Text/bill_3116351.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7964,6 +8371,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1974279,
         "billNumber": "SB45",
         "session": "2025-2026 Regular Session",
         "title": "State finances and appropriations, constituting the executive budget act of the 2025 legislature. (FE)",
@@ -7978,6 +8386,7 @@
             "txt": "Bill Text/bill_3129169.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -7998,6 +8407,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979310,
         "billNumber": "SB46",
         "session": "2025-2026 Regular Session",
         "title": "The suspension of a rule of the Elections Commission.",
@@ -8012,6 +8422,7 @@
             "txt": "Bill Text/bill_3135840.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8032,6 +8443,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979747,
         "billNumber": "SB47",
         "session": "2025-2026 Regular Session",
         "title": "The suspension of a rule of the Elections Commission.",
@@ -8046,6 +8458,7 @@
             "txt": "Bill Text/bill_3136227.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8066,6 +8479,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979670,
         "billNumber": "SB48",
         "session": "2025-2026 Regular Session",
         "title": "The suspension of a rule of the Elections Commission.",
@@ -8080,6 +8494,7 @@
             "txt": "Bill Text/bill_3136158.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8100,6 +8515,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979412,
         "billNumber": "SB49",
         "session": "2025-2026 Regular Session",
         "title": "Repealing an administrative rule of the Department of Natural Resources related to the possession of firearms.",
@@ -8114,6 +8530,7 @@
             "txt": "Bill Text/bill_3135931.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8134,6 +8551,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979513,
         "billNumber": "SB50",
         "session": "2025-2026 Regular Session",
         "title": "Health care costs omnibus, granting rule-making authority, making an appropriation, and providing a penalty. (FE)",
@@ -8148,6 +8566,7 @@
             "txt": "Bill Text/bill_3136021.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8168,6 +8587,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979387,
         "billNumber": "SB51",
         "session": "2025-2026 Regular Session",
         "title": "Flags flown at state and local government buildings and eliminating a related administrative rule.",
@@ -8182,6 +8602,7 @@
             "txt": "Bill Text/bill_3135909.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8202,6 +8623,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979285,
         "billNumber": "SB52",
         "session": "2025-2026 Regular Session",
         "title": "Copies of and inspection or disclosure of information contained in certain vital records. (FE)",
@@ -8216,6 +8638,7 @@
             "txt": "Bill Text/bill_3135818.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8236,6 +8659,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979619,
         "billNumber": "SB53",
         "session": "2025-2026 Regular Session",
         "title": "Requiring the display of the national motto in public schools and on public buildings. (FE)",
@@ -8250,6 +8674,7 @@
             "txt": "Bill Text/bill_3136112.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8277,6 +8702,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979237,
         "billNumber": "SB54",
         "session": "2025-2026 Regular Session",
         "title": "Requirements concerning assistance in the detention of individuals who are or are alleged to be not lawfully present in the United States.",
@@ -8291,6 +8717,7 @@
             "txt": "Bill Text/bill_3135776.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8311,6 +8738,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979722,
         "billNumber": "SB55",
         "session": "2025-2026 Regular Session",
         "title": "Prohibiting the Department of Justice from using the legal services of nongovernmental employees. (FE)",
@@ -8325,6 +8753,7 @@
             "txt": "Bill Text/bill_3136205.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8345,6 +8774,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979645,
         "billNumber": "SB56",
         "session": "2025-2026 Regular Session",
         "title": "The use of federal capitalization grant funds for lead service line replacement. (FE)",
@@ -8359,6 +8789,7 @@
             "txt": "Bill Text/bill_3136136.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8379,6 +8810,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979697,
         "billNumber": "SB57",
         "session": "2025-2026 Regular Session",
         "title": "County sheriff assistance with certain federal immigration functions. (FE)",
@@ -8393,6 +8825,7 @@
             "txt": "Bill Text/bill_3136183.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8413,6 +8846,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979544,
         "billNumber": "SB58",
         "session": "2025-2026 Regular Session",
         "title": "Referendum questions for certain referenda that affect property taxes. (FE)",
@@ -8427,6 +8861,7 @@
             "txt": "Bill Text/bill_3136049.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8447,6 +8882,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979569,
         "billNumber": "SB59",
         "session": "2025-2026 Regular Session",
         "title": "Tuition and fee remission for certain veterans and their dependents enrolled in the University of Wisconsin System or a technical college. (FE)",
@@ -8461,6 +8897,7 @@
             "txt": "Bill Text/bill_3136071.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8481,6 +8918,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979797,
         "billNumber": "SB60",
         "session": "2025-2026 Regular Session",
         "title": "Expanding the homestead income tax credit. (FE)",
@@ -8495,6 +8933,7 @@
             "txt": "Bill Text/bill_3136273.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8515,6 +8954,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979438,
         "billNumber": "SB61",
         "session": "2025-2026 Regular Session",
         "title": "Excluding expenditures funded by referenda from shared costs for the purpose of determining equalization aid for school districts. (FE)",
@@ -8529,6 +8969,7 @@
             "txt": "Bill Text/bill_3135955.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8549,6 +8990,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979463,
         "billNumber": "SB62",
         "session": "2025-2026 Regular Session",
         "title": "Financing the operating costs and certain out-of-state projects of nonprofit institutions and compensation of employees of the Wisconsin Health and Educational Facilities Authority. (FE)",
@@ -8563,6 +9005,7 @@
             "txt": "Bill Text/bill_3135977.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8590,6 +9033,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979335,
         "billNumber": "SB63",
         "session": "2025-2026 Regular Session",
         "title": "Ratification of the Driver License Compact. (FE)",
@@ -8604,6 +9048,7 @@
             "txt": "Bill Text/bill_3135862.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8624,6 +9069,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979594,
         "billNumber": "SB64",
         "session": "2025-2026 Regular Session",
         "title": "Injuring or killing a police or fire animal and providing a penalty.",
@@ -8638,6 +9084,7 @@
             "txt": "Bill Text/bill_3136092.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8658,6 +9105,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979488,
         "billNumber": "SB65",
         "session": "2025-2026 Regular Session",
         "title": "Impoundment of vehicles used in certain reckless driving offenses. (FE)",
@@ -8672,6 +9120,7 @@
             "txt": "Bill Text/bill_3135999.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8692,6 +9141,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979772,
         "billNumber": "SB66",
         "session": "2025-2026 Regular Session",
         "title": "Registration plate concealment devices and providing a penalty.",
@@ -8706,6 +9156,7 @@
             "txt": "Bill Text/bill_3136250.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8733,6 +9184,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1979260,
         "billNumber": "SB67",
         "session": "2025-2026 Regular Session",
         "title": "Providing state aid to reimburse public and private schools that provide free meals to all pupils for the costs of those meals and making an appropriation. (FE)",
@@ -8747,6 +9199,7 @@
             "txt": "Bill Text/bill_3135797.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8774,6 +9227,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1981130,
         "billNumber": "SB68",
         "session": "2025-2026 Regular Session",
         "title": "The prescription drug monitoring program. (FE)",
@@ -8788,6 +9242,7 @@
             "txt": "Bill Text/bill_3138283.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8808,6 +9263,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1984480,
         "billNumber": "SB69",
         "session": "2025-2026 Regular Session",
         "title": "An income tax subtraction for certain expenses paid by a school teacher. (FE)",
@@ -8822,6 +9278,7 @@
             "txt": "Bill Text/bill_3142632.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8842,6 +9299,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1984615,
         "billNumber": "SB70",
         "session": "2025-2026 Regular Session",
         "title": "A minor\u2019s authority to consent to health care.",
@@ -8856,6 +9314,7 @@
             "txt": "Bill Text/bill_3142756.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8876,6 +9335,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1985296,
         "billNumber": "SB71",
         "session": "2025-2026 Regular Session",
         "title": "Ratification of the Dietitian Licensure Compact. (FE)",
@@ -8890,6 +9350,7 @@
             "txt": "Bill Text/bill_3143400.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8910,6 +9371,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1984418,
         "billNumber": "SB72",
         "session": "2025-2026 Regular Session",
         "title": "Creating an individual income tax deduction for certain income earned by an individual from the practice of psychiatry or from providing psychiatric or mental health services. (FE)",
@@ -8924,6 +9386,7 @@
             "txt": "Bill Text/bill_3142571.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8944,6 +9407,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1984748,
         "billNumber": "SB73",
         "session": "2025-2026 Regular Session",
         "title": "Prosecuting or adjudicating delinquent a person under the age of 18 for committing an act of prostitution.",
@@ -8958,6 +9422,7 @@
             "txt": "Bill Text/bill_3142878.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -8985,6 +9450,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1985433,
         "billNumber": "SB74",
         "session": "2025-2026 Regular Session",
         "title": "Ratification of the Social Work Licensure Compact. (FE)",
@@ -8999,6 +9465,7 @@
             "txt": "Bill Text/bill_3143529.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9019,6 +9486,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1985090,
         "billNumber": "SB75",
         "session": "2025-2026 Regular Session",
         "title": "Venue for actions in which there is a governmental party.",
@@ -9033,6 +9501,7 @@
             "txt": "Bill Text/bill_3143199.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9053,6 +9522,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1984818,
         "billNumber": "SB76",
         "session": "2025-2026 Regular Session",
         "title": "Dismissing or amending certain criminal charges and deferred prosecution agreements for certain crimes.",
@@ -9067,6 +9537,7 @@
             "txt": "Bill Text/bill_3142941.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9087,6 +9558,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1985024,
         "billNumber": "SB77",
         "session": "2025-2026 Regular Session",
         "title": "Entering certain places with intent to commit battery and providing a penalty.",
@@ -9101,6 +9573,7 @@
             "txt": "Bill Text/bill_3143139.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9121,6 +9594,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1985364,
         "billNumber": "SB78",
         "session": "2025-2026 Regular Session",
         "title": "The distribution and labeling of fertilizers and soil or plant additives produced from manure. (FE)",
@@ -9135,6 +9609,7 @@
             "txt": "Bill Text/bill_3143465.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9155,6 +9630,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1984683,
         "billNumber": "SB79",
         "session": "2025-2026 Regular Session",
         "title": "A disclaimer of parental rights and payments allowed in connection with an adoption.",
@@ -9169,6 +9645,7 @@
             "txt": "Bill Text/bill_3142819.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9189,6 +9666,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1985160,
         "billNumber": "SB80",
         "session": "2025-2026 Regular Session",
         "title": "Statutory recognition of specialized treatment court and commercial court dockets.",
@@ -9203,6 +9681,7 @@
             "txt": "Bill Text/bill_3143268.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9223,6 +9702,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1985228,
         "billNumber": "SB81",
         "session": "2025-2026 Regular Session",
         "title": "School district operating referenda.",
@@ -9237,6 +9717,7 @@
             "txt": "Bill Text/bill_3143332.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9257,6 +9738,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1984549,
         "billNumber": "SB82",
         "session": "2025-2026 Regular Session",
         "title": "Governmental restrictions based on the energy source of a motor vehicle or other device.",
@@ -9271,6 +9753,7 @@
             "txt": "Bill Text/bill_3142697.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9291,6 +9774,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1984955,
         "billNumber": "SB83",
         "session": "2025-2026 Regular Session",
         "title": "Utilization management controls for antipsychotic prescription drugs under the Medical Assistance program. (FE)",
@@ -9305,6 +9789,7 @@
             "txt": "Bill Text/bill_3143077.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9325,6 +9810,7 @@
     },
     {
         "docType": "Senate Bill",
+        "billId": 1984886,
         "billNumber": "SB84",
         "session": "2025-2026 Regular Session",
         "title": "Exempting certain conveyances between grandparents and grandchildren from the real estate transfer fee. (FE)",
@@ -9339,6 +9825,7 @@
             "txt": "Bill Text/bill_3143007.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9359,6 +9846,7 @@
     },
     {
         "docType": "Senate Resolution",
+        "billId": 1902254,
         "billNumber": "SR1",
         "session": "2025-2026 Regular Session",
         "title": "Notifying the assembly and the governor that the 2025-2026 senate is organized.",
@@ -9373,6 +9861,7 @@
             "txt": "Bill Text/bill_3039142.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9407,6 +9896,7 @@
     },
     {
         "docType": "Senate Joint Resolution",
+        "billId": 1903170,
         "billNumber": "SJR1",
         "session": "2025-2026 Regular Session",
         "title": "The session schedule for the 2025-2026 biennial session period.",
@@ -9421,6 +9911,7 @@
             "txt": "Bill Text/bill_3039848.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9511,6 +10002,7 @@
     },
     {
         "docType": "Senate Joint Resolution",
+        "billId": 1903093,
         "billNumber": "SJR2",
         "session": "2025-2026 Regular Session",
         "title": "Requiring photographic identification to vote in any election (second consideration).",
@@ -9525,6 +10017,7 @@
             "txt": "Bill Text/bill_3040432.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9713,6 +10206,7 @@
     },
     {
         "docType": "Senate Joint Resolution",
+        "billId": 1952097,
         "billNumber": "SJR3",
         "session": "2025-2026 Regular Session",
         "title": "Proclaiming January 2025 as Human Trafficking Awareness and Prevention Month in the state of Wisconsin.",
@@ -9727,6 +10221,7 @@
             "txt": "Bill Text/bill_3095947.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9754,6 +10249,7 @@
     },
     {
         "docType": "Senate Joint Resolution",
+        "billId": 1956584,
         "billNumber": "SJR4",
         "session": "2025-2026 Regular Session",
         "title": "The freedom to gather in places of worship during a state of emergency (second consideration).",
@@ -9768,6 +10264,7 @@
             "txt": "Bill Text/bill_3101321.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9788,6 +10285,7 @@
     },
     {
         "docType": "Senate Joint Resolution",
+        "billId": 1956162,
         "billNumber": "SJR5",
         "session": "2025-2026 Regular Session",
         "title": "Celebrating the 51st anniversary of the American Birkebeiner and proclaiming February 17 to 23, 2025, as American Birkebeiner Week in Wisconsin.",
@@ -9802,6 +10300,7 @@
             "txt": "Bill Text/bill_3100939.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9836,6 +10335,7 @@
     },
     {
         "docType": "Senate Joint Resolution",
+        "billId": 1956264,
         "billNumber": "SJR6",
         "session": "2025-2026 Regular Session",
         "title": "Honoring the life and enduring legacy of Robert George Uecker.",
@@ -9850,6 +10350,7 @@
             "txt": "Bill Text/bill_3101033.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9905,6 +10406,7 @@
     },
     {
         "docType": "Senate Joint Resolution",
+        "billId": 1956521,
         "billNumber": "SJR7",
         "session": "2025-2026 Regular Session",
         "title": "Recognizing that the Wisconsin State Legislature supports nuclear power and fusion energy as clean energy sources that are critical to safely meeting Wisconsin\u2019s growing energy demands and declaring the legislature\u2019s commitment to the continuation and expansion of nuclear power and nuclear technologies, the development of nuclear technologies and fusion energy, and employing the leadership and resources necessary to support the development of and investment in nuclear power, fusion energy, and related technologies in the state.",
@@ -9919,6 +10421,7 @@
             "txt": "Bill Text/bill_3101265.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9946,6 +10449,7 @@
     },
     {
         "docType": "Senate Joint Resolution",
+        "billId": 1968020,
         "billNumber": "SJR8",
         "session": "2025-2026 Regular Session",
         "title": "Proclaiming February 4, 2025, as Transit Equity Day.",
@@ -9960,6 +10464,7 @@
             "txt": "Bill Text/bill_3116782.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -9994,6 +10499,7 @@
     },
     {
         "docType": "Senate Joint Resolution",
+        "billId": 1967843,
         "billNumber": "SJR9",
         "session": "2025-2026 Regular Session",
         "title": "Honoring the life and public service of Justice David T. Prosser Jr.",
@@ -10008,6 +10514,7 @@
             "txt": "Bill Text/bill_3116603.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -10035,6 +10542,7 @@
     },
     {
         "docType": "Senate Joint Resolution",
+        "billId": 1967792,
         "billNumber": "SJR10",
         "session": "2025-2026 Regular Session",
         "title": "Proclaiming February 2025 as Black History Month.",
@@ -10049,6 +10557,7 @@
             "txt": "Bill Text/bill_3116552.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
@@ -10076,6 +10585,7 @@
     },
     {
         "docType": "Senate Joint Resolution",
+        "billId": 1979359,
         "billNumber": "SJR11",
         "session": "2025-2026 Regular Session",
         "title": "Restricting the governor\u2019s partial veto authority to only rejecting entire bill sections of an appropriation bill that are capable of separate enactment and reducing appropriations in a bill (first consideration).",
@@ -10090,6 +10600,7 @@
             "txt": "Bill Text/bill_3135882.txt"
         },
         "amendments": [],
+        "amendment_links": [],
         "seeAlso": [],
         "history": [
             {
