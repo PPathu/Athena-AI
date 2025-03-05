@@ -94,11 +94,28 @@ def get_master_list():
 
         if doc_id:
             get_bill_text(doc_id)
+            
+            
 
         bill_details = fetch_bill_details(bill_id) if bill_id else {}
 
+        # Nicole - Getting amendment text also
+        amendments = bill_details.get("amendments", [])
+        amendment_links = []
+        for amendment in amendments:
+            amendment_doc_id = amendment.get("amendment_id")
+            if amendment_doc_id:
+                get_amendment_text(amendment_doc_id)  # Download and extract amendment text
+                amendment_links.append({
+                    "text": f"Bill Text/amendment_{amendment_doc_id}.txt",
+                    "pdf": f"Bill Text/amendment_{amendment_doc_id}.pdf"
+                })
+
+
+        # Nicole - Added bill ID as field to save
         new_bill_data = {
             "docType": find_doc_type(bill_number),
+            "billId": bill_id,
             "billNumber": bill_number,
             "session": session_info,
             "title": bill.get("title", "UNKNOWN"),
@@ -112,7 +129,8 @@ def get_master_list():
                 "pdf": f"Bill Text/bill_{doc_id}.pdf" if doc_id else None,
                 "txt": f"Bill Text/bill_{doc_id}.txt" if doc_id else None
             },
-            "amendments": bill_details.get("amendments", []),
+            "amendments": amendments,
+            "amendment_links": amendment_links,           
             "seeAlso": bill_details.get("bill", {}).get("sasts", []),
             "history": bill_details.get("history", [])
         }
@@ -177,11 +195,11 @@ def get_bill_text(doc_id):
                 print(f"Text extracted and saved as {txt_file}")
             
             except Exception as e:
-                print(f"Error decoding or saving docuemnt for doc_id={doc_id}: {e}")
+                print(f"Error decoding or saving docuemnt for doc_id={doc_id}: {e}, bill")
         else:
-            print(f"No 'doc' found in text data for doc_id={doc_id}")
+            print(f"No 'doc' found in text data for doc_id={doc_id}, bill")
     else:
-        print(f"Issue getting text data for doc_id={doc_id}")
+        print(f"Issue getting text data for doc_id={doc_id}, bill")
 
 #gets the bill details, including amendments, related bills (sasts), and history
 def fetch_bill_details(bill_id):
@@ -219,9 +237,9 @@ def save_to_csv(bills):
     output_file = "NEWbills_data.csv"
 
     headers = [
-        "docType", "billNumber", "session", "title", "description", 
+        "docType", "billId", "billNumber", "session", "title", "description", 
         "status", "statusDate", "last_action", "last_action_date", "url", 
-        "pdf_link", "txt_link", "amendments", "seeAlso", "history"
+        "pdf_link", "txt_link", "amendments", "amendment_links", "seeAlso", "history"
     ]
 
     with open(output_file, "w", newline="", encoding="utf-8") as f:
@@ -231,6 +249,7 @@ def save_to_csv(bills):
         for bill in bills:
             writer.writerow([
                 bill.get("docType", "UNKNOWN"),
+                bill.get("billId", "UNKNOWN"),
                 bill.get("billNumber", "UNKNOWN"),
                 bill.get("session", "UNKNOWN"),
                 bill.get("title", "UNKNOWN"),
@@ -242,19 +261,62 @@ def save_to_csv(bills):
                 bill.get("url", "UNKNOWN"),
                 bill["links"].get("pdf", "N/A") if "links" in bill else "N/A",
                 bill["links"].get("txt", "N/A") if "links" in bill else "N/A",
-                "; ".join([amend.get("title", "N/A") for amend in bill.get("amendments", [])]),  
+                "; ".join([amend.get("title", "N/A") for amend in bill.get("amendments", [])]), 
+                "; ".join([amendment.get("pdf", "N/A") for amendment in bill.get("amendment_links", [])]),  # Amendment PDFs
+                "; ".join([amendment.get("text", "N/A") for amendment in bill.get("amendment_links", [])]),   # Amendment Texts   
                 "; ".join([related.get("sast_bill_number", "N/A") for related in bill.get("sasts", [])]),
-                "; ".join([f"{hist.get('date', 'N/A')} - {hist.get('action', 'N/A')}" for hist in bill.get("history", [])])  
+                "; ".join([f"{hist.get('date', 'N/A')} - {hist.get('action', 'N/A')}" for hist in bill.get("history", [])])
             ])
     print(f"CSV data saved to {output_file}")
 
 
+
+def get_amendment_text(doc_id):
+    url = f"https://api.legiscan.com/?key={legiscanKey}&op=getAmendment&id={doc_id}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        text_data = data.get('amendment')
+        if text_data and 'doc' in text_data:
+            doc_base64 = text_data['doc']
+            try:
+                decoded_doc = base64.b64decode(doc_base64)
+                directory_exists()
+
+                #save pdf
+                pdf_file = f"Bill Text/amendment_{doc_id}.pdf"
+                with open(pdf_file, 'wb') as f:
+                    f.write(decoded_doc)
+                print(f"Saved amendment text to {pdf_file}")
+
+                #extract text from pdf
+                with open(pdf_file, 'rb') as pdf_file:
+                    pdf_reader = PyPDF2.PdfReader(pdf_file)
+                    pdf_text = ""
+                    for page_num in range(len(pdf_reader.pages)):
+                        page = pdf_reader.pages[page_num]
+                        pdf_text += page.extract_text() or ""
+                
+                #save extracted text
+                txt_file = f"Bill Text/amendment_{doc_id}.txt"
+                with open(txt_file, 'w', encoding='utf-8') as txt_file:
+                    txt_file.write(pdf_text)
+                print(f"Text extracted and saved as {txt_file}")
+            
+            except Exception as e:
+                print(f"Error decoding or saving docuemnt for doc_id={doc_id}: {e}, amendment")
+        else:
+            print(f"No 'doc' found in text data for doc_id={doc_id}, amendment")
+    else:
+        print(f"Issue getting text data for doc_id={doc_id}, amendment")
+        
+        
 if __name__ == "__main__":
 
     #load api key 
     load_dotenv()
     legiscanKey = os.getenv("LEGISCAN_API_KEY")
-
+    
     if not legiscanKey:
         print("Error:missing LegiScan API Key - make sure it's in your .env file")
         exit(1)
