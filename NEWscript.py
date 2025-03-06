@@ -19,7 +19,7 @@ if not DATABASE_URL:
 print(f"database URL: {DATABASE_URL}")
 
 try:
-    with open("data.json", "r") as file:
+    with open("NEWdata.json", "r") as file:
         bills_data = json.load(file)
     print(f"loaded {len(bills_data)} bills from data.json")
 except Exception as e:
@@ -38,7 +38,7 @@ except Exception as e:
 #make sure the table exists with correct column names
 try:
     cur.execute("""
-        DROP TABLE IF EXISTS enhanceddata;
+        DROP TABLE IF EXISTS enhanceddata CASCADE;
         CREATE TABLE enhanceddata (
             id SERIAL PRIMARY KEY,
             doc_type TEXT,

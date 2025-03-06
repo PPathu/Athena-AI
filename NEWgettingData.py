@@ -1,5 +1,4 @@
 from dotenv import load_dotenv
-from keys import legiscanKey
 import requests
 import json
 import base64
@@ -13,6 +12,7 @@ STATE = "WI"
 
 def directory_exists():
     os.makedirs('Bill Text', exist_ok=True)
+
 
 def find_doc_type(bill_number: str) -> str:
     bill_number = bill_number.upper()
@@ -30,6 +30,7 @@ def find_doc_type(bill_number: str) -> str:
         return "Senate Resolution"
     else:
         return "Unknown"
+
 
 def map_status_code(status_code: int) -> str:
     mapping = {
@@ -57,151 +58,11 @@ def get_session_info():
         return "UNKNOWN SESSION"
 
     if "sessions" in data and isinstance(data["sessions"], list):
-        latest_session = max(data["sessions"], key=lambda x: x["year_start"])  # Get the newest session by year
+        latest_session = max(data["sessions"], key=lambda x: x["year_start"])
         return latest_session.get("session_name", "UNKNOWN SESSION")
     return "UNKNOWN SESSION"
 
 
-
-#1. get the master list for current session
-#2. for each bill, get docId 
-#3. download pdf, extract text
-#4. build json structure in new format and save it to newFormatData.json
-def get_master_list():
-    url = f"https://api.legiscan.com/?key={legiscanKey}&op=getMasterList&id=2197"
-    response = requests.get(url)
-
-    if response.status_code != 200:
-        print("Error: Failed to fetch master list")
-        print("Status Code:", response.status_code)
-        return []
-    try:
-        data = response.json()
-    except json.JSONDecodeError:
-        print("Error: Failed to parse JSON response.")
-        return []
-
-    session_info = get_session_info()
-
-    bills = []
-    for key, bill in data["masterlist"].items():
-        if key == "session":
-            continue
-
-        bill_id = bill.get("bill_id")
-        bill_number = bill.get("number", "UNKNOWN")
-        doc_id = get_doc_id(bill_id) if bill_id else None
-
-        if doc_id:
-            get_bill_text(doc_id)
-            
-            
-
-        bill_details = fetch_bill_details(bill_id) if bill_id else {}
-
-        # Nicole - Getting amendment text also
-        amendments = bill_details.get("amendments", [])
-        amendment_links = []
-        for amendment in amendments:
-            amendment_doc_id = amendment.get("amendment_id")
-            if amendment_doc_id:
-                get_amendment_text(amendment_doc_id)  # Download and extract amendment text
-                amendment_links.append({
-                    "text": f"Bill Text/amendment_{amendment_doc_id}.txt",
-                    "pdf": f"Bill Text/amendment_{amendment_doc_id}.pdf"
-                })
-
-
-        # Nicole - Added bill ID as field to save
-        new_bill_data = {
-            "docType": find_doc_type(bill_number),
-            "billId": bill_id,
-            "billNumber": bill_number,
-            "session": session_info,
-            "title": bill.get("title", "UNKNOWN"),
-            "description": bill.get("description", "UNKNOWN"),
-            "status": map_status_code(bill.get("status", 0)),
-            "statusDate": bill.get("status_date", "UNKNOWN"),
-            "last_action": bill.get("last_action", "UNKNOWN"),
-            "last_action_date": bill.get("last_action_date", "UNKNOWN"),
-            "url": bill.get("url", "UNKNOWN"),
-            "links": {
-                "pdf": f"Bill Text/bill_{doc_id}.pdf" if doc_id else None,
-                "txt": f"Bill Text/bill_{doc_id}.txt" if doc_id else None
-            },
-            "amendments": amendments,
-            "amendment_links": amendment_links,           
-            "seeAlso": bill_details.get("bill", {}).get("sasts", []),
-            "history": bill_details.get("history", [])
-        }
-
-        bills.append(new_bill_data)
-
-    output_file = "NEWdata.json"
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(bills, f, indent=4)
-
-    print(f"JSON data saved to {output_file}")
-    save_to_csv(bills)
-    return bills
-
-
-def get_doc_id(bill_id):
-    url = f"https://api.legiscan.com/?key={legiscanKey}&op=getBill&id={bill_id}"
-    response = requests.get(url)
-    if response.status_code == 200:
-        data = response.json()
-        if 'bill' in data:
-            bill_data = data['bill']
-            texts = bill_data.get('texts', [])
-            if texts and 'doc_id' in texts[0]:
-                doc_id = texts[0]['doc_id']
-                print(f"Found doc_id={doc_id} for bill_id={bill_id}")
-                return doc_id
-    print(f"Bill doc_id not found for bill_id={bill_id}")
-    return None
-
-
-def get_bill_text(doc_id):
-    url = f"https://api.legiscan.com/?key={legiscanKey}&op=getBillText&id={doc_id}"
-    response = requests.get(url)
-    if response.status_code == 200:
-        data = response.json()
-        text_data = data.get('text')
-        if text_data and 'doc' in text_data:
-            doc_base64 = text_data['doc']
-            try:
-                decoded_doc = base64.b64decode(doc_base64)
-                directory_exists()
-
-                #save pdf
-                pdf_file = f"Bill Text/bill_{doc_id}.pdf"
-                with open(pdf_file, 'wb') as f:
-                    f.write(decoded_doc)
-                print(f"Saved bill text to {pdf_file}")
-
-                #extract text from pdf
-                with open(pdf_file, 'rb') as pdf_file:
-                    pdf_reader = PyPDF2.PdfReader(pdf_file)
-                    pdf_text = ""
-                    for page_num in range(len(pdf_reader.pages)):
-                        page = pdf_reader.pages[page_num]
-                        pdf_text += page.extract_text() or ""
-                
-                #save extracted text
-                txt_file = f"Bill Text/bill_{doc_id}.txt"
-                with open(txt_file, 'w', encoding='utf-8') as txt_file:
-                    txt_file.write(pdf_text)
-                print(f"Text extracted and saved as {txt_file}")
-            
-            except Exception as e:
-                print(f"Error decoding or saving docuemnt for doc_id={doc_id}: {e}, bill")
-        else:
-            print(f"No 'doc' found in text data for doc_id={doc_id}, bill")
-    else:
-        print(f"Issue getting text data for doc_id={doc_id}, bill")
-
-#gets the bill details, including amendments, related bills (sasts), and history
 def fetch_bill_details(bill_id):
     url = f"https://api.legiscan.com/?key={legiscanKey}&op=getBill&id={bill_id}"
     response = requests.get(url)
@@ -217,13 +78,6 @@ def fetch_bill_details(bill_id):
         return {}
 
     bill_data = data.get("bill", {})
-    sasts_count = len(bill_data.get("sasts", []))
-
-    #debugging purposes
-    if sasts_count > 0:
-        print(f"Bill ID {bill_id}: Found {sasts_count} related bills.")
-    else:
-        print(f"Bill ID {bill_id}: No related bills (sasts).")
 
     return {
         "amendments": bill_data.get("amendments", []),
@@ -232,93 +86,125 @@ def fetch_bill_details(bill_id):
     }
 
 
-#saves extracted bill data to CSV file & converts list fields into strings
-def save_to_csv(bills):
-    output_file = "NEWbills_data.csv"
-
-    headers = [
-        "docType", "billId", "billNumber", "session", "title", "description", 
-        "status", "statusDate", "last_action", "last_action_date", "url", 
-        "pdf_link", "txt_link", "amendments", "amendment_links", "seeAlso", "history"
-    ]
-
-    with open(output_file, "w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(headers)
-
-        for bill in bills:
-            writer.writerow([
-                bill.get("docType", "UNKNOWN"),
-                bill.get("billId", "UNKNOWN"),
-                bill.get("billNumber", "UNKNOWN"),
-                bill.get("session", "UNKNOWN"),
-                bill.get("title", "UNKNOWN"),
-                bill.get("description", "UNKNOWN"),
-                bill.get("status", "UNKNOWN"),
-                bill.get("statusDate", "UNKNOWN"),
-                bill.get("last_action", "UNKNOWN"),
-                bill.get("last_action_date", "UNKNOWN"),
-                bill.get("url", "UNKNOWN"),
-                bill["links"].get("pdf", "N/A") if "links" in bill else "N/A",
-                bill["links"].get("txt", "N/A") if "links" in bill else "N/A",
-                "; ".join([amend.get("title", "N/A") for amend in bill.get("amendments", [])]), 
-                "; ".join([amendment.get("pdf", "N/A") for amendment in bill.get("amendment_links", [])]),  # Amendment PDFs
-                "; ".join([amendment.get("text", "N/A") for amendment in bill.get("amendment_links", [])]),   # Amendment Texts   
-                "; ".join([related.get("sast_bill_number", "N/A") for related in bill.get("sasts", [])]),
-                "; ".join([f"{hist.get('date', 'N/A')} - {hist.get('action', 'N/A')}" for hist in bill.get("history", [])])
-            ])
-    print(f"CSV data saved to {output_file}")
-
-
-
-def get_amendment_text(doc_id):
-    url = f"https://api.legiscan.com/?key={legiscanKey}&op=getAmendment&id={doc_id}"
+def get_doc_id(bill_id):
+    url = f"https://api.legiscan.com/?key={legiscanKey}&op=getBill&id={bill_id}"
     response = requests.get(url)
+    
     if response.status_code == 200:
         data = response.json()
-        text_data = data.get('amendment')
+        if 'bill' in data:
+            bill_data = data['bill']
+            texts = bill_data.get('texts', [])
+            if texts and 'doc_id' in texts[0]:
+                doc_id = texts[0]['doc_id']
+                print(f"Found doc_id={doc_id} for bill_id={bill_id}")
+                return doc_id
+    print(f"⚠️ Bill doc_id not found for bill_id={bill_id}")
+    return None
+
+
+def get_bill_text(doc_id):
+    url = f"https://api.legiscan.com/?key={legiscanKey}&op=getBillText&id={doc_id}"
+    response = requests.get(url)
+    
+    if response.status_code == 200:
+        data = response.json()
+        text_data = data.get('text')
+        
         if text_data and 'doc' in text_data:
             doc_base64 = text_data['doc']
             try:
                 decoded_doc = base64.b64decode(doc_base64)
                 directory_exists()
 
-                #save pdf
-                pdf_file = f"Bill Text/amendment_{doc_id}.pdf"
+                #save PDF
+                pdf_file = f"Bill Text/bill_{doc_id}.pdf"
                 with open(pdf_file, 'wb') as f:
                     f.write(decoded_doc)
-                print(f"Saved amendment text to {pdf_file}")
+                print(f"Saved bill text to {pdf_file}")
 
-                #extract text from pdf
+                #extract text from PDF
                 with open(pdf_file, 'rb') as pdf_file:
                     pdf_reader = PyPDF2.PdfReader(pdf_file)
-                    pdf_text = ""
-                    for page_num in range(len(pdf_reader.pages)):
-                        page = pdf_reader.pages[page_num]
-                        pdf_text += page.extract_text() or ""
-                
+                    pdf_text = "".join([page.extract_text() or "" for page in pdf_reader.pages])
+
                 #save extracted text
-                txt_file = f"Bill Text/amendment_{doc_id}.txt"
+                txt_file = f"Bill Text/bill_{doc_id}.txt"
                 with open(txt_file, 'w', encoding='utf-8') as txt_file:
                     txt_file.write(pdf_text)
                 print(f"Text extracted and saved as {txt_file}")
             
             except Exception as e:
-                print(f"Error decoding or saving docuemnt for doc_id={doc_id}: {e}, amendment")
+                print(f"Error decoding or saving document for doc_id={doc_id}: {e}")
         else:
-            print(f"No 'doc' found in text data for doc_id={doc_id}, amendment")
+            print(f"No 'doc' found in text data for doc_id={doc_id}")
     else:
-        print(f"Issue getting text data for doc_id={doc_id}, amendment")
-        
-        
-if __name__ == "__main__":
+        print(f"Issue getting text data for doc_id={doc_id}")
 
-    #load api key 
+
+def get_master_list():
+    url = f"https://api.legiscan.com/?key={legiscanKey}&op=getMasterList&id=2197"
+    response = requests.get(url)
+
+    if response.status_code != 200:
+        print("Error: Failed to fetch master list")
+        return []
+    try:
+        data = response.json()
+    except json.JSONDecodeError:
+        print("Error: Failed to parse JSON response.")
+        return []
+
+    session_info = get_session_info()
+    bills = []
+
+    for key, bill in data["masterlist"].items():
+        if key == "session":
+            continue
+
+        bill_id = bill.get("bill_id")
+        bill_number = bill.get("number", "UNKNOWN")
+        doc_id = get_doc_id(bill_id) if bill_id else None
+
+        if doc_id:
+            get_bill_text(doc_id)
+
+        bill_details = fetch_bill_details(bill_id) if bill_id else {}
+
+        new_bill_data = {
+            "docType": find_doc_type(bill_number),
+            "billId": bill_id,
+            "billNumber": bill_number,
+            "session": session_info,
+            "title": bill.get("title") or "No Title Available",
+            "description": bill.get("description") or "No Description Available",
+            "status": map_status_code(bill.get("status", 0)),
+            "statusDate": bill.get("status_date", None),
+            "last_action": bill.get("last_action") or "No Last Action Available",
+            "last_action_date": bill.get("last_action_date", None),
+            "url": bill.get("url") or "No URL Available",
+            "amendments": bill_details.get("amendments", []),
+            "seeAlso": bill_details.get("seeAlso", []),
+            "history": bill_details.get("history", [])
+        }
+
+        print(f"Retrieved Bill: {new_bill_data['billNumber']} - {new_bill_data['title']}")
+        bills.append(new_bill_data)
+
+    output_file = "NEWdata.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(bills, f, indent=4)
+
+    print(f"JSON data saved to {output_file}")
+    return bills
+
+
+if __name__ == "__main__":
     load_dotenv()
     legiscanKey = os.getenv("LEGISCAN_API_KEY")
-    
+
     if not legiscanKey:
-        print("Error:missing LegiScan API Key - make sure it's in your .env file")
+        print("Error: Missing LegiScan API Key - make sure it's in your .env file.")
         exit(1)
 
     directory_exists()
@@ -329,14 +215,13 @@ if __name__ == "__main__":
     bills = get_master_list()
 
     if not bills:
-        print("No bills retrieved. Check API response or session ID")
+        print("No bills retrieved. Check API response or session ID.")
     else:
-        print(f"successfully retrieved {len(bills)} bills")
+        print(f"Successfully retrieved {len(bills)} bills.")
 
     output_json = "NEWdata.json"
     with open(output_json, "w", encoding="utf-8") as f:
         json.dump(bills, f, indent=4)
     print(f"JSON data saved to {output_json}")
 
-    save_to_csv(bills)
     print("PROCESS COMPLETED")
