@@ -6,9 +6,9 @@ async function testSupabase() {
     const { data, error } = await supabase.from("bills").select("*");
     
     if (error) {
-        console.error("❌ Supabase Error:", error);
+        console.error("Supabase Error:", error);
     } else {
-        console.log("✅ Supabase Data:", data);
+        console.log("Supabase Data:", data);
     }
 }
 
