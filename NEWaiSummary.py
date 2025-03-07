@@ -4,7 +4,11 @@ import psycopg2.extras
 import google.generativeai as genai
 from datetime import datetime, timezone
 from dotenv import load_dotenv, find_dotenv
+from supabase import create_client, Client
+import os
+from dotenv import load_dotenv, find_dotenv
 
+global conn, cur, supabase
 conn = None
 cur = None
 
@@ -134,11 +138,53 @@ def disconnectSupabase():
     except Exception as e:
         print(f"Supabase disconnection failed: {e}")
 
+def connectSupabase():
+    """Establish database connection and Supabase client"""
+    global conn, cur, supabase  # Ensure supabase is a global variable
+    
+    dotenv_path = find_dotenv()
+    if not load_dotenv(dotenv_path):
+        print("Error: .env file not loaded")
+        exit()
+
+    # Load environment variables (Updated to match your .env)
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    SUPABASE_URL = os.getenv("REACT_APP_SUPABASE_URL")  # Updated
+    SUPABASE_KEY = os.getenv("REACT_APP_SUPABASE_ANON_KEY")  # Updated
+
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        print("Error: REACT_APP_SUPABASE_URL or REACT_APP_SUPABASE_ANON_KEY is missing from the .env file")
+        exit()
+
+    try:
+        # Connect with psycopg2
+        conn = psycopg2.connect(DATABASE_URL)
+        cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+
+        # Initialize Supabase client
+        from supabase import create_client
+        supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+        print("Supabase connection established")
+    except Exception as e:
+        print(f"Supabase connection failed: {e}")
+
+
 if __name__ == "__main__":
     connectSupabase()
     
     #generate AI summary for a sample bill
-    bill_id_to_summarize = "1968867"
-    generateAiSummary(bill_id_to_summarize)
+    response = supabase.table("bills").select("*").execute()
+    if response.data:
+        print("responses exist")
+        for bill in response.data:
+            billID = bill.get("billid")
+            print(billID)
+            if billID:
+                print("billID exists")
+                generateAiSummary(billID)
+                print("generated billID {billID}")
+    #bill_id_to_summarize = "1968867"
+    #generateAiSummary(bill_id_to_summarize)
 
     disconnectSupabase()
