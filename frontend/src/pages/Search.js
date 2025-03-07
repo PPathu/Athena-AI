@@ -9,9 +9,9 @@ const Search = () => {
   const [error, setError] = useState("");
   const [expandedBill, setExpandedBill] = useState(null);
   const [page, setPage] = useState(1);
-  const billsPerPage = 6; //adjust how many bills per page
+  const billsPerPage = 6; // Adjust how many bills per page
 
-  //get bills from Supabase based on search term and page
+  // Fetch bills from Supabase, joining with AI summaries
   const fetchBills = async () => {
     setLoading(true);
     setError("");
@@ -21,31 +21,33 @@ const Search = () => {
 
       let query = supabase
         .from("enhanceddata")
-        .select("*")
+        .select(
+          "*, ai_summaries_enhanced:ai_summaries_enhanced(response)" // Join ai_summaries_enhanced by aliasing it
+        )
         .range((page - 1) * billsPerPage, page * billsPerPage - 1);
 
       if (searchTerm.trim()) {
-        query = query.ilike("title", `%${searchTerm}%`); //case-insensitive search
+        query = query.ilike("title", `%${searchTerm}%`); // Case-insensitive search
       }
 
       const { data, error } = await query;
       if (error) throw error;
 
-      console.log("Bills from Supabase:", data);
+      console.log("✅ Bills from Supabase:", data);
       setBills(data);
     } catch (err) {
-      console.error("Supabase Fetch Error:", err);
-      setError("Failed to fetch bills - try again.");
+      console.error("❌ Supabase Fetch Error:", err);
+      setError("Failed to fetch bills. Please try again.");
     } finally {
       setLoading(false);
     }
   };
 
   useEffect(() => {
-    fetchBills(); //get bills on page load and when search term changes
+    fetchBills(); // Fetch bills when page changes
   }, [page]);
 
-  //toggle bill details view
+  // Toggle bill details view
   const toggleBillDetails = (billId) => {
     setExpandedBill(expandedBill === billId ? null : billId);
   };
@@ -72,18 +74,24 @@ const Search = () => {
             <div key={bill.id} className="bill-card">
               <h3>{bill.title}</h3>
               <p className="bill-description">
-                {bill.description.length > 100
+                {bill.description && bill.description.length > 100
                   ? `${bill.description.substring(0, 100)}...`
-                  : bill.description}
+                  : bill.description || "No description available"}
               </p>
               <p className="bill-summary">
-                <strong>Summary:</strong>{" "}
-                {bill.ai_summary
-                  ? bill.ai_summary.length > 120
-                    ? `${bill.ai_summary.substring(0, 120)}...`
-                    : bill.ai_summary
-                  : "No summary available"}
-              </p>
+              <strong>AI Summary:</strong>
+              <br />
+              {bill.ai_summaries_enhanced?.[0]?.response &&
+              !bill.ai_summaries_enhanced[0].response.includes("Since the title and description of the bill are unknown")
+                ? bill.ai_summaries_enhanced[0].response
+                    .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>") // Convert markdown **bold** to HTML <strong>
+                    .replace(/\n/g, "<br />") // Ensure proper spacing between paragraphs
+                    .replace(/\* (.*?)/g, "• $1") // Convert markdown * bullet points to •
+                : "No AI summary available"}
+            </p>
+
+
+
               <button onClick={() => toggleBillDetails(bill.id)}>
                 {expandedBill === bill.id ? "Show Less" : "Read More"}
               </button>
@@ -93,7 +101,7 @@ const Search = () => {
                   <p><strong>Status:</strong> {bill.status}</p>
                   <p><strong>Last Action:</strong> {bill.last_action}</p>
                   <p><strong>History:</strong> {bill.history}</p>
-                  <p><strong>Full Summary:</strong> {bill.ai_summary || "No AI summary available"}</p>
+                  <p><strong>Full Summary:</strong> {bill.ai_summaries_enhanced?.[0]?.response || "No AI summary available"}</p>
                   <a href={bill.url} target="_blank" rel="noopener noreferrer">
                     View Full Bill
                   </a>
@@ -106,7 +114,7 @@ const Search = () => {
         )}
       </div>
 
-      {/*pagination controls*/}
+      {/* Pagination controls */}
       <div className="pagination">
         {page > 1 && <button onClick={() => setPage(page - 1)}>Previous</button>}
         {bills.length === billsPerPage && <button onClick={() => setPage(page + 1)}>Next</button>}
