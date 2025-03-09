@@ -1,0 +1,628 @@
+2025 - 2026  LEGISLATURELRB-1313/1
+SWB:emw
+2025 ASSEMBLY BILL 73
+February 24, 2025 - Introduced by Representatives TUSLER , B. J ACOBSON , BROOKS , 
+KNODL , MURPHY  and O'C ONNOR , cosponsored by Senators JACQUE  and 
+WIMBERGER . Referred to Committee on Mental Health and Substance Abuse 
+Prevention. 
+ 
+  ***AUTHORS SUBJECT TO CHANGE***
+AN ACT to create  chapter 798 of the statutes; relating to:  statutory recognition 
+of specialized treatment court and commercial court dockets.
+Analysis by the Legislative Reference Bureau
+This bill statutorily recognizes specialized dockets for treatment courts and for 
+commercial cases.  The bill recognizes in statute treatment courts, which are 
+defined in the bill to include adult drug treatment court, juvenile drug treatment 
+court, operating while intoxicated treatment court, mental health treatment court, 
+family dependency treatment court, veterans treatment court, hybrid treatment 
+court, and tribal healing to wellness court.
+The bill also statutorily recognizes a specialized docket for commercial cases.  
+Under the bill, the chief justice of the Wisconsin Supreme Court, taking into 
+consideration recommendations from the relevant chief judges of the judicial 
+administrative districts, must select circuit court judges who will be assigned to the 
+commercial court docket upon each judge [s agreement to serve.  The bill provides 
+that a judge who presides over cases on the commercial court docket is not 
+prohibited from working on any other assigned docket.
+Under the bill, certain commercial case types must be assigned to the 
+commercial court docket, including cases involving all of the following:  1) the 
+governance or internal affairs of business organizations; 2) tortious or statutorily 
+prohibited business activity, unfair competition, or antitrust claims; 3) the sale, 
+consolidation, or merger of a business organization or the conversion, share 1
+22025 - 2026  Legislature
+ASSEMBLY BILL 73- 2 - LRB-1313/1
+SWB:emw
+SECTION  1
+exchange, or sale of substantially all of the assets of a business organization; 4) the 
+issuance, sale, or transfer of securities; 5) intellectual property rights; 6) the 
+relationship between a franchisor and franchisee or similar distribution 
+relationship; 7) certain claims or disputes involving the Uniform Commercial Code, 
+when the amount in controversy exceeds $100,000; 8) receiverships in excess of 
+$250,000; 9) confirmation of arbitration awards and compelling or enforcing 
+arbitration awards when the amount in controversy exceeds $100,000; and 10) real 
+estate construction disputes when the amount in controversy exceeds $250,000.  
+The bill provides that certain types of cases are ineligible for assignment to the 
+commercial court docket, including small claims cases, cases involving a 
+governmental entity or political subdivision seeking to enforce a statutory or 
+regulatory restriction or prohibition, or disputes between landlords and tenants.
+The commercial court docket created under the bill is a commercial case 
+docket that generally involves disputes between commercial entities rather than 
+individuals and does not include actions typically involving individuals such as 
+personal injury suits, products liability, malpractice, or other tort claims or 
+landlord and tenant disputes or similar claims.  Under the bill, parties may jointly 
+move for discretionary assignment of a case to the commercial court docket if the 
+case is one that is not identified under the mandatory criteria but is not otherwise 
+ineligible for assignment.  The bill provides that a decision granting or denying a 
+motion for a discretionary assignment of a case to the commercial court docket is 
+final and nonappealable.
+The bill also allows that parties to a case that is filed in a judicial 
+administrative district that does not have a dedicated commercial court docket may, 
+in certain circumstances, jointly petition for transfer of the case to a commercial 
+court docket.  Under the bill, no party may withdraw a request for transfer to the 
+commercial court docket after a judicial assignment of the case has been made.
+The people of the state of Wisconsin, represented in senate and assembly, do 
+enact as follows:
+SECTION  1.  Chapter 798 of the statutes is created to read:
+CHAPTER 798 
+SPECIALTY COURTS
+798.01  Legislative findings.  The legislature finds all of the following:
+(1)  Specialized dockets for treatment courts and for commercial cases have 
+existed in this state and across the country for a number of years in recognition of 1
+2
+3
+4
+5
+62025 - 2026  Legislature
+ASSEMBLY BILL 73- 3 - LRB-1313/1
+SWB:emw
+SECTION  1
+the fact that the interests of justice in general, and of litigants in particular, are 
+substantially enhanced when judges and other court personnel commit to take 
+specific training in the subject matter areas of a particular specialized docket and 
+then apply that training and expertise to the unique issues before the court.  The 
+use of specialized dockets increases efficiencies and improve outcomes in the 
+handling of these cases.
+(2)  The commercial court docket has existed in this state for over 7 years as a 
+pilot project in a number of counties and judicial districts and has been shown to 
+reduce substantially the time it takes to obtain a decision and increase the level of 
+satisfaction of the parties with the results in commercial disputes.
+798.05  Treatment court dockets.  (1)  PURPOSE ; AUTHORITY .  The purpose 
+of this section is to statutorily recognize specialized dockets for treatment courts.  
+Treatment courts are designed to operate within the framework of the existing state 
+court system and specifically address underlying issues relating to criminal 
+behavior.  Treatment courts provide treatment while working with a 
+multidisciplinary team to deploy a range of graduated rewards and sanctions with 
+the goal of engaging participants in treatment long enough to successfully address 
+any addiction or mental health issues and end the cycle of recidivism.
+(2)  DEFINITION .  In this section, Xtreatment court Y includes all of the 
+following:
+(a)  Adult drug treatment court.
+(b)  Juvenile drug treatment court.
+(c)  Operating while intoxicated treatment court.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 73- 4 - LRB-1313/1
+SWB:emw
+SECTION  1
+(d)  Mental health treatment court.
+(e)  Family dependency treatment court.
+(f)  Veterans treatment court.
+(g)  Hybrid treatment court.
+(h)  Tribal healing to wellness court.
+798.15   Commercial court docket.   (1)  PURPOSE ; AUTHORITY .  The purpose 
+of this section is to statutorily recognize a specialized docket for commercial cases in 
+state circuit courts.  The commercial court docket is designed to operate within the 
+framework of the existing state court system with minimal impact on the balance of 
+court operations.  It is intended to leverage judicial expertise in commercial law and 
+disputes with commercial litigants [ desire to tailor case management practices best 
+suited for resolving substantial business disputes fairly and expeditiously.
+(2)  DEFINITIONS .  In this section:
+(a)  XBusiness organization Y includes a sole proprietorship, corporation, 
+partnership, limited liability company, limited partnership, professional 
+association, benefits corporation, service corporation, joint venture, bank, savings 
+bank, savings and loan association, or business trust.  A Xbusiness organization Y 
+excludes an individual, a family trust, or a political subdivision or governmental 
+entity.
+(b)  XConsumer contract or transaction Y means a consumer contract or 
+transaction that is primarily for personal, family, or household purposes.
+(3)  SCOPE .  (a)  The commercial court procedures outlined in this section 
+apply to judicial administrative districts that have established specialized dockets 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 73- 5 - LRB-1313/1
+SWB:emw
+SECTION  1
+for commercial cases on the effective date of this paragraph .... [LRB inserts date], 
+and to any commercial court docket established after the effective date of this 
+paragraph .... [LRB inserts date], beginning on the date that docket is established.  
+Courts with specialized dockets for commercial cases shall be referred to as the 
+Xcommercial court. Y
+(b) 1.  The chief justice of the supreme court, after considering the 
+recommendation of the chief judge of the encompassing judicial administrative 
+district, shall select the circuit court judges in the judicial administrative districts 
+who will be assigned to the commercial court docket upon each judge [s agreement to 
+so serve.  The chief justice of the supreme court shall select at least all of the 
+following to participate in the commercial court under this section:
+a.  No fewer than 4 circuit court judges within the 2nd judicial administrative 
+district.
+b.  No fewer than 4 circuit court judges within the 3rd judicial administrative 
+district.
+c.  No fewer than 4 circuit court judges within the 5th judicial administrative 
+district.
+d.  No fewer than 4 circuit court judges within the 8th judicial administrative 
+district.
+e.  No fewer than 4 circuit court judges within the 10th judicial administrative 
+district.
+f.  No fewer than 4 circuit court judges within any judicial administrative 
+district that adds a commercial court docket.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 73- 6 - LRB-1313/1
+SWB:emw
+SECTION  1
+2.  A judge who presides in a commercial court docket is not prohibited from 
+working on any other assigned docket.
+3.  The chief justice of the supreme court may add additional judicial 
+administrative districts to the commercial court docket upon the recommendation 
+of the director of state courts.
+(4)  MANDATORY  ASSIGNMENT  OF CASES  TO THE COMMERCIAL  COURT  DOCKET .  
+(a)  Any case of a type described under par. (b) that is filed in a circuit court in which 
+a commercial court docket has been established shall be assigned to the commercial 
+court docket as provided under sub. (7).
+(b)  The commercial court shall have jurisdiction over all of the following types 
+of cases:
+1.  Cases involving the governance or internal affairs of business 
+organizations, including all of the following:
+a.  Claims between or among owners or constituents of a business 
+organization.
+b.  Claims against officers, directors, or managers of a business organization.
+c.  Claims involving the indemnity of owners, officers, directors, or managers 
+of a business organization.
+d.  Claims involving the interpretation of the rights and obligations under the 
+law governing business organizations, such as chs. 178 to 181, 183, 185, 204, 214, 
+215, and 221 to 223, or any similar statute or law from another jurisdiction.
+e.  Claims involving the interpretation of the rights and obligations under any 
+agreement governing a business organization, such as the articles of incorporation, 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 73- 7 - LRB-1313/1
+SWB:emw
+SECTION  1
+bylaws, operating agreements, membership agreements, or partnership agreement 
+of the business organization.
+2.  Cases involving tortious or statutorily prohibited business activity, unfair 
+competition, or antitrust, including all of the following:
+a.  Claims under ch. 133.
+b.  Claims under s. 100.30 (5m) or (5r).
+c.  Claims under s. 134.01.
+d.  Claims of tortious interference with a business organization.
+e.  Claims involving restrictive covenants and agreements not to compete or 
+solicit.
+f.  Claims involving confidentiality agreements.
+3.  Cases involving the sale, consolidation, or merger of a business 
+organization or the conversion, share exchange, or sale of substantially all of the 
+assets of a business organization.
+4.  Cases involving the issuance, sale, or transfer of securities, including 
+claims for securities fraud under ch. 551, or any similar statute or law from another 
+jurisdiction.
+5.  Cases involving intellectual property rights, including all of the following:
+a.  Claims to determine the use, ownership, or status of trademarks, trade 
+secrets, or copyrights.
+b.  Claims under s. 134.90.
+c.  Claims involving any agreement relating to the licensing of any intellectual 
+property right, including patent rights.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 73- 8 - LRB-1313/1
+SWB:emw
+SECTION  1
+6.  Cases involving the relationship between a franchisor and franchisee or 
+similar distribution relationship, including all of the following:
+a.  Claims arising from ch. 135 or any similar statute or law from another 
+jurisdiction.
+b.  Claims arising from s. 134.93 or any similar statute or law from another 
+jurisdiction.
+c.  Claims arising from ch. 553 or any similar statute or law from another 
+jurisdiction.
+7.  Cases involving claims or disputes under ch. 402, 403, 404, 405, or 409, or 
+any similar statute or law from another jurisdiction, when the amount in 
+controversy exceeds $100,000, exclusive of interest, costs, and attorney fees.
+8.  Cases involving receiverships in excess of $250,000.
+9.  Cases involving confirmation of arbitration awards and compelling or 
+enforcing arbitration awards when the amount in controversy exceeds $100,000.
+10.  Cases involving commercial real estate construction disputes when the 
+amount in controversy exceeds $250,000.
+(5)  DISCRETIONARY  ASSIGNMENT  OF CASES  TO THE COMMERCIAL  COURT  
+DOCKET .  (a)  In addition to the cases identified under sub. (4) and that are not 
+otherwise excluded under sub. (6), parties to a case in a judicial administrative 
+district in which there is a commercial court docket may jointly move the chief judge 
+of that judicial administrative district for discretionary assignment of the case to 
+that commercial court docket.  If the motion for discretionary assignment is 
+granted, the case may be assigned to a commercial court docket.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 73- 9 - LRB-1313/1
+SWB:emw
+SECTION  1
+(b)  In deciding a motion for discretionary assignment of a case to a 
+commercial court docket, the chief judge of the encompassing judicial 
+administrative district shall consider the parties to the dispute, the nature of the 
+dispute, the complexity of the issues presented, and whether the commercial court [s 
+resolution of the case will provide needed guidance to influence future commercial 
+behavior or assist in resolving future disputes.  The decision granting or denying a 
+motion for a discretionary assignment of a case to a commercial court docket is final 
+and nonappealable.
+(6)  INELIGIBLE  CASE  TYPES .  The following cases may not be assigned to the 
+commercial court docket:
+(a)  Cases involving small claims under ch. 799.
+(b)  Cases involving a governmental entity or political subdivision seeking to 
+enforce a statutory or regulatory restriction or prohibition.
+(c)  Unless the claim or dispute identified in this subsection is ancillary and 
+incidental to a case assigned to the commercial court docket under sub. (4), cases 
+involving a consumer contract or transaction; disputes between landlords and 
+tenants; domestic relations claims; labor claims; receivership, insolvency, or 
+liquidation cases, except as provided in sub. (4) (b) 8.; malpractice claims; personal 
+injury claims; product liability claims; civil rights claims; tax disputes; cases 
+seeking to compel arbitration or to affirm or disaffirm an arbitration award, except 
+as provided in sub. (4) (b) 9.; construction claims, except as provided in sub. (4) (b) 
+10.; or environmental claims.
+(7)  IDENTIFICATION  AND ASSIGNMENT  OF CASES  TO COMMERCIAL  COURT  1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 73- 10 - LRB-1313/1
+SWB:emw
+SECTION  1
+DOCKET .  (a)  Plaintiff duties .  At the time of the filing of the complaint under s. 
+801.02 (1), the plaintiff in a civil action shall state on the face of the complaint 
+whether the case qualifies for the commercial court docket under sub. (4) and is not 
+ineligible for assignment under sub. (6).
+(b)  Clerk of court duties .  1.  For cases filed in which a circuit court judge in 
+that county has already been assigned a commercial court docket, the clerk of court 
+shall assign the case to the commercial court docket and to one of the judges 
+designated for the commercial court docket.  In the event of a request for judicial 
+substitution, the case shall be transferred to another circuit court judge who is 
+assigned to the commercial court docket in that judicial administrative district.
+2.  Within a judicial administrative district participating in the commercial 
+court docket, but in which no circuit court judge has been assigned to the 
+commercial court docket, upon the filing of a qualifying case, the clerk of court shall 
+notify the chief judge of the encompassing judicial administrative district, and the 
+chief judge shall assign one of the commercial court docket judges from the other 
+counties in the judicial administrative district.  The chief judge [s selection shall be 
+made pursuant to s. 751.03 (3).  In the event a request for substitution is filed 
+regarding the judge chosen by the chief judge of the encompassing judicial 
+administrative district, the chief judge shall then assign another judge from the 
+judicial administrative district who has been appointed for commercial court cases.
+(c)  Omission by plaintiff; defendant [s and 3rd-party defendant [s rights and 
+prerogatives of the circuit court .  In the event the duties set forth in par. (a) are not 
+met, the circuit court may sua sponte, or upon a motion filed by a defendant or a 3rd 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 73- 11 - LRB-1313/1
+SWB:emw
+SECTION  1
+party with his or her or its responsive pleading or responsive motion, order the 
+transfer of a case to the commercial court docket if the court determines that the 
+case meets the mandatory criteria of sub. (4) and is not ineligible for assignment 
+under sub. (6).
+(d)  Action number assignment .  On assignment of any matter to the 
+commercial court docket, the matter shall retain the civil action number assigned to 
+it by the clerk of court upon the filing of the complaint.
+(8)  DISPUTES  REGARDING  ASSIGNMENTS  OF CASES  TO THE COMMERCIAL  COURT  
+DOCKET .  (a)  Contesting the assignment of a case to the commercial court docket .  1.  
+After assignment of a case to the commercial court docket, the judge assigned to the 
+case may sua sponte, or upon motion of any party, reconsider whether assignment 
+of that case to the commercial court docket is appropriate under the requirements 
+of sub. (4) and is not ineligible for assignment under sub. (6).  Any party filing a 
+reconsideration motion under this paragraph shall file the motion no later than the 
+earlier of the following:
+a.  Before any judicial ruling is rendered on any issue of material substance in 
+the case.
+b.  Twenty days after the case is assigned to the commercial court docket.
+2.  If the assigned commercial court judge concludes that the case does not 
+qualify for assignment to the commercial court docket, the judge shall return the 
+case to the general civil case docket.
+(b)  Review .  Any party aggrieved by the outcome of a motion for 
+reconsideration under par. (a) may request the chief judge of the judicial 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 73- 12 - LRB-1313/1
+SWB:emw
+SECTION  1
+administrative district in which the commercial court sits to review the 
+reconsideration decision.  A decision by the chief judge of the judicial administrative 
+district resolving the question of which docket shall be assigned the case is final and 
+nonappealable.
+(9)  TRANSFERRING  A CASE  TO A COMMERCIAL  COURT  DOCKET .  (a)  Parties from 
+judicial administrative districts that do not have a dedicated commercial court 
+docket may petition to have their cases administered within a commercial court 
+docket.  To facilitate consideration of such petitions, the director of state courts 
+shall periodically designate a district court administrator to be the court 
+administrative officer for the commercial court docket and shall also designate a 
+circuit court judge serving as a commercial court judge at the time of designation to 
+be the supervising commercial court judge.
+(b)  Parties described under par. (a) may jointly petition for transfer of a case to 
+a commercial court docket if all of the following are true:
+1.  The case is a type identified in sub. (4) and is not ineligible for assignment 
+to a commercial court docket under sub. (6).
+2.  The parties agree to use the forms and procedures developed for use in the 
+commercial court docket.
+3.  The parties agree that all proceedings will be conducted in the courtroom of 
+the judge to which the case is assigned under par. (c), except that if the case 
+proceeds to trial, the trial will be conducted in the county where the case was 
+originally filed.
+(c)  The procedure for a joint petition for transfer shall be as follows:1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 73- 13 - LRB-1313/1
+SWB:emw
+SECTION  1
+1.  When parties petition for the transfer of a commercial court case from a 
+district that does not then have a commercial court docket, they shall file that 
+petition with the clerk of court in the county where the case is originally filed and 
+also file a copy of that petition with the court administrative officer designated by 
+the director of state courts.  The supervising commercial court judge shall 
+determine where the case should be transferred based upon workload and the 
+reasonable convenience of the parties and shall confer with the chief judge of that 
+judicial administrative district as to which commercial court judge is best able to 
+accept that additional workload assignment.  The parties requesting the 
+assignment to the commercial court docket shall agree that the judge assigned to 
+the case may direct that all matters, other than trial, be held either in the assigned 
+judge[s home courtroom or by electronic means.  Trials shall be held in the county in 
+which the case was originally filed.  The clerk of the circuit court of the county 
+where the case was originally filed shall continue to be responsible to accept filings, 
+clerk on the record proceedings, and perform all other duties applicable to that case.  
+Any judgments rendered as a result of such proceedings shall be docketed in the 
+county in which the matter was originally filed, and any appeal shall be made to the 
+court of appeals in the appellate district where the case was originally filed.
+2.  The supervising commercial court docket judge shall consider the caseload 
+of the judges designated for the commercial court docket, the nature of the case for 
+which the petition was submitted, and the work requirements for cases already 
+pending in the commercial court docket when determining whether to allow the 
+transfer of a case under this paragraph.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 73- 14 - LRB-1313/1
+SWB:emw
+SECTION  1
+3.  The supervising commercial court docket judge shall, upon allowing a 
+transfer, assign the case to the commercial court docket and to one of the judges 
+designated for the commercial court docket in a participating judicial 
+administrative district.
+4.  In the event of a request for judicial substitution in a case transferred under 
+this subsection and assigned to the commercial court docket, the chief judge of the 
+judicial administrative district in which the assignment is made shall then assign 
+another judge from the judicial administrative district who has been appointed for 
+commercial court cases.
+(d)  No party may withdraw a request for transfer to the commercial court 
+docket after a judicial assignment has been made under par. (c).
+(END)1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12

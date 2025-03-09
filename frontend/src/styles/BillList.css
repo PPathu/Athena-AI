@@ -1,0 +1,29 @@
+.bill-card {
+    background: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bill-card h3 {
+    font-size: 18px;
+  }
+  
+  .bill-card p {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .bill-card button {
+    background-color: #e57373;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bill-card button:hover {
+    background-color: #d32f2f;
+  }
+  

@@ -1,0 +1,234 @@
+2025 - 2026  LEGISLATURELRB-1605/1
+CMH:emw
+2025 ASSEMBLY BILL 66
+February 24, 2025 - Introduced by Representatives B. J ACOBSON , BEHNKE , BRILL, 
+DITTRICH , DONOVAN , DUCHOW , GUNDRUM , KNODL , KREIBICH , KRUG, MOSES , 
+MURPHY , MURSAU  and WICHGERS , cosponsored by Senators HUTTON , NASS 
+and TOMCZYK . Referred to Committee on Judiciary. 
+ 
+  ***AUTHORS SUBJECT TO CHANGE***
+AN ACT to repeal  971.37; to amend  20.410 (1) (gL), 20.437 (1) (hh), 814.75 (8), 
+814.75 (8m), 814.76 (6), 814.80 (6), 814.81 (6), 971.38 (1) and 971.39 (1) 
+(intro.); to create  967.056 and 968.075 (7) (c) of the statutes; relating to:   
+dismissing or amending certain criminal charges and deferred prosecution 
+agreements for certain crimes.
+Analysis by the Legislative Reference Bureau
+Under current law, a prosecutor may dismiss or amend a criminal charge 
+without approval from the court.  Under this bill, a prosecutor must get the court [s 
+approval to dismiss or amend a charge if the charge is for any of the following:  1) a 
+crime of domestic abuse or a violation of a domestic violence temporary restraining 
+order or injunction; 2) theft of an automobile; 3) a crime of abuse of an individual at 
+risk or a violation of an individual-at-risk TRO or injunction; 4) first-degree, 
+second-degree, or third-degree sexual assault; 5) a crime against a child; 6) illegal 
+possession of a firearm if the person has been convicted of, adjudicated delinquent 
+for, or found not guilty by reason of mental disease or defect of, committing, 
+soliciting, conspiring, or attempting to commit a violent felony, as defined under 
+current law; or 7) reckless driving that results in great bodily harm.  The court may 
+approve the dismissal or amendment of such a charge only if the court finds the 1
+2
+3
+4
+52025 - 2026  Legislature
+ASSEMBLY BILL 66- 2 - LRB-1605/1
+CMH:emw
+SECTION  1
+action is consistent with the public [s interest in deterring the commission of these 
+crimes and with the legislature [s intent, expressed in this bill, to vigorously 
+prosecute individuals who commit these crimes.  If the court approves any 
+dismissal or amendment in a year, the court must submit an annual report to the 
+legislature detailing each approval.
+Current law allows a prosecutor to enter into a deferred prosecution 
+agreement with a defendant who is charged or may be charged with a crime.  
+Generally, under a deferred prosecution agreement, the prosecutor agrees to 
+dismiss a charge or not file a charge if the defendant complies with specified 
+conditions.  In addition, current law provides specific criteria for a deferred 
+prosecution agreement if the defendant is or may be charged with child sexual 
+abuse if the defendant is the parent of, the guardian of, a close relative of, or 
+residing with the child; with a crime of domestic violence; or with a violation of a 
+domestic violence TRO or injunction.  Current law also prohibits a prosecutor from 
+entering into a deferred prosecution agreement with a defendant who is charged or 
+may be charged with operating a vehicle while under the influence of an intoxicant 
+or a controlled substance, causing injury to another while operating a vehicle while 
+under the influence, or homicide by intoxicated use of a vehicle.  The bill prohibits a 
+prosecutor from entering into a deferred prosecution agreement with a defendant if 
+a complaint or information is filed that alleges the person committed any of the 
+same crimes listed in items 1 to 7 above.
+The people of the state of Wisconsin, represented in senate and assembly, do 
+enact as follows:
+SECTION  1.  20.410 (1) (gL) of the statutes is amended to read:
+20.410 (1) (gL)  Global positioning system tracking devices for certain violators 
+of restraining orders.   All moneys received under s. 301.49 (5) and all moneys 
+received from the global positioning system tracking surcharge on court fines, as 
+authorized under s. 971.37 (1m) (c) 1. or 973.057, for expenditures related to the 
+global positioning system tracking program under s. 301.49.  If the unencumbered 
+balance in this appropriation account exceeds $100,000 immediately before the end 
+of any fiscal year, the department of corrections shall transfer the excess to the 
+appropriation account under s. 20.437 (1) (hh) at the end of that fiscal year.
+SECTION  2.  20.437 (1) (hh) of the statutes is amended to read:1
+2
+3
+4
+5
+6
+7
+8
+9
+102025 - 2026  Legislature
+ASSEMBLY BILL 66- 3 - LRB-1605/1
+CMH:emw
+SECTION  2
+20.437 (1) (hh)  Domestic abuse surcharge grants.   All moneys received from 
+the domestic abuse surcharge on court fines, as authorized under s. 971.37 (1m) (c) 
+1. or 973.055, to provide grants to domestic abuse services organizations under s. 
+49.165.
+SECTION  3.  814.75 (8) of the statutes is amended to read:
+814.75 (8)  The domestic abuse surcharge under s. 971.37 (1m) (c) 1. or 
+973.055.
+SECTION  4.  814.75 (8m) of the statutes is amended to read:
+814.75 (8m)   The global positioning system tracking surcharge under s. 
+971.37 (1m) (c) 1. or 973.057.
+SECTION  5.  814.76 (6) of the statutes is amended to read:
+814.76 (6)  The domestic abuse surcharge under s. 971.37 (1m) (c) 1. or 
+973.055.
+SECTION  6.  814.80 (6) of the statutes is amended to read:
+814.80 (6)  The domestic abuse surcharge under s. 971.37 (1m) (c) 1. or 
+973.055.
+SECTION  7.  814.81 (6) of the statutes is amended to read:
+814.81 (6)  The domestic abuse surcharge under s. 971.37 (1m) (c) 1. or 
+973.055.
+SECTION  8.  967.056 of the statutes is created to read:
+967.056   Prosecution of certain crimes.   (1)  INTENT .  The legislature 
+intends to encourage the vigorous prosecution of persons who commit offenses that 
+are covered crimes.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 66- 4 - LRB-1605/1
+CMH:emw
+SECTION  8
+(2)  DEFINITION .  In this section, Xcovered crime Y means any of the following:
+(a)  An act of domestic abuse, as defined in s. 968.075 (1) (a), that constitutes 
+the commission of a crime or a violation of a temporary restraining order or 
+injunction issued under s. 813.12.
+(b)  A violation of s. 943.23.
+(c)  A violation of s. 940.198 or 940.285 or a violation of a temporary 
+restraining order or injunction issued under s. 813.123.
+(d)  A violation of s. 940.225 (1), (2), or (3).
+(e)  A crime specified in ch. 948, including a crime specified in s. 948.015.
+(f)  A violation of s. 941.29 (1m) if the individual has been convicted of, 
+adjudicated delinquent for, or found not guilty by reason of mental disease or defect 
+of, committing, soliciting, conspiring, or attempting to commit a violent felony, as 
+defined in s. 941.29 (1g) (a). 
+(g)  A violation of s. 346.62 (4).
+(3)  D ISMISSING  OR AMENDING  CHARGE .  Notwithstanding s. 971.29, if an 
+individual is charged with a covered crime, a prosecutor may not dismiss or amend 
+the charge without the approval of the court.  In the application to the court, the 
+prosecutor shall state the reasons for the proposed amendment or dismissal.  The 
+court may approve the application only if the court finds that the proposed 
+amendment or dismissal is consistent with the public [s interest in deterring the 
+commission of covered crimes and consistent with the legislature [s intent expressed 
+in sub. (1).  If a court approves at least one application in a year, the court shall 
+submit to the appropriate standing committees of the legislature under s. 13.172 (3) 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 66- 5 - LRB-1605/1
+CMH:emw
+SECTION  8
+an annual report detailing each application the court approved that year and how 
+each approval is consistent with the public [s interest and the legislature [s intent.
+(4)  NO DEFERRED  PROSECUTION .  A prosecutor may not place a person in a 
+deferred prosecution program if a complaint or information is filed that alleges the 
+person committed a covered crime or if the person is charged with a covered crime.
+SECTION  9.  968.075 (7) (c) of the statutes is created to read:
+968.075 (7) (c)  A policy indicating how the office may best execute the intent 
+of s. 967.056.
+SECTION  10.  971.37 of the statutes is repealed.
+SECTION  11.  971.38 (1) of the statutes is amended to read:
+971.38 (1)  Except as provided in s. 967.055 (3) or 967.056 (4), the district 
+attorney may require as a condition of any deferred prosecution program for any 
+crime that the defendant perform community service work for a public agency or a 
+nonprofit charitable organization.  The number of hours of work required may not 
+exceed what would be reasonable considering the seriousness of the alleged offense.  
+An order may only apply if agreed to by the defendant and the organization or 
+agency.  The district attorney shall ensure that the defendant is provided a written 
+statement of the terms of the community service order and that the community 
+service order is monitored.
+SECTION  12.  971.39 (1) (intro.) of the statutes is amended to read:
+971.39 (1) (intro.)  Except as provided in s. 967.055 (3) or 967.056 (4), in 
+counties having a population of less than 100,000, if a defendant is charged with a 
+crime, the district attorney, the department and a defendant may all enter into a 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+ASSEMBLY BILL 66- 6 - LRB-1605/1
+CMH:emw
+SECTION  12
+deferred prosecution agreement which includes, but is not limited to, the following 
+conditions:
+SECTION  13. Initial applicability.
+(1)  This act first applies to a complaint, information, or charge filed on the 
+effective date of this subsection.
+(END)1
+2
+3
+4
+5
+6

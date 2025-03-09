@@ -1,3 +1,5 @@
 # Input your key on local computer
-legiscanKey = ''
+LEGISCAN_API_KEY = ''
 userkey = ''
+DATABASE_URL = ''
+GEMINI_API_KEY = ''

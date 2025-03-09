@@ -1,0 +1,163 @@
+2025 - 2026  LEGISLATURELRB-1911/1
+SWB:skw
+2025 SENATE BILL 75
+February 26, 2025 - Introduced by Senators JAMES , NASS, TOMCZYK  and 
+WANGGAARD , cosponsored by Representatives STEFFEN , ALLEN , ARMSTRONG , 
+DITTRICH , GOEBEN , GUNDRUM , KNODL , KREIBICH , MURPHY  and SORTWELL . 
+Referred to Committee on Judiciary and Public Safety.
+AN ACT to amend  801.50 (6) and 814.61 (2) (title); to create  753.067, 801.50 
+(4r) and 814.61 (2) (c) of the statutes; relating to:  venue for actions in which 
+there is a governmental party.
+Analysis by the Legislative Reference Bureau
+This bill provides that when certain governmental parties are parties to or 
+intervene in an action filed in a county in which there is a first or second class city, 
+any party to the action may seek to have the clerk of the circuit court in which the 
+case has been filed assign venue at random.  Under the bill, a governmental party 
+means 1) the legislature, either house of the legislature, or a committee of the 
+legislature or of either house of the legislature, or any member of the legislature 
+acting in his or her official capacity; 2) the elections commission or the ethics 
+commission, or any commissioner thereof, acting in his or her official capacity; or 3) 
+if acting in his or her official capacity, the governor, lieutenant governor, secretary 
+of state, state treasurer, attorney general, or superintendent of public instruction, a 
+secretary or deputy secretary of a department, a commissioner or deputy 
+commissioner of an independent agency, the president or vice president of the 
+United States, or any U.S. senator or representative in Congress from this state.
+The bill provides that if an action is filed in a county in which there is a first or 
+second class city and a governmental party is a party to the action, including as an 
+intervenor, any party to the action has the option to elect random venue 1
+2
+32025 - 2026  Legislature
+SENATE BILL 75- 2 - LRB-1911/1
+SWB:skw
+SECTION  1
+assignment.  A plaintiff seeking to exercise the option for random venue assignment 
+must file a notice not later than five days after the summons and complaint are 
+filed.  If the party seeking to exercise the option for random venue assignment is not 
+the plaintiff, that party must file notice not later than five days after the service of 
+a summons and complaint upon that party.  In an action in which a governmental 
+party files a motion to intervene, the notice must be filed not later than five days 
+after that governmental party [s motion to intervene is granted.
+Under the bill, upon receipt of a notice from a party seeking random venue 
+assignment, the clerk of the circuit court in which the case is filed must select a 
+circuit at random, excluding the circuit in which the case was originally filed, and 
+then assign the selected circuit as the venue for the case.  The clerk of courts for the 
+county where the action was initially filed must notify the clerk of courts for the 
+county where the action is assigned of the venue assignment.  The court to which 
+the action is assigned must then issue an order to notify the parties of the venue 
+assignment.  If a case is assigned under the provisions of the bill, no party may seek 
+to exercise the random venue assignment option again in the case, and neither a 
+court, acting on its own, nor any party or intervenor may move for any subsequent 
+change of venue.
+The people of the state of Wisconsin, represented in senate and assembly, do 
+enact as follows:
+SECTION  1.  753.067 of the statutes is created to read:
+753.067   Actions filed in a 1st or 2nd class city in which there is a 
+governmental party; venue.   (1)  Upon receiving notice under s. 801.50 (4r), the 
+clerk of the circuit court in which the action is filed shall select at random a circuit, 
+excluding the circuit in which the case has been filed, and assign the randomly 
+selected circuit as the venue for the matter.  The clerk of courts for the county where 
+the action was initially filed shall notify the clerk of courts for the county where the 
+action is assigned under this section of the venue assignment.  The court to which 
+the action is assigned shall then issue an order to notify the parties of the venue 
+assignment.  The requirements under s. 801.61 shall apply to cases assigned under 
+this section.1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+112025 - 2026  Legislature
+SENATE BILL 75- 3 - LRB-1911/1
+SWB:skw
+SECTION  1
+(2)  Notwithstanding s. 801.52, once an action has been assigned under this 
+section, the assignment is conclusive. If an action has been assigned under this 
+section, no party may seek to exercise the random venue assignment option again in 
+the case, and neither a court, upon its own motion, nor any party or intervenor may 
+move for any subsequent change of venue.
+SECTION  2.  801.50 (4r) of the statutes is created to read:
+801.50 (4r) (a)  In this subsection, Xgovernmental party Y means any of the 
+following:
+1.  The legislature, either house of the legislature, or a committee of the 
+legislature or of either house of the legislature, or any member of the legislature 
+acting in his or her official capacity.
+2.  The elections commission or the ethics commission, or any commissioner 
+thereof, acting in his or her official capacity.
+3.  Any of the following, acting in his or her official capacity:
+a.  The governor, lieutenant governor, secretary of state, state treasurer, 
+attorney general, or superintendent of public instruction, a secretary or deputy 
+secretary of a department, or a commissioner or deputy commissioner of an 
+independent agency.
+b.  The president or vice president of the United States, or any U.S. senator or 
+representative in Congress from this state.
+(b)  In any action in which a governmental party is a party, including as an 
+intervenor, and that is filed in a county in which there is a 1st or 2nd class city, any 
+party shall have the option to elect random venue assignment as described under s. 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+232025 - 2026  Legislature
+SENATE BILL 75- 4 - LRB-1911/1
+SWB:skw
+SECTION  2
+753.067.  Venue shall be as provided in s. 753.067 if any party to an action of the 
+type described in this paragraph notifies the clerk of the circuit court in which the 
+action has been filed in writing that the party seeks to exercise the option for 
+random venue assignment as follows:
+1.  If the party seeking to exercise the option for random venue assignment is 
+the plaintiff, not later than 5 days after the summons and complaint are filed, or, if 
+the party seeking to exercise the option for random venue assignment is not the 
+plaintiff, not later than 5 days after the service of a summons and complaint upon 
+that party.
+2.  In an action in which a governmental party files a motion to intervene, not 
+later than 5 days after that governmental party [s motion to intervene is granted.
+SECTION  3.  801.50 (6) of the statutes is amended to read:
+801.50 (6)  Venue Except as provided under s. 753.067 (2), venue under this 
+section may be changed under s. 801.52.
+SECTION  4.  814.61 (2) (title) of the statutes is amended to read:
+814.61 (2) (title)  C HANGE  OF VENUE ; RANDOM  VENUE  ASSIGNMENT .
+SECTION  5.  814.61 (2) (c) of the statutes is created to read:
+814.61 (2) (c)  A fee as set forth in par. (a) if a party exercises the option under 
+s. 801.50 (4r) for random venue assignment.
+(END)1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
