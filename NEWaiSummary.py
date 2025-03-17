@@ -41,6 +41,41 @@ def fetchBillDetails(billID):
 
     return bill
 
+
+#TODO: revised prompt. 
+def createPromptV2(bill):
+    """Generate AI prompt for summarization"""
+    title, description, status, status_date, last_action, last_action_date, url = bill
+
+    #ensure no field is None
+    title = title or "Unknown Title"
+    description = description or "No description available"
+    status = status or "Unknown Status"
+    status_date = status_date or "N/A"
+    last_action = last_action or "Unknown Last Action"
+    last_action_date = last_action_date or "N/A"
+    url = url or "No URL"
+
+    prompt = (
+        "You are an expert in legislative analysis and plain language translation.\n"
+        "Your task is to simplify and summarize legislative bills in a clear, concise, and accessible way for the general public.\n"
+        "If there are keywords that are only legislatures would understand, translate them into something the general public would understand.\n\n"
+        "The summary must maintain factual accuracy.\n"
+        "At the end of the summary, your response should also contain bullet points on: each of the bills attributes(status, lasat action, url), its key purpose, potential impacts, and if relevant, mention which topics or policy areas it addresses.\n"
+        "Also, dont make your response have any italic, bolded, or underlined words.\n"
+        "If the bill has any unkown data, do not summarize it, and just provide the user with the url. If there is no url, just respond with 'not enough bill information at the moment'.\n"
+        f"Here it the Bill Information:\n"
+        f"Title: {title}\n"
+        f"Description: {description}\n"
+        f"Status: {status} (as of {status_date})\n"
+        f"Last Action: {last_action} (on {last_action_date})\n"
+        f"URL: {url}\n\n"
+    )
+    return prompt
+
+
+
+
 def createPromptV1(bill):
     """Generate AI prompt for summarization"""
     title, description, status, status_date, last_action, last_action_date, url = bill
@@ -74,7 +109,7 @@ def createPromptV1(bill):
     )
     return prompt
 
-def generateAiSummary(billID):
+def generateAiSummary(billID, createPrompt):
     """Fetch bill details, generate summary using AI, and store result"""
     dotenv_path = find_dotenv()
     if not load_dotenv(dotenv_path):
@@ -100,7 +135,7 @@ def generateAiSummary(billID):
     bill = fetchBillDetails(billID)
 
     #generate prompt
-    prompt = createPromptV1(bill)
+    prompt = createPrompt(bill)
 
     #call Gemini API
     try:
@@ -112,6 +147,7 @@ def generateAiSummary(billID):
             print(f"Gemini response was empty for Bill ID {billID}")
     except Exception as e:
         print(f"failed to get response from Gemini: {e}")
+
 
 def connectSupabase():
     """Establish database connection"""
@@ -174,17 +210,19 @@ if __name__ == "__main__":
     connectSupabase()
     
     #generate AI summary for a sample bill
-    response = supabase.table("bills").select("*").execute()
-    if response.data:
-        print("responses exist")
-        for bill in response.data:
-            billID = bill.get("billid")
-            print(billID)
-            if billID:
-                print("billID exists")
-                generateAiSummary(billID)
-                print("generated billID {billID}")
+    # response = supabase.table("bills").select("*").execute()
+    # if response.data:
+    #     print("responses exist")
+    #     for bill in response.data:
+    #         billID = bill.get("billid")
+    #         print(billID)
+    #         if billID:
+    #             print("billID exists")
+    #             generateAiSummary(billID)
+    #             print("generated billID {billID}")
     #bill_id_to_summarize = "1968867"
     #generateAiSummary(bill_id_to_summarize)
+
+    generateAiSummary("1968867", createPromptV2)
 
     disconnectSupabase()
