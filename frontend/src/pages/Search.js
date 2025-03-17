@@ -2,41 +2,73 @@ import React, { useState, useEffect } from "react";
 import supabase from "../utils/supabase";
 import "../styles/styles.css";
 
+function toTitleCase(str) {
+  if (!str) return "";
+  return str.replace(/\w\S*/g, (txt) => {
+    return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
+  });
+}
+
+function capitalizeSentences(text) {
+  if (!text) return "";
+  // split on sentence-ending punctuation + whitespace
+  const sentences = text.split(/(?<=[.!?])\s+/);
+  const capitalized = sentences.map((sentence) => {
+    const trimmed = sentence.trim();
+    if (!trimmed) return "";
+    return trimmed.charAt(0).toUpperCase() + trimmed.slice(1);
+  });
+  return capitalized.join(" ");
+}
+
+function formatAiSummary(rawText) {
+  if (!rawText) return "No AI summary available.";
+  //replace double-asterisks with <strong> tags
+  let processed = rawText.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  processed = capitalizeSentences(processed);
+  return processed;
+}
+
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [bills, setBills] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [expandedBill, setExpandedBill] = useState(null);
   const [page, setPage] = useState(1);
-  const billsPerPage = 6; // Adjust how many bills per page
+  const [selectedBill, setSelectedBill] = useState(null);
+  const billsPerPage = 6;
 
-  // Fetch bills from Supabase, joining with AI summaries
+  //helper to get a short summary from the bill description
+  const getTwoSentenceSummary = (text) => {
+    if (!text) return "No description available.";
+    //capitalize each sentence, then only take the first two
+    const capitalized = capitalizeSentences(text);
+    const sentences = capitalized.split(/(?<=[.!?])\s+/);
+    return sentences.slice(0, 2).join(" ");
+  };
+
   const fetchBills = async () => {
     setLoading(true);
     setError("");
 
     try {
-      console.log("🔎 Searching for:", searchTerm);
-
+      console.log("Searching for:", searchTerm);
       let query = supabase
         .from("enhanceddata")
-        .select(
-          "*, ai_summaries_enhanced:ai_summaries_enhanced(response)" // Join ai_summaries_enhanced by aliasing it
-        )
+        .select("*, ai_summaries_enhanced:ai_summaries_enhanced(response)")
         .range((page - 1) * billsPerPage, page * billsPerPage - 1);
 
       if (searchTerm.trim()) {
-        query = query.ilike("title", `%${searchTerm}%`); // Case-insensitive search
+        query = query.ilike("title", `%${searchTerm}%`);
       }
 
       const { data, error } = await query;
       if (error) throw error;
 
-      console.log("✅ Bills from Supabase:", data);
+      console.log("Bills from Supabase:", data);
       setBills(data);
     } catch (err) {
-      console.error("❌ Supabase Fetch Error:", err);
+      console.error("Supabase fetch error:", err);
       setError("Failed to fetch bills. Please try again.");
     } finally {
       setLoading(false);
@@ -44,12 +76,30 @@ const Search = () => {
   };
 
   useEffect(() => {
-    fetchBills(); // Fetch bills when page changes
+    fetchBills();
   }, [page]);
 
-  // Toggle bill details view
-  const toggleBillDetails = (billId) => {
-    setExpandedBill(expandedBill === billId ? null : billId);
+  const openModal = (bill) => {
+    setSelectedBill(bill);
+  };
+
+  const closeModal = () => {
+    setSelectedBill(null);
+  };
+
+  // Example sponsor info (replace with real sponsor logic or DB columns)
+  const getSponsorsForBill = (bill) => {
+    // In your JSON, you have sponsor_name, sponsor_party, sponsor_role, etc.
+    // You can store them in the DB or compute them from the AI summary.
+    if (!bill.sponsor_name) {
+      return [];
+    }
+    return [
+      {
+        name: capitalizeSentences(bill.sponsor_name),
+        party: bill.sponsor_party?.toUpperCase() || "Unknown",
+      },
+    ];
   };
 
   return (
@@ -70,55 +120,115 @@ const Search = () => {
 
       <div className="bill-list">
         {bills.length > 0 ? (
-          bills.map((bill) => (
-            <div key={bill.id} className="bill-card">
-              <h3>{bill.title}</h3>
-              <p className="bill-description">
-                {bill.description && bill.description.length > 100
-                  ? `${bill.description.substring(0, 100)}...`
-                  : bill.description || "No description available"}
-              </p>
-              <p className="bill-summary">
-              <strong>AI Summary:</strong>
-              <br />
-              {bill.ai_summaries_enhanced?.[0]?.response &&
-              !bill.ai_summaries_enhanced[0].response.includes("Since the title and description of the bill are unknown")
-                ? bill.ai_summaries_enhanced[0].response
-                    .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>") // Convert markdown **bold** to HTML <strong>
-                    .replace(/\n/g, "<br />") // Ensure proper spacing between paragraphs
-                    .replace(/\* (.*?)/g, "• $1") // Convert markdown * bullet points to •
-                : "No AI summary available"}
-            </p>
+          bills.map((bill) => {
+            const shortSummary = getTwoSentenceSummary(bill.description);
+            // Convert the bill title to title case
+            const displayedTitle = toTitleCase(bill.title);
 
-
-
-              <button onClick={() => toggleBillDetails(bill.id)}>
-                {expandedBill === bill.id ? "Show Less" : "Read More"}
-              </button>
-
-              {expandedBill === bill.id && (
-                <div className="bill-details">
-                  <p><strong>Status:</strong> {bill.status}</p>
-                  <p><strong>Last Action:</strong> {bill.last_action}</p>
-                  <p><strong>History:</strong> {bill.history}</p>
-                  <p><strong>Full Summary:</strong> {bill.ai_summaries_enhanced?.[0]?.response || "No AI summary available"}</p>
-                  <a href={bill.url} target="_blank" rel="noopener noreferrer">
-                    View Full Bill
-                  </a>
-                </div>
-              )}
-            </div>
-          ))
+            return (
+              <div key={bill.id} className="bill-card">
+                <h3>{displayedTitle}</h3>
+                <p className="bill-description">{shortSummary}</p>
+                <button className="learn-more-btn" onClick={() => openModal(bill)}>
+                  Learn More
+                </button>
+              </div>
+            );
+          })
         ) : (
           <p className="no-results">No matching bills found.</p>
         )}
       </div>
 
-      {/* Pagination controls */}
       <div className="pagination">
-        {page > 1 && <button onClick={() => setPage(page - 1)}>Previous</button>}
-        {bills.length === billsPerPage && <button onClick={() => setPage(page + 1)}>Next</button>}
+        {page > 1 && (
+          <button onClick={() => setPage(page - 1)}>Previous</button>
+        )}
+        {bills.length === billsPerPage && (
+          <button onClick={() => setPage(page + 1)}>Next</button>
+        )}
       </div>
+
+      {/* Modal */}
+      {selectedBill && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <button onClick={closeModal} className="close-btn">
+              &times;
+            </button>
+
+            {/* Title (in Title Case) */}
+            <h2>{toTitleCase(selectedBill.title)}</h2>
+
+            {/* Official Description */}
+            <div className="official-description">
+              <h4>Official Description</h4>
+              <p>{capitalizeSentences(selectedBill.description)}</p>
+            </div>
+
+            {/* Bill Status */}
+            <div className="status-details">
+              <p>
+                <strong>Bill Status:</strong> {selectedBill.status || "N/A"}
+              </p>
+              <p>
+                <strong>Last Action:</strong> {selectedBill.last_action || "N/A"}
+              </p>
+            </div>
+
+            {/* AI Summary */}
+            <div className="ai-summary">
+              <h4>AI Summary</h4>
+              {selectedBill.ai_summaries_enhanced?.[0]?.response ? (
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: formatAiSummary(selectedBill.ai_summaries_enhanced[0].response),
+                  }}
+                />
+              ) : (
+                <p>No AI summary available.</p>
+              )}
+            </div>
+
+            {/* Sponsors */}
+            <div className="sponsors">
+              <h4>Sponsor Information</h4>
+              <table className="sponsors-table">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Party</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {getSponsorsForBill(selectedBill).map((s, idx) => (
+                    <tr key={idx}>
+                      <td>{s.name}</td>
+                      <td>{s.party}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {/* History */}
+            <div className="bill-history">
+              <h4>History</h4>
+              <p>{selectedBill.history || "No history available."}</p>
+            </div>
+
+            {/* Full Bill Link */}
+            <a
+              href={selectedBill.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="view-full-bill-link"
+            >
+              View Full Bill
+            </a>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
