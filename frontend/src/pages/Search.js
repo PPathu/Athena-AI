@@ -100,7 +100,23 @@ const Search = () => {
                 <div className="bill-details">
                   <p><strong>Status:</strong> {bill.status}</p>
                   <p><strong>Last Action:</strong> {bill.last_action}</p>
-                  <p><strong>History:</strong> {bill.history}</p>
+                  <div>
+                    <strong>History:</strong>
+                    <ul className="bill-history-list">
+                      {bill.history.split(";").map((entry, idx) => {
+                        // Split "YYYY-MM-DD - Some text" into [date, restOfLine]
+                        const [datePart, ...rest] = entry.trim().split(" - ");
+                        return (
+                          <li key={idx}>
+                            <span className="bill-history-date">{datePart}</span>
+                            <span className="bill-history-description">
+                              {rest.join(" - ")}
+                            </span>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
                   <p><strong>Full Summary:</strong> {bill.ai_summaries_enhanced?.[0]?.response || "No AI summary available"}</p>
                   <a href={bill.url} target="_blank" rel="noopener noreferrer">
                     View Full Bill
