@@ -41,6 +41,36 @@ def fetchBillDetails(billID):
 
     return bill
 
+def createPromptV2(bill):
+    title, description, status, status_date, last_action, last_action_date, url = bill
+
+    #ensure no field is None
+    title = title or "Unknown Title"
+    description = description or "No description available"
+    status = status or "Unknown Status"
+    status_date = status_date or "N/A"
+    last_action = last_action or "Unknown Last Action"
+    last_action_date = last_action_date or "N/A"
+    url = url or "No URL" 
+
+    prompt = (
+        "You are an expert in legislative analysis and plain language translation.\n"
+        "Your task is to simplify and summarize legislative bills in a clear, concise, and accessible way for the general public.\n"
+        "If there are keywords that are only legislatures would understand, translate them into something the general public would understand.\n\n"
+        "The summary must maintain factual accuracy.\n"
+        "At the end of the summary, your response should also contain bullet points on: each of the bills attributes(status, lasat action, url), its key purpose, potential impacts, and if relevant, mention which topics or policy areas it addresses.\n"
+        "Also, dont make your response have any italic, bolded, or underlined words.\n"
+        "If the bill has any unkown data, do not summarize it, and just provide the user with the url. If there is no url, just respond with 'not enough bill information at the moment'.\n"
+        f"Here it the Bill Information:\n"
+        f"Title: {title}\n"
+        f"Description: {description}\n"
+        f"Status: {status} (as of {status_date})\n"
+        f"Last Action: {last_action} (on {last_action_date})\n"
+        f"URL: {url}\n\n"
+    )
+    return prompt
+
+
 def createPromptV1(bill):
     """Generate AI prompt for summarization"""
     title, description, status, status_date, last_action, last_action_date, url = bill
@@ -100,7 +130,8 @@ def generateAiSummary(billID):
     bill = fetchBillDetails(billID)
 
     #generate prompt
-    prompt = createPromptV1(bill)
+    #prompt = createPromptV1(bill)
+    prompt = createPromptV2(bill)
 
     #call Gemini API
     try:

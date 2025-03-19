@@ -2,41 +2,60 @@ import React, { useState, useEffect } from "react";
 import supabase from "../utils/supabase";
 import "../styles/styles.css";
 
+function toTitleCase(str) {
+  if (!str) return "";
+  return str.replace(/\w\S*/g, (txt) => {
+    return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
+  });
+}
+
+function capitalizeSentences(text) {
+  if (!text) return "";
+  const sentences = text.split(/(?<=[.!?])\s+/);
+  return sentences.map(sentence => sentence.charAt(0).toUpperCase() + sentence.slice(1)).join(" ");
+}
+
+function formatAiSummary(rawText) {
+  if (!rawText) return "No AI summary available.";
+  let processed = rawText.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  return capitalizeSentences(processed);
+}
+
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [bills, setBills] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [expandedBill, setExpandedBill] = useState(null);
   const [page, setPage] = useState(1);
-  const billsPerPage = 6; // Adjust how many bills per page
+  const [selectedBill, setSelectedBill] = useState(null);
+  const billsPerPage = 6;
 
-  // Fetch bills from Supabase, joining with AI summaries
+  const getTwoSentenceSummary = (text) => {
+    if (!text) return "No description available.";
+    const capitalized = capitalizeSentences(text);
+    const sentences = capitalized.split(/(?<=[.!?])\s+/);
+    return sentences.slice(0, 2).join(" ");
+  };
+
   const fetchBills = async () => {
     setLoading(true);
     setError("");
 
     try {
-      console.log("🔎 Searching for:", searchTerm);
-
       let query = supabase
         .from("enhanceddata")
-        .select(
-          "*, ai_summaries_enhanced:ai_summaries_enhanced(response)" // Join ai_summaries_enhanced by aliasing it
-        )
+        .select("*, ai_summaries_enhanced:ai_summaries_enhanced(response)")
         .range((page - 1) * billsPerPage, page * billsPerPage - 1);
 
       if (searchTerm.trim()) {
-        query = query.ilike("title", `%${searchTerm}%`); // Case-insensitive search
+        query = query.ilike("title", `%${searchTerm}%`);
       }
 
       const { data, error } = await query;
       if (error) throw error;
 
-      console.log("✅ Bills from Supabase:", data);
       setBills(data);
     } catch (err) {
-      console.error("❌ Supabase Fetch Error:", err);
       setError("Failed to fetch bills. Please try again.");
     } finally {
       setLoading(false);
@@ -44,12 +63,15 @@ const Search = () => {
   };
 
   useEffect(() => {
-    fetchBills(); // Fetch bills when page changes
+    fetchBills();
   }, [page]);
 
-  // Toggle bill details view
-  const toggleBillDetails = (billId) => {
-    setExpandedBill(expandedBill === billId ? null : billId);
+  const openModal = (bill) => {
+    setSelectedBill(bill);
+  };
+
+  const closeModal = () => {
+    setSelectedBill(null);
   };
 
   return (
@@ -72,57 +94,11 @@ const Search = () => {
         {bills.length > 0 ? (
           bills.map((bill) => (
             <div key={bill.id} className="bill-card">
-              <h3>{bill.title}</h3>
-              <p className="bill-description">
-                {bill.description && bill.description.length > 100
-                  ? `${bill.description.substring(0, 100)}...`
-                  : bill.description || "No description available"}
-              </p>
-              <p className="bill-summary">
-              <strong>AI Summary:</strong>
-              <br />
-              {bill.ai_summaries_enhanced?.[0]?.response &&
-              !bill.ai_summaries_enhanced[0].response.includes("Since the title and description of the bill are unknown")
-                ? bill.ai_summaries_enhanced[0].response
-                    .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>") // Convert markdown **bold** to HTML <strong>
-                    .replace(/\n/g, "<br />") // Ensure proper spacing between paragraphs
-                    .replace(/\* (.*?)/g, "• $1") // Convert markdown * bullet points to •
-                : "No AI summary available"}
-            </p>
-
-
-
-              <button onClick={() => toggleBillDetails(bill.id)}>
-                {expandedBill === bill.id ? "Show Less" : "Read More"}
+              <h3>{toTitleCase(bill.title)}</h3>
+              <p className="bill-description">{getTwoSentenceSummary(bill.description)}</p>
+              <button className="learn-more-btn" onClick={() => openModal(bill)}>
+                Learn More
               </button>
-
-              {expandedBill === bill.id && (
-                <div className="bill-details">
-                  <p><strong>Status:</strong> {bill.status}</p>
-                  <p><strong>Last Action:</strong> {bill.last_action}</p>
-                  <div>
-                    <strong>History:</strong>
-                    <ul className="bill-history-list">
-                      {bill.history.split(";").map((entry, idx) => {
-                        // Split "YYYY-MM-DD - Some text" into [date, restOfLine]
-                        const [datePart, ...rest] = entry.trim().split(" - ");
-                        return (
-                          <li key={idx}>
-                            <span className="bill-history-date">{datePart}</span>
-                            <span className="bill-history-description">
-                              {rest.join(" - ")}
-                            </span>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
-                  <p><strong>Full Summary:</strong> {bill.ai_summaries_enhanced?.[0]?.response || "No AI summary available"}</p>
-                  <a href={bill.url} target="_blank" rel="noopener noreferrer">
-                    View Full Bill
-                  </a>
-                </div>
-              )}
             </div>
           ))
         ) : (
@@ -130,11 +106,48 @@ const Search = () => {
         )}
       </div>
 
-      {/* Pagination controls */}
       <div className="pagination">
         {page > 1 && <button onClick={() => setPage(page - 1)}>Previous</button>}
         {bills.length === billsPerPage && <button onClick={() => setPage(page + 1)}>Next</button>}
       </div>
+
+      {selectedBill && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <button onClick={closeModal} className="close-btn">&times;</button>
+            <h2>{toTitleCase(selectedBill.title)}</h2>
+            <div className="official-description">
+              <h4>Official Description</h4>
+              <p>{capitalizeSentences(selectedBill.description)}</p>
+            </div>
+            <div className="status-details">
+              <p><strong>Bill Status:</strong> {selectedBill.status || "N/A"}</p>
+              <p><strong>Last Action:</strong> {selectedBill.last_action || "N/A"}</p>
+            </div>
+            <div className="ai-summary">
+              <h4>AI Summary</h4>
+              <div dangerouslySetInnerHTML={{ __html: formatAiSummary(selectedBill.ai_summaries_enhanced?.[0]?.response || "") }} />
+            </div>
+            <div className="bill-history">
+              <h4>History</h4>
+              <ul className="bill-history-list">
+                {selectedBill.history ? selectedBill.history.split(";").map((entry, idx) => {
+                  const [datePart, ...rest] = entry.trim().split(" - ");
+                  return (
+                    <li key={idx}>
+                      <span className="bill-history-date">{datePart}</span>
+                      <span className="bill-history-description">{rest.join(" - ")}</span>
+                    </li>
+                  );
+                }) : <p>No history available.</p>}
+              </ul>
+            </div>
+            <a href={selectedBill.url} target="_blank" rel="noopener noreferrer" className="view-full-bill-link">
+              View Full Bill
+            </a>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

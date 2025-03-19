@@ -1,0 +1,20 @@
+/* BillCard.css */
+.bill-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+    box-sizing: border-box;
+  }
+  
+  .bill-card h3 {
+    margin-top: 0;
+  }
+  
+  .bill-description,
+  .bill-summary {
+    margin: 0.5rem 0;
+  }
+  
