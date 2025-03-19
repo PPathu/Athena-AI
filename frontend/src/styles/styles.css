@@ -292,10 +292,12 @@ body {
   margin: 4px 0;
 }
 
-.bill-history-list li {
-  display: flex;             
-  margin-bottom: 4px;
+.bill-history-list {
+  list-style: none;
+  padding: 0;
+  margin: 4px 0;
 }
+
 
 .bill-history-date {
   font-weight: bold;
@@ -308,4 +310,5 @@ body {
   white-space: normal;       
   word-wrap: break-word;
   overflow-wrap: break-word;
+
 }
