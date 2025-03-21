@@ -112,32 +112,18 @@ const Search = () => {
       <div className="bill-list">
   {bills.length > 0 ? (
     bills.map((bill) => {
-      // 1) Safely get the AI summary
-      // If ai_summaries_enhanced is an array, use [0]?.desc_response
-      // If it's a single object, use .desc_response
       const aiSummary = bill.ai_summaries_enhanced?.[0]?.desc_response 
                        || bill.ai_summaries_enhanced?.desc_response;
-
-      // 2) Fallback to original description or "No description" if AI summary doesn't exist
       const finalDescription = aiSummary 
         ? aiSummary 
         : bill.description 
           ? bill.description 
           : "No description available";
 
-      // 3) Optionally shorten it for a quick preview
-      const shortDescription =
-        finalDescription.length > 100
-          ? `${finalDescription.substring(0, 100)}...`
-          : finalDescription;
-
       return (
         <div key={bill.id} className="bill-card">
           <h3>{toTitleCase(bill.title)}</h3>
-
-          {/* 4) Use the shortened version, or pass the final description to your helper */}
           <p className="bill-description">
-            {/* If you want 2-sentence AI summary, call your helper with finalDescription */}
             {getTwoSentenceSummary(finalDescription)}
           </p>
 
