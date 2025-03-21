@@ -36,7 +36,7 @@ const Search = () => {
 
   // helper: extract the first two sentences from a bill description
   const getTwoSentenceSummary = (text) => {
-    if (!text) return "No description available.";
+    if (!text) return null;
     const capitalized = capitalizeSentences(text);
     const sentences = capitalized.split(/(?<=[.!?])\s+/);
     return sentences.slice(0, 2).join(" ");
@@ -52,9 +52,7 @@ const Search = () => {
 
       let query = supabase
         .from("enhanceddata")
-        .select(
-          "*, ai_summaries_enhanced:ai_summaries_enhanced(response_simple, response_intermediate, response_persuasive, response_pros_cons, response_tweet)"
-        )
+        .select("*, ai_summaries_enhanced:ai_summaries_enhanced(desc_response, response)") // Fetch both desc_response and response
         .range((page - 1) * billsPerPage, page * billsPerPage - 1);
 
       if (searchTerm.trim()) {
@@ -94,6 +92,7 @@ const Search = () => {
     setSelectedMode(e.target.value);
   };
 
+
   return (
     <div className="search-container">
       <h2>Search Bills</h2>
@@ -111,28 +110,48 @@ const Search = () => {
       {error && <p className="error-message">{error}</p>}
 
       <div className="bill-list">
-        {bills.length > 0 ? (
-          bills.map((bill) => {
-            const shortDescription = bill.description
-              ? bill.description.length > 100
-                ? `${bill.description.substring(0, 100)}...`
-                : bill.description
-              : "No description available";
+  {bills.length > 0 ? (
+    bills.map((bill) => {
+      // 1) Safely get the AI summary
+      // If ai_summaries_enhanced is an array, use [0]?.desc_response
+      // If it's a single object, use .desc_response
+      const aiSummary = bill.ai_summaries_enhanced?.[0]?.desc_response 
+                       || bill.ai_summaries_enhanced?.desc_response;
 
-            return (
-              <div key={bill.id} className="bill-card">
-                <h3>{toTitleCase(bill.title)}</h3>
-                <p className="bill-description">{getTwoSentenceSummary(bill.description)}</p>
-                <button className="learn-more-btn" onClick={() => openModal(bill)}>
-                  Learn More
-                </button>
-              </div>
-            );
-          })
-        ) : (
-          <p className="no-results">No matching bills found.</p>
-        )}
-      </div>
+      // 2) Fallback to original description or "No description" if AI summary doesn't exist
+      const finalDescription = aiSummary 
+        ? aiSummary 
+        : bill.description 
+          ? bill.description 
+          : "No description available";
+
+      // 3) Optionally shorten it for a quick preview
+      const shortDescription =
+        finalDescription.length > 100
+          ? `${finalDescription.substring(0, 100)}...`
+          : finalDescription;
+
+      return (
+        <div key={bill.id} className="bill-card">
+          <h3>{toTitleCase(bill.title)}</h3>
+
+          {/* 4) Use the shortened version, or pass the final description to your helper */}
+          <p className="bill-description">
+            {/* If you want 2-sentence AI summary, call your helper with finalDescription */}
+            {getTwoSentenceSummary(finalDescription)}
+          </p>
+
+          <button className="learn-more-btn" onClick={() => openModal(bill)}>
+            Learn More
+          </button>
+        </div>
+      );
+    })
+  ) : (
+    <p className="no-results">No matching bills found.</p>
+  )}
+</div>
+
 
       {/* Pagination controls */}
       <div className="pagination">
