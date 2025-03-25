@@ -1,0 +1,8 @@
+.env
+node_modules/
+venv/
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+# Ignore virtual environment folders
+env/
