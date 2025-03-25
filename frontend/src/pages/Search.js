@@ -32,6 +32,13 @@ const Search = () => {
   const [selectedBill, setSelectedBill] = useState(null);
   const billsPerPage = 6;
 
+  const getTwoSentenceSummary = (text) => {
+    if (!text) return null;
+    const capitalized = capitalizeSentences(text);
+    const sentences = capitalized.split(/(?<=[.!?])\s+/);
+    return sentences.slice(0, 2).join(" ");
+  };
+  
   const billColorMapping = useRef({});
 
   const fetchBills = async () => {
@@ -41,7 +48,7 @@ const Search = () => {
     try {
       let query = supabase
         .from("enhanceddata")
-        .select("*, ai_summaries_enhanced:ai_summaries_enhanced(response)")
+        .select("*, ai_summaries_enhanced:ai_summaries_enhanced(desc_response, response)") // Fetch both desc_response and response
         .range((page - 1) * billsPerPage, page * billsPerPage - 1);
 
       if (searchTerm.trim()) {
@@ -101,6 +108,12 @@ const Search = () => {
           return (
             <div key={bill.id} className="bill-card">
               <h3>{toTitleCase(bill.title)}</h3>
+              {/* Updated to use desc_response for the description in the bill list */}
+              <p className="bill-description">
+                {getTwoSentenceSummary(bill.ai_summaries_enhanced?.[0]?.desc_response || bill.description)}
+              </p>
+              <button className="learn-more-btn" onClick={() => openModal(bill)}>
+
               <button
                 className="learn-more-btn"
                 onClick={() => openModal(bill)}
