@@ -4,6 +4,7 @@ body {
   background-color: #f5f5f5;
   margin: 0;
   padding: 0;
+  margin-top: 100px;
 }
 
 /* Container for the main search section */
@@ -30,116 +31,201 @@ body {
   margin-bottom: 30px;
 }
 
+/* Input field with rounded corners and focus glow */
 .search-bar input {
   padding: 10px 15px;
   width: 50%;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 24px;
   font-size: 16px;
-  background-color: #e6e6e6;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+.search-bar input:focus {
+  outline: none;
+  border-color: #ffffff;
+  animation: glow 14s infinite;
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 10px #4285F4; }
+  25% { box-shadow: 0 0 10px #DB4437; }
+  50% { box-shadow: 0 0 10px #F4B400; }
+  75% { box-shadow: 0 0 10px #0F9D58; }
+  100% { box-shadow: 0 0 10px #4285F4; }
+}
+
+/* Button with rounded corners and subtle pulse animation */
 .search-bar button {
-  padding: 10px 15px;
-  background: #ccc;
-  color: #000;
+  padding: 10px 20px;
+  background: #4285F4;
+  color: #fff;
   border: none;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 24px;
   font-size: 14px;
-  transition: background 0.2s ease;
+  transition: background 0.3s ease, transform 0.2s ease;
+  animation: pulse 2s infinite;
 }
 
 .search-bar button:hover {
-  background: #bbb;
+  background: #357ae8;
+  transform: scale(1.05);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
 }
 
 /* Bill list: grid layout */
 .bill-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* exactly three columns */
+  grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   margin-bottom: 20px;
   padding: 0 10px;
 }
 
-/* Bill cards */
+/* Keyframes for fadeInUp animation */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 .bill-card {
-  background: #e6e6e6;
-  padding: 15px;
-  border-radius: 6px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  align-items: center;       
+  justify-content: center;   
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin: 1rem auto;
+  max-width: 350px;
+  height: 300px;             
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 1s ease-out;
 }
 
 .bill-card h3 {
   font-size: 16px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   font-weight: 600;
   text-align: center;
-  min-height: 48px; /* ensures titles have some space if they wrap */
+  min-height: 36px; 
+  color: #333; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;     
+  overflow-wrap: break-word; 
+}
+
+.bill-card:hover {
+  transform: translateY(-5px) scale(1.06);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.bill-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background: linear-gradient(90deg, #4285F4, #DB4437, #F4B400, #0F9D58);
+  background-size: 400% 400%;
+  animation: gradientAnimation 16s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .bill-description {
-  color: #333;
-  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* show up to 3 lines */
+  line-clamp: 3; /* standard property for compatibility */
+  -webkit-box-orient: vertical;
   margin-bottom: 15px;
-  flex-grow: 1;
-  text-align: center;
-  line-height: 1.4;
+  font-size: 14px;
+  color: #333;
 }
 
-/* "Learn More" button inside bill card */
+
+/* Learn More button */
 .learn-more-btn {
   background: none;
   border: none;
-  color: #156dfb;
-  text-decoration: underline;
-  cursor: pointer;
+  color: #1700ad;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
   font-size: 14px;
-  margin-top: auto; /* pushes the button to the bottom */
-  align-self: flex-end; /* positions it on the right side */
-  padding: 5px;
+  margin-top: auto;
+  align-self: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.3s ease, background 0.3s ease;
 }
 
 .learn-more-btn:hover {
-  color: #3030f4;
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 
-/* Spacing around the pagination container */
+.learn-more-btn:active {
+  transform: scale(0.95);
+}
+
+/* Pagination */
 .pagination {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 40px;
-  margin-bottom: 40px; /* Added extra bottom spacing */
+  margin-bottom: 40px;
 }
 
-/* Style each pagination button */
 .pagination button {
-  padding: 8px 16px;
-  background: #008CBA;
-  color: #fff;       
+  padding: 10px 20px;
+  background-color: #4285F4;
+  color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Hover effect */
 .pagination button:hover {
-  background: #006f94;
+  background-color: #357ae8;
+  transform: scale(1.05);
 }
 
-/* style the "Next" button */
+.pagination button:active {
+  transform: scale(0.95);
+}
+
 .pagination button:nth-of-type(2) {
-  background: #f39c12; /* Different color for the second (Next) button */
+  background: #f39c12;
 }
 
 .pagination button:nth-of-type(2):hover {
-  background: #d9860e; /* hover shade for the second button */
+  background: #d9860e;
 }
 
 /* Modal Overlay */
@@ -153,7 +239,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 999; /* ensures it appears on top of everything else */
+  z-index: 999;
 }
 
 /* Modal Content */
@@ -162,12 +248,13 @@ body {
   padding: 20px;
   width: 90%;
   max-width: 800px;
-  border-radius: 4px;
+  border-radius: 12px;
   max-height: 90vh;
   overflow-y: auto;
   position: relative;
   text-align: left;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-out;
 }
 
 .modal-content h2 {
@@ -175,23 +262,27 @@ body {
   margin-bottom: 20px;
   text-align: center;
   font-weight: 600;
+  background-color: rgba(128, 128, 128, 0.2); 
+  padding: 10px;
+  border-radius: 8px;
 }
 
-/* Close button inside modal */
+/* Close button */
 .close-btn {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 8px;
+  right: 8px;
   background: none;
   border: none;
-  font-size: 18px;
+  font-size: 25px;
   cursor: pointer;
   font-weight: bold;
+  color: #4285F4;
   transition: color 0.2s ease;
 }
 
 .close-btn:hover {
-  color: #ea1818;
+  color: #ff0000;
 }
 
 /* Bill details inside modal */
@@ -269,7 +360,7 @@ body {
 
 .history-table th,
 .sponsors-table th {
-  background-color: #f5f5f5;
+  background-color: rgba(66, 133, 244, 0.1);
   font-weight: 600;
 }
 
@@ -286,29 +377,181 @@ body {
   color: #d66;
 }
 
-.bill-history-list {
-  list-style: none;
-  padding: 0;
-  margin: 4px 0;
+/* Loader Animation */
+.loader {
+  position: absolute;
+  top: calc(50% - 1.25em);
+  left: calc(50% - 1.25em);
+  width: 2.5em;
+  height: 2.5em;
+  transform: rotate(165deg);
+}
+
+.loader:before,
+.loader:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 0.25em;
+  transform: translate(-50%, -50%);
+}
+
+.loader:before {
+  animation: before8 2s infinite;
+}
+
+.loader:after {
+  animation: after6 2s infinite;
+}
+
+@keyframes before8 {
+  0% {
+    width: 0.5em;
+    box-shadow: 1em -0.5em rgba(66,133,244,0.75), -1em 0.5em rgba(219,68,55,0.75);
+  }
+  35% {
+    width: 2.5em;
+    box-shadow: 0 -0.5em rgba(244,180,0,0.75), 0 0.5em rgba(15,157,88,0.75);
+  }
+  70% {
+    width: 0.5em;
+    box-shadow: -1em -0.5em rgba(66,133,244,0.75), 1em 0.5em rgba(219,68,55,0.75);
+  }
+  100% {
+    box-shadow: 1em -0.5em rgba(66,133,244,0.75), -1em 0.5em rgba(219,68,55,0.75);
+  }
+}
+
+@keyframes after6 {
+  0% {
+    height: 0.5em;
+    box-shadow: 0.5em 1em rgba(244,180,0,0.75), -0.5em -1em rgba(15,157,88,0.75);
+  }
+  35% {
+    height: 2.5em;
+    box-shadow: 0.5em 0 rgba(66,133,244,0.75), -0.5em 0 rgba(219,68,55,0.75);
+  }
+  70% {
+    height: 0.5em;
+    box-shadow: 0.5em -1em rgba(244,180,0,0.75), -0.5em 1em rgba(15,157,88,0,0.75);
+  }
+  100% {
+    box-shadow: 0.5em 1em rgba(244,180,0,0.75), -0.5em -1em rgba(15,157,88,0,0.75);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Better styling for modal sections */
+.modal-section {
+  background-color: rgba(66, 133, 244, 0.1);
+  border: 1px solid rgba(66, 133, 244, 0.3);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.modal-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #4285F4;
+  font-weight: 600;
+}
+
+/* Official Description (Blue) */
+.official-description {
+  background-color: rgba(66, 133, 244, 0.1); 
+  border: 1px solid rgba(66, 133, 244, 0.3);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.official-description h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #4285F4; 
+}
+
+/* AI Summary (Yellow) */
+.ai-summary {
+  background-color: rgba(244, 180, 0, 0.1); 
+  border: 1px solid rgba(244, 180, 0, 0.3);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.ai-summary h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #F4B400;
+}
+
+
+/* Bill status details (Red) */
+.status-details {
+  background-color: rgba(219, 68, 55, 0.1); 
+  border: 1px solid rgba(219, 68, 55, 0.3);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.status-details p,
+.status-details h4 {
+  color: #DB4437; 
+}
+
+/* Table styling inside the modal */
+.history-table,
+.sponsors-table {
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.history-table th,
+.sponsors-table th {
+  background-color: rgba(66, 133, 244, 0.1);
+  font-weight: 600;
+}
+
+.history-table td,
+.sponsors-table td {
+  background-color: #fff;
+}
+
+/* Bill History (Green) */
+.bill-history {
+  background-color: rgba(15, 157, 88, 0.1); 
+  border: 1px solid rgba(15, 157, 88, 0.3);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.bill-history h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #0F9D58;
 }
 
 .bill-history-list {
-  list-style: none;
+  list-style-type: none; 
   padding: 0;
-  margin: 4px 0;
+  margin: 0;
 }
 
+.bill-history-list li {
+  margin-bottom: 8px;
+}
 
 .bill-history-date {
-  font-weight: bold;
-  min-width: 100px;          
-  white-space: nowrap;       
-}
-
-.bill-history-description {
-  margin-left: 8px;
-  white-space: normal;       
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-
+  font-weight: 600;
+  margin-right: 6px;
 }
