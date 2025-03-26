@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import supabase from "../utils/supabase";
 import "../styles/styles.css";
 
-// helper function to convert text to title case
+/** 
+ * Convert a string to Title Case 
+ */
 function toTitleCase(str) {
   if (!str) return "";
   return str.replace(/\w\S*/g, (txt) => {
@@ -10,18 +12,38 @@ function toTitleCase(str) {
   });
 }
 
-// capitalize each sentence
+/** 
+ * Capitalize the first letter of each sentence. 
+ */
 function capitalizeSentences(text) {
   if (!text) return "";
   const sentences = text.split(/(?<=[.!?])\s+/);
-  return sentences.map(sentence => sentence.charAt(0).toUpperCase() + sentence.slice(1)).join(" ");
+  return sentences
+    .map(
+      (sentence) =>
+        sentence.charAt(0).toUpperCase() + sentence.slice(1).toLowerCase()
+    )
+    .join(" ");
 }
 
-// format ai summary (simple formatting)
+/** 
+ * Convert simple Markdown-like bold (**word**) into HTML <strong> 
+ * and then capitalize sentences. 
+ */
 function formatAiSummary(rawText) {
   if (!rawText) return "No AI summary available.";
-  let processed = rawText.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-  return capitalizeSentences(processed);
+  const replaced = rawText.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  return capitalizeSentences(replaced);
+}
+
+/**
+ * Return the first two sentences from some text, capitalizing them.
+ */
+function getTwoSentenceSummary(text) {
+  if (!text) return "No description available.";
+  const capitalized = capitalizeSentences(text);
+  const sentences = capitalized.split(/(?<=[.!?])\s+/);
+  return sentences.slice(0, 2).join(" ");
 }
 
 const Search = () => {
@@ -31,28 +53,27 @@ const Search = () => {
   const [error, setError] = useState("");
   const [page, setPage] = useState(1);
   const [selectedBill, setSelectedBill] = useState(null);
-  const [selectedMode, setSelectedMode] = useState("response_simple");
+  const [selectedMode, setSelectedMode] = useState("response_simple"); // example mode
+
   const billsPerPage = 6;
 
-  // helper: extract the first two sentences from a bill description
-  const getTwoSentenceSummary = (text) => {
-    if (!text) return null;
-    const capitalized = capitalizeSentences(text);
-    const sentences = capitalized.split(/(?<=[.!?])\s+/);
-    return sentences.slice(0, 2).join(" ");
-  };
-
-  // fetch bills from Supabase (including all AI summary columns)
+  /**
+   * Fetch bills from Supabase. We select both the “desc_response” (AI's short 
+   * description) and “response” (longer summary) from the “ai_summaries_enhanced” table. 
+   */
   const fetchBills = async () => {
     setLoading(true);
     setError("");
 
     try {
-      console.log("searching for:", searchTerm);
+      console.log("Searching for:", searchTerm);
 
       let query = supabase
         .from("enhanceddata")
-        .select("*, ai_summaries_enhanced:ai_summaries_enhanced(desc_response, response)") // Fetch both desc_response and response
+        .select(`
+          *,
+          ai_summaries_enhanced:ai_summaries_enhanced(desc_response, response)
+        `) // pulling in both columns
         .range((page - 1) * billsPerPage, page * billsPerPage - 1);
 
       if (searchTerm.trim()) {
@@ -62,10 +83,10 @@ const Search = () => {
       const { data, error } = await query;
       if (error) throw error;
 
-      console.log("bills from supabase:", data);
+      console.log("Bills from Supabase:", data);
       setBills(data);
     } catch (err) {
-      console.error("supabase fetch error:", err);
+      console.error("Supabase fetch error:", err);
       setError("Failed to fetch bills. Please try again.");
     } finally {
       setLoading(false);
@@ -76,26 +97,28 @@ const Search = () => {
     fetchBills();
   }, [page]);
 
-  // open modal for selected bill
+  /** 
+   * Show the modal with details for a chosen bill. 
+   * Reset the mode dropdown if desired.
+   */
   const openModal = (bill) => {
     setSelectedBill(bill);
-    setSelectedMode("response_simple"); // default mode when opening modal
+    setSelectedMode("response_simple"); // default to a "simple" mode
   };
 
-  // close modal
   const closeModal = () => {
     setSelectedBill(null);
   };
 
-  // handle mode selection change
   const handleModeChange = (e) => {
     setSelectedMode(e.target.value);
   };
 
-
   return (
     <div className="search-container">
       <h2>Search Bills</h2>
+
+      {/* Search bar */}
       <div className="search-bar">
         <input
           type="text"
@@ -106,41 +129,39 @@ const Search = () => {
         <button onClick={fetchBills}>Search</button>
       </div>
 
+      {/* Loading / Error */}
       {loading && <p className="loading-text">Loading bills...</p>}
       {error && <p className="error-message">{error}</p>}
 
+      {/* Bill list: each card shows short text */}
       <div className="bill-list">
-  {bills.length > 0 ? (
-    bills.map((bill) => {
-      const aiSummary = bill.ai_summaries_enhanced?.[0]?.desc_response 
-                       || bill.ai_summaries_enhanced?.desc_response;
-      const finalDescription = aiSummary 
-        ? aiSummary 
-        : bill.description 
-          ? bill.description 
-          : "No description available";
+        {bills.length > 0 ? (
+          bills.map((bill) => {
+            // If there's an AI short description, use it; otherwise fallback to bill.description
+            const shortDesc =
+              bill.ai_summaries_enhanced?.[0]?.desc_response ||
+              bill.description ||
+              "No description available.";
 
-      return (
-        <div key={bill.id} className="bill-card">
-          <h3>{toTitleCase(bill.title)}</h3>
-          <p className="bill-description">
-            {getTwoSentenceSummary(finalDescription)}
-          </p>
-
-          <button className="learn-more-btn" onClick={() => openModal(bill)}>
-            Learn More
-          </button>
-        </div>
-      );
-    })
-  ) : (
-    <p className="no-results">No matching bills found.</p>
-  )}
-</div>
-
+            return (
+              <div key={bill.id} className="bill-card">
+                <h3>{toTitleCase(bill.title)}</h3>
+                <p className="bill-description">
+                  {getTwoSentenceSummary(shortDesc)}
+                </p>
+                <button className="learn-more-btn" onClick={() => openModal(bill)}>
+                  Learn More
+                </button>
+              </div>
+            );
+          })
+        ) : (
+          <p className="no-results">No matching bills found.</p>
+        )}
+      </div>
 
       {/* Pagination controls */}
-      <div className="pagination">
+      <div className="pagination" style={{ marginBottom: "40px" }}>
         {page > 1 && (
           <button onClick={() => setPage(page - 1)}>Previous</button>
         )}
@@ -149,19 +170,34 @@ const Search = () => {
         )}
       </div>
 
-      {/* Modal for detailed bill view */}
+      {/* Modal for expanded details */}
       {selectedBill && (
         <div className="modal-overlay">
           <div className="modal-content">
+            {/* close button */}
             <button onClick={closeModal} className="close-btn">
               &times;
             </button>
+
+            {/* Bill title */}
             <h2>{toTitleCase(selectedBill.title)}</h2>
-            <div className="official-description">
+
+            {/* Official Description (Full AI short description or the original bill.description) */}
+            <div className="official-description" style={{ background: "#eff6ff", padding: "10px", borderRadius: "4px" }}>
               <h4>Official Description</h4>
-              <p>{capitalizeSentences(selectedBill.description)}</p>
+              <p>
+                {
+                  capitalizeSentences(
+                    selectedBill.ai_summaries_enhanced?.[0]?.desc_response ||
+                    selectedBill.description ||
+                    "No description available."
+                  )
+                }
+              </p>
             </div>
-            <div className="status-details">
+
+            {/* Bill status */}
+            <div className="status-details" style={{ marginTop: "10px" }}>
               <p>
                 <strong>Bill Status:</strong> {selectedBill.status || "N/A"}
               </p>
@@ -169,9 +205,12 @@ const Search = () => {
                 <strong>Last Action:</strong> {selectedBill.last_action || "N/A"}
               </p>
             </div>
-            <div className="ai-summary">
-              <h4>AI Summary</h4>
-              <div>
+
+            {/* AI Summary with dropdown modes */}
+            <div className="ai-summary" style={{ marginTop: "15px" }}>
+              <h4>AI Summary (Detailed)</h4>
+              {/* Mode selection */}
+              <div style={{ marginBottom: "8px" }}>
                 <select value={selectedMode} onChange={handleModeChange}>
                   <option value="response_simple">Simple & Clear</option>
                   <option value="response_intermediate">Straightforward</option>
@@ -180,19 +219,24 @@ const Search = () => {
                   <option value="response_tweet">Tweet-Style</option>
                 </select>
               </div>
+
+              {/* Render the selected AI summary mode */}
               <div
                 dangerouslySetInnerHTML={{
-                  __html:
+                  __html: formatAiSummary(
                     selectedBill.ai_summaries_enhanced?.[0]?.[selectedMode] ||
-                    "No AI summary available",
+                      ""
+                  ),
                 }}
               />
             </div>
-            <div className="bill-history">
+
+            {/* Bill history */}
+            <div className="bill-history" style={{ marginTop: "15px" }}>
               <h4>History</h4>
-              <ul className="bill-history-list">
-                {selectedBill.history ? (
-                  selectedBill.history.split(";").map((entry, idx) => {
+              {selectedBill.history ? (
+                <ul className="bill-history-list">
+                  {selectedBill.history.split(";").map((entry, idx) => {
                     const [datePart, ...rest] = entry.trim().split(" - ");
                     return (
                       <li key={idx}>
@@ -202,17 +246,20 @@ const Search = () => {
                         </span>
                       </li>
                     );
-                  })
-                ) : (
-                  <p>No history available.</p>
-                )}
-              </ul>
+                  })}
+                </ul>
+              ) : (
+                <p>No history available.</p>
+              )}
             </div>
+
+            {/* Full Bill Link */}
             <a
               href={selectedBill.url}
               target="_blank"
               rel="noopener noreferrer"
               className="view-full-bill-link"
+              style={{ display: "block", marginTop: "10px" }}
             >
               View Full Bill
             </a>
