@@ -1,557 +1,637 @@
-/* general styling */
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0;
-  margin-top: 100px;
-}
-
-/* Container for the main search section */
-.search-container {
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.search-container h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-/* Search bar */
-.search-bar {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 30px;
-}
-
-/* Input field with rounded corners and focus glow */
-.search-bar input {
-  padding: 10px 15px;
-  width: 50%;
-  border: 1px solid #ccc;
-  border-radius: 24px;
-  font-size: 16px;
-  background-color: #fff;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.search-bar input:focus {
-  outline: none;
-  border-color: #ffffff;
-  animation: glow 14s infinite;
-}
-
-@keyframes glow {
-  0% { box-shadow: 0 0 10px #4285F4; }
-  25% { box-shadow: 0 0 10px #DB4437; }
-  50% { box-shadow: 0 0 10px #F4B400; }
-  75% { box-shadow: 0 0 10px #0F9D58; }
-  100% { box-shadow: 0 0 10px #4285F4; }
-}
-
-/* Button with rounded corners and subtle pulse animation */
-.search-bar button {
-  padding: 10px 20px;
-  background: #4285F4;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 24px;
-  font-size: 14px;
-  transition: background 0.3s ease, transform 0.2s ease;
-  animation: pulse 2s infinite;
-}
-
-.search-bar button:hover {
-  background: #357ae8;
-  transform: scale(1.05);
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.03); }
-  100% { transform: scale(1); }
-}
-
-/* Bill list: grid layout */
-.bill-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  margin-bottom: 20px;
-  padding: 0 10px;
-}
-
-/* Keyframes for fadeInUp animation */
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(25px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.bill-card {
-  background: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;       
-  justify-content: center;   
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  margin: 1rem auto;
-  max-width: 350px;
-  height: 300px;             
-  position: relative;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  animation: fadeInUp 1s ease-out;
-}
-
-.bill-card h3 {
-  font-size: 16px;
-  margin-bottom: 10px;
-  font-weight: 600;
-  text-align: center;
-  min-height: 36px; 
-  color: #333; 
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-  word-wrap: break-word;     
-  overflow-wrap: break-word; 
-}
-
-.bill-card:hover {
-  transform: translateY(-5px) scale(1.06);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-}
-
-.bill-card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 5px;
-  width: 100%;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  background: linear-gradient(90deg, #4285F4, #DB4437, #F4B400, #0F9D58);
-  background-size: 400% 400%;
-  animation: gradientAnimation 16s ease infinite;
-}
-
-@keyframes gradientAnimation {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-.bill-description {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 3; /* show up to 3 lines */
-  line-clamp: 3; /* standard property for compatibility */
-  -webkit-box-orient: vertical;
-  margin-bottom: 15px;
-  font-size: 14px;
-  color: #333;
-}
-
-
-/* Learn More button */
-.learn-more-btn {
-  background: none;
-  border: none;
-  color: #1700ad;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 1px;
-  font-size: 14px;
-  margin-top: auto;
-  align-self: center;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: transform 0.2s ease, opacity 0.3s ease, background 0.3s ease;
-}
-
-.learn-more-btn:hover {
-  transform: scale(1.05);
-  opacity: 0.9;
-}
-
-.learn-more-btn:active {
-  transform: scale(0.95);
-}
-
-/* Pagination */
-.pagination {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.pagination button {
-  padding: 10px 20px;
-  background-color: #4285F4;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.pagination button:hover {
-  background-color: #357ae8;
-  transform: scale(1.05);
-}
-
-.pagination button:active {
-  transform: scale(0.95);
-}
-
-.pagination button:nth-of-type(2) {
-  background: #f39c12;
-}
-
-.pagination button:nth-of-type(2):hover {
-  background: #d9860e;
-}
-
-/* Modal Overlay */
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 999;
-}
-
-/* Modal Content */
-.modal-content {
-  background: #fff;
-  padding: 20px;
-  width: 90%;
-  max-width: 800px;
-  border-radius: 12px;
-  max-height: 90vh;
-  overflow-y: auto;
-  position: relative;
-  text-align: left;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-  animation: fadeIn 0.5s ease-out;
-}
-
-.modal-content h2 {
-  font-size: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-  font-weight: 600;
-  background-color: rgba(128, 128, 128, 0.2); 
-  padding: 10px;
-  border-radius: 8px;
-}
-
-/* Close button */
-.close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background: none;
-  border: none;
-  font-size: 25px;
-  cursor: pointer;
-  font-weight: bold;
-  color: #4285F4;
-  transition: color 0.2s ease;
-}
-
-.close-btn:hover {
-  color: #ff0000;
-}
-
-/* Bill details inside modal */
-.bill-details h3 {
-  font-size: 16px;
-  margin: 15px 0 10px;
-  font-weight: 600;
-}
-
-.bill-details h4 {
-  font-size: 14px;
-  margin: 12px 0 8px;
-  font-weight: 600;
-}
-
-/* Official description section */
-.official-description {
-  margin-bottom: 20px;
-}
-
-.official-description h4 {
-  margin-bottom: 8px;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-/* Bill status section in modal */
-.status-details {
-  background: #f5f5f5;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 15px;
-}
-
-.status-details p {
-  margin: 5px 0;
-  font-size: 14px;
-}
-
-/* AI summary section in modal */
-.ai-summary {
-  margin-bottom: 20px;
-}
-
-.ai-summary h4 {
-  margin-bottom: 8px;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-/* Sponsor info section in modal */
-.sponsors h4 {
-  font-size: 16px;
-  margin-bottom: 10px;
-  font-weight: 600;
-}
-
-/* Tables for history and sponsors */
-.history-table,
-.sponsors-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 10px 0 20px;
-}
-
-.history-table th,
-.history-table td,
-.sponsors-table th,
-.sponsors-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-  font-size: 14px;
-}
-
-.history-table th,
-.sponsors-table th {
-  background-color: rgba(66, 133, 244, 0.1);
-  font-weight: 600;
-}
-
-/* Loading and error states */
-.loading-text,
-.error-message,
-.no-results {
-  padding: 20px;
-  text-align: center;
-  color: #666;
-}
-
-.error-message {
-  color: #d66;
-}
-
-/* Loader Animation */
-.loader {
-  position: absolute;
-  top: calc(50% - 1.25em);
-  left: calc(50% - 1.25em);
-  width: 2.5em;
-  height: 2.5em;
-  transform: rotate(165deg);
-}
-
-.loader:before,
-.loader:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
-  width: 0.5em;
-  height: 0.5em;
-  border-radius: 0.25em;
-  transform: translate(-50%, -50%);
-}
-
-.loader:before {
-  animation: before8 2s infinite;
-}
-
-.loader:after {
-  animation: after6 2s infinite;
-}
-
-@keyframes before8 {
-  0% {
-    width: 0.5em;
-    box-shadow: 1em -0.5em rgba(66,133,244,0.75), -1em 0.5em rgba(219,68,55,0.75);
+/* ==============================
+   1) Global Google Color Palette
+   ============================== */
+   :root {
+    --google-blue: #4285F4;
+    --google-red: #DB4437;
+    --google-yellow: #F4B400;
+    --google-green: #0F9D58;
+    --google-gray: #5f6368;
+    --google-bg: #ffffff;
   }
-  35% {
+  
+  /* ======================
+     2) Global Base Styles
+     ====================== */
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px; /* So navbar can be fixed */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #333;
+  }
+  
+  /* ======================
+     3) Navbar Styles
+     ====================== */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1200px;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+  }
+  
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(
+      270deg,
+      var(--google-blue),
+      var(--google-red),
+      var(--google-yellow),
+      var(--google-blue),
+      var(--google-green),
+      var(--google-red)
+    );
+    background-size: 1800% 1800%;
+    animation: gradientShift 85s ease infinite;
+    opacity: 0.85; 
+    z-index: -1;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #ffffff; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: scale(1.05);
+  }
+  
+  .navbar a.active {
+    background-color: var(--google-red);
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .menu-toggle {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+  
+  /* ================================
+     4) Main Search Container Styles
+     ================================ */
+  .search-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .search-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* ===================
+     5) Search Bar
+     =================== */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .search-bar input {
+    padding: 10px 15px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .search-bar input:focus {
+    outline: none;
+    border-color: #ffffff;
+    animation: glow 14s infinite;
+  }
+  
+  @keyframes glow {
+    0% { box-shadow: 0 0 10px var(--google-blue); }
+    25% { box-shadow: 0 0 10px var(--google-red); }
+    50% { box-shadow: 0 0 10px var(--google-yellow); }
+    75% { box-shadow: 0 0 10px var(--google-green); }
+    100% { box-shadow: 0 0 10px var(--google-blue); }
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background: var(--google-blue);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 14px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    animation: pulse 2s infinite;
+  }
+  
+  .search-bar button:hover {
+    background: #357ae8;
+    transform: scale(1.05);
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+  }
+  
+  /* =====================
+     6) Bill List & Cards
+     ===================== */
+     .bill-list {
+      display: grid;
+      /* Force 3 columns */
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      margin-bottom: 20px;
+      padding: 0 10px;
+    }
+    
+    /* Optional responsive breakpoints */
+    @media (max-width: 992px) {
+      .bill-list {
+        /* 2 columns when screen < 992px */
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .bill-list {
+        /* 1 column when screen < 576px */
+        grid-template-columns: 1fr;
+      }
+    }    
+  
+  /* Fade in Up animation for cards */
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(25px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .bill-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    justify-content: center;   
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin: 1rem auto;
+    max-width: 350px;
+    height: 300px;             
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 1s ease-out;
+  }
+  
+  .bill-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    min-height: 36px; 
+    color: #333; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;     
+    overflow-wrap: break-word; 
+  }
+  
+  .bill-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: linear-gradient(
+      90deg, 
+      var(--google-blue), 
+      var(--google-red), 
+      var(--google-yellow), 
+      var(--google-green)
+    );
+    background-size: 400% 400%;
+    animation: gradientAnimation 16s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .bill-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* show up to 3 lines */
+    line-clamp: 3; /* standard property for compatibility */
+    -webkit-box-orient: vertical;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+
+  .description-section {
+    background-color: rgba(66, 133, 244, 0.1); /* Light blue background */
+    border: 1px solid rgba(66, 133, 244, 0.3); /* Matching border */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .description-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--google-blue); 
+    font-weight: 600;
+  }
+  
+  .description-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333; 
+    margin-bottom: 1rem;
+  }
+
+  .default-ai-summary {
+    background-color: rgba(184, 81, 243, 0.1); /* Light blue */
+    border: 1px solid rgba(70, 26, 93, 0.3);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .default-ai-summary h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #860ab4; /* or var(--google-blue) */
+    font-weight: 600;
+  }
+  
+  .default-ai-summary p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* "Learn More" button */
+  .learn-more-btn {
+    background: none;
+    border: none;
+    color: #1700ad;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: auto;
+    align-self: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.3s ease, background 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  .learn-more-btn:active {
+    transform: scale(0.95);
+  }
+  
+  /* ====================
+     7) Pagination
+     ==================== */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    background-color: var(--google-blue);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #357ae8;
+    transform: scale(1.05);
+  }
+  
+  .pagination button:active {
+    transform: scale(0.95);
+  }
+  
+  .pagination button:nth-of-type(2) {
+    background: #f39c12;
+  }
+  
+  .pagination button:nth-of-type(2):hover {
+    background: #d9860e;
+  }
+  
+  /* ======================
+     8) Modal & Overlay
+     ====================== */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 12px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    text-align: left;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .modal-content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgba(128, 128, 128, 0.2); 
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Close button */
+  .close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--google-blue);
+    transition: color 0.2s ease;
+  }
+  
+  .close-btn:hover {
+    color: #ff0000;
+  }
+  
+  /* ======================
+     9) Modal Content Sections
+     ====================== */
+  .official-description,
+  .ai-summary,
+  .status-details,
+  .bill-history {
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  /* Official Description (Blue) */
+  .official-description {
+    background-color: rgba(66, 133, 244, 0.1); 
+    border: 1px solid rgba(66, 133, 244, 0.3);
+  }
+  .official-description h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--google-blue); 
+    font-weight: 600;
+  }
+  
+  /* AI Summary (Yellow) */
+  .ai-summary {
+    background-color: rgba(244, 180, 0, 0.1); 
+    border: 1px solid rgba(244, 180, 0, 0.3);
+  }
+  .ai-summary h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--google-yellow);
+    font-weight: 600;
+  }
+  
+  /* Bill Status (Red) */
+  .status-details {
+    background-color: rgba(219, 68, 55, 0.1); 
+    border: 1px solid rgba(219, 68, 55, 0.3);
+  }
+  .status-details p,
+  .status-details h4 {
+    color: var(--google-red); 
+  }
+  
+  /* Bill History (Green) */
+  .bill-history {
+    background-color: rgba(15, 157, 88, 0.1); 
+    border: 1px solid rgba(15, 157, 88, 0.3);
+  }
+  .bill-history h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--google-green);
+    font-weight: 600;
+  }
+  .bill-history-list {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+  .bill-history-list li {
+    margin-bottom: 8px;
+  }
+  .bill-history-date {
+    font-weight: 600;
+    margin-right: 6px;
+  }
+  
+  /* ======================
+     10) Misc. States & Loader
+     ====================== */
+  .loading-text,
+  .error-message,
+  .no-results {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+  }
+  
+  .error-message {
+    color: #d66;
+  }
+  
+  /* Loader Animation */
+  .loader {
+    position: absolute;
+    top: calc(50% - 1.25em);
+    left: calc(50% - 1.25em);
     width: 2.5em;
-    box-shadow: 0 -0.5em rgba(244,180,0,0.75), 0 0.5em rgba(15,157,88,0.75);
-  }
-  70% {
-    width: 0.5em;
-    box-shadow: -1em -0.5em rgba(66,133,244,0.75), 1em 0.5em rgba(219,68,55,0.75);
-  }
-  100% {
-    box-shadow: 1em -0.5em rgba(66,133,244,0.75), -1em 0.5em rgba(219,68,55,0.75);
-  }
-}
-
-@keyframes after6 {
-  0% {
-    height: 0.5em;
-    box-shadow: 0.5em 1em rgba(244,180,0,0.75), -0.5em -1em rgba(15,157,88,0.75);
-  }
-  35% {
     height: 2.5em;
-    box-shadow: 0.5em 0 rgba(66,133,244,0.75), -0.5em 0 rgba(219,68,55,0.75);
+    transform: rotate(165deg);
   }
-  70% {
+  .loader:before,
+  .loader:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 0.5em;
     height: 0.5em;
-    box-shadow: 0.5em -1em rgba(244,180,0,0.75), -0.5em 1em rgba(15,157,88,0,0.75);
+    border-radius: 0.25em;
+    transform: translate(-50%, -50%);
   }
-  100% {
-    box-shadow: 0.5em 1em rgba(244,180,0,0.75), -0.5em -1em rgba(15,157,88,0,0.75);
+  .loader:before {
+    animation: before8 2s infinite;
   }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* Better styling for modal sections */
-.modal-section {
-  background-color: rgba(66, 133, 244, 0.1);
-  border: 1px solid rgba(66, 133, 244, 0.3);
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-.modal-section h4 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #4285F4;
-  font-weight: 600;
-}
-
-/* Official Description (Blue) */
-.official-description {
-  background-color: rgba(66, 133, 244, 0.1); 
-  border: 1px solid rgba(66, 133, 244, 0.3);
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-.official-description h4 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #4285F4; 
-}
-
-/* AI Summary (Yellow) */
-.ai-summary {
-  background-color: rgba(244, 180, 0, 0.1); 
-  border: 1px solid rgba(244, 180, 0, 0.3);
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-.ai-summary h4 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #F4B400;
-}
-
-
-/* Bill status details (Red) */
-.status-details {
-  background-color: rgba(219, 68, 55, 0.1); 
-  border: 1px solid rgba(219, 68, 55, 0.3);
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-.status-details p,
-.status-details h4 {
-  color: #DB4437; 
-}
-
-/* Table styling inside the modal */
-.history-table,
-.sponsors-table {
-  border: 1px solid #ddd;
-  margin-top: 10px;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.history-table th,
-.sponsors-table th {
-  background-color: rgba(66, 133, 244, 0.1);
-  font-weight: 600;
-}
-
-.history-table td,
-.sponsors-table td {
-  background-color: #fff;
-}
-
-/* Bill History (Green) */
-.bill-history {
-  background-color: rgba(15, 157, 88, 0.1); 
-  border: 1px solid rgba(15, 157, 88, 0.3);
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-.bill-history h4 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #0F9D58;
-}
-
-.bill-history-list {
-  list-style-type: none; 
-  padding: 0;
-  margin: 0;
-}
-
-.bill-history-list li {
-  margin-bottom: 8px;
-}
-
-.bill-history-date {
-  font-weight: 600;
-  margin-right: 6px;
-}
+  .loader:after {
+    animation: after6 2s infinite;
+  }
+  @keyframes before8 {
+    0% {
+      width: 0.5em;
+      box-shadow: 1em -0.5em rgba(66,133,244,0.75), -1em 0.5em rgba(219,68,55,0.75);
+    }
+    35% {
+      width: 2.5em;
+      box-shadow: 0 -0.5em rgba(244,180,0,0.75), 0 0.5em rgba(15,157,88,0.75);
+    }
+    70% {
+      width: 0.5em;
+      box-shadow: -1em -0.5em rgba(66,133,244,0.75), 1em 0.5em rgba(219,68,55,0.75);
+    }
+    100% {
+      box-shadow: 1em -0.5em rgba(66,133,244,0.75), -1em 0.5em rgba(219,68,55,0.75);
+    }
+  }
+  @keyframes after6 {
+    0% {
+      height: 0.5em;
+      box-shadow: 0.5em 1em rgba(244,180,0,0.75), -0.5em -1em rgba(15,157,88,0.75);
+    }
+    35% {
+      height: 2.5em;
+      box-shadow: 0.5em 0 rgba(66,133,244,0.75), -0.5em 0 rgba(219,68,55,0.75);
+    }
+    70% {
+      height: 0.5em;
+      box-shadow: 0.5em -1em rgba(244,180,0,0.75), -0.5em 1em rgba(15,157,88,0.75);
+    }
+    100% {
+      box-shadow: 0.5em 1em rgba(244,180,0,0.75), -0.5em -1em rgba(15,157,88,0.75);
+    }
+  }
+  

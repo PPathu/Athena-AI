@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import supabase from "../utils/supabase";
+import "../styles/styles.css";
 
 const BillList = () => {
   const [bills, setBills] = useState([]);

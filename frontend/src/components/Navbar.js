@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import "../styles/Navbar.css";
+import "../styles/styles.css";
 
 const googleColors = [
   "var(--google-blue)",
