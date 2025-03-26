@@ -31,7 +31,7 @@ function capitalizeSentences(text) {
  * and then capitalize sentences. 
  */
 function formatAiSummary(rawText) {
-  if (!rawText) return "No AI summary available.";
+  if (!rawText) return "No summary available.";
   const replaced = rawText.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
   return capitalizeSentences(replaced);
 }
@@ -53,27 +53,34 @@ const Search = () => {
   const [error, setError] = useState("");
   const [page, setPage] = useState(1);
   const [selectedBill, setSelectedBill] = useState(null);
-  const [selectedMode, setSelectedMode] = useState("response_simple"); // example mode
+  // Two separate modes: one for the legislative description and one for the AI summary
+  const [selectedDescriptionMode, setSelectedDescriptionMode] = useState("two_sentence");
+  const [selectedSummaryMode, setSelectedSummaryMode] = useState("response_simple");
 
   const billsPerPage = 6;
 
   /**
-   * Fetch bills from Supabase. We select both the “desc_response” (AI's short 
-   * description) and “response” (longer summary) from the “ai_summaries_enhanced” table. 
+   * Fetch bills from Supabase with legislative and summarized descriptions
    */
   const fetchBills = async () => {
     setLoading(true);
     setError("");
 
     try {
-      console.log("Searching for:", searchTerm);
-
       let query = supabase
         .from("enhanceddata")
-        .select(`
-          *,
-          ai_summaries_enhanced:ai_summaries_enhanced(desc_response, response)
-        `) // pulling in both columns
+        .select(
+          `*, 
+          ai_summaries_enhanced:ai_summaries_enhanced(
+            response, 
+            desc_response, 
+            response_simple, 
+            response_intermediate, 
+            response_persuasive, 
+            response_pros_cons, 
+            response_tweet
+          )`
+        )
         .range((page - 1) * billsPerPage, page * billsPerPage - 1);
 
       if (searchTerm.trim()) {
@@ -83,7 +90,6 @@ const Search = () => {
       const { data, error } = await query;
       if (error) throw error;
 
-      console.log("Bills from Supabase:", data);
       setBills(data);
     } catch (err) {
       console.error("Supabase fetch error:", err);
@@ -98,20 +104,24 @@ const Search = () => {
   }, [page]);
 
   /** 
-   * Show the modal with details for a chosen bill. 
-   * Reset the mode dropdown if desired.
+   * Open the modal with details for a chosen bill and reset modes 
    */
   const openModal = (bill) => {
     setSelectedBill(bill);
-    setSelectedMode("response_simple"); // default to a "simple" mode
+    setSelectedDescriptionMode("two_sentence");
+    setSelectedSummaryMode("response_simple");
   };
 
   const closeModal = () => {
     setSelectedBill(null);
   };
 
-  const handleModeChange = (e) => {
-    setSelectedMode(e.target.value);
+  const handleDescriptionModeChange = (e) => {
+    setSelectedDescriptionMode(e.target.value);
+  };
+
+  const handleSummaryModeChange = (e) => {
+    setSelectedSummaryMode(e.target.value);
   };
 
   return (
@@ -137,7 +147,6 @@ const Search = () => {
       <div className="bill-list">
         {bills.length > 0 ? (
           bills.map((bill) => {
-            // If there's an AI short description, use it; otherwise fallback to bill.description
             const shortDesc =
               bill.ai_summaries_enhanced?.[0]?.desc_response ||
               bill.description ||
@@ -174,7 +183,7 @@ const Search = () => {
       {selectedBill && (
         <div className="modal-overlay">
           <div className="modal-content">
-            {/* close button */}
+            {/* Close button */}
             <button onClick={closeModal} className="close-btn">
               &times;
             </button>
@@ -182,22 +191,37 @@ const Search = () => {
             {/* Bill title */}
             <h2>{toTitleCase(selectedBill.title)}</h2>
 
-            {/* Official Description (Full AI short description or the original bill.description) */}
-            <div className="official-description" style={{ background: "#eff6ff", padding: "10px", borderRadius: "4px" }}>
-              <h4>Official Description</h4>
+            {/* Legislative Description Section */}
+            <div className="description-section" style={{ background: "#f0f4f8", padding: "10px", borderRadius: "4px", marginBottom: "15px" }}>
+              <h4>Legislative Description</h4>
+              {/* Description mode selection */}
+              <div style={{ marginBottom: "8px" }}>
+                <select 
+                  value={selectedDescriptionMode} 
+                  onChange={handleDescriptionModeChange}
+                >
+                  <option value="two_sentence">Two-Sentence Summary</option>
+                  <option value="full_description">Full Legislative Description</option>
+                </select>
+              </div>
+              {/* Render description based on selected mode */}
               <p>
-                {
-                  capitalizeSentences(
-                    selectedBill.ai_summaries_enhanced?.[0]?.desc_response ||
-                    selectedBill.description ||
-                    "No description available."
-                  )
+                {selectedDescriptionMode === 'two_sentence' 
+                  ? getTwoSentenceSummary(
+                      selectedBill.ai_summaries_enhanced?.[0]?.desc_response || 
+                      selectedBill.description || 
+                      "No description available."
+                    )
+                  : capitalizeSentences(
+                      selectedBill.description || 
+                      "No full legislative description available."
+                    )
                 }
               </p>
             </div>
 
-            {/* Bill status */}
-            <div className="status-details" style={{ marginTop: "10px" }}>
+            {/* Bill Status Section */}
+            <div className="status-details" style={{ marginTop: "10px", marginBottom: "15px" }}>
               <p>
                 <strong>Bill Status:</strong> {selectedBill.status || "N/A"}
               </p>
@@ -206,12 +230,12 @@ const Search = () => {
               </p>
             </div>
 
-            {/* AI Summary with dropdown modes */}
+            {/* AI Summarized Description Section */}
             <div className="ai-summary" style={{ marginTop: "15px" }}>
-              <h4>AI Summary (Detailed)</h4>
-              {/* Mode selection */}
+              <h4>AI Summarized Description</h4>
+              {/* Summary mode selection */}
               <div style={{ marginBottom: "8px" }}>
-                <select value={selectedMode} onChange={handleModeChange}>
+                <select value={selectedSummaryMode} onChange={handleSummaryModeChange}>
                   <option value="response_simple">Simple & Clear</option>
                   <option value="response_intermediate">Straightforward</option>
                   <option value="response_persuasive">Persuasive</option>
@@ -219,19 +243,31 @@ const Search = () => {
                   <option value="response_tweet">Tweet-Style</option>
                 </select>
               </div>
-
               {/* Render the selected AI summary mode */}
               <div
                 dangerouslySetInnerHTML={{
                   __html: formatAiSummary(
-                    selectedBill.ai_summaries_enhanced?.[0]?.[selectedMode] ||
-                      ""
+                    selectedBill.ai_summaries_enhanced?.[0]?.[selectedSummaryMode] ||
+                      "No AI summary available."
                   ),
                 }}
               />
             </div>
 
-            {/* Bill history */}
+            {/* Default AI Response Section */}
+            <div className="default-ai-summary" style={{ marginTop: "15px" }}>
+              <h4>Default AI Response</h4>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: formatAiSummary(
+                    selectedBill.ai_summaries_enhanced?.[0]?.response ||
+                      "No default response available."
+                  ),
+                }}
+              />
+            </div>
+
+            {/* Bill History Section */}
             <div className="bill-history" style={{ marginTop: "15px" }}>
               <h4>History</h4>
               {selectedBill.history ? (
