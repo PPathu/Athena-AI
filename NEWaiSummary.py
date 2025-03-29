@@ -11,6 +11,29 @@ cur = None
 supabase = None
 model = None 
 
+
+import time
+
+def generate_content_with_retry(model, prompt, mode):
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = model.generate_content(prompt)
+            if response and response.text:
+                return response.text
+            else:
+                print(f"Gemini response was empty for mode {mode}")
+                return None
+        except Exception as e:
+            if "429" in str(e):
+                print(f"Rate limit hit for mode {mode}, retrying in 54 seconds (attempt {attempt + 1})...")
+                time.sleep(54)  # Wait as suggested by the error message
+            else:
+                print(f"Error for mode {mode}: {e}")
+                return None
+    return None
+
+
 #############################
 # Database + Supabase Setup
 #############################
@@ -97,25 +120,27 @@ def store_ai_summary(bill_id, mode, txt):
 # Bill Data Fetching
 #############################
 
+from psycopg2 import OperationalError
+
 def fetchBillDetails(bill_id):
-    """
-    Retrieve bill details from `enhanceddata` for AI summarization.
-    Returns a tuple: (title, description, status, status_date, last_action, last_action_date, url)
-    """
     query = """
         SELECT title, description, status, status_date, last_action, last_action_date, url
         FROM enhanceddata 
         WHERE bill_id = %s
     """
-    cur.execute(query, (bill_id,))
+    try:
+        cur.execute(query, (bill_id,))
+    except OperationalError as e:
+        print("DB connection lost. Reconnecting...")
+        connectSupabase()  # Re-establish connection
+        cur.execute(query, (bill_id,))
     bill = cur.fetchone()
-
     if not bill:
         print(f"No bill found for Bill ID {bill_id} in enhanceddata.")
-        
         return ("Unknown Title", "No description available", "Unknown Status", None, 
                 "Unknown Last Action", None, "No URL")
     return bill
+
 
 #############################
 # Prompt Generators
@@ -277,15 +302,12 @@ def generate_ai_summary_for_mode(bill_id, mode):
         print(f"Mode '{mode}' not recognized. Skipping.")
         return
 
-    try:
-        # generate content from gemini
-        response = model.generate_content(prompt)
-        if response and response.text:
-            store_ai_summary(bill_id, mode, response.text)
-        else:
-            print(f"Gemini response was empty for Bill ID {bill_id}, mode {mode}")
-    except Exception as e:
-        print(f"Failed to get response from Gemini for Bill {bill_id}, mode {mode}: {e}")
+    content = generate_content_with_retry(model, prompt, mode)
+    if content:
+        store_ai_summary(bill_id, mode, content)
+    else:
+        print(f"Failed to get content for Bill ID {bill_id}, mode {mode}")
+
 
 #############################
 # Entry Point
