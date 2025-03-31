@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import supabase from "../utils/supabase";
 import "../styles/styles.css";
 
@@ -18,9 +18,16 @@ function capitalizeSentences(text) {
 }
 
 function formatAiSummary(rawText) {
-  if (!rawText) return "No AI summary available.";
-  let processed = rawText.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-  return capitalizeSentences(processed);
+  if (!rawText) return "No summary available.";
+  const replaced = rawText.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  return capitalizeSentences(replaced);
+}
+
+function getTwoSentenceSummary(text) {
+  if (!text) return "No description available.";
+  const capitalized = capitalizeSentences(text);
+  const sentences = capitalized.split(/(?<=[.!?])\s+/);
+  return sentences.slice(0, 2).join(" ");
 }
 
 const Search = () => {
@@ -30,16 +37,9 @@ const Search = () => {
   const [error, setError] = useState("");
   const [page, setPage] = useState(1);
   const [selectedBill, setSelectedBill] = useState(null);
-  const billsPerPage = 6;
+  const [selectedSummaryMode, setSelectedSummaryMode] = useState("response_simple");
 
-  const getTwoSentenceSummary = (text) => {
-    if (!text) return null;
-    const capitalized = capitalizeSentences(text);
-    const sentences = capitalized.split(/(?<=[.!?])\s+/);
-    return sentences.slice(0, 2).join(" ");
-  };
-  
-  const billColorMapping = useRef({});
+  const billsPerPage = 6;
 
   const fetchBills = async () => {
     setLoading(true);
@@ -49,6 +49,11 @@ const Search = () => {
       let query = supabase
         .from("summarized_bills")
         .select("*")
+        .not("response_simple", "is", null)
+        .not("response_intermediate", "is", null)
+        .not("response_persuasive", "is", null)
+        .not("response_pros_cons", "is", null)
+        .not("response_tweet", "is", null)
         .range((page - 1) * billsPerPage, page * billsPerPage - 1);
   
       if (searchTerm.trim()) {
@@ -60,6 +65,7 @@ const Search = () => {
   
       setBills(data);
     } catch (err) {
+      console.error("Supabase fetch error:", err);
       setError("Failed to fetch bills. Please try again.");
     } finally {
       setLoading(false);
@@ -67,26 +73,28 @@ const Search = () => {
   };
   
 
+
   useEffect(() => {
     fetchBills();
   }, [page]);
 
   const openModal = (bill) => {
     setSelectedBill(bill);
+    setSelectedSummaryMode("response_simple");
   };
 
   const closeModal = () => {
     setSelectedBill(null);
   };
 
-  const getRandomColor = () => {
-    const googleColors = ["#4285F4", "#DB4437", "#F4B400", "#0F9D58"];
-    return googleColors[Math.floor(Math.random() * googleColors.length)];
+  const handleSummaryModeChange = (e) => {
+    setSelectedSummaryMode(e.target.value);
   };
 
   return (
     <div className="search-container">
       <h2>Search Bills</h2>
+
       <div className="search-bar">
         <input
           type="text"
@@ -101,24 +109,17 @@ const Search = () => {
       {error && <p className="error-message">{error}</p>}
 
       <div className="bill-list">
-        {bills.map((bill) => {
-          if (!billColorMapping.current[bill.id]) {
-            billColorMapping.current[bill.id] = getRandomColor();
-          }
-          const randomColor = billColorMapping.current[bill.id];
-          return (
-            <div key={bill.id} className="bill-card">
-              <h3>{toTitleCase(bill.title)}</h3>
-              {/* Updated to use desc_response for the description in the bill list */}
-              <p className="bill-description">
-                {getTwoSentenceSummary(bill.desc_response || bill.description)}
-              </p>
-              <button className="learn-more-btn" onClick={() => openModal(bill)}>
-                Learn More
-              </button>
-            </div>
-          );
-        })}
+        {bills.map((bill) => (
+          <div key={bill.id} className="bill-card">
+            <h3>{toTitleCase(bill.title)}</h3>
+            <p className="bill-description">
+              {getTwoSentenceSummary(bill.desc_response || bill.description)}
+            </p>
+            <button className="learn-more-btn" onClick={() => openModal(bill)}>
+              Learn More
+            </button>
+          </div>
+        ))}
       </div>
 
       <div className="pagination">
@@ -136,54 +137,79 @@ const Search = () => {
             <button onClick={closeModal} className="close-btn">
               &times;
             </button>
+
             <h2>{toTitleCase(selectedBill.title)}</h2>
-            <div className="official-description">
+
+            {/* Description */}
+            <div className="official-description" style={{ backgroundColor: "#eef4ff", padding: "10px", borderRadius: "6px" }}>
               <h4>Official Description</h4>
               <p>{capitalizeSentences(selectedBill.description)}</p>
             </div>
-            <div className="status-details">
-              <p>
-                <strong>Bill Status:</strong> {selectedBill.status || "N/A"}
-              </p>
-              <p>
-                <strong>Last Action:</strong> {selectedBill.last_action || "N/A"}
-              </p>
+
+            {/* Status */}
+            <div className="status-details" style={{ marginTop: "10px" }}>
+              <p><strong>Bill Status:</strong> {selectedBill.status || "N/A"}</p>
+              <p><strong>Last Action:</strong> {selectedBill.last_action || "N/A"}</p>
             </div>
-            <div className="ai-summary">
-              <h4>AI Summary</h4>
+
+            {/* AI Summary Modes */}
+            <div className="ai-summary" style={{ marginTop: "15px" }}>
+              <h4>AI Summarized Description</h4>
+              <div style={{ marginBottom: "8px" }}>
+                <select value={selectedSummaryMode} onChange={handleSummaryModeChange}>
+                  <option value="response_simple">Simple & Clear</option>
+                  <option value="response_intermediate">Straightforward</option>
+                  <option value="response_persuasive">Persuasive</option>
+                  <option value="response_pros_cons">Pros & Cons</option>
+                  <option value="response_tweet">Tweet-Style</option>
+                </select>
+              </div>
               <div
                 dangerouslySetInnerHTML={{
                   __html: formatAiSummary(
-                    selectedBill.response || ""
+                    selectedBill[selectedSummaryMode] || "No summary available."
                   ),
                 }}
               />
             </div>
-            <div className="bill-history">
+
+            {/* Default AI Response */}
+            <div className="default-ai-summary" style={{ marginTop: "15px" }}>
+              <h4>Default AI Response</h4>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: formatAiSummary(selectedBill.response || ""),
+                }}
+              />
+            </div>
+
+            {/* History */}
+            <div className="bill-history" style={{ marginTop: "15px" }}>
               <h4>History</h4>
-              <ul className="bill-history-list">
-                {selectedBill.history ? (
-                  selectedBill.history.split(";").map((entry, idx) => {
+              {selectedBill.history ? (
+                <ul className="bill-history-list">
+                  {selectedBill.history.split(";").map((entry, idx) => {
                     const [datePart, ...rest] = entry.trim().split(" - ");
                     return (
                       <li key={idx}>
-                        <span className="bill-history-date">{datePart}</span>
-                        <span className="bill-history-description">
-                          {rest.join(" - ")}
-                        </span>
+                        <span className="bill-history-date">{datePart}</span>{" "}
+                        <span className="bill-history-description">{rest.join(" - ")}</span>
                       </li>
                     );
-                  })
-                ) : (
-                  <p>No history available.</p>
-                )}
-              </ul>
+                  })}
+                </ul>
+              ) : (
+                <p>No history available.</p>
+              )}
             </div>
+
+            {/* Link */}
             <a
               href={selectedBill.url}
               target="_blank"
               rel="noopener noreferrer"
               className="view-full-bill-link"
+              style={{ display: "block", marginTop: "10px" }}
             >
               View Full Bill
             </a>
