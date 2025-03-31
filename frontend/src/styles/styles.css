@@ -224,36 +224,6 @@
       margin-bottom: 20px;
       padding: 0 10px;
     }
-    .rainbow-button {
-      background: linear-gradient(270deg, 
-        var(--google-blue), 
-        var(--google-red), 
-        var(--google-yellow), 
-        var(--google-green), 
-        var(--google-blue)
-      );
-      background-size: 600% 600%;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      padding: 12px 24px;
-      font-size: 16px;
-      font-weight: 600;
-      cursor: pointer;
-      animation: rainbowShift 8s ease infinite;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      transition: transform 0.2s ease;
-    }
-    
-    .rainbow-button:hover {
-      transform: scale(1.05);
-    }
-    
-    @keyframes rainbowShift {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
     
     /* Optional responsive breakpoints */
     @media (max-width: 992px) {
