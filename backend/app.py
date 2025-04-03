@@ -1,6 +1,11 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
 from routes import bill_routes
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for frontend communication
