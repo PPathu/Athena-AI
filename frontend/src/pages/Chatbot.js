@@ -3,13 +3,13 @@ import supabase from "../utils/supabase";  // ✅ Correct
 import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from "chart.js";
 
-const Stats = () => {
+const ChatBot = () => {
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
-      <h2>Bill Statistics</h2>
+      <h2>Legislative ChatBot</h2>
       <p>Coming soon...</p>
     </div>
   );
 };
 
-export default Stats;
+export default ChatBot;

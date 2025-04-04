@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/BillCard.css"; 
+import "../styles/styles.css";
 
 const BillCard = ({ bill, onReadMore }) => {
   //shorten  bill description for card

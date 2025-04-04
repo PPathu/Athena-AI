@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import "../styles/Navbar.css";
+import "../styles/styles.css";
 
 const googleColors = [
   "var(--google-blue)",
@@ -47,12 +47,12 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            to="/stats"
+            to="/chatbot"
             onClick={handleClick}
             className={({ isActive }) => isActive ? "active" : ""}
             style={({ isActive }) => isActive ? { backgroundColor: activeColor } : {}}
           >
-            Stats
+            ChatBot
           </NavLink>
         </li>
       </ul>
