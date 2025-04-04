@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import supabase from "../utils/supabase";
 import "../styles/styles.css";
 
+/** 
+ * Convert a string to Title Case 
+ */
 function toTitleCase(str) {
   if (!str) return "";
   return str.replace(/\w\S*/g, (txt) => {
@@ -9,20 +12,33 @@ function toTitleCase(str) {
   });
 }
 
+/** 
+ * Capitalize the first letter of each sentence. 
+ */
 function capitalizeSentences(text) {
   if (!text) return "";
   const sentences = text.split(/(?<=[.!?])\s+/);
   return sentences
-    .map((sentence) => sentence.charAt(0).toUpperCase() + sentence.slice(1))
+    .map(
+      (sentence) =>
+        sentence.charAt(0).toUpperCase() + sentence.slice(1).toLowerCase()
+    )
     .join(" ");
 }
 
+/** 
+ * Convert simple Markdown-like bold (**word**) into HTML <strong> 
+ * and then capitalize sentences. 
+ */
 function formatAiSummary(rawText) {
   if (!rawText) return "No summary available.";
   const replaced = rawText.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
   return capitalizeSentences(replaced);
 }
 
+/**
+ * Return the first two sentences from some text, capitalizing them.
+ */
 function getTwoSentenceSummary(text) {
   if (!text) return "No description available.";
   const capitalized = capitalizeSentences(text);
@@ -37,32 +53,43 @@ const Search = () => {
   const [error, setError] = useState("");
   const [page, setPage] = useState(1);
   const [selectedBill, setSelectedBill] = useState(null);
+  // Two separate modes: one for the legislative description and one for the AI summary
+  const [selectedDescriptionMode, setSelectedDescriptionMode] = useState("two_sentence");
   const [selectedSummaryMode, setSelectedSummaryMode] = useState("response_simple");
 
   const billsPerPage = 6;
 
+  /**
+   * Fetch bills from Supabase with legislative and summarized descriptions
+   */
   const fetchBills = async () => {
     setLoading(true);
     setError("");
-  
+
     try {
       let query = supabase
-        .from("summarized_bills")
-        .select("*")
-        .not("response_simple", "is", null)
-        .not("response_intermediate", "is", null)
-        .not("response_persuasive", "is", null)
-        .not("response_pros_cons", "is", null)
-        .not("response_tweet", "is", null)
+        .from("enhanceddata")
+        .select(
+          `*, 
+          ai_summaries_enhanced:ai_summaries_enhanced(
+            response, 
+            desc_response, 
+            response_simple, 
+            response_intermediate, 
+            response_persuasive, 
+            response_pros_cons, 
+            response_tweet
+          )`
+        )
         .range((page - 1) * billsPerPage, page * billsPerPage - 1);
-  
+
       if (searchTerm.trim()) {
         query = query.ilike("title", `%${searchTerm}%`);
       }
-  
+
       const { data, error } = await query;
       if (error) throw error;
-  
+
       setBills(data);
     } catch (err) {
       console.error("Supabase fetch error:", err);
@@ -71,20 +98,26 @@ const Search = () => {
       setLoading(false);
     }
   };
-  
-
 
   useEffect(() => {
     fetchBills();
   }, [page]);
 
+  /** 
+   * Open the modal with details for a chosen bill and reset modes 
+   */
   const openModal = (bill) => {
     setSelectedBill(bill);
+    setSelectedDescriptionMode("two_sentence");
     setSelectedSummaryMode("response_simple");
   };
 
   const closeModal = () => {
     setSelectedBill(null);
+  };
+
+  const handleDescriptionModeChange = (e) => {
+    setSelectedDescriptionMode(e.target.value);
   };
 
   const handleSummaryModeChange = (e) => {
@@ -95,6 +128,7 @@ const Search = () => {
     <div className="search-container">
       <h2>Search Bills</h2>
 
+      {/* Search bar */}
       <div className="search-bar">
         <input
           type="text"
@@ -105,24 +139,38 @@ const Search = () => {
         <button onClick={fetchBills}>Search</button>
       </div>
 
-      {loading && <div className="loader"></div>}
+      {/* Loading / Error */}
+      {loading && <p className="loading-text">Loading bills...</p>}
       {error && <p className="error-message">{error}</p>}
 
+      {/* Bill list: each card shows short text */}
       <div className="bill-list">
-        {bills.map((bill) => (
-          <div key={bill.id} className="bill-card">
-            <h3>{toTitleCase(bill.title)}</h3>
-            <p className="bill-description">
-              {getTwoSentenceSummary(bill.desc_response || bill.description)}
-            </p>
-            <button className="learn-more-btn" onClick={() => openModal(bill)}>
-              Learn More
-            </button>
-          </div>
-        ))}
+        {bills.length > 0 ? (
+          bills.map((bill) => {
+            const shortDesc =
+              bill.ai_summaries_enhanced?.[0]?.desc_response ||
+              bill.description ||
+              "No description available.";
+
+            return (
+              <div key={bill.id} className="bill-card">
+                <h3>{toTitleCase(bill.title)}</h3>
+                <p className="bill-description">
+                  {getTwoSentenceSummary(shortDesc)}
+                </p>
+                <button className="learn-more-btn" onClick={() => openModal(bill)}>
+                  Learn More
+                </button>
+              </div>
+            );
+          })
+        ) : (
+          <p className="no-results">No matching bills found.</p>
+        )}
       </div>
 
-      <div className="pagination">
+      {/* Pagination controls */}
+      <div className="pagination" style={{ marginBottom: "40px" }}>
         {page > 1 && (
           <button onClick={() => setPage(page - 1)}>Previous</button>
         )}
@@ -131,30 +179,61 @@ const Search = () => {
         )}
       </div>
 
+      {/* Modal for expanded details */}
       {selectedBill && (
         <div className="modal-overlay">
           <div className="modal-content">
+            {/* Close button */}
             <button onClick={closeModal} className="close-btn">
               &times;
             </button>
 
+            {/* Bill title */}
             <h2>{toTitleCase(selectedBill.title)}</h2>
 
-            {/* Description */}
-            <div className="official-description" style={{ backgroundColor: "#eef4ff", padding: "10px", borderRadius: "6px" }}>
-              <h4>Official Description</h4>
-              <p>{capitalizeSentences(selectedBill.description)}</p>
+            {/* Legislative Description Section */}
+            <div className="description-section" style={{ background: "#f0f4f8", padding: "10px", borderRadius: "4px", marginBottom: "15px" }}>
+              <h4>Legislative Description</h4>
+              {/* Description mode selection */}
+              <div style={{ marginBottom: "8px" }}>
+                <select 
+                  value={selectedDescriptionMode} 
+                  onChange={handleDescriptionModeChange}
+                >
+                  <option value="two_sentence">Two-Sentence Summary</option>
+                  <option value="full_description">Full Legislative Description</option>
+                </select>
+              </div>
+              {/* Render description based on selected mode */}
+              <p>
+                {selectedDescriptionMode === 'two_sentence' 
+                  ? getTwoSentenceSummary(
+                      selectedBill.ai_summaries_enhanced?.[0]?.desc_response || 
+                      selectedBill.description || 
+                      "No description available."
+                    )
+                  : capitalizeSentences(
+                      selectedBill.description || 
+                      "No full legislative description available."
+                    )
+                }
+              </p>
             </div>
 
-            {/* Status */}
-            <div className="status-details" style={{ marginTop: "10px" }}>
-              <p><strong>Bill Status:</strong> {selectedBill.status || "N/A"}</p>
-              <p><strong>Last Action:</strong> {selectedBill.last_action || "N/A"}</p>
+            {/* Bill Status Section */}
+            <div className="status-details" style={{ marginTop: "10px", marginBottom: "15px" }}>
+              <p>
+                <strong>Bill Status:</strong> {selectedBill.status || "N/A"}
+              </p>
+              <p>
+                <strong>Last Action:</strong> {selectedBill.last_action || "N/A"}
+              </p>
             </div>
 
-            {/* AI Summary Modes */}
+            {/* AI Summarized Description Section */}
             <div className="ai-summary" style={{ marginTop: "15px" }}>
               <h4>AI Summarized Description</h4>
+              {/* Summary mode selection */}
               <div style={{ marginBottom: "8px" }}>
                 <select value={selectedSummaryMode} onChange={handleSummaryModeChange}>
                   <option value="response_simple">Simple & Clear</option>
@@ -164,26 +243,31 @@ const Search = () => {
                   <option value="response_tweet">Tweet-Style</option>
                 </select>
               </div>
+              {/* Render the selected AI summary mode */}
               <div
                 dangerouslySetInnerHTML={{
                   __html: formatAiSummary(
-                    selectedBill[selectedSummaryMode] || "No summary available."
+                    selectedBill.ai_summaries_enhanced?.[0]?.[selectedSummaryMode] ||
+                      "No AI summary available."
                   ),
                 }}
               />
             </div>
 
-            {/* Default AI Response */}
+            {/* Default AI Response Section */}
             <div className="default-ai-summary" style={{ marginTop: "15px" }}>
               <h4>Default AI Response</h4>
               <div
                 dangerouslySetInnerHTML={{
-                  __html: formatAiSummary(selectedBill.response || ""),
+                  __html: formatAiSummary(
+                    selectedBill.ai_summaries_enhanced?.[0]?.response ||
+                      "No default response available."
+                  ),
                 }}
               />
             </div>
 
-            {/* History */}
+            {/* Bill History Section */}
             <div className="bill-history" style={{ marginTop: "15px" }}>
               <h4>History</h4>
               {selectedBill.history ? (
@@ -193,7 +277,9 @@ const Search = () => {
                     return (
                       <li key={idx}>
                         <span className="bill-history-date">{datePart}</span>{" "}
-                        <span className="bill-history-description">{rest.join(" - ")}</span>
+                        <span className="bill-history-description">
+                          {rest.join(" - ")}
+                        </span>
                       </li>
                     );
                   })}
@@ -203,7 +289,7 @@ const Search = () => {
               )}
             </div>
 
-            {/* Link */}
+            {/* Full Bill Link */}
             <a
               href={selectedBill.url}
               target="_blank"
