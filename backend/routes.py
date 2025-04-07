@@ -3,7 +3,7 @@ from database import get_db_connection
 
 bill_routes = Blueprint("bill_routes", __name__)
 
-@bill_routes.route("/bills", methods=["GET"])
+@bill_routes.route("/api/bills", methods=["GET"])
 def get_bills():
     conn = get_db_connection()
     cur = conn.cursor()

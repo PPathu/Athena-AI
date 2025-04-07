@@ -3,3 +3,4 @@ python-dotenv
 psycopg2-binary
 requests
 PyPDF2
+flask-cors
