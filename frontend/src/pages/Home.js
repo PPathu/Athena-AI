@@ -30,7 +30,7 @@ const Home = () => {
           response_simple
         )`
       )
-      .not("ai_summaries_enhanced.response_simple", "is", null); // 👈 only get bills with a summary
+      .not("ai_summaries_enhanced.response_simple", "is", null);
   
     if (error) {
       console.error("Error fetching bills:", error);

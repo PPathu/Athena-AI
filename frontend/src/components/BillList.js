@@ -22,7 +22,7 @@ const BillList = () => {
 
   return (
     <div>
-      <h2>📜 Bills</h2>
+      <h2>Bills</h2>
       {bills.length > 0 ? (
         bills.map((bill) => (
           <div key={bill.bill_id} className="bill-card">

@@ -665,4 +665,20 @@
       box-shadow: 0.5em 1em rgba(244,180,0,0.75), -0.5em -1em rgba(15,157,88,0.75);
     }
   }
+
+  .preset-button {
+    background-color: #f1f3f4;
+    color: #202124;
+    border: none;
+    border-radius: 16px;
+    padding: 8px 14px;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .preset-button:hover {
+    background-color: #e0e0e0;
+  }
   
