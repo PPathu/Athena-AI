@@ -1,23 +1,26 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import supabase from "../utils/supabase";
 import "../styles/styles.css";
 
 const BillList = () => {
   const [bills, setBills] = useState([]);
   const navigate = useNavigate();
 
+  
   useEffect(() => {
-    const fetchBills = async () => {
-      const { data, error } = await supabase.from("enhanceddata").select("*");
-      if (error) {
-        console.error("Error fetching bills:", error);
-      } else {
-        setBills(data);
+    fetch("http://localhost:5000/bills")
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Failed to fetch bills");
       }
-    };
+      return response.json();
 
-    fetchBills();
+    })
+    .then(data => {
+      setBills(data);
+    }).catch(error => {
+      console.error("Error fetching bills:", error);
+    });
   }, []);
 
   return (
