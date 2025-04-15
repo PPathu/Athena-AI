@@ -3,6 +3,8 @@ node_modules/
 venv/
 # Ignore Python cache and compiled files
 __pycache__/
+.DS_Store
 *.py[cod]
 # Ignore virtual environment folders
 env/
+../venv/

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import supabase from "../utils/supabase";
+import "../styles/styles.css";
 
 const BillList = () => {
   const [bills, setBills] = useState([]);
@@ -21,7 +22,7 @@ const BillList = () => {
 
   return (
     <div>
-      <h2>📜 Bills</h2>
+      <h2>Bills</h2>
       {bills.length > 0 ? (
         bills.map((bill) => (
           <div key={bill.bill_id} className="bill-card">

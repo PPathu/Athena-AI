@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/BillModal.css";
+import "../styles/styles.css";
 
 const BillModal = ({ bill, onClose }) => {
   if (!bill) return null;
