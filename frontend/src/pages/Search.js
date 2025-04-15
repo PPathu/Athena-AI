@@ -56,7 +56,10 @@ const Search = () => {
   // Two separate modes: one for the legislative description and one for the AI summary
   const [selectedDescriptionMode, setSelectedDescriptionMode] = useState("two_sentence");
   const [selectedSummaryMode, setSelectedSummaryMode] = useState("response_simple");
-
+  const [userQuestion, setUserQuestion] = useState("");
+  const [aiAnswer, setAiAnswer] = useState("");
+  const [aiLoading, setAiLoading] = useState(false);
+  
   const billsPerPage = 6;
 
   /**
@@ -124,6 +127,48 @@ const Search = () => {
     setSelectedSummaryMode(e.target.value);
   };
 
+  const askAiAboutBill = async () => {
+    if (!userQuestion.trim()) return;
+  
+    setAiLoading(true);
+    setAiAnswer("");
+  
+    try {
+      const response = await fetch("http://127.0.0.1:5000/api/chat", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          bill_id: selectedBill.bill_id,
+          question: userQuestion,
+        }),
+      });
+
+
+  
+      const text = await response.text(); // Raw response for debugging
+  
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status} – ${text}`);
+      }
+  
+      const data = text ? JSON.parse(text) : {};
+      console.log("AI Response:", data);
+  
+      if (typeof data.answer === "string") {
+        setAiAnswer(data.answer);
+      } else {
+        setAiAnswer("AI did not return a valid answer.");
+      }
+    } catch (error) {
+      console.error("Error asking AI:", error);
+      setAiAnswer("Failed to get an answer. " + error.message);
+    } finally {
+      setAiLoading(false);
+    }
+  };
+  
   return (
     <div className="search-container">
       <h2>Search Bills</h2>
@@ -286,6 +331,60 @@ const Search = () => {
                 </ul>
               ) : (
                 <p>No history available.</p>
+              )}
+            </div>
+
+            {/* Ask AI About This Bill */}
+            <div className="ask-ai-section" style={{ marginTop: "20px" }}>
+              <h4>Ask AI About This Bill</h4>
+
+              <div className="preset-buttons" style={{ marginBottom: "10px" }}>
+                {[
+                  "What does this bill aim to do?",
+                  "How might this bill impact taxpayers?",
+                  "Who supports or opposes this bill?",
+                  "What stage is this bill in the legislative process?",
+                  "Are there similar bills I should know about?",
+                ].map((preset, idx) => (
+                  <button
+                    key={idx}
+                    className="preset-button"
+                    onClick={() => {
+                      setUserQuestion(preset);
+                      askAiAboutBill();
+                    }}
+                  >
+                    {preset}
+                  </button>
+                ))}
+              </div>
+
+              <textarea
+                rows="3"
+                placeholder="Type your question here..."
+                value={userQuestion}
+                onChange={(e) => setUserQuestion(e.target.value)}
+                style={{ width: "100%", padding: "8px" }}
+              />
+              <button
+                onClick={askAiAboutBill}
+                disabled={aiLoading}
+                style={{ marginTop: "10px" }}
+              >
+                {aiLoading ? "Thinking..." : "Ask"}
+              </button>
+
+              {aiAnswer && (
+                <div
+                  className="ai-answer"
+                  style={{
+                    marginTop: "15px",
+                    backgroundColor: "#f9f9f9",
+                    padding: "10px",
+                    borderRadius: "4px",
+                  }}
+                  dangerouslySetInnerHTML={{ __html: formatAiSummary(aiAnswer) }}
+                />
               )}
             </div>
 

@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/', // ✅ Fix routing issues
+    publicPath: '/',
   },
   mode: 'development',
   module: {
@@ -36,7 +36,7 @@ module.exports = {
       template: './public/index.html',
     }),
     new Dotenv({
-      path: path.resolve(__dirname, '../.env'), // ✅ Tell Webpack to use .env from the root directory
+      path: path.resolve(__dirname, '../.env'),
       systemvars: true,
     }),
   ],
@@ -49,5 +49,8 @@ module.exports = {
     open: true,
     hot: true,
     historyApiFallback: true,
-  },
+    proxy: {
+      '/api': 'http://localhost:5000',
+    },
+  },  
 };
