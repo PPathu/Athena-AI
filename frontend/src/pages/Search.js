@@ -127,46 +127,6 @@ const Search = () => {
     setSelectedSummaryMode(e.target.value);
   };
 
-  
-  // const askAiAboutBill = async () => {
-  //   if (!userQuestion.trim()) return;
-  //   setAiLoading(true);
-  //   setAiAnswer("");
-  
-  //   try {
-  //     const response = await fetch("http://127.0.0.1:5000/api/chat", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify({
-  //         bill_id: selectedBill.bill_id,
-  //         question: userQuestion,
-  //       }),
-  //     });      
-          
-  
-  //     const text = await response.text(); // grab raw response
-  
-  //     if (!response.ok) {
-  //       throw new Error(` ${response.status}: ${text}`);
-  //     }
-  
-  //     // Try to parse the response body as JSON
-  //     const data = text ? JSON.parse(text) : {};
-  //     if (data.answer) {
-  //       setAiAnswer(data.answer);
-  //     } else {
-  //       setAiAnswer("Sorry, no answer was returned.");
-  //     }
-  //   } catch (error) {
-  //     console.error(" Error asking AI:", error);
-  //     setAiAnswer("Failed to get an answer. " + error.message);
-  //   } finally {
-  //     setAiLoading(false);
-  //   }
-  // };
-
   const askAiAboutBill = async () => {
     if (!userQuestion.trim()) return;
   
@@ -184,6 +144,8 @@ const Search = () => {
           question: userQuestion,
         }),
       });
+
+
   
       const text = await response.text(); // Raw response for debugging
   
@@ -192,7 +154,7 @@ const Search = () => {
       }
   
       const data = text ? JSON.parse(text) : {};
-      console.log("🤖 AI Response:", data);
+      console.log("AI Response:", data);
   
       if (typeof data.answer === "string") {
         setAiAnswer(data.answer);

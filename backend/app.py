@@ -9,8 +9,13 @@ app = Flask(__name__)
 
 CORS(
     app,
-    resources={r"/*": {"origins": "*"}},
+    origins=["http://localhost:3000"],
+    supports_credentials=True,
+    allow_headers=["Content-Type", "x-gemini-api-key"],
+    methods=["GET", "POST", "OPTIONS"],
+    send_wildcard=True 
 )
+
 
 app.register_blueprint(bill_routes)
 @app.route("/")

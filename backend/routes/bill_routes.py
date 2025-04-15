@@ -45,9 +45,13 @@ print(f"Loaded {len(documents)} bill documents into memory.")
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 vector_store = FAISS.from_documents(documents, embeddings)
 
-def retrieve_context(query, k=3):
-    results = vector_store.similarity_search(query, k=k)
-    return [doc.page_content for doc in results]
+def retrieve_context(query, bill_id, k=3):
+    k = int(k)
+    filtered_docs = [doc for doc in documents if doc.metadata.get("bill_id") == bill_id]
+    if not filtered_docs:
+        return ["No relevant documents found for this bill."]
+    local_vector_store = FAISS.from_documents(filtered_docs, embeddings)
+    return [doc.page_content for doc in local_vector_store.similarity_search(query, k=k)]
 
 #api route
 @bill_routes.route("/api/chat", methods=["POST"])
@@ -68,7 +72,7 @@ def chat():
     if not bill_id or not question:
         return jsonify({"error": "bill_id and question are required"}), 400
 
-    context_docs = retrieve_context(question)
+    context_docs = retrieve_context(question, bill_id)
     context = "\n".join(context_docs)
 
     prompt = (
