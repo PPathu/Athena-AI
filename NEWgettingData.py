@@ -78,11 +78,23 @@ def fetch_bill_details(bill_id):
         return {}
 
     bill_data = data.get("bill", {})
+    
+    sponsors = []
+    for sponsor in bill_data.get("sponsors", []):
+        sponsors.append({
+            "name": sponsor.get("name"),
+            "party": sponsor.get("party"),
+            "role": sponsor.get("role"),
+            "district": sponsor.get("district"),
+            "ballotpedia": sponsor.get("ballotpedia"),
+            "votesmart_id": sponsor.get("votesmart_id"),
+        })
 
     return {
         "amendments": bill_data.get("amendments", []),
         "seeAlso": bill_data.get("sasts", []),
-        "history": bill_data.get("history", [])
+        "history": bill_data.get("history", []),
+        "sponsors": sponsors
     }
 
 
@@ -185,7 +197,8 @@ def get_master_list():
             "url": bill.get("url") or "No URL Available",
             "amendments": bill_details.get("amendments", []),
             "seeAlso": bill_details.get("seeAlso", []),
-            "history": bill_details.get("history", [])
+            "history": bill_details.get("history", []),
+            "sponsors": bill_details.get("sponsors", [])
         }
 
         print(f"Retrieved Bill: {new_bill_data['billNumber']} - {new_bill_data['title']}")
