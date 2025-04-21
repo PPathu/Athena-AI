@@ -16,8 +16,8 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 # Initialize Blueprint
 bill_routes = Blueprint("bill_routes", __name__)
 
-# This route gets all bill attributes that appear in the enhanced data database and returns them as a json for the frontend to use
-@bill_routes.route("/getBills", methods=["GET"])
+@bill_routes.route("/api/bills", methods=["GET"])
+
 def get_bills():
     try:
         # Fetch all bills with related AI summaries
