@@ -81,6 +81,7 @@ const BillModal = ({ bill, onClose }) => {
                   <th>Republican</th>
                 </tr>
               </thead>
+              
               <tbody>
                 {sponsors.map((s, i) => (
                   <tr key={i}>
