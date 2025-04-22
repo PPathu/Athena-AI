@@ -334,6 +334,40 @@ const Search = () => {
               )}
             </div>
 
+           {/* Bill Sponsors Section */}
+          <div className="bill-sponsors" style={{ marginTop: "15px" }}>
+            <h4>Sponsors</h4>
+            {selectedBill.sponsors ? (() => {
+              let sponsorList;
+              try {
+                sponsorList = JSON.parse(selectedBill.sponsors);
+              } catch (e) {
+                console.error("Failed to parse sponsors JSON:", e);
+                sponsorList = [];
+              }
+
+              return sponsorList.length > 0 ? (
+                sponsorList.map((sponsor, idx) => (
+                  <div key={idx} style={{ marginBottom: "10px" }}>
+                    <strong>{sponsor.name}</strong> ({sponsor.role}, {sponsor.party}-{sponsor.district})
+                    {sponsor.ballotpedia && (
+                      <span>
+                        {" "}
+                        - <a href={`https://ballotpedia.org/${sponsor.ballotpedia}`} target="_blank" rel="noreferrer">Ballotpedia</a>
+                      </span>
+                    )}
+                  </div>
+                ))
+              ) : (
+                <p>No sponsors listed.</p>
+              );
+            })() : (
+              <p>No sponsors listed.</p>
+            )}
+          </div>
+
+
+
             {/* Ask AI About This Bill */}
             <div className="ask-ai-section" style={{ marginTop: "20px" }}>
               <h4>Ask AI About This Bill</h4>
