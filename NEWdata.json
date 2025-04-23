@@ -49132,10 +49132,10 @@
         "session": "2025-2026 Regular Session",
         "title": "Honoring the life and public service of Representative David O. Martin.",
         "description": "Relating to: honoring the life and public service of Representative David O. Martin.",
-        "status": "Introduced",
-        "statusDate": "2025-03-11",
-        "last_action": "Placed on calendar 4-22-2025 by Committee on Rules",
-        "last_action_date": "2025-04-17",
+        "status": "Engrossed",
+        "statusDate": "2025-04-22",
+        "last_action": "Ordered immediately messaged",
+        "last_action_date": "2025-04-22",
         "url": "https://legiscan.com/WI/bill/AJR14/2025",
         "amendments": [],
         "seeAlso": [],
@@ -49157,6 +49157,27 @@
             {
                 "date": "2025-04-17",
                 "action": "Placed on calendar 4-22-2025 by Committee on Rules",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 0
+            },
+            {
+                "date": "2025-04-22",
+                "action": "Rules suspended to withdraw from calendar and take up",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 0
+            },
+            {
+                "date": "2025-04-22",
+                "action": "Adopted",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-04-22",
+                "action": "Ordered immediately messaged",
                 "chamber": "A",
                 "chamber_id": 99,
                 "importance": 0
@@ -50749,10 +50770,10 @@
         "session": "2025-2026 Regular Session",
         "title": "Honoring April 22, 2025, as the 55th anniversary of Earth Day.",
         "description": "Relating to: honoring April 22, 2025, as the 55th anniversary of Earth Day.",
-        "status": "Introduced",
-        "statusDate": "2025-03-17",
-        "last_action": "Placed on calendar 4-22-2025 by Committee on Rules",
-        "last_action_date": "2025-04-17",
+        "status": "Engrossed",
+        "statusDate": "2025-04-22",
+        "last_action": "Ordered immediately messaged",
+        "last_action_date": "2025-04-22",
         "url": "https://legiscan.com/WI/bill/AJR19/2025",
         "amendments": [],
         "seeAlso": [],
@@ -50774,6 +50795,20 @@
             {
                 "date": "2025-04-17",
                 "action": "Placed on calendar 4-22-2025 by Committee on Rules",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 0
+            },
+            {
+                "date": "2025-04-22",
+                "action": "Adopted",
+                "chamber": "A",
+                "chamber_id": 99,
+                "importance": 1
+            },
+            {
+                "date": "2025-04-22",
+                "action": "Ordered immediately messaged",
                 "chamber": "A",
                 "chamber_id": 99,
                 "importance": 0
@@ -58500,7 +58535,7 @@
         "description": "An Act to amend 49.46 (1) (a) 1m., 49.46 (1) (j), 49.47 (4) (ag) 2., 49.471 (6) (b) and 49.471 (7) (b) 1. of the statutes; Relating to: extension of eligibility under the Medical Assistance program for postpartum women. (FE)",
         "status": "Engrossed",
         "statusDate": "2025-04-22",
-        "last_action": "Ordered immediately messaged",
+        "last_action": "Received from Senate",
         "last_action_date": "2025-04-22",
         "url": "https://legiscan.com/WI/bill/SB23/2025",
         "amendments": [],
@@ -58637,6 +58672,13 @@
                 "action": "Ordered immediately messaged",
                 "chamber": "S",
                 "chamber_id": 100,
+                "importance": 0
+            },
+            {
+                "date": "2025-04-22",
+                "action": "Received from Senate",
+                "chamber": "A",
+                "chamber_id": 99,
                 "importance": 0
             }
         ],
@@ -64149,8 +64191,8 @@
         "description": "An Act Relating to: repealing an administrative rule of the Department of Natural Resources related to the possession of firearms.",
         "status": "Introduced",
         "statusDate": "2025-02-21",
-        "last_action": "Placed on calendar 4-22-2025 pursuant to Senate Rule 18(1)",
-        "last_action_date": "2025-04-18",
+        "last_action": "Referred to committee on Administrative Rules",
+        "last_action_date": "2025-04-22",
         "url": "https://legiscan.com/WI/bill/SB49/2025",
         "amendments": [],
         "seeAlso": [],
@@ -64189,6 +64231,20 @@
                 "chamber": "S",
                 "chamber_id": 100,
                 "importance": 0
+            },
+            {
+                "date": "2025-04-22",
+                "action": "Read a second time",
+                "chamber": "S",
+                "chamber_id": 100,
+                "importance": 0
+            },
+            {
+                "date": "2025-04-22",
+                "action": "Referred to committee on Administrative Rules",
+                "chamber": "S",
+                "chamber_id": 100,
+                "importance": 1
             }
         ],
         "sponsors": [
@@ -70898,7 +70954,7 @@
         "description": "An Act to repeal 971.37; to amend 20.410 (1) (gL), 20.437 (1) (hh), 814.75 (8), 814.75 (8m), 814.76 (6), 814.80 (6), 814.81 (6), 971.38 (1) and 971.39 (1) (intro.); to create 967.056 and 968.075 (7) (c) of the statutes; Relating to: dismissing or amending certain criminal charges and deferred prosecution agreements for certain crimes.",
         "status": "Engrossed",
         "statusDate": "2025-04-22",
-        "last_action": "Ordered immediately messaged",
+        "last_action": "Received from Senate",
         "last_action_date": "2025-04-22",
         "url": "https://legiscan.com/WI/bill/SB76/2025",
         "amendments": [
@@ -86432,8 +86488,8 @@
         "description": "An Act to renumber and amend 102.17 (9) (a) 1.; to amend 102.17 (9) (b) (intro.); to create 102.17 (9) (a) 1c., 102.17 (9) (a) 1e., 102.17 (9) (a) 1g. and 102.17 (9) (a) 1p. of the statutes; Relating to: changing the conditions of liability for worker\u2019s compensation benefits for emergency medical responders, emergency medical services practitioners, volunteer firefighters, correctional officers, emergency dispatchers, coroners and coroner staff, and medical examiners and medical examiner staff. (FE)",
         "status": "Introduced",
         "statusDate": "2025-04-03",
-        "last_action": "Fiscal estimate received",
-        "last_action_date": "2025-04-17",
+        "last_action": "Representative Neubauer added as a cosponsor",
+        "last_action_date": "2025-04-22",
         "url": "https://legiscan.com/WI/bill/SB168/2025",
         "amendments": [],
         "seeAlso": [],
@@ -86469,6 +86525,13 @@
             {
                 "date": "2025-04-17",
                 "action": "Fiscal estimate received",
+                "chamber": "S",
+                "chamber_id": 100,
+                "importance": 0
+            },
+            {
+                "date": "2025-04-22",
+                "action": "Representative Neubauer added as a cosponsor",
                 "chamber": "S",
                 "chamber_id": 100,
                 "importance": 0
@@ -93739,8 +93802,8 @@
         "description": "An Act to amend 704.44 (intro.), 704.44 (1m) (intro.), 704.44 (9) and 704.44 (10); to create 421.103 (5) and 704.445 of the statutes; Relating to: voidable provisions in residential rental agreements and the application of the Wisconsin Consumer Act to leases. (FE)",
         "status": "Introduced",
         "statusDate": "2025-04-16",
-        "last_action": "Representatives Behnke and Snyder added as cosponsors",
-        "last_action_date": "2025-04-17",
+        "last_action": "Representative Wichgers added as a cosponsor",
+        "last_action_date": "2025-04-22",
         "url": "https://legiscan.com/WI/bill/SB206/2025",
         "amendments": [],
         "seeAlso": [],
