@@ -343,8 +343,7 @@ const Search = () => {
                   "What does this bill aim to do?",
                   "How might this bill impact taxpayers?",
                   "Who supports or opposes this bill?",
-                  "What stage is this bill in the legislative process?",
-                  "Are there similar bills I should know about?",
+                  "What stage is this bill in the legislative process?"
                 ].map((preset, idx) => (
                   <button
                     key={idx}
