@@ -45,7 +45,7 @@ const Navbar = () => {
             Bills
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/chatbot"
             onClick={handleClick}
@@ -54,7 +54,7 @@ const Navbar = () => {
           >
             ChatBot
           </NavLink>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

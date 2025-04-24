@@ -6,6 +6,9 @@ from langchain_community.vectorstores import FAISS
 from langchain.docstore.document import Document
 from supabase import create_client
 
+# Added by nicole to get .env info 
+from dotenv import load_dotenv
+load_dotenv()
 #config
 bill_routes = Blueprint("bill_routes", __name__)
 
