@@ -1,191 +1,129 @@
 import os
 import psycopg2
 import psycopg2.extras
+import concurrent.futures
 import google.generativeai as genai
-from datetime import datetime, timezone
+from google.api_core.client_options import ClientOptions
+from google.api_core.exceptions import ResourceExhausted
 from dotenv import load_dotenv, find_dotenv
-from supabase import create_client, Client
-import os
-from dotenv import load_dotenv, find_dotenv
+from supabase import create_client
 
-global conn, cur, supabase
-conn = None
-cur = None
+#load env variables
+load_dotenv(find_dotenv())
+DATABASE_URL   = os.getenv("DATABASE_URL")
+SUPABASE_URL   = os.getenv("REACT_APP_SUPABASE_URL")
+SUPABASE_KEY   = os.getenv("REACT_APP_SUPABASE_ANON_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-def insertDescSummaryAI(billID, prompt, response):
-    try:
-        # ToDo: Modify this: Maybe add col in enhanceddata and make it so it finds the corrisponding bill id and inserts the summary into that col
-        update_query = """
-            UPDATE ai_summaries_enhanced
-            SET desc_response = %s, desc_prompt = %s
-            WHERE bill_id = %s
-        """
-        cur.execute(update_query, (response, prompt, billID))
-        conn.commit()
-        print(f"Short description AI summary inserted for Bill ID {billID}")
+if not (DATABASE_URL and SUPABASE_URL and SUPABASE_KEY and GEMINI_API_KEY):
+    raise SystemExit("Missing one of DATABASE_URL, SUPABASE_URL, SUPABASE_KEY or GEMINI_API_KEY in .env")
 
-    except Exception as e:
-        print(f"failed to insert AI summary: {e}")
+#create Supabase client for reading which rows need processing
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+print("Supabase connected")
 
-def fetchBillDetails(billID):
-    """Retrieve bill details from `enhanceddata` for AI summarization"""
-    query = """
-        SELECT title, description, status, status_date, last_action, last_action_date, url
-        FROM enhanceddata WHERE bill_id = %s
-    """
-    cur.execute(query, (billID,))
-    bill = cur.fetchone()
+genai.configure(
+    api_key        = GEMINI_API_KEY,
+)
+model = genai.GenerativeModel("gemini-1.5-pro")
+print("Gemini paid endpoint configured")
 
-    if not bill:
-        print(f"no bill found for Bill ID {billID} in enhanceddata - proceeding with minimal data")
-        return ("Unknown Title", "No description available", "Unknown Status", None, "Unknown Last Action", None, "No URL")
+def fetch_bill_details(bill_id, pg_conn):
+    """Retrieve bill data from enhanceddata table by bill_id."""
+    with pg_conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cur:
+        cur.execute("""
+            SELECT title, description, status, status_date,
+                   last_action, last_action_date, url
+              FROM enhanceddata
+             WHERE bill_id = %s
+        """, (bill_id,))
+        row = cur.fetchone()
+    if not row:
+        # fallback if the bill record is missing
+        return ("Unknown Title", "No description available",
+                "Unknown Status", None,
+                "Unknown Last Action", None,
+                "No URL")
+    return row
 
-    return bill
-
-def createPromptV2(bill):
-    title, description, status, status_date, last_action, last_action_date, url = bill
-
-    #ensure no field is None
-    title = title or "Unknown Title"
-    description = description or "No description available"
-    status = status or "Unknown Status"
-    status_date = status_date or "N/A"
-    last_action = last_action or "Unknown Last Action"
-    last_action_date = last_action_date or "N/A"
-    url = url or "No URL" 
-
-    # Modfied the prompt to ask for 1-2 sentance summary
-    prompt = (
+def make_prompt(bill):
+    """Construct the 1–2 sentence summarization prompt."""
+    title, desc, status, sdate, action, adate, url = bill
+    return (
         "You are an expert in legislative analysis and plain language translation.\n"
-        "Your task is to simplify and summarize legislative bills in a clear, concise, and accessible way for the general public.\n"
-        "Provide a 1-2 sentence summary of the bill that conveys the key purpose and impact in plain language.\n"
-        "Avoid using any technical legislative terms or jargon.\n"
-        "If any key information is missing, provide only the URL or 'not enough bill information at the moment' if there is no URL.\n\n"
-        f"Here is the Bill Information:\n"
-        f"Title: {title}\n"
-        f"Description: {description}\n"
-        f"Status: {status} (as of {status_date})\n"
-        f"Last Action: {last_action} (on {last_action_date})\n"
-        f"URL: {url}\n\n"
+        "Provide a 1–2 sentence summary that conveys the key purpose and impact.\n"
+        "Avoid any legislative jargon. If essential info is missing, respond with only the URL\n"
+        "or 'not enough bill information at the moment'.\n\n"
+        f"Bill Info:\n"
+        f" Title: {title or 'N/A'}\n"
+        f" Description: {desc or 'N/A'}\n"
+        f" Status: {status or 'N/A'} (as of {sdate or 'N/A'})\n"
+        f" Last Action: {action or 'N/A'} on {adate or 'N/A'}\n"
+        f" URL: {url or 'N/A'}\n\n"
     )
-    return prompt
 
-def generateAiSummary(billID):
-    """Fetch bill details, generate summary using AI, and store result"""
-    dotenv_path = find_dotenv()
-    if not load_dotenv(dotenv_path):
-        print("Error: .env file not loaded")
-        exit()
+def insert_summary(record_id, prompt, text, pg_conn):
+    """Write the AI summary back into ai_summaries_enhanced by id."""
+    with pg_conn.cursor() as cur:
+        cur.execute("""
+            UPDATE ai_summaries_enhanced
+               SET desc_prompt   = %s,
+                   desc_response = %s
+             WHERE id = %s
+        """, (prompt, text, record_id))
+    pg_conn.commit()
 
-    #load Gemini API key
-    gemini_api_key = os.getenv("GEMINI_API_KEY")
-    if not gemini_api_key:
-        print("Error: GEMINI_API_KEY not found in .env file")
-        exit()
-    
-    #configure Gemini API
+def work_bill(rec):
+    """
+    Worker function: given a dict with 'id' and 'bill_id',
+    fetch details, call Gemini
+    """
+    rec_id  = rec["id"]
+    bill_id = rec["bill_id"]
+    pg_conn = psycopg2.connect(DATABASE_URL)
+
     try:
-        genai.configure(api_key=gemini_api_key)
-        model = genai.GenerativeModel("gemini-1.5-pro")  # TODO: Decide on model
-        print("Successfully connected to Gemini API")
-    except Exception as e:
-        print(f"Failed to connect to Gemini: {e}")
-        exit()
-    
-    #get bill details
-    bill = fetchBillDetails(billID)
+        bill   = fetch_bill_details(bill_id, pg_conn)
+        prompt = make_prompt(bill)
 
-    #generate prompt
-    #prompt = createPromptV1(bill)
-    prompt = createPromptV2(bill)
+        print(f"[Rec {rec_id} | Bill {bill_id}] Calling Gemini")
+        try:
+            resp = model.generate_content(prompt)
+            text = resp.text if resp and resp.text else None
+        except ResourceExhausted:
+            print(f"[Rec {rec_id}] Rate limited by Gemini, skipping")
+            return
+        except Exception as e:
+            print(f"[Rec {rec_id}] Gemini error: {e}")
+            return
 
-    #call Gemini API
-    try:
-        response = model.generate_content(prompt)
-        if response and response.text:
-            timestamp = datetime.now(timezone.utc)
-            insertDescSummaryAI(billID, prompt, response.text)
+        if text:
+            insert_summary(rec_id, prompt, text, pg_conn)
+            print(f"[Rec {rec_id}] Summary stored")
         else:
-            print(f"Gemini response was empty for Bill ID {billID}")
-    except Exception as e:
-        print(f"failed to get response from Gemini: {e}")
+            print(f"[Rec {rec_id}] Empty response, no update")
 
-def connectSupabase():
-    """Establish database connection"""
-    global conn, cur
-    dotenv_path = find_dotenv()
-    if not load_dotenv(dotenv_path):
-        print("Error: .env file not loaded")
-        exit()
+    finally:
+        pg_conn.close()
 
-    DATABASE_URL = os.getenv("DATABASE_URL")
-    try:
-        conn = psycopg2.connect(DATABASE_URL)
-        cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-        print("Supabase connection established")
-    except Exception as e:
-        print(f"Supabase connection failed: {e}")
 
-def disconnectSupabase():
-    """Close database connection"""
-    try:
-        cur.close()
-        conn.close()
-        print("Supabase disconnected")
-    except Exception as e:
-        print(f"Supabase disconnection failed: {e}")
+def main():
+    # select all rows that still need a desc_response
+    rows = (
+        supabase
+          .table("ai_summaries_enhanced")
+          .select("id, bill_id")
+          .is_("desc_response", None)
+          .execute()
+          .data
+    ) or []
+    print(f"{len(rows)} records to process")
 
-def connectSupabase():
-    """Establish database connection and Supabase client"""
-    global conn, cur, supabase  # Ensure supabase is a global variable
-    
-    dotenv_path = find_dotenv()
-    if not load_dotenv(dotenv_path):
-        print("Error: .env file not loaded")
-        exit()
+    # process in parallel with threadpool
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        executor.map(work_bill, rows)
 
-    # Load environment variables (Updated to match your .env)
-    DATABASE_URL = os.getenv("DATABASE_URL")
-    SUPABASE_URL = os.getenv("REACT_APP_SUPABASE_URL")  # Updated
-    SUPABASE_KEY = os.getenv("REACT_APP_SUPABASE_ANON_KEY")  # Updated
-
-    if not SUPABASE_URL or not SUPABASE_KEY:
-        print("Error: REACT_APP_SUPABASE_URL or REACT_APP_SUPABASE_ANON_KEY is missing from the .env file")
-        exit()
-
-    try:
-        # Connect with psycopg2
-        conn = psycopg2.connect(DATABASE_URL)
-        cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-
-        # Initialize Supabase client
-        from supabase import create_client
-        supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
-
-        print("Supabase connection established")
-    except Exception as e:
-        print(f"Supabase connection failed: {e}")
-
+    print("Done!!!")
 
 if __name__ == "__main__":
-    connectSupabase()
-    
-    #generate AI summary for a sample bill
-    response = supabase.table("bills").select("*").execute()
-    if response.data:
-        print("responses exist")
-        for bill in response.data:
-            billID = bill.get("billid")
-            print(billID)
-            if billID:
-                print("billID exists")
-                generateAiSummary(billID)
-                print("generated billID {billID}")
-                
-    # to run on single bill instead of all billId
-    # if billID is not None and int(billID) == 1968867:
-    
-    #bill_id_to_summarize = "1968867"
-    #generateAiSummary(bill_id_to_summarize)
-
-    disconnectSupabase()
+    main()

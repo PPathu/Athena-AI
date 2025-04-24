@@ -5,38 +5,34 @@ import google.generativeai as genai
 from datetime import datetime, timezone
 from dotenv import load_dotenv, find_dotenv
 from supabase import create_client, Client
+from google.api_core.exceptions import ResourceExhausted
+import time
+from psycopg2 import OperationalError
 
 conn = None
 cur = None
 supabase = None
 model = None 
 
-
-import time
-
-def generate_content_with_retry(model, prompt, mode):
+def generate_content_with_retry(prompt, mode):
     max_retries = 3
-    for attempt in range(max_retries):
+    for attempt in range(1, max_retries + 1):
         try:
-            response = model.generate_content(prompt)
-            if response and response.text:
-                return response.text
-            else:
-                print(f"Gemini response was empty for mode {mode}")
-                return None
+            resp = model.generate_content(prompt)
+            if resp and resp.text:
+                return resp.text
+            print(f"[{mode}] empty response")
+            return None
+        except ResourceExhausted as e:
+            backoff = 5
+            print(f"[{mode}] rate limit (429), sleeping {backoff}s (attempt {attempt}) ")
+            time.sleep(backoff)
         except Exception as e:
-            if "429" in str(e):
-                print(f"Rate limit hit for mode {mode}, retrying in 54 seconds (attempt {attempt + 1})...")
-                time.sleep(54)  # Wait as suggested by the error message
-            else:
-                print(f"Error for mode {mode}: {e}")
-                return None
+            print(f"[{mode}] unexpected error: {e}")
+            return None
+    print(f"[{mode}] failed after {max_retries} retries")
     return None
 
-
-#############################
-# Database + Supabase Setup
-#############################
 
 def connectSupabase():
     """
@@ -80,9 +76,6 @@ def disconnectSupabase():
     except Exception as e:
         print(f"Supabase disconnection failed: {e}")
 
-#############################
-# AI Summaries Storage
-#############################
 
 def store_ai_summary(bill_id, mode, txt):
     """
@@ -116,11 +109,6 @@ def store_ai_summary(bill_id, mode, txt):
         print(f"Failed to store AI summary for Bill {bill_id}, mode '{mode}': {e}")
         conn.rollback()
 
-#############################
-# Bill Data Fetching
-#############################
-
-from psycopg2 import OperationalError
 
 def fetchBillDetails(bill_id):
     query = """
@@ -132,7 +120,7 @@ def fetchBillDetails(bill_id):
         cur.execute(query, (bill_id,))
     except OperationalError as e:
         print("DB connection lost. Reconnecting...")
-        connectSupabase()  # Re-establish connection
+        connectSupabase() 
         cur.execute(query, (bill_id,))
     bill = cur.fetchone()
     if not bill:
@@ -141,10 +129,6 @@ def fetchBillDetails(bill_id):
                 "Unknown Last Action", None, "No URL")
     return bill
 
-
-#############################
-# Prompt Generators
-#############################
 
 def create_prompt_simple(bill):
     """
@@ -276,9 +260,6 @@ def create_prompt_tweet_sized(bill):
     )
 
 
-#############################
-# Main AI Summaries per Mode
-#############################
 def generate_ai_summary_for_mode(bill_id, mode):
     """
     Generate a summary for a given bill_id and mode (simple, intermediate, 
@@ -308,45 +289,87 @@ def generate_ai_summary_for_mode(bill_id, mode):
     else:
         print(f"Failed to get content for Bill ID {bill_id}, mode {mode}")
 
-
-#############################
-# Entry Point
-#############################
-
 if __name__ == "__main__":
+    
+    load_dotenv(find_dotenv())
+    genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+    model = genai.GenerativeModel("gemini-1.5-pro")
+    print("Connected to Gemini")
+
     connectSupabase()
 
-    # load gemini
-    dotenv_path = find_dotenv()
-    if not load_dotenv(dotenv_path):
-        print("Error: .env file not loaded")
-        exit()
+    # 3) batch + back-off settings
+    BATCH_SIZE     = 1
+    SLEEP_BETWEEN  = 5    # secs between bills
+    GLOBAL_BACKOFF = 300   # secs on global quota hit
+    fail_counts    = {}
 
-    gemini_api_key = os.getenv("GEMINI_API_KEY")
-    if not gemini_api_key:
-        print("Error: GEMINI_API_KEY not found in .env file")
-        exit()
+    while True:
+        resp = supabase.table("ai_summaries_enhanced") \
+            .select(
+                "bill_id, response_simple, response_intermediate, "
+                "response_persuasive, response_pros_cons, response_tweet"
+            ) \
+            .or_(
+                "response_simple.is.null,"
+                "response_intermediate.is.null,"
+                "response_persuasive.is.null,"
+                "response_pros_cons.is.null,"
+                "response_tweet.is.null"
+            ) \
+            .limit(BATCH_SIZE) \
+            .execute()
 
-    try:
-        genai.configure(api_key=gemini_api_key)
-        model = genai.GenerativeModel("gemini-1.5-pro")
-        print("Successfully connected to Gemini API")
-    except Exception as e:
-        print(f"Failed to connect to Gemini: {e}")
-        exit()
+        rows = resp.data or []
+        if not rows:
+            print("All done—no bills left.")
+            break
 
-    # get all bills from 'bills' table
-    response = supabase.table("bills").select("*").execute()
-    if response.data:
-        for bill_record in response.data:
-            bill_id = bill_record.get("billid")
-            if not bill_id:
-                continue
+        row   = rows[0]
+        bill  = row["bill_id"]
+        print(f"Generating for Bill {bill}")
 
-            # generate all modes
-            for mode in ["simple", "intermediate", "persuasive", "pros_cons", "tweet"]:
-                generate_ai_summary_for_mode(bill_id, mode)
-    else:
-        print("No bills found in 'bills' table.")
+        try:
+            for mode, col in [
+                ("simple",       "response_simple"),
+                ("intermediate", "response_intermediate"),
+                ("persuasive",   "response_persuasive"),
+                ("pros_cons",    "response_pros_cons"),
+                ("tweet",        "response_tweet"),
+            ]:
+                if row[col] is not None:
+                    continue
+
+                prompt = {
+                    "simple":       create_prompt_simple,
+                    "intermediate": create_prompt_intermediate,
+                    "persuasive":   create_prompt_persuasive,
+                    "pros_cons":    create_prompt_pros_cons,
+                    "tweet":        create_prompt_tweet_sized,
+                }[mode](fetchBillDetails(bill))
+
+                text = generate_content_with_retry(prompt, mode)
+                if text:
+                    store_ai_summary(bill, mode, text)
+
+            print(f"⏸ Sleeping {SLEEP_BETWEEN}s…")
+            time.sleep(SLEEP_BETWEEN)
+
+        except ResourceExhausted:
+            fail_counts[bill] = fail_counts.get(bill, 0) + 1
+            if fail_counts[bill] >= 2:
+                print(f"Bill {bill} failed twice—skipping modes")
+                for mode, col in [
+                    ("simple",       "response_simple"),
+                    ("intermediate", "response_intermediate"),
+                    ("persuasive",   "response_persuasive"),
+                    ("pros_cons",    "response_pros_cons"),
+                    ("tweet",        "response_tweet"),
+                ]:
+                    if row[col] is None:
+                        store_ai_summary(bill, mode, "[skipped—quota]")
+            else:
+                print(f"Global quota hit—sleeping {GLOBAL_BACKOFF}s…")
+                time.sleep(GLOBAL_BACKOFF)
 
     disconnectSupabase()
