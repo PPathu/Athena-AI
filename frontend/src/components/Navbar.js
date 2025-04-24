@@ -45,16 +45,6 @@ const Navbar = () => {
             Bills
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            to="/chatbot"
-            onClick={handleClick}
-            className={({ isActive }) => isActive ? "active" : ""}
-            style={({ isActive }) => isActive ? { backgroundColor: activeColor } : {}}
-          >
-            ChatBot
-          </NavLink>
-        </li>
       </ul>
     </nav>
   );
