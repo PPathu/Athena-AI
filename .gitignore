@@ -8,3 +8,4 @@ __pycache__/
 # Ignore virtual environment folders
 env/
 ../venv/
+Bill Text/

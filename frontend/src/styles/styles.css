@@ -189,7 +189,19 @@
     75% { box-shadow: 0 0 10px var(--google-green); }
     100% { box-shadow: 0 0 10px var(--google-blue); }
   }
-  
+
+    /* ───── Search bar layout fix ───── */
+  .search-bar form {          /* make the form grow and lay its kids out nicely */
+    flex: 1;                  /* take all horizontal space offered by .search-bar */
+    display: flex;            /* put the input + button side-by-side */
+    gap: 10px;                /* keep the 10-px gap you had before           */
+  }
+
+  .search-bar input {         /* let the input stretch inside the form        */
+    flex: 1;                  /* fills everything left of the button          */
+    width: 100%;              /* (optional – kept for clarity)                */
+  }
+
   .search-bar button {
     padding: 10px 20px;
     background: var(--google-blue);
@@ -592,8 +604,8 @@
    /* Bill sponsors */
   /* Bill sponsors – match the other blocks */
 .bill-sponsors {
-  background-color: rgba(255, 165, 0, 0.1);
-  border: 1px solid rgba(240, 226, 118, 0.3);
+  background-color: rgba(108, 158, 215, 0.1);
+  border: 1px solid rgba(157, 66, 248, 0.3);
   padding: 15px;           /* same 15 px interior padding   */
   border-radius: 8px;      /* round corners like the rest  */
   margin-bottom: 20px;     /* space below, same as others  */
@@ -603,7 +615,7 @@
 .bill-sponsors h4 {
   font-size: 18px;
   margin: 0 0 10px;        /* top = 0, bottom = 10 px      */
-  color: rgb(158, 98, 24);
+  color: rgb(142, 34, 243);
   font-weight: 600;
 }
 
