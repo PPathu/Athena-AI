@@ -32,8 +32,7 @@ function capitalizeSentences(text) {
  */
 function formatAiSummary(rawText) {
   if (!rawText) return "No summary available.";
-  const replaced = rawText.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-  return capitalizeSentences(replaced);
+  return rawText.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 }
 
 /**
@@ -41,8 +40,7 @@ function formatAiSummary(rawText) {
  */
 function getTwoSentenceSummary(text) {
   if (!text) return "No description available.";
-  const capitalized = capitalizeSentences(text);
-  const sentences = capitalized.split(/(?<=[.!?])\s+/);
+  const sentences = text.split(/(?<=[.!?])\s+/);
   return sentences.slice(0, 2).join(" ");
 }
 
@@ -199,7 +197,7 @@ const Search = () => {
 
             return (
               <div key={bill.id} className="bill-card">
-                <h3>{toTitleCase(bill.title)}</h3>
+                <h3>{(bill.title)}</h3>
                 <p className="bill-description">
                   {getTwoSentenceSummary(shortDesc)}
                 </p>
@@ -257,7 +255,7 @@ const Search = () => {
                       selectedBill.description || 
                       "No description available."
                     )
-                  : capitalizeSentences(
+                  : (
                       selectedBill.description || 
                       "No full legislative description available."
                     )
@@ -334,6 +332,38 @@ const Search = () => {
               )}
             </div>
 
+            {/* Bill Sponsors Section */}
+           <div className="bill-sponsors" style={{ marginTop: "15px" }}>
+             <h4>Sponsors</h4>
+             {selectedBill.sponsors ? (() => {
+               let sponsorList;
+               try {
+                 sponsorList = JSON.parse(selectedBill.sponsors);
+               } catch (e) {
+                 console.error("Failed to parse sponsors JSON:", e);
+                 sponsorList = [];
+               }
+ 
+               return sponsorList.length > 0 ? (
+                 sponsorList.map((sponsor, idx) => (
+                   <div key={idx} style={{ marginBottom: "10px" }}>
+                     <strong>{sponsor.name}</strong> ({sponsor.role}, {sponsor.party}-{sponsor.district})
+                     {sponsor.ballotpedia && (
+                       <span>
+                         {" "}
+                         - <a href={`https://ballotpedia.org/${sponsor.ballotpedia}`} target="_blank" rel="noreferrer">Ballotpedia</a>
+                       </span>
+                     )}
+                   </div>
+                 ))
+               ) : (
+                 <p>No sponsors listed.</p>
+               );
+             })() : (
+               <p>No sponsors listed.</p>
+             )}
+           </div>
+
             {/* Ask AI About This Bill */}
             <div className="ask-ai-section" style={{ marginTop: "20px" }}>
               <h4>Ask AI About This Bill</h4>
@@ -341,7 +371,6 @@ const Search = () => {
               <div className="preset-buttons" style={{ marginBottom: "10px" }}>
                 {[
                   "What does this bill aim to do?",
-                  "How might this bill impact taxpayers?",
                   "Who supports or opposes this bill?",
                   "What stage is this bill in the legislative process?"
                 ].map((preset, idx) => (

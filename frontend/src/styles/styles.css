@@ -588,7 +588,42 @@
     font-weight: 600;
     margin-right: 6px;
   }
-  
+
+   /* Bill sponsors */
+  /* Bill sponsors – match the other blocks */
+.bill-sponsors {
+  background-color: rgba(255, 165, 0, 0.1);
+  border: 1px solid rgba(240, 226, 118, 0.3);
+  padding: 15px;           /* same 15 px interior padding   */
+  border-radius: 8px;      /* round corners like the rest  */
+  margin-bottom: 20px;     /* space below, same as others  */
+}
+
+/* heading */
+.bill-sponsors h4 {
+  font-size: 18px;
+  margin: 0 0 10px;        /* top = 0, bottom = 10 px      */
+  color: rgb(158, 98, 24);
+  font-weight: 600;
+}
+
+/* list */
+.bill-sponsors-list {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.bill-sponsors-list li {
+  margin-bottom: 8px;
+}
+
+/* date span if you use one */
+.bill-sponsors-date {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
   /* ======================
      10) Misc. States & Loader
      ====================== */
