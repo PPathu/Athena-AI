@@ -151,11 +151,6 @@
     text-align: center;
   }
   
-  .search-container h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
   /* ===================
      5) Search Bar
      =================== */
@@ -191,15 +186,15 @@
   }
 
   /* ───── Search bar layout fix ───── */
-.search-bar form {          /* make the form grow and lay its kids out nicely */
-  flex: 1;                  /* take all horizontal space offered by .search-bar */
-  display: flex;            /* put the input + button side-by-side */
-  gap: 10px;                /* keep the 10-px gap you had before           */
+.search-bar form {   
+  flex: 1;              
+  display: flex;       
+  gap: 10px;              
 }
 
-.search-bar input {         /* let the input stretch inside the form        */
-  flex: 1;                  /* fills everything left of the button          */
-  width: 100%;              /* (optional – kept for clarity)                */
+.search-bar input {  
+  flex: 1;                 
+  width: 100%;          
 }
 
   
@@ -759,3 +754,179 @@
        50% { background-position: 100% 50%; }
        100% { background-position: 0% 50%; }
      }
+
+/* Ask AI Section - Google Themed */
+.ask-ai-section {
+  background-color: rgba(66, 133, 244, 0.1); /* Light blue background like in other sections */
+  border: 1px solid rgba(66, 133, 244, 0.3); /* Matching blue border */
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.ask-ai-section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: var(--google-blue);
+  font-weight: 600;
+  text-align: center;
+}
+
+.preset-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.preset-button {
+  background-color: #f1f3f4;
+  color: var(--google-gray);
+  border: 1px solid #dadce0;
+  border-radius: 24px; /* More rounded like Google search chips */
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  font-weight: 500;
+}
+
+.preset-button:hover {
+  background-color: #e8f0fe; /* Light blue on hover */
+  color: var(--google-blue);
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.16);
+  transform: translateY(-1px);
+}
+
+.preset-button:active {
+  transform: translateY(0);
+  background-color: #d2e3fc;
+}
+
+.ai-input-wrapper {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 15px;
+}
+
+.ai-input {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  font-size: 16px;
+  box-shadow: 0 1px 3px rgba(32, 33, 36, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.ai-input:focus {
+  outline: none;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: transparent;
+}
+
+.ai-submit-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Google search icon instead of mic */
+.ai-submit-button svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--google-blue);
+}
+
+/* AI response area */
+.ai-response {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #202124;
+  box-shadow: 0 1px 3px rgba(32, 33, 36, 0.1);
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
+
+/* Loading animation for when AI is thinking - Google dots */
+.ai-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.ai-loading span {
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  border-radius: 50%;
+  animation: blink 1.4s linear infinite;
+}
+
+.ai-loading span:nth-child(1) {
+  background-color: var(--google-blue);
+  animation-delay: 0s;
+}
+
+.ai-loading span:nth-child(2) {
+  background-color: var(--google-red);
+  animation-delay: 0.2s;
+}
+
+.ai-loading span:nth-child(3) {
+  background-color: var(--google-yellow);
+  animation-delay: 0.4s;
+}
+
+.ai-loading span:nth-child(4) {
+  background-color: var(--google-green);
+  animation-delay: 0.6s;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  25%, 75% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .preset-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .preset-button {
+    width: 100%;
+    margin: 4px 0;
+  }
+}
+
+
+.athena-logo {
+  width: 240px;    
+  height: auto;
+  margin-bottom: 20px;
+  user-select: none;
+}

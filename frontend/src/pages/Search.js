@@ -230,9 +230,14 @@ const Search = () => {
   
   return (
     <div className="search-container">
-      <h2>Search Bills</h2>
 
       {/* Search bar */}
+
+      <img
+        src="/athena-logo.png"  
+        className="athena-logo"
+      />
+
       <div className="search-bar">
         <form onSubmit={handleSearch}>
           <input
@@ -342,9 +347,9 @@ const Search = () => {
               {/* Summary mode selection */}
               <div style={{ marginBottom: "8px" }}>
                 <select value={selectedSummaryMode} onChange={handleSummaryModeChange}>
-                  <option value="response_simple">Simple & Clear</option>
-                  <option value="response_intermediate">Straightforward</option>
-                  <option value="response_persuasive">Persuasive</option>
+                  <option value="response_simple">Simple</option>
+                  <option value="response_intermediate">Informed</option>
+                  <option value="response_persuasive">Why It Matters</option>
                   <option value="response_pros_cons">Pros & Cons</option>
                   <option value="response_tweet">Tweet-Style</option>
                 </select>
