@@ -413,7 +413,7 @@ const Search = () => {
                <p>No sponsors listed.</p>
              )}
            </div>
-
+           
             {/* Ask AI About This Bill */}
             <div className="ask-ai-section" style={{ marginTop: "20px" }}>
               <h4>Ask AI About This Bill</h4>
