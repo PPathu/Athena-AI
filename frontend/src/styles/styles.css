@@ -190,18 +190,19 @@
     100% { box-shadow: 0 0 10px var(--google-blue); }
   }
 
-    /* ───── Search bar layout fix ───── */
-  .search-bar form {          /* make the form grow and lay its kids out nicely */
-    flex: 1;                  /* take all horizontal space offered by .search-bar */
-    display: flex;            /* put the input + button side-by-side */
-    gap: 10px;                /* keep the 10-px gap you had before           */
-  }
+  /* ───── Search bar layout fix ───── */
+.search-bar form {          /* make the form grow and lay its kids out nicely */
+  flex: 1;                  /* take all horizontal space offered by .search-bar */
+  display: flex;            /* put the input + button side-by-side */
+  gap: 10px;                /* keep the 10-px gap you had before           */
+}
 
-  .search-bar input {         /* let the input stretch inside the form        */
-    flex: 1;                  /* fills everything left of the button          */
-    width: 100%;              /* (optional – kept for clarity)                */
-  }
+.search-bar input {         /* let the input stretch inside the form        */
+  flex: 1;                  /* fills everything left of the button          */
+  width: 100%;              /* (optional – kept for clarity)                */
+}
 
+  
   .search-bar button {
     padding: 10px 20px;
     background: var(--google-blue);
@@ -635,97 +636,126 @@
   font-weight: 600;
   margin-right: 6px;
 }
-
-  /* ======================
+/* ======================
      10) Misc. States & Loader
      ====================== */
-  .loading-text,
-  .error-message,
-  .no-results {
-    padding: 20px;
-    text-align: center;
-    color: #666;
-  }
-  
-  .error-message {
-    color: #d66;
-  }
-  
-  /* Loader Animation */
-  .loader {
-    position: absolute;
-    top: calc(50% - 1.25em);
-    left: calc(50% - 1.25em);
-    width: 2.5em;
-    height: 2.5em;
-    transform: rotate(165deg);
-  }
-  .loader:before,
-  .loader:after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    display: block;
-    width: 0.5em;
-    height: 0.5em;
-    border-radius: 0.25em;
-    transform: translate(-50%, -50%);
-  }
-  .loader:before {
-    animation: before8 2s infinite;
-  }
-  .loader:after {
-    animation: after6 2s infinite;
-  }
-  @keyframes before8 {
-    0% {
-      width: 0.5em;
-      box-shadow: 1em -0.5em rgba(66,133,244,0.75), -1em 0.5em rgba(219,68,55,0.75);
-    }
-    35% {
-      width: 2.5em;
-      box-shadow: 0 -0.5em rgba(244,180,0,0.75), 0 0.5em rgba(15,157,88,0.75);
-    }
-    70% {
-      width: 0.5em;
-      box-shadow: -1em -0.5em rgba(66,133,244,0.75), 1em 0.5em rgba(219,68,55,0.75);
-    }
-    100% {
-      box-shadow: 1em -0.5em rgba(66,133,244,0.75), -1em 0.5em rgba(219,68,55,0.75);
-    }
-  }
-  @keyframes after6 {
-    0% {
-      height: 0.5em;
-      box-shadow: 0.5em 1em rgba(244,180,0,0.75), -0.5em -1em rgba(15,157,88,0.75);
-    }
-    35% {
-      height: 2.5em;
-      box-shadow: 0.5em 0 rgba(66,133,244,0.75), -0.5em 0 rgba(219,68,55,0.75);
-    }
-    70% {
-      height: 0.5em;
-      box-shadow: 0.5em -1em rgba(244,180,0,0.75), -0.5em 1em rgba(15,157,88,0.75);
-    }
-    100% {
-      box-shadow: 0.5em 1em rgba(244,180,0,0.75), -0.5em -1em rgba(15,157,88,0.75);
-    }
-  }
-
-  .preset-button {
-    background-color: #f1f3f4;
-    color: #202124;
-    border: none;
-    border-radius: 16px;
-    padding: 8px 14px;
-    margin: 4px;
-    cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.2s ease;
-  }
-  
-  .preset-button:hover {
-    background-color: #e0e0e0;
-  }
-  
+     .loading-text,
+     .error-message,
+     .no-results {
+       padding: 20px;
+       text-align: center;
+       color: #666;
+     }
+     
+     .error-message {
+       color: #d66;
+     }
+     
+     /* Loader Animation */
+     .loader {
+       position: absolute;
+       top: calc(50% - 1.25em);
+       left: calc(50% - 1.25em);
+       width: 2.5em;
+       height: 2.5em;
+       transform: rotate(165deg);
+     }
+     .loader:before,
+     .loader:after {
+       content: "";
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       display: block;
+       width: 0.5em;
+       height: 0.5em;
+       border-radius: 0.25em;
+       transform: translate(-50%, -50%);
+     }
+     .loader:before {
+       animation: before8 2s infinite;
+     }
+     .loader:after {
+       animation: after6 2s infinite;
+     }
+     @keyframes before8 {
+       0% {
+         width: 0.5em;
+         box-shadow: 1em -0.5em rgba(66,133,244,0.75), -1em 0.5em rgba(219,68,55,0.75);
+       }
+       35% {
+         width: 2.5em;
+         box-shadow: 0 -0.5em rgba(244,180,0,0.75), 0 0.5em rgba(15,157,88,0.75);
+       }
+       70% {
+         width: 0.5em;
+         box-shadow: -1em -0.5em rgba(66,133,244,0.75), 1em 0.5em rgba(219,68,55,0.75);
+       }
+       100% {
+         box-shadow: 1em -0.5em rgba(66,133,244,0.75), -1em 0.5em rgba(219,68,55,0.75);
+       }
+     }
+     @keyframes after6 {
+       0% {
+         height: 0.5em;
+         box-shadow: 0.5em 1em rgba(244,180,0,0.75), -0.5em -1em rgba(15,157,88,0.75);
+       }
+       35% {
+         height: 2.5em;
+         box-shadow: 0.5em 0 rgba(66,133,244,0.75), -0.5em 0 rgba(219,68,55,0.75);
+       }
+       70% {
+         height: 0.5em;
+         box-shadow: 0.5em -1em rgba(244,180,0,0.75), -0.5em 1em rgba(15,157,88,0.75);
+       }
+       100% {
+         box-shadow: 0.5em 1em rgba(244,180,0,0.75), -0.5em -1em rgba(15,157,88,0.75);
+       }
+     }
+   
+     .preset-button {
+       background-color: #f1f3f4;
+       color: #202124;
+       border: none;
+       border-radius: 16px;
+       padding: 8px 14px;
+       margin: 4px;
+       cursor: pointer;
+       font-size: 14px;
+       transition: background-color 0.2s ease;
+     }
+     
+     .preset-button:hover {
+       background-color: #e0e0e0;
+     }
+   
+     @keyframes rainbowShiftPremium {
+       0% { background-position: 0% 50%; }
+       50% { background-position: 100% 50%; }
+       100% { background-position: 0% 50%; }
+     }
+     
+     .premium-rainbow-button {
+       background: linear-gradient(270deg, #4285F4, #EA4335, #FBBC05, #34A853, #4285F4);
+       background-size: 800% 800%;
+       animation: rainbowShiftPremium 6s linear infinite;
+       border: none;
+       color: white;
+       padding: 14px 32px;
+       font-size: 18px;
+       border-radius: 9999px;
+       font-weight: 600;
+       cursor: pointer;
+       transition: transform 0.3s ease;
+       box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+     }
+     
+     .premium-rainbow-button:hover {
+       transform: scale(1.05);
+     }
+     
+     @keyframes rainbowTextMove {
+       0% { background-position: 0% 50%; }
+       50% { background-position: 100% 50%; }
+       100% { background-position: 0% 50%; }
+     }
