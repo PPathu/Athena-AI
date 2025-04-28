@@ -3,7 +3,7 @@
 Athena AI is a legislative summarization website that leverages large language models to turn dense legislative data into clear, short summaries. We scrape and store bill details in our database, then generate multiple summary styles (simple overviews, mid-level explanations, persuasive “why it matters” pitches, pros/cons lists, and tweet-styled summaries). Users can also ask natural language questions about a specific bill and receive concise, factual responses powered by a RAG pipeline using Gemini.
 
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend**: React, Webpack
 - **Backend**: Flask (Python)
